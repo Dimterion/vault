@@ -1,7 +1,9 @@
+import type { ReactNode } from "react";
+
 type ButtonProps = {
-  text: string;
+  children: ReactNode;
 };
 
-export default function Button({ text }: ButtonProps) {
-  return <button>{text}</button>;
+export default function Button({ children }: ButtonProps) {
+  return <button>{children}</button>;
 }

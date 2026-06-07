@@ -10,8 +10,8 @@ export default function Header() {
       <div className="flex flex-col gap-1">
         <span className="text-sm text-zinc-400">May 6 - May 16</span>
         <div className="flex items-center gap-3">
-          <Button text="Prev"></Button>
-          <Button text="Next"></Button>
+          <Button>Prev</Button>
+          <Button>Next</Button>
         </div>
       </div>
     </header>
