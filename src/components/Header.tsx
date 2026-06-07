@@ -5,7 +5,13 @@ export default function Header() {
         <h1 className="text-3xl font-bold">Tracker</h1>
         <span className="text-sm text-zinc-400">1/1 done today</span>
       </div>
-      <div></div>
+      <div className="flex flex-col gap-1">
+        <span className="text-sm text-zinc-400">May 6 - May 16</span>
+        <div className="flex items-center gap-3">
+          <button>Prev</button>
+          <button>Next</button>
+        </div>
+      </div>
     </header>
   );
 }
