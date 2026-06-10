@@ -1,5 +1,11 @@
+import HabitItem from "./HabitItem";
+
 export default function HabitList() {
-  const habits: string[] = [];
+  const habits = [
+    { id: "1", name: "John" },
+    { id: "2", name: "Jack" },
+    { id: "3", name: "Julie" },
+  ];
 
   if (habits.length === 0) {
     return (
@@ -12,7 +18,7 @@ export default function HabitList() {
   return (
     <div className="flex flex-col gap-3">
       {habits.map((habit) => {
-        return <h1>{habit}</h1>;
+        return <HabitItem key={habit.id}>{habit.name}</HabitItem>;
       })}
     </div>
   );
