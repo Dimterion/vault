@@ -5,7 +5,7 @@ type HabitItemProps = {
 };
 
 export default function HabitItem({ habit }: HabitItemProps) {
-  const visibleDates = [new Date()];
+  const visibleDates = [new Date(), new Date(), new Date()];
 
   return (
     <div className="rounded-xl bg-zinc-800 p-4">
