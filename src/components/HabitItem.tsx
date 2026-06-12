@@ -1,3 +1,4 @@
+import { eachDayOfInterval, endOfWeek, startOfWeek } from "date-fns";
 import Button from "./Button";
 
 type HabitItemProps = {
@@ -5,8 +6,10 @@ type HabitItemProps = {
 };
 
 export default function HabitItem({ habit }: HabitItemProps) {
-  const visibleDates = [new Date(), new Date(), new Date()];
-
+  const visibleDates = eachDayOfInterval({
+    start: startOfWeek(new Date()),
+    end: endOfWeek(new Date()),
+  });
   return (
     <div className="rounded-xl bg-zinc-800 p-4">
       {" "}
