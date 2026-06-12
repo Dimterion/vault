@@ -1,4 +1,4 @@
-import { eachDayOfInterval, endOfWeek, startOfWeek } from "date-fns";
+import { eachDayOfInterval, endOfWeek, format, startOfWeek } from "date-fns";
 import Button from "./Button";
 
 type HabitItemProps = {
@@ -10,6 +10,7 @@ export default function HabitItem({ habit }: HabitItemProps) {
     start: startOfWeek(new Date()),
     end: endOfWeek(new Date()),
   });
+
   return (
     <div className="rounded-xl bg-zinc-800 p-4">
       {" "}
@@ -23,8 +24,8 @@ export default function HabitItem({ habit }: HabitItemProps) {
       <div className="flex gap-1.5">
         {visibleDates.map((date) => (
           <Button key={date.toISOString()}>
-            <span className="font-medium">Mon</span>
-            <span>5</span>
+            <span className="font-medium">{format(date, "EEE")}</span>
+            <span>{format(date, "d")}</span>
           </Button>
         ))}
       </div>
