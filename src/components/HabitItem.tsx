@@ -7,8 +7,8 @@ type HabitItemProps = {
 
 export default function HabitItem({ habit }: HabitItemProps) {
   const visibleDates = eachDayOfInterval({
-    start: startOfWeek(new Date()),
-    end: endOfWeek(new Date()),
+    start: startOfWeek(new Date(), { weekStartsOn: 1 }),
+    end: endOfWeek(new Date(), { weekStartsOn: 1 }),
   });
 
   return (
