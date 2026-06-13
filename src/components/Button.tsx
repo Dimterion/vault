@@ -1,9 +1,8 @@
-import type { ReactNode } from "react";
+import type { ComponentProps, ReactNode } from "react";
 
 type ButtonProps = {
-  children: ReactNode;
-  disabled?: boolean;
-};
+  children: ReactNode
+} & ComponentProps<"button">;
 
 export default function Button({ children, disabled = false }: ButtonProps) {
   return (
