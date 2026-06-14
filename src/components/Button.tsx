@@ -6,7 +6,14 @@ type ButtonProps = {
   variant?: "primary" | "secondary" | "ghost-destructive";
 } & ComponentProps<"button">;
 
-function getVariantStyles(variant: Variant) {}
+function getVariantStyles(variant: Variant) {
+  switch (variant) {
+    case "primary":
+      return "bg-violet-600 hover:violet-500";
+    default:
+      throw new Error(`Invalid variant: ${variant satisfies never}`);
+  }
+}
 
 export default function Button({ variant = "primary", ...props }: ButtonProps) {
   return (
