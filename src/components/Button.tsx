@@ -1,8 +1,14 @@
 import type { ComponentProps } from "react";
 
-type ButtonProps = {} & ComponentProps<"button">;
+type Variant = "primary" | "secondary" | "ghost-destructive";
 
-export default function Button({ ...props }: ButtonProps) {
+type ButtonProps = {
+  variant?: "primary" | "secondary" | "ghost-destructive";
+} & ComponentProps<"button">;
+
+function getVariantStyles(variant: Variant) {}
+
+export default function Button({ variant = "primary", ...props }: ButtonProps) {
   return (
     <button
       {...props}
