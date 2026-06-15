@@ -25,7 +25,9 @@ export default function HabitItem({ habit }: HabitItemProps) {
           <span className="font-medium">{habit.name}</span>
           <span className="text-sm text-amber-400">5</span>
         </div>
-        <Button disabled>Delete</Button>
+        <Button variant="ghost-destructive" disabled>
+          Delete
+        </Button>
       </div>
       <div className="flex gap-1.5">
         {visibleDates.map((date) => (
