@@ -7,7 +7,7 @@ export default function HabitForm() {
         className="flex-1 rounded-lg bg-zinc-800 px-4 py-2 outline-none focus-visible:via-violet-500 focus-visible:ring-2"
         placeholder="New habit..."
       />
-      <Button>Add Habit</Button>
+      <Button className="bg-red-500">Add Habit</Button>
     </form>
   );
 }

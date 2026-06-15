@@ -1,4 +1,5 @@
 import type { ComponentProps } from "react";
+import { twMerge } from "tailwind-merge";
 
 type Variant = "primary" | "secondary" | "ghost-destructive";
 
@@ -20,11 +21,19 @@ function getVariantStyles(variant: Variant) {
   }
 }
 
-export default function Button({ variant = "primary", className, ...props }: ButtonProps) {
+export default function Button({
+  variant = "primary",
+  className,
+  ...props
+}: ButtonProps) {
   return (
     <button
       {...props}
-      className={`${getVariantStyles(variant)}rounded bg-violet-600 px-2 py-1 transition-colors hover:bg-violet-500 disabled:cursor-not-allowed disabled:opacity-30 ${className}`}
+      className={twMerge(
+        getVariantStyles(variant),
+        "rounded bg-violet-600 px-2 py-1 transition-colors hover:bg-violet-500 disabled:cursor-not-allowed disabled:opacity-30",
+        className,
+      )}
     />
   );
 }
