@@ -23,7 +23,7 @@ export default function HabitItem({ habit }: HabitItemProps) {
       <div className="flex flex-col items-center justify-between gap-3">
         <div className="flex items-center gap-3">
           <span className="font-medium">{habit.name}</span>
-          <span className="text-sm text-amber-400">5</span>
+          <span className="text-sm text-amber-400">{habit.id}</span>
         </div>
         <Button variant="ghost-destructive" className="text-sm">
           Delete
