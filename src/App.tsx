@@ -1,13 +1,20 @@
+import { useState } from "react";
 import HabitForm from "./components/HabitForm";
-import HabitList from "./components/HabitList";
+import HabitList, { type Habit } from "./components/HabitList";
 import Header from "./components/Header";
 
 export default function App() {
+  const [habits, setHabits] = useState<Habit[]>([]);
+
+  function addHabit(name: string) {
+    console.log(name);
+  }
+
   return (
     <div className="mx-auto flex max-w-2xl flex-col p-4">
       <Header />
-      <HabitForm />
-      <HabitList />
+      <HabitForm addHabit={addHabit} />
+      <HabitList habits={habits} />
     </div>
   );
 }
