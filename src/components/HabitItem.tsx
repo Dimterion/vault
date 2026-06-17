@@ -7,11 +7,17 @@ import {
 } from "date-fns";
 import Button from "./Button";
 
-type HabitItemProps = {
-  habit: { id: string; name: string };
+type Habit = {
+  id: string;
+  name: string;
 };
 
-export default function HabitItem({ habit }: HabitItemProps) {
+type HabitItemProps = {
+  habit: Habit;
+  deleteHabit: (id: string) => void;
+};
+
+export default function HabitItem({ habit, deleteHabit }: HabitItemProps) {
   const visibleDates = eachDayOfInterval({
     start: startOfWeek(new Date(), { weekStartsOn: 1 }),
     end: endOfWeek(new Date(), { weekStartsOn: 1 }),
