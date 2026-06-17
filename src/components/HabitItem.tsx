@@ -31,7 +31,11 @@ export default function HabitItem({ habit, deleteHabit }: HabitItemProps) {
           <span className="font-medium">{habit.name}</span>
           <span className="text-sm text-amber-400">{habit.id}</span>
         </div>
-        <Button variant="ghost-destructive" className="text-sm">
+        <Button
+          onClick={() => deleteHabit(habit.id)}
+          variant="ghost-destructive"
+          className="text-sm"
+        >
           Delete
         </Button>
       </div>
