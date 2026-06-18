@@ -10,6 +10,7 @@ import Button from "./Button";
 type Habit = {
   id: string;
   name: string;
+  completions: Date[];
 };
 
 type HabitItemProps = {
@@ -45,6 +46,7 @@ export default function HabitItem({ habit, deleteHabit }: HabitItemProps) {
             className="flex flex-1 flex-col items-center gap-0.5 rounded-lg text-xs"
             key={date.toISOString()}
             disabled={isFuture(date)}
+            variant={habit.completions.some((d) => isSameDay(c, d))}
           >
             <span className="font-medium">{format(date, "EEE")}</span>
             <span>{format(date, "d")}</span>

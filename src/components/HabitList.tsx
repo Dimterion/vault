@@ -1,6 +1,6 @@
 import HabitItem from "./HabitItem";
 
-export type Habit = { id: string; name: string };
+export type Habit = { id: string; name: string; completions: Date[] };
 
 type HabitListProps = {
   habits: Habit[];
