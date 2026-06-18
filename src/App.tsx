@@ -2,6 +2,7 @@ import { useState } from "react";
 import HabitForm from "./components/HabitForm";
 import HabitList, { type Habit } from "./components/HabitList";
 import Header from "./components/Header";
+import { isSameDay } from "date-fns";
 
 export default function App() {
   const [habits, setHabits] = useState<Habit[]>([]);
@@ -15,6 +16,16 @@ export default function App() {
 
   function deleteHabit(id: string) {
     setHabits((curr) => curr.filter((h) => h.id !== id));
+  }
+
+  function toggleHabit(id: string, date: Date) {
+    setHabits((curr) =>
+      curr.map((h) => {
+        if (h.id !== id) return h;
+
+        const alreadyDone = h.completions.some((c) => isSameDay(c, date));
+      }),
+    );
   }
 
   return (
