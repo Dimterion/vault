@@ -3,6 +3,7 @@ import {
   endOfWeek,
   format,
   isFuture,
+  isSameDay,
   startOfWeek,
 } from "date-fns";
 import Button from "./Button";
@@ -46,7 +47,11 @@ export default function HabitItem({ habit, deleteHabit }: HabitItemProps) {
             className="flex flex-1 flex-col items-center gap-0.5 rounded-lg text-xs"
             key={date.toISOString()}
             disabled={isFuture(date)}
-            variant={habit.completions.some((d) => isSameDay(c, d))}
+            variant={
+              habit.completions.some((d) => isSameDay(date, d))
+                ? "primary"
+                : "secondary"
+            }
           >
             <span className="font-medium">{format(date, "EEE")}</span>
             <span>{format(date, "d")}</span>
