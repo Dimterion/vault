@@ -5,6 +5,7 @@ import {
   isFuture,
   isSameDay,
   startOfWeek,
+  subDays,
 } from "date-fns";
 import Button from "./Button";
 
@@ -19,6 +20,18 @@ type HabitItemProps = {
   toggleHabit: (id: string, date: Date) => void;
   deleteHabit: (id: string) => void;
 };
+
+function getStreak(completions: Date[]) {
+  let streak = 0;
+  let date = new Date();
+
+  while (completions.some((c) => isSameDay(c, date))) {
+    streak++;
+    date = subDays(date, 1);
+  }
+
+  return streak;
+}
 
 export default function HabitItem({
   habit,
