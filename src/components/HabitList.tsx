@@ -24,7 +24,12 @@ export default function HabitList({
   return (
     <div className="flex flex-col gap-3">
       {habits.map((habit) => (
-        <HabitItem key={habit.id} habit={habit} deleteHabit={deleteHabit} />
+        <HabitItem
+          key={habit.id}
+          habit={habit}
+          toggleHabit={toggleHabit}
+          deleteHabit={deleteHabit}
+        />
       ))}
     </div>
   );

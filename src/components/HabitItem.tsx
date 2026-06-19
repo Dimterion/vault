@@ -51,6 +51,7 @@ export default function HabitItem({
           <Button
             className="flex flex-1 flex-col items-center gap-0.5 rounded-lg text-xs"
             key={date.toISOString()}
+            onClick={() => toggleHabit(habit.id, date)}
             disabled={isFuture(date)}
             variant={
               habit.completions.some((d) => isSameDay(date, d))
