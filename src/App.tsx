@@ -24,6 +24,11 @@ export default function App() {
         if (h.id !== id) return h;
 
         const alreadyDone = h.completions.some((c) => isSameDay(c, date));
+        const completions = alreadyDone
+          ? h.completions.filter((c) => !isSameDay(c, date))
+          : [...h.completions, date];
+
+        return { ...h, completions };
       }),
     );
   }
