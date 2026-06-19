@@ -37,7 +37,11 @@ export default function App() {
     <div className="mx-auto flex max-w-2xl flex-col p-4">
       <Header />
       <HabitForm addHabit={addHabit} />
-      <HabitList habits={habits} deleteHabit={deleteHabit} />
+      <HabitList
+        habits={habits}
+        toggleHabit={toggleHabit}
+        deleteHabit={deleteHabit}
+      />
     </div>
   );
 }

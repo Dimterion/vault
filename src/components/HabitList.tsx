@@ -4,10 +4,15 @@ export type Habit = { id: string; name: string; completions: Date[] };
 
 type HabitListProps = {
   habits: Habit[];
+  toggleHabit: (id: string, date: Date) => void;
   deleteHabit: (id: string) => void;
 };
 
-export default function HabitList({ habits, deleteHabit }: HabitListProps) {
+export default function HabitList({
+  habits,
+  toggleHabit,
+  deleteHabit,
+}: HabitListProps) {
   if (habits.length === 0) {
     return (
       <p className="py-12 text-center text-zinc-500">

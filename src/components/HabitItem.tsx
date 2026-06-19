@@ -16,10 +16,15 @@ type Habit = {
 
 type HabitItemProps = {
   habit: Habit;
+  toggleHabit: (id: string, date: Date) => void;
   deleteHabit: (id: string) => void;
 };
 
-export default function HabitItem({ habit, deleteHabit }: HabitItemProps) {
+export default function HabitItem({
+  habit,
+  toggleHabit,
+  deleteHabit,
+}: HabitItemProps) {
   const visibleDates = eachDayOfInterval({
     start: startOfWeek(new Date(), { weekStartsOn: 1 }),
     end: endOfWeek(new Date(), { weekStartsOn: 1 }),
