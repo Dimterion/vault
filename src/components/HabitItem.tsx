@@ -43,13 +43,15 @@ export default function HabitItem({
     end: endOfWeek(new Date(), { weekStartsOn: 1 }),
   });
 
+  const streak = getStreak(habit.completions);
+
   return (
     <div className="rounded-xl bg-zinc-800 p-4">
       {" "}
       <div className="flex flex-col items-center justify-between gap-3">
         <div className="flex items-center gap-3">
           <span className="font-medium">{habit.name}</span>
-          <span className="text-sm text-amber-400">{habit.id}</span>
+          <span className="text-sm text-amber-400">{streak}</span>
         </div>
         <Button
           onClick={() => deleteHabit(habit.id)}
