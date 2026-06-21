@@ -8,6 +8,9 @@ type Habit = {
 
 type Context = {
   habits: Habit[];
+  addHabit: (name: string) => void;
+  deleteHabit: (name: string) => void;
+  toggleHabit: (name: string, date: Date) => void;
 };
 
 type HabitProviderProps = {
