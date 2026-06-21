@@ -9,12 +9,6 @@ import {
 } from "date-fns";
 import Button from "./Button";
 
-type Habit = {
-  id: string;
-  name: string;
-  completions: Date[];
-};
-
 type HabitItemProps = {
   habit: Habit;
   toggleHabit: (id: string, date: Date) => void;

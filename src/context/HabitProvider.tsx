@@ -1,7 +1,13 @@
 import { createContext, type ReactNode } from "react";
 
-type Context = {
+type Habit = {
+  id: string;
   name: string;
+  completions: Date[];
+};
+
+type Context = {
+  habits: Habit[];
 };
 
 type HabitProviderProps = {
