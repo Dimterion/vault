@@ -18,7 +18,7 @@ type HabitProviderProps = {
   children: ReactNode;
 };
 
-const HabitContext = createContext<null | Context>(null);
+export const HabitContext = createContext<null | Context>(null);
 
 export function HabitProvider({ children }: HabitProviderProps) {
   const [habits, setHabits] = useState<Habit[]>([]);
