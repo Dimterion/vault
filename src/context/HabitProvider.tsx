@@ -49,5 +49,9 @@ export function HabitProvider({ children }: HabitProviderProps) {
     );
   }
 
-  return <HabitContext value={{ name: "User" }}>{children}</HabitContext>;
+  return (
+    <HabitContext value={{ habits, addHabit, toggleHabit, deleteHabit }}>
+      {children}
+    </HabitContext>
+  );
 }

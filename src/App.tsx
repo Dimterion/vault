@@ -3,17 +3,16 @@ import HabitForm from "./components/HabitForm";
 import HabitList, { type Habit } from "./components/HabitList";
 import Header from "./components/Header";
 import { isSameDay } from "date-fns";
+import { HabitProvider } from "./context/HabitProvider";
 
 export default function App() {
   return (
     <div className="mx-auto flex max-w-2xl flex-col p-4">
-      <Header />
-      <HabitForm addHabit={addHabit} />
-      <HabitList
-        habits={habits}
-        toggleHabit={toggleHabit}
-        deleteHabit={deleteHabit}
-      />
+      <HabitProvider>
+        <Header />
+        <HabitForm />
+        <HabitList />
+      </HabitProvider>
     </div>
   );
 }
