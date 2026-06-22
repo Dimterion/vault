@@ -8,11 +8,11 @@ import {
   subDays,
 } from "date-fns";
 import Button from "./Button";
+import { useHabits } from "../context/HabitProvider";
+import type { Habit } from "./HabitList";
 
 type HabitItemProps = {
   habit: Habit;
-  toggleHabit: (id: string, date: Date) => void;
-  deleteHabit: (id: string) => void;
 };
 
 function getStreak(completions: Date[]) {
@@ -27,11 +27,8 @@ function getStreak(completions: Date[]) {
   return streak;
 }
 
-export default function HabitItem({
-  habit,
-  toggleHabit,
-  deleteHabit,
-}: HabitItemProps) {
+export default function HabitItem({ habit }: HabitItemProps) {
+  const { deleteHabit, toggleHabit } = useHabits();
   const visibleDates = eachDayOfInterval({
     start: startOfWeek(new Date(), { weekStartsOn: 1 }),
     end: endOfWeek(new Date(), { weekStartsOn: 1 }),
