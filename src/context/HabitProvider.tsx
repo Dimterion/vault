@@ -1,5 +1,5 @@
 import { isSameDay } from "date-fns";
-import { createContext, useState, type ReactNode } from "react";
+import { createContext, useContext, useState, type ReactNode } from "react";
 
 type Habit = {
   id: string;
@@ -54,4 +54,10 @@ export function HabitProvider({ children }: HabitProviderProps) {
       {children}
     </HabitContext>
   );
+}
+
+export function useHabits() {
+  const habitContext = useContext(HabitContext);
+
+  if (habitContext == null) throw new Error("Null context");
 }
