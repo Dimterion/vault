@@ -12,7 +12,7 @@ export default function HabitForm() {
     if (name.trim() === "") return;
     setName("");
 
-    console.log(name);
+    habitContext?.addHabit(name);
   }
 
   return (
