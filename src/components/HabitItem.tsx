@@ -8,7 +8,7 @@ import {
   subDays,
 } from "date-fns";
 import Button from "./Button";
-import { useHabits } from "../context/HabitProvider";
+import { useHabits } from "../context/useHabits";
 import type { Habit } from "./HabitList";
 
 type HabitItemProps = {
