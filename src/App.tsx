@@ -16,7 +16,11 @@ export default function App() {
   return (
     <div className="mx-auto flex max-w-2xl flex-col p-4">
       <HabitProvider>
-        <Header visibleDates={visibleDates} />
+        <Header
+          visibleDates={visibleDates}
+          onNext={() => setWeekOffset((o) => o + 1)}
+          onPrev={() => setWeekOffset((o) => o - 1)}
+        />
         <HabitForm />
         <HabitList />
       </HabitProvider>

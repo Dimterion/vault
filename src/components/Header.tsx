@@ -28,7 +28,12 @@ export default function Header({ visibleDates, onPrev, onNext }: HeaderProps) {
         <span className="text-sm text-zinc-400">{dateRange}</span>
         <div className="flex items-center gap-3">
           <Button onClick={onPrev}>Prev</Button>
-          <Button onClick={onNext}>Next</Button>
+          <Button
+            onClick={onNext}
+            disabled={visibleDates.some((d) => isToday(d))}
+          >
+            Next
+          </Button>
         </div>
       </div>
     </header>
