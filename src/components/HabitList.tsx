@@ -3,7 +3,9 @@ import HabitItem from "./HabitItem";
 
 export type Habit = { id: string; name: string; completions: Date[] };
 
-export default function HabitList() {
+type HabitListProps = { visibleDates: Date[] };
+
+export default function HabitList(visibleDates: HabitListProps) {
   const { habits } = useHabits();
 
   if (habits.length === 0) {
@@ -17,7 +19,7 @@ export default function HabitList() {
   return (
     <div className="flex flex-col gap-3">
       {habits.map((habit) => (
-        <HabitItem key={habit.id} habit={habit} />
+        <HabitItem key={habit.id} habit={habit} visibleDates={visibleDates} />
       ))}
     </div>
   );
