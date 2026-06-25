@@ -4,15 +4,17 @@ import Button from "./Button";
 
 type HeaderProps = {
   visibleDates: Date[];
+  onPrev: () => void;
+  onNext: () => void;
 };
 
-export default function Header({ visibleDates }: HeaderProps) {
+export default function Header({ visibleDates, onPrev, onNext }: HeaderProps) {
   const { habits } = useHabits();
 
   const doneToday = habits.filter((h) =>
     h.completions.some((c) => isToday(c)),
   ).length;
-  const dateRange = `${format(visibleDates[0], "MMM d")}`;
+  const dateRange = `${format(visibleDates[0], "MMM d")} - ${format(visibleDates.at(-1)!, "MMM d")}`;
 
   return (
     <header className="flex items-center justify-between">
@@ -25,8 +27,8 @@ export default function Header({ visibleDates }: HeaderProps) {
       <div className="flex flex-col items-end gap-1">
         <span className="text-sm text-zinc-400">{dateRange}</span>
         <div className="flex items-center gap-3">
-          <Button>Prev</Button>
-          <Button>Next</Button>
+          <Button onClick={onPrev}>Prev</Button>
+          <Button onClick={onNext}>Next</Button>
         </div>
       </div>
     </header>
