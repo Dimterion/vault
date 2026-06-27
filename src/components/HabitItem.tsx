@@ -1,7 +1,7 @@
 import { format, isFuture, isSameDay, subDays } from "date-fns";
-import Button from "./Button";
 import { useHabits } from "../context/useHabits";
 import type { Habit } from "./HabitList";
+import Button from "./Button";
 
 type HabitItemProps = {
   habit: Habit;
@@ -25,8 +25,7 @@ export default function HabitItem({ habit, visibleDates }: HabitItemProps) {
   const streak = getStreak(habit.completions);
 
   return (
-    <div className="rounded-xl bg-zinc-800 p-4">
-      {" "}
+    <div className="flex flex-col gap-3 rounded-xl bg-zinc-800 p-4">
       <div className="flex flex-col items-center justify-between gap-3">
         <div className="flex items-center gap-3">
           <span className="font-medium">{habit.name}</span>

@@ -1,6 +1,6 @@
 import { useState, type SubmitEvent } from "react";
-import Button from "./Button";
 import { useHabits } from "../context/useHabits";
+import Button from "./Button";
 
 export default function HabitForm() {
   const [name, setName] = useState("");
@@ -11,7 +11,6 @@ export default function HabitForm() {
 
     if (name.trim() === "") return;
     setName("");
-
     addHabit(name);
   }
 
@@ -20,7 +19,7 @@ export default function HabitForm() {
       <input
         value={name}
         onChange={(e) => setName(e.target.value)}
-        className="flex-1 rounded-lg bg-zinc-800 px-4 py-2 outline-none focus-visible:via-violet-500 focus-visible:ring-2"
+        className="flex-1 rounded-lg bg-zinc-800 px-4 py-2 outline-none focus-visible:ring-2 focus-visible:ring-violet-500"
         placeholder="New habit..."
       />
       <Button
