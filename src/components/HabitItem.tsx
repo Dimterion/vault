@@ -1,7 +1,8 @@
 import { format, isFuture, isSameDay, subDays } from "date-fns";
 import { useHabits } from "../context/useHabits";
-import type { Habit } from "./HabitList";
 import Button from "./Button";
+
+export type Habit = { id: string; name: string; completions: Date[] };
 
 type HabitItemProps = {
   habit: Habit;
@@ -26,7 +27,7 @@ export default function HabitItem({ habit, visibleDates }: HabitItemProps) {
 
   return (
     <div className="flex flex-col gap-3 rounded-xl bg-zinc-800 p-4">
-      <div className="flex flex-col items-center justify-between gap-3">
+      <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
           <span className="font-medium">{habit.name}</span>
           {streak !== 0 && (
@@ -46,8 +47,8 @@ export default function HabitItem({ habit, visibleDates }: HabitItemProps) {
           <Button
             className="flex flex-1 flex-col items-center gap-0.5 rounded-lg text-xs"
             key={date.toISOString()}
-            onClick={() => toggleHabit(habit.id, date)}
             disabled={isFuture(date)}
+            onClick={() => toggleHabit(habit.id, date)}
             variant={
               habit.completions.some((d) => isSameDay(date, d))
                 ? "primary"
