@@ -9,8 +9,8 @@ export type Habit = {
 type Context = {
   habits: Habit[];
   addHabit: (name: string) => void;
-  deleteHabit: (name: string) => void;
-  toggleHabit: (name: string, date: Date) => void;
+  deleteHabit: (id: string) => void;
+  toggleHabit: (id: string, date: Date) => void;
 };
 
 export const HabitContext = createContext<null | Context>(null);

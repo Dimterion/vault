@@ -1,7 +1,9 @@
 import { useHabits } from "../context/useHabits";
 import HabitItem from "./HabitItem";
 
-type HabitListProps = { visibleDates: Date[] };
+type HabitListProps = {
+  visibleDates: Date[];
+};
 
 export default function HabitList({ visibleDates }: HabitListProps) {
   const { habits } = useHabits();
