@@ -5,7 +5,7 @@ export type Habit = { id: string; name: string; completions: Date[] };
 
 type HabitListProps = { visibleDates: Date[] };
 
-export default function HabitList(visibleDates: HabitListProps) {
+export default function HabitList({ visibleDates }: HabitListProps) {
   const { habits } = useHabits();
 
   if (habits.length === 0) {
