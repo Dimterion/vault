@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { Routes, Route } from "react-router";
 import { addWeeks, eachDayOfInterval, endOfWeek, startOfWeek } from "date-fns";
 import { HabitProvider } from "./context/HabitProvider";
 import Header from "./components/Header";
 import HabitForm from "./components/HabitForm";
 import HabitList from "./components/HabitList";
+import HomePage from "./pages/home";
 
 export default function App() {
   const [weekOffset, setWeekOffset] = useState(0);
@@ -24,6 +26,9 @@ export default function App() {
         />
         <HabitForm />
         <HabitList visibleDates={visibleDates} />
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+        </Routes>
       </HabitProvider>
     </div>
   );
