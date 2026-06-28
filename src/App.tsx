@@ -1,12 +1,13 @@
 import { useState } from "react";
+import { addWeeks, eachDayOfInterval, endOfWeek, startOfWeek } from "date-fns";
+import { HabitProvider } from "./context/HabitProvider";
+import Header from "./components/Header";
 import HabitForm from "./components/HabitForm";
 import HabitList from "./components/HabitList";
-import Header from "./components/Header";
-import { HabitProvider } from "./context/HabitProvider";
-import { addWeeks, eachDayOfInterval, endOfWeek, startOfWeek } from "date-fns";
 
 export default function App() {
   const [weekOffset, setWeekOffset] = useState(0);
+
   const week = addWeeks(new Date(), weekOffset);
   const visibleDates = eachDayOfInterval({
     start: startOfWeek(week, { weekStartsOn: 1 }),

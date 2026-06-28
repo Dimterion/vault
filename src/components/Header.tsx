@@ -28,7 +28,7 @@ export default function Header({ visibleDates, onPrev, onNext }: HeaderProps) {
 
       <div className="flex flex-col items-end gap-1">
         <span className="text-sm text-zinc-400">{dateRange}</span>
-        <div className="flex items-center gap-3">
+        <div className="mb-2 flex items-center gap-3">
           <Button onClick={onPrev}>Prev</Button>
           <Button
             onClick={onNext}
