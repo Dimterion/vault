@@ -1,6 +1,6 @@
 import { format, isFuture, isSameDay, subDays } from "date-fns";
-import { useHabits } from "../context/useHabits";
-import Button from "./Button";
+import { useHabits } from "../../context/useHabits";
+import Button from "../Button";
 
 export type Habit = { id: string; name: string; completions: Date[] };
 

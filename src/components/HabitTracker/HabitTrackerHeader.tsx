@@ -1,6 +1,6 @@
 import { format, isToday } from "date-fns";
-import { useHabits } from "../context/useHabits";
-import Button from "./Button";
+import { useHabits } from "../../context/useHabits";
+import Button from "../Button";
 
 type HabitTrackerHeaderProps = {
   visibleDates: Date[];

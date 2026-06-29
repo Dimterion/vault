@@ -1,4 +1,4 @@
-import { useHabits } from "../context/useHabits";
+import { useHabits } from "../../context/useHabits";
 import HabitItem from "./HabitItem";
 
 type HabitListProps = {

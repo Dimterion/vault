@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { HabitProvider } from "../context/HabitProvider";
 import { addWeeks, eachDayOfInterval, endOfWeek, startOfWeek } from "date-fns";
-import HabitTrackerHeader from "../components/HabitTrackerHeader";
-import HabitForm from "../components/HabitForm";
-import HabitList from "../components/HabitList";
+import HabitTrackerHeader from "../components/HabitTracker/HabitTrackerHeader";
+import HabitForm from "../components/HabitTracker/HabitForm";
+import HabitList from "../components/HabitTracker/HabitList";
 
 export default function HabitTrackerPage() {
   const [weekOffset, setWeekOffset] = useState(0);
