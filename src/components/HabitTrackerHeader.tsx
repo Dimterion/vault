@@ -2,13 +2,17 @@ import { format, isToday } from "date-fns";
 import { useHabits } from "../context/useHabits";
 import Button from "./Button";
 
-type HeaderProps = {
+type HabitTrackerHeaderProps = {
   visibleDates: Date[];
   onPrev: () => void;
   onNext: () => void;
 };
 
-export default function Header({ visibleDates, onPrev, onNext }: HeaderProps) {
+export default function HabitTrackerHeader({
+  visibleDates,
+  onPrev,
+  onNext,
+}: HabitTrackerHeaderProps) {
   const { habits } = useHabits();
 
   const doneToday = habits.filter((h) =>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { HabitProvider } from "../context/HabitProvider";
 import { addWeeks, eachDayOfInterval, endOfWeek, startOfWeek } from "date-fns";
-import Header from "../components/Header";
+import HabitTrackerHeader from "../components/HabitTrackerHeader";
 import HabitForm from "../components/HabitForm";
 import HabitList from "../components/HabitList";
 
@@ -17,7 +17,7 @@ export default function HabitTrackerPage() {
   return (
     <div className="mx-auto flex max-w-2xl flex-col p-4">
       <HabitProvider>
-        <Header
+        <HabitTrackerHeader
           visibleDates={visibleDates}
           onNext={() => setWeekOffset((o) => o + 1)}
           onPrev={() => setWeekOffset((o) => o - 1)}
