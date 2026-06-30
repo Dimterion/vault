@@ -37,7 +37,7 @@ export default function HabitItem({ habit, visibleDates }: HabitItemProps) {
         <Button
           onClick={() => deleteHabit(habit.id)}
           variant="ghost-destructive"
-          className="text-sm"
+          className="ml-2 text-sm"
         >
           Delete
         </Button>

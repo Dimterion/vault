@@ -15,7 +15,7 @@ export default function HabitForm() {
   }
 
   return (
-    <form className="flex gap-2" onSubmit={handleSubmit}>
+    <form className="flex gap-2 mb-2" onSubmit={handleSubmit}>
       <input
         value={name}
         onChange={(e) => setName(e.target.value)}
