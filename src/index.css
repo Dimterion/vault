@@ -1,6 +1,19 @@
 @import "tailwindcss";
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: var(--color-zinc-900);
   color: var(--color-zinc-100);
+}
+
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
