@@ -2,9 +2,11 @@ import { Link } from "react-router";
 
 export default function HomePage() {
   return (
-    <main>
-      <h1>Vault</h1>
-      <Link to="/habit-tracker">Habit Tracker</Link>
+    <main className="flex flex-col items-center justify-center gap-2">
+      <h2 className="text-2xl font-bold">Vault</h2>
+      <Link to="/habit-tracker" className="hover:underline">
+        Habit Tracker
+      </Link>
     </main>
   );
 }
