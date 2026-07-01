@@ -1,12 +1,14 @@
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
 export default function Header() {
-  const active = "text-gray-500";
-  const base = "hover:text-gray-500";
+  const active = "";
+  const base = "text-gray-500 hover:text-white";
 
   return (
     <header className="flex flex-row items-center justify-between p-2">
-      <h1 className="text-lg font-bold">Vault</h1>
+      <Link to="/">
+        <h1 className="text-lg font-bold">Vault</h1>
+      </Link>
       <nav className="inline-flex gap-2">
         <NavLink
           to="/"
