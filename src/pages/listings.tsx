@@ -1,3 +1,11 @@
+import { listings } from "../assets/data/listings";
+
 export default function ListingsPage() {
-  return <div>listings</div>;
+  return (
+    <main>
+      {listings.map((listing) => (
+        <article key={listing.id}>{listing.name}</article>
+      ))}
+    </main>
+  );
 }
