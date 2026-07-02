@@ -22,6 +22,12 @@ export default function Header() {
         >
           Habit Tracker
         </NavLink>
+        <NavLink
+          to="/listings"
+          className={({ isActive }) => (isActive ? active : base)}
+        >
+          Listings
+        </NavLink>
       </nav>
     </header>
   );

@@ -7,6 +7,9 @@ export default function HomePage() {
       <Link to="/habit-tracker" className="hover:underline">
         Habit Tracker
       </Link>
+      <Link to="/listings" className="hover:underline">
+        Listings
+      </Link>
     </main>
   );
 }
