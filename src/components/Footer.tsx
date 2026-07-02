@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="flex flex-row justify-center gap-2">
+    <footer className="flex flex-row justify-center gap-2 bg-zinc-800">
       <p>&copy; {new Date().getFullYear()}</p>
       <a
         href="https://github.com/Dimterion/vault"

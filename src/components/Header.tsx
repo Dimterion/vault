@@ -5,7 +5,7 @@ export default function Header() {
   const base = "text-gray-500 hover:text-white";
 
   return (
-    <header className="flex flex-row items-center justify-between p-2">
+    <header className="flex flex-row items-center justify-between bg-zinc-800 p-2">
       <h1 className="text-lg font-bold">
         <Link to="/">Vault</Link>
       </h1>
