@@ -1,26 +1,30 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { listings } from "../assets/data/listings";
 
 export default function ListingsPage() {
   const [activeTag, setActiveTag] = useState<string | null>(null);
 
-  const tags = [...new Set(listings.flatMap((listing) => listing.tags))];
+  const tags = useMemo(() => {
+    return [...new Set(listings.flatMap((listing) => listing.tags || []))];
+  }, []);
 
-  const displayedListings = activeTag
-    ? listings.filter((listing) => listing.tags.includes(activeTag))
-    : listings;
+  const displayedListings = useMemo(() => {
+    if (!activeTag) return listings;
+
+    return listings.filter((listing) => listing.tags?.includes(activeTag));
+  }, [activeTag]);
 
   return (
     <main className="flex flex-col items-center gap-4 p-4">
       <h2 className="text-2xl font-bold">Listings</h2>
 
-      <section className="flex gap-2">
+      <nav aria-label="Tag filters" className="flex gap-2">
         <button
           onClick={() => setActiveTag(null)}
-          className={`cursor-pointer rounded px-4 py-2 ${
+          className={`cursor-pointer rounded px-4 py-2 transition-colors ${
             activeTag === null
-              ? "bg-zinc-700 font-bold"
-              : "bg-zinc-800 hover:bg-zinc-700"
+              ? "bg-zinc-700 font-bold text-white"
+              : "bg-zinc-800 text-zinc-300 hover:bg-zinc-700"
           }`}
         >
           All
@@ -30,36 +34,41 @@ export default function ListingsPage() {
           <button
             key={tag}
             onClick={() => setActiveTag(tag)}
-            className={`cursor-pointer rounded px-4 py-2 ${
+            className={`cursor-pointer rounded px-4 py-2 transition-colors ${
               activeTag === tag
-                ? "bg-zinc-700 font-bold"
-                : "bg-zinc-800 hover:bg-zinc-700"
+                ? "bg-zinc-700 font-bold text-white"
+                : "bg-zinc-800 text-zinc-300 hover:bg-zinc-700"
             }`}
           >
             {tag}
           </button>
         ))}
-      </section>
+      </nav>
+
       <section className="flex w-full max-w-2xl flex-col gap-4">
         {displayedListings.map((listing) => (
           <article key={listing.id} className="rounded bg-zinc-800 p-4">
-            <h3 className="font-bold">{listing.name}</h3>
-            <p>{listing.description}</p>
+            <h3 className="text-lg font-bold">{listing.name}</h3>
+            <p className="text-zinc-300">{listing.description}</p>
             <a
               href={listing.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline"
+              className="mt-1 inline-block text-blue-400 hover:underline"
             >
               Link
             </a>
-            <section className="mt-2 flex flex-row gap-2">
-              {listing.tags.map((tag) => (
-                <pre key={tag} className="rounded bg-zinc-700 px-2 py-1">
+
+            <ul className="mt-3 flex flex-row flex-wrap gap-2">
+              {listing.tags?.map((tag) => (
+                <li
+                  key={tag}
+                  className="rounded bg-zinc-700 px-2 py-1 text-xs text-zinc-200"
+                >
                   {tag}
-                </pre>
+                </li>
               ))}
-            </section>
+            </ul>
           </article>
         ))}
       </section>
