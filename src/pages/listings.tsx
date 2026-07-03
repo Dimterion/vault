@@ -1,20 +1,17 @@
 import { listings } from "../assets/data/listings";
 
 export default function ListingsPage() {
-  const tags = [
-    ...new Set(
-      listings.flatMap((listing) =>
-        listing.tags.split(",").map((tag) => tag.trim()),
-      ),
-    ),
-  ];
+  const tags = [...new Set(listings.flatMap((listing) => listing.tags))];
 
   return (
     <main className="flex flex-col items-center gap-4 p-4">
       <h2 className="text-2xl font-bold">Listings</h2>
       <section>
         {tags.map((tag) => (
-          <button className="mx-2 cursor-pointer rounded bg-zinc-800 px-4 py-2 hover:bg-zinc-700">
+          <button
+            key={tag}
+            className="mx-2 cursor-pointer rounded bg-zinc-800 px-4 py-2 hover:bg-zinc-700"
+          >
             {tag}
           </button>
         ))}
@@ -32,6 +29,13 @@ export default function ListingsPage() {
             >
               Link
             </a>
+            <section className="mt-2 flex flex-row gap-2">
+              {listing.tags.map((tag) => (
+                <pre key={tag} className="rounded bg-zinc-700 px-2 py-1">
+                  {tag}
+                </pre>
+              ))}
+            </section>
           </article>
         ))}
       </section>
