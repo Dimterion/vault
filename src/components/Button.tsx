@@ -10,7 +10,7 @@ type ButtonProps = {
 function getVariantStyles(variant: Variant) {
   switch (variant) {
     case "primary":
-      return "bg-violet-600 hover:violet-500";
+      return "bg-zinc-800 hover:zinc-700";
     case "secondary":
       return "bg-zinc-700 hover:zinc-600 text-zinc-400";
     case "ghost-destructive":
@@ -30,7 +30,7 @@ export default function Button({
     <button
       {...props}
       className={twMerge(
-        "cursor-pointer rounded bg-violet-600 px-2 py-1 transition-colors hover:bg-violet-500 disabled:cursor-not-allowed disabled:opacity-30",
+        "cursor-pointer rounded bg-zinc-800 px-2 py-1 transition-colors hover:bg-zinc-700 disabled:cursor-not-allowed disabled:opacity-30",
         getVariantStyles(variant),
         className,
       )}

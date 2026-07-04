@@ -1,6 +1,7 @@
 import { useState, useMemo } from "react";
 import { listings } from "../assets/data/listings";
 import ListingItem from "../components/ListingItem";
+import Button from "../components/Button";
 
 export default function ListingsPage() {
   const [activeTag, setActiveTag] = useState<string | null>(null);
@@ -20,7 +21,7 @@ export default function ListingsPage() {
       <h2 className="text-2xl font-bold">Listings</h2>
 
       <nav aria-label="Tag filters" className="flex gap-2">
-        <button
+        <Button
           onClick={() => setActiveTag(null)}
           className={`cursor-pointer rounded px-4 py-2 transition-colors ${
             activeTag === null
@@ -29,10 +30,10 @@ export default function ListingsPage() {
           }`}
         >
           All
-        </button>
+        </Button>
 
         {tags.map((tag) => (
-          <button
+          <Button
             key={tag}
             onClick={() => setActiveTag(tag)}
             className={`cursor-pointer rounded px-4 py-2 transition-colors ${
@@ -42,7 +43,7 @@ export default function ListingsPage() {
             }`}
           >
             {tag}
-          </button>
+          </Button>
         ))}
       </nav>
 
