@@ -12,14 +12,14 @@ type ListingItemProps = {
 
 export default function ListingItem({ listing }: ListingItemProps) {
   return (
-    <article key={listing.id} className="rounded bg-zinc-800 p-4">
+    <article className="rounded bg-zinc-800 p-4">
       <h3 className="text-lg font-bold">{listing.name}</h3>
       <p className="text-zinc-300">{listing.description}</p>
       <a
         href={listing.link}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-1 inline-block text-blue-400 hover:underline"
+        className="mt-1 inline-block font-bold hover:underline"
       >
         Link
       </a>

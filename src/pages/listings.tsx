@@ -48,7 +48,7 @@ export default function ListingsPage() {
 
       <section className="flex w-full max-w-2xl flex-col gap-4">
         {displayedListings.map((listing) => (
-          <ListingItem listing={listing} />
+          <ListingItem key={listing.id} listing={listing} />
         ))}
       </section>
     </main>
