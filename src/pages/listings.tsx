@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
 import { listings } from "../assets/data/listings";
+import ListingItem from "../components/ListingItem";
 
 export default function ListingsPage() {
   const [activeTag, setActiveTag] = useState<string | null>(null);
@@ -47,29 +48,7 @@ export default function ListingsPage() {
 
       <section className="flex w-full max-w-2xl flex-col gap-4">
         {displayedListings.map((listing) => (
-          <article key={listing.id} className="rounded bg-zinc-800 p-4">
-            <h3 className="text-lg font-bold">{listing.name}</h3>
-            <p className="text-zinc-300">{listing.description}</p>
-            <a
-              href={listing.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-1 inline-block text-blue-400 hover:underline"
-            >
-              Link
-            </a>
-
-            <ul className="mt-3 flex flex-row flex-wrap gap-2">
-              {listing.tags?.map((tag) => (
-                <li
-                  key={tag}
-                  className="rounded bg-zinc-700 px-2 py-1 text-xs text-zinc-200"
-                >
-                  {tag}
-                </li>
-              ))}
-            </ul>
-          </article>
+          <ListingItem listing={listing} />
         ))}
       </section>
     </main>
