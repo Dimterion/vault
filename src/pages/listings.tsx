@@ -16,7 +16,7 @@ export default function ListingsPage() {
   }, [activeTag]);
 
   return (
-    <main className="flex flex-col items-center gap-4 p-4">
+    <main className="flex flex-col items-center gap-4">
       <h2 className="text-2xl font-bold">Listings</h2>
 
       <nav aria-label="Tag filters" className="flex gap-2">
@@ -24,8 +24,8 @@ export default function ListingsPage() {
           onClick={() => setActiveTag(null)}
           className={`cursor-pointer rounded px-4 py-2 transition-colors ${
             activeTag === null
-              ? "bg-zinc-700 font-bold text-white"
-              : "bg-zinc-800 text-zinc-300 hover:bg-zinc-700"
+              ? "bg-zinc-700 font-bold"
+              : "bg-zinc-800 hover:bg-zinc-700"
           }`}
         >
           All
@@ -37,8 +37,8 @@ export default function ListingsPage() {
             onClick={() => setActiveTag(tag)}
             className={`cursor-pointer rounded px-4 py-2 transition-colors ${
               activeTag === tag
-                ? "bg-zinc-700 font-bold text-white"
-                : "bg-zinc-800 text-zinc-300 hover:bg-zinc-700"
+                ? "bg-zinc-700 font-bold"
+                : "bg-zinc-800 hover:bg-zinc-700"
             }`}
           >
             {tag}
@@ -46,7 +46,7 @@ export default function ListingsPage() {
         ))}
       </nav>
 
-      <section className="flex w-full max-w-2xl flex-col gap-4">
+      <section className="flex w-full max-w-2xl flex-col gap-4 px-4 pb-4">
         {displayedListings.map((listing) => (
           <ListingItem key={listing.id} listing={listing} />
         ))}

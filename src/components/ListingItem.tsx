@@ -21,15 +21,12 @@ export default function ListingItem({ listing }: ListingItemProps) {
         rel="noopener noreferrer"
         className="mt-1 inline-block font-bold hover:underline"
       >
-        Link
+        Link &#x1F5D7;
       </a>
 
       <ul className="mt-3 flex flex-row flex-wrap gap-2">
         {listing.tags?.map((tag) => (
-          <li
-            key={tag}
-            className="rounded bg-zinc-700 px-2 py-1 text-xs text-zinc-200"
-          >
+          <li key={tag} className="rounded bg-zinc-700 px-2 py-1 text-xs">
             {tag}
           </li>
         ))}
