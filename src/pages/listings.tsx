@@ -5,28 +5,38 @@ import Button from "../components/Button";
 
 export default function ListingsPage() {
   const [activeTag, setActiveTag] = useState<string | null>(null);
+  const [numberOfListings, setNumberOfListings] = useState(3);
 
   const tags = useMemo(() => {
     return [...new Set(listings.flatMap((listing) => listing.tags || []))];
   }, []);
 
-  const displayedListings = useMemo(() => {
+  const filteredListings = useMemo(() => {
     if (!activeTag) return listings;
 
     return listings.filter((listing) => listing.tags?.includes(activeTag));
   }, [activeTag]);
 
+  const displayedListings = useMemo(() => {
+    return filteredListings.slice(0, numberOfListings);
+  }, [filteredListings, numberOfListings]);
+
+  const handleTagChange = (tag: string | null) => {
+    setActiveTag(tag);
+    setNumberOfListings(3);
+  };
+
   return (
-    <main className="flex flex-col items-center gap-4">
-      <h2 className="mt-2 text-2xl font-bold">Listings</h2>
+    <main className="flex flex-col items-center">
+      <h2 className="my-4 text-2xl font-bold">Listings</h2>
 
       {tags.length > 0 && (
         <nav
           aria-label="Tag filters"
-          className="flex flex-row flex-wrap justify-center gap-2"
+          className="mb-4 flex flex-row flex-wrap justify-center gap-2"
         >
           <Button
-            onClick={() => setActiveTag(null)}
+            onClick={() => handleTagChange(null)}
             className={`cursor-pointer rounded px-4 py-2 transition-colors ${
               activeTag === null
                 ? "bg-zinc-700 font-bold"
@@ -39,7 +49,7 @@ export default function ListingsPage() {
           {tags.map((tag) => (
             <Button
               key={tag}
-              onClick={() => setActiveTag(tag)}
+              onClick={() => handleTagChange(tag)}
               className={`cursor-pointer rounded px-4 py-2 transition-colors ${
                 activeTag === tag
                   ? "bg-zinc-700 font-bold"
@@ -61,6 +71,12 @@ export default function ListingsPage() {
           <p className="text-center">No listings yet.</p>
         )}
       </section>
+
+      {numberOfListings < filteredListings.length && (
+        <Button onClick={() => setNumberOfListings((prev) => prev + 3)}>
+          Show more listings
+        </Button>
+      )}
     </main>
   );
 }

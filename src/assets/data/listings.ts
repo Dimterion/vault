@@ -34,4 +34,11 @@ export const listings = [
     link: "https://example.com/",
     tags: ["tag4", "tag5"],
   },
+  {
+    id: 6,
+    name: "listing 6",
+    description: "listing 6 description",
+    link: "https://example.com/",
+    tags: ["tag1", "tag2", "tag3", "tag4", "tag5", "tag6"],
+  },
 ];
