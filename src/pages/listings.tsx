@@ -37,7 +37,7 @@ export default function ListingsPage() {
         >
           <Button
             onClick={() => handleTagChange(null)}
-            className={`cursor-pointer rounded px-4 py-2 transition-colors ${
+            className={` ${
               activeTag === null
                 ? "bg-zinc-700 font-bold"
                 : "bg-zinc-800 hover:bg-zinc-700"
@@ -50,7 +50,7 @@ export default function ListingsPage() {
             <Button
               key={tag}
               onClick={() => handleTagChange(tag)}
-              className={`cursor-pointer rounded px-4 py-2 transition-colors ${
+              className={`${
                 activeTag === tag
                   ? "bg-zinc-700 font-bold"
                   : "bg-zinc-800 hover:bg-zinc-700"
@@ -73,7 +73,10 @@ export default function ListingsPage() {
       </section>
 
       {numberOfListings < filteredListings.length && (
-        <Button onClick={() => setNumberOfListings((prev) => prev + 3)}>
+        <Button
+          onClick={() => setNumberOfListings((prev) => prev + 3)}
+          className="mb-4"
+        >
           Show more listings
         </Button>
       )}

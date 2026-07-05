@@ -30,7 +30,7 @@ export default function Button({
     <button
       {...props}
       className={twMerge(
-        "cursor-pointer rounded bg-zinc-800 px-2 py-1 transition-colors hover:bg-zinc-700 disabled:cursor-not-allowed disabled:opacity-30",
+        "cursor-pointer rounded bg-zinc-800 px-4 py-2 transition-colors hover:bg-zinc-700 disabled:cursor-not-allowed disabled:opacity-30",
         getVariantStyles(variant),
         className,
       )}
