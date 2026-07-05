@@ -18,9 +18,12 @@ export default function ListingsPage() {
 
   return (
     <main className="flex flex-col items-center gap-4">
-      <h2 className="text-2xl font-bold">Listings</h2>
+      <h2 className="mt-2 text-2xl font-bold">Listings</h2>
 
-      <nav aria-label="Tag filters" className="flex gap-2">
+      <nav
+        aria-label="Tag filters"
+        className="flex flex-row flex-wrap justify-center gap-2"
+      >
         <Button
           onClick={() => setActiveTag(null)}
           className={`cursor-pointer rounded px-4 py-2 transition-colors ${
