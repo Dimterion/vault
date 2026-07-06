@@ -16,10 +16,12 @@ export default function Modal({ onClose, children }: ModalProps) {
         className="w-full max-w-md rounded-lg bg-zinc-900 p-6 text-white shadow-xl"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="mb-4">{children}</div>
         <div className="flex justify-end">
-          <Button onClick={onClose}>Close</Button>
+          <Button onClick={onClose} className="mb-4">
+            X
+          </Button>
         </div>
+        <div className="mb-4">{children}</div>
       </div>
     </div>
   );
