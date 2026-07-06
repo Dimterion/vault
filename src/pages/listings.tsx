@@ -2,10 +2,12 @@ import { useState, useMemo } from "react";
 import { listings } from "../assets/data/listings";
 import ListingItem from "../components/ListingItem";
 import Button from "../components/Button";
+import Modal from "../components/Modal";
 
 export default function ListingsPage() {
   const [activeTag, setActiveTag] = useState<string | null>(null);
   const [numberOfListings, setNumberOfListings] = useState(3);
+  const [modal, setModal] = useState(null);
 
   const tags = useMemo(() => {
     return [...new Set(listings.flatMap((listing) => listing.tags || []))];
@@ -65,7 +67,11 @@ export default function ListingsPage() {
       <section className="flex w-full max-w-2xl flex-col gap-4 px-4 pb-4">
         {displayedListings.length > 0 ? (
           displayedListings.map((listing) => (
-            <ListingItem key={listing.id} listing={listing} />
+            <ListingItem
+              key={listing.id}
+              listing={listing}
+              onClick={() => setModal(listing)}
+            />
           ))
         ) : (
           <p className="text-center">No listings yet.</p>
@@ -80,6 +86,8 @@ export default function ListingsPage() {
           Show more listings
         </Button>
       )}
+
+      {modal && <Modal />}
     </main>
   );
 }
