@@ -1,4 +1,4 @@
-type Listing = {
+export type Listing = {
   id: number;
   name: string;
   description: string;
@@ -13,7 +13,10 @@ type ListingItemProps = {
 
 export default function ListingItem({ listing, onClick }: ListingItemProps) {
   return (
-    <article onClick={onClick} className="rounded bg-zinc-800 p-4">
+    <article
+      onClick={onClick}
+      className="cursor-pointer rounded bg-zinc-800 p-4"
+    >
       <h3 className="text-lg font-bold">{listing.name}</h3>
       <p className="text-zinc-300">{listing.description}</p>
       <a

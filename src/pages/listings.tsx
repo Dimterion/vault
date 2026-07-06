@@ -1,13 +1,13 @@
 import { useState, useMemo } from "react";
 import { listings } from "../assets/data/listings";
-import ListingItem from "../components/ListingItem";
+import ListingItem, { type Listing } from "../components/ListingItem";
 import Button from "../components/Button";
 import Modal from "../components/Modal";
 
 export default function ListingsPage() {
   const [activeTag, setActiveTag] = useState<string | null>(null);
   const [numberOfListings, setNumberOfListings] = useState(3);
-  const [modal, setModal] = useState(null);
+  const [modal, setModal] = useState<Listing | null>(null);
 
   const tags = useMemo(() => {
     return [...new Set(listings.flatMap((listing) => listing.tags || []))];
@@ -87,7 +87,11 @@ export default function ListingsPage() {
         </Button>
       )}
 
-      {modal && <Modal />}
+      {modal && (
+        <Modal onClose={() => setModal(null)}>
+          <h3>{modal.name}</h3>
+        </Modal>
+      )}
     </main>
   );
 }
