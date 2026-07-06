@@ -18,9 +18,7 @@ export default function Modal({ onClose, children }: ModalProps) {
       >
         <div className="mb-4">{children}</div>
         <div className="flex justify-end">
-          <Button onClick={onClose} className="bg-red-600 hover:bg-red-500">
-            Close
-          </Button>
+          <Button onClick={onClose}>Close</Button>
         </div>
       </div>
     </div>

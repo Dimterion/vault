@@ -8,7 +8,7 @@ export type Listing = {
 
 type ListingItemProps = {
   listing: Listing;
-  onClick: () => void;
+  onClick?: () => void;
 };
 
 export default function ListingItem({ listing, onClick }: ListingItemProps) {

@@ -89,7 +89,7 @@ export default function ListingsPage() {
 
       {modal && (
         <Modal onClose={() => setModal(null)}>
-          <h3>{modal.name}</h3>
+          <ListingItem key={modal.id} listing={modal} />
         </Modal>
       )}
     </main>
