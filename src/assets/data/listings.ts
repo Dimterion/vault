@@ -2,6 +2,7 @@ export const listings = [
   {
     id: 1,
     name: "listing 1",
+    excerpt: "listing 1 excerpt",
     description: "listing 1 description",
     link: "https://example.com/",
     tags: ["tag1"],
@@ -9,6 +10,7 @@ export const listings = [
   {
     id: 2,
     name: "listing 2",
+    excerpt: "listing 2 excerpt",
     description: "listing 2 description",
     link: "https://example.com/",
     tags: ["tag2"],
@@ -16,6 +18,7 @@ export const listings = [
   {
     id: 3,
     name: "listing 3",
+    excerpt: "listing 3 excerpt",
     description: "listing 3 description",
     link: "https://example.com/",
     tags: ["tag2", "tag3"],
@@ -23,6 +26,7 @@ export const listings = [
   {
     id: 4,
     name: "listing 4",
+    excerpt: "listing 4 excerpt",
     description: "listing 4 description",
     link: "https://example.com/",
     tags: ["tag2", "tag3", "tag4"],
@@ -30,6 +34,7 @@ export const listings = [
   {
     id: 5,
     name: "listing 5",
+    excerpt: "listing 5 excerpt",
     description: "listing 5 description",
     link: "https://example.com/",
     tags: ["tag4", "tag5"],
@@ -37,6 +42,7 @@ export const listings = [
   {
     id: 6,
     name: "listing 6",
+    excerpt: "listing 6 excerpt",
     description: "listing 6 description",
     link: "https://example.com/",
     tags: ["tag1", "tag2", "tag3", "tag4", "tag5", "tag6"],

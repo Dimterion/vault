@@ -27,14 +27,6 @@ export default function ListingDetails({
       >
         Link &#x1F5D7;
       </a>
-
-      <ul className="mt-3 flex flex-row flex-wrap gap-2">
-        {listing.tags?.map((tag) => (
-          <li key={tag} className="rounded bg-zinc-700 px-2 py-1 text-xs">
-            {tag}
-          </li>
-        ))}
-      </ul>
     </article>
   );
 }

@@ -1,6 +1,7 @@
 export type Listing = {
   id: number;
   name: string;
+  excerpt: string;
   description: string;
   link: string;
   tags: string[];
@@ -18,16 +19,7 @@ export default function ListingItem({ listing, onClick }: ListingItemProps) {
       className="cursor-pointer rounded bg-zinc-800 p-4"
     >
       <h3 className="text-lg font-bold">{listing.name}</h3>
-      <p className="text-zinc-300">{listing.description}</p>
-      <a
-        href={listing.link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-1 inline-block font-bold hover:underline"
-      >
-        Link &#x1F5D7;
-      </a>
-
+      <p className="text-zinc-300">{listing.excerpt}</p>
       <ul className="mt-3 flex flex-row flex-wrap gap-2">
         {listing.tags?.map((tag) => (
           <li key={tag} className="rounded bg-zinc-700 px-2 py-1 text-xs">
