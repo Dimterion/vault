@@ -11,12 +11,9 @@ type ListingDetailsProps = {
   onClick?: () => void;
 };
 
-export default function ListingDetails({
-  listing,
-  onClick,
-}: ListingDetailsProps) {
+export default function ListingDetails({ listing }: ListingDetailsProps) {
   return (
-    <article onClick={onClick} className="rounded bg-zinc-800 p-4">
+    <article className="flex flex-col gap-2 px-2">
       <h3 className="text-lg font-bold">{listing.name}</h3>
       <p className="text-zinc-300">{listing.description}</p>
       <a

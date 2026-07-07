@@ -16,7 +16,7 @@ export default function ListingItem({ listing, onClick }: ListingItemProps) {
   return (
     <article
       onClick={onClick}
-      className="cursor-pointer rounded bg-zinc-800 p-4"
+      className="cursor-pointer rounded bg-zinc-800 p-4 transition-colors hover:bg-zinc-700"
     >
       <h3 className="text-lg font-bold">{listing.name}</h3>
       <p className="text-zinc-300">{listing.excerpt}</p>
