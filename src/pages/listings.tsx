@@ -3,6 +3,7 @@ import { listings } from "../assets/data/listings";
 import ListingItem, { type Listing } from "../components/ListingItem";
 import Button from "../components/Button";
 import Modal from "../components/Modal";
+import ListingDetails from "../components/ListingDetails";
 
 export default function ListingsPage() {
   const [activeTag, setActiveTag] = useState<string | null>(null);
@@ -89,7 +90,7 @@ export default function ListingsPage() {
 
       {modal && (
         <Modal onClose={() => setModal(null)}>
-          <ListingItem key={modal.id} listing={modal} />
+          <ListingDetails key={modal.id} listing={modal} />
         </Modal>
       )}
     </main>
