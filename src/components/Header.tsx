@@ -2,64 +2,55 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router";
 import Button from "./Button";
 
+const NAV_LINKS = [
+  { to: "/", label: "Home" },
+  { to: "/habit-tracker", label: "Habit Tracker" },
+  { to: "/listings", label: "Listings" },
+];
+
 export default function Header() {
   const [showNav, setShowNav] = useState(false);
 
-  const active = "";
-  const base = "text-gray-500 hover:text-white";
+  const active = "font-medium";
+  const base = "text-gray-500 hover:text-white transition-colors";
 
   return (
-    <header className="relative flex flex-col justify-between bg-zinc-800 p-2 sm:flex-row sm:items-center">
-      <h1 className="text-lg font-bold">
-        <Link to="/">Vault</Link>
-      </h1>
-      <Button
-        onClick={() => setShowNav(!showNav)}
-        className="absolute top-0.5 right-0 sm:hidden"
+    <header className="bg-zinc-800 p-3 sm:flex sm:items-center sm:justify-between">
+      {/* Top row: logo and mobile menu toggle */}
+      <div className="flex items-center justify-between">
+        <h1 className="text-lg font-bold">
+          <Link to="/">Vault</Link>
+        </h1>
+
+        {/* Mobile menu toggle */}
+        <Button
+          onClick={() => setShowNav(!showNav)}
+          className="p-1 text-xl sm:hidden"
+          aria-expanded={showNav}
+          aria-controls="mobile-navigation"
+          aria-label={showNav ? "Close main menu" : "Open main menu"}
+        >
+          {showNav ? "\u00D7" : "\u2630"}
+        </Button>
+      </div>
+
+      {/* Navigation */}
+      <nav
+        id="mobile-navigation"
+        className={`${
+          showNav ? "flex" : "hidden"
+        } mt-3 flex-col gap-2 text-center sm:mt-0 sm:flex sm:flex-row sm:gap-4`}
       >
-        {showNav ? "\u00D7" : "\u2630"}
-      </Button>
-      {showNav && (
-        <nav className="flex flex-row flex-wrap justify-center gap-2 sm:hidden">
+        {NAV_LINKS.map((link) => (
           <NavLink
-            to="/"
+            key={link.to}
+            to={link.to}
             className={({ isActive }) => (isActive ? active : base)}
+            onClick={() => setShowNav(false)}
           >
-            Home
+            {link.label}
           </NavLink>
-          <NavLink
-            to="/habit-tracker"
-            className={({ isActive }) => (isActive ? active : base)}
-          >
-            Habit Tracker
-          </NavLink>
-          <NavLink
-            to="/listings"
-            className={({ isActive }) => (isActive ? active : base)}
-          >
-            Listings
-          </NavLink>
-        </nav>
-      )}
-      <nav className="hidden gap-2 sm:inline-flex">
-        <NavLink
-          to="/"
-          className={({ isActive }) => (isActive ? active : base)}
-        >
-          Home
-        </NavLink>
-        <NavLink
-          to="/habit-tracker"
-          className={({ isActive }) => (isActive ? active : base)}
-        >
-          Habit Tracker
-        </NavLink>
-        <NavLink
-          to="/listings"
-          className={({ isActive }) => (isActive ? active : base)}
-        >
-          Listings
-        </NavLink>
+        ))}
       </nav>
     </header>
   );
