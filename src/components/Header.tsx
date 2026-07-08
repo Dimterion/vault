@@ -15,9 +15,9 @@ export default function Header() {
       </h1>
       <Button
         onClick={() => setShowNav(!showNav)}
-        className="absolute top-0 right-0 sm:hidden"
+        className="absolute top-0.5 right-0 sm:hidden"
       >
-        {showNav ? "X" : "^"}
+        {showNav ? "\u00D7" : "\u2630"}
       </Button>
       {showNav && (
         <nav className="flex flex-row flex-wrap justify-center gap-2 sm:hidden">
