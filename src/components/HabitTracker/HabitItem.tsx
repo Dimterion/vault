@@ -49,7 +49,7 @@ export default function HabitItem({ habit, visibleDates }: HabitItemProps) {
       <div className="flex flex-wrap gap-1.5">
         {visibleDates.map((date) => (
           <Button
-            className="flex flex-1 flex-col items-center gap-0.5 rounded-lg text-xs"
+            className="flex flex-1 flex-col items-center gap-0.5 rounded-lg border text-xs"
             key={date.toISOString()}
             disabled={isFuture(date)}
             onClick={() => toggleHabit(habit.id, date)}
