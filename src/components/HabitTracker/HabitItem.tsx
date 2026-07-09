@@ -29,9 +29,11 @@ export default function HabitItem({ habit, visibleDates }: HabitItemProps) {
     <div className="flex flex-col gap-3 rounded-xl bg-zinc-800 p-4">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <span className="font-medium">{habit.name}</span>
+          <span className="min-w-0 flex-1 wrap-anywhere font-medium">
+            {habit.name}
+          </span>
           {streak !== 0 && (
-            <span className="text-sm text-amber-400">{streak}</span>
+            <span className="shrink-0 text-sm text-amber-400">{streak}</span>
           )}
         </div>
         <Button
@@ -42,7 +44,7 @@ export default function HabitItem({ habit, visibleDates }: HabitItemProps) {
           Delete
         </Button>
       </div>
-      <div className="flex gap-1.5">
+      <div className="flex flex-wrap gap-1.5">
         {visibleDates.map((date) => (
           <Button
             className="flex flex-1 flex-col items-center gap-0.5 rounded-lg text-xs"
