@@ -15,7 +15,7 @@ export default function Header() {
   const base = "text-gray-500 hover:text-white transition-colors";
 
   return (
-    <header className="bg-zinc-800 p-3 sm:flex sm:items-center sm:justify-between">
+    <header className="bg-zinc-800 px-4 py-3 sm:flex sm:items-center sm:justify-between sm:px-6">
       {/* Top row: logo and mobile menu toggle */}
       <div className="flex items-center justify-between">
         <h1 className="text-lg font-bold">

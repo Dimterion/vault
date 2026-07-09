@@ -28,12 +28,14 @@ export default function HabitItem({ habit, visibleDates }: HabitItemProps) {
   return (
     <div className="flex flex-col gap-3 rounded-xl bg-zinc-800 p-4">
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <span className="min-w-0 flex-1 wrap-anywhere font-medium">
+        <div className="flex flex-col gap-3">
+          <span className="min-w-0 flex-1 font-medium wrap-anywhere">
             {habit.name}
           </span>
           {streak !== 0 && (
-            <span className="shrink-0 text-sm text-amber-400">{streak}</span>
+            <span className="shrink-0 text-sm text-amber-400">
+              Streak: {streak}
+            </span>
           )}
         </div>
         <Button
