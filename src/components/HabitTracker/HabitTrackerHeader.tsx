@@ -22,7 +22,7 @@ export default function HabitTrackerHeader({
   const dateRange = `${format(visibleDates[0], "MMM d")} - ${format(visibleDates.at(-1)!, "MMM d")}`;
 
   return (
-    <header className="flex items-center justify-between">
+    <header className="flex flex-wrap items-center justify-between">
       <div className="flex flex-col gap-1">
         <h1 className="text-3xl font-bold">Habit Tracker</h1>
         <span className="text-sm text-zinc-400">
@@ -30,7 +30,7 @@ export default function HabitTrackerHeader({
         </span>
       </div>
 
-      <div className="flex flex-col items-end gap-1">
+      <div className="flex flex-col gap-2 sm:items-end sm:gap-1">
         <span className="text-sm text-zinc-400">{dateRange}</span>
         <div className="mb-2 flex items-center gap-3">
           <Button onClick={onPrev}>Prev</Button>

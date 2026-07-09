@@ -15,7 +15,7 @@ export default function HabitTrackerPage() {
   });
 
   return (
-    <main className="mx-auto flex w-full max-w-2xl flex-col p-4">
+    <main className="mx-auto flex w-full sm:max-w-2xl flex-col p-1 sm:p-4">
       <HabitProvider>
         <HabitTrackerHeader
           visibleDates={visibleDates}
