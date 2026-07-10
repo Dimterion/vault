@@ -1,6 +1,8 @@
 import { format, isFuture, isSameDay, subDays } from "date-fns";
 import { useHabits } from "../../context/useHabits";
 import Button from "../Button";
+import Modal from "../Modal";
+import { useState } from "react";
 
 export type Habit = { id: string; name: string; completions: Date[] };
 
@@ -22,6 +24,7 @@ function getStreak(completions: Date[]) {
 }
 
 export default function HabitItem({ habit, visibleDates }: HabitItemProps) {
+  const [modal, setModal] = useState(false);
   const { deleteHabit, toggleHabit } = useHabits();
   const streak = getStreak(habit.completions);
 
@@ -39,12 +42,28 @@ export default function HabitItem({ habit, visibleDates }: HabitItemProps) {
           )}
         </div>
         <Button
-          onClick={() => deleteHabit(habit.id)}
+          onClick={() => setModal(true)}
           variant="ghost-destructive"
           className="ml-2 text-sm"
         >
           Delete
         </Button>
+        {modal && (
+          <Modal onClose={() => setModal(false)}>
+            <div>
+              <p>Delete this entry?</p>
+              <Button
+                onClick={() => {
+                  deleteHabit(habit.id);
+                  setModal(false);
+                }}
+              >
+                Yes
+              </Button>
+              <Button onClick={() => setModal(false)}>Cancel</Button>
+            </div>
+          </Modal>
+        )}
       </div>
       <div className="flex flex-wrap gap-1.5">
         {visibleDates.map((date) => (
