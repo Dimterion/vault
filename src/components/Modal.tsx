@@ -1,10 +1,10 @@
 import type { ReactNode } from "react";
 import Button from "./Button";
 
-interface ModalProps {
+type ModalProps = {
   onClose: () => void;
   children: ReactNode;
-}
+};
 
 export default function Modal({ onClose, children }: ModalProps) {
   return (

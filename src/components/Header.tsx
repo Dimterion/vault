@@ -39,7 +39,7 @@ export default function Header() {
         id="mobile-navigation"
         className={`${
           showNav ? "flex" : "hidden"
-        } mt-3 flex-col gap-2 text-center sm:mt-0 sm:flex sm:flex-row sm:gap-4`}
+        } mt-3 flex-wrap justify-center gap-2 sm:mt-0 sm:flex sm:flex-row sm:gap-4`}
       >
         {NAV_LINKS.map((link) => (
           <NavLink
