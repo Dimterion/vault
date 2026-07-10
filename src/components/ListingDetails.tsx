@@ -14,7 +14,7 @@ type ListingDetailsProps = {
 export default function ListingDetails({ listing }: ListingDetailsProps) {
   return (
     <article className="flex flex-col gap-2 px-2">
-      <h3 className="text-lg font-bold">{listing.name}</h3>
+      <h3 className="text-center text-lg font-bold">{listing.name}</h3>
       <p className="text-zinc-300">{listing.description}</p>
       <a
         href={listing.link}

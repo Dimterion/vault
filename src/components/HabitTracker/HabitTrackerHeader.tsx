@@ -30,9 +30,9 @@ export default function HabitTrackerHeader({
         </span>
       </div>
 
-      <div className="flex flex-col gap-2 sm:items-end sm:gap-1">
+      <div className="flex w-full flex-col gap-2 sm:w-fit sm:items-end sm:gap-1">
         <span className="text-sm text-zinc-400">{dateRange}</span>
-        <div className="mb-2 flex items-center gap-3">
+        <div className="mb-2 flex items-center justify-between gap-3">
           <Button onClick={onPrev}>Prev</Button>
           <Button
             onClick={onNext}

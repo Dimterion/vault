@@ -13,7 +13,7 @@ export default function Modal({ onClose, children }: ModalProps) {
       onClick={onClose}
     >
       <div
-        className="w-full max-w-md rounded-lg bg-zinc-800 p-2 text-white shadow-xl"
+        className="w-full max-w-md rounded-lg border bg-zinc-800 p-2 text-white shadow-xl"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex justify-end">
