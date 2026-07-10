@@ -50,17 +50,23 @@ export default function HabitItem({ habit, visibleDates }: HabitItemProps) {
         </Button>
         {modal && (
           <Modal onClose={() => setModal(false)}>
-            <div>
-              <p>Delete this entry?</p>
+            <div className="text-center">
+              <p className="text-lg">Delete this entry?</p>
               <Button
                 onClick={() => {
                   deleteHabit(habit.id);
                   setModal(false);
                 }}
+                className="m-4 w-20 border"
               >
                 Yes
               </Button>
-              <Button onClick={() => setModal(false)}>Cancel</Button>
+              <Button
+                onClick={() => setModal(false)}
+                className="m-4 w-20 border"
+              >
+                Cancel
+              </Button>
             </div>
           </Modal>
         )}
