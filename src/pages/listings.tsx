@@ -1,9 +1,9 @@
 import { useState, useMemo } from "react";
 import { listings } from "../assets/data/listings";
-import ListingItem, { type Listing } from "../components/ListingItem";
+import ListingItem, { type Listing } from "../components/Listings/ListingItem";
 import Button from "../components/Button";
 import Modal from "../components/Modal";
-import ListingDetails from "../components/ListingDetails";
+import ListingDetails from "../components/Listings/ListingDetails";
 
 export default function ListingsPage() {
   const [activeTag, setActiveTag] = useState<string | null>(null);
