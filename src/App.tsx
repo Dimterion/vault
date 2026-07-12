@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router";
 import HomePage from "./pages/home";
 import HabitTrackerPage from "./pages/habitTracker";
 import ListingsPage from "./pages/listings";
+import PlatformsPage from "./pages/platforms";
 import AboutPage from "./pages/about";
 import NotFoundPage from "./pages/notFound";
 import Header from "./components/Header";
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/habit-tracker" element={<HabitTrackerPage />}></Route>
         <Route path="/listings" element={<ListingsPage />}></Route>
+        <Route path="/platforms" element={<PlatformsPage />}></Route>
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
