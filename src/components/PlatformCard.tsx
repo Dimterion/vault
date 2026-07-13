@@ -1,4 +1,5 @@
 import type { JobPlatform } from "../assets/data/platforms";
+import { platformImages } from "../assets/images/platforms/platformsImages";
 import { colors } from "../constants/colors";
 
 type PlatformCardProps = {
@@ -6,6 +7,8 @@ type PlatformCardProps = {
 };
 
 export default function PlatformCard({ item }: PlatformCardProps) {
+  const imageSrc = item.imageKey ? platformImages[item.imageKey] : undefined;
+
   return (
     <article
       className="rounded-2xl border p-4"
@@ -14,9 +17,9 @@ export default function PlatformCard({ item }: PlatformCardProps) {
         borderColor: "#e5e7eb",
       }}
     >
-      {item.image ? (
+      {imageSrc ? (
         <img
-          src={item.image}
+          src={imageSrc}
           alt={item.title}
           className="mb-4 h-37.5 w-full rounded-xl object-cover"
           loading="lazy"
