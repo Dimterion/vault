@@ -1,12 +1,7 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router";
+import { pages } from "../constants/pages";
 import Button from "./Button";
-
-const NAV_LINKS = [
-  { to: "/", label: "Home" },
-  { to: "/habit-tracker", label: "Habit Tracker" },
-  { to: "/listings", label: "Listings" },
-];
 
 export default function Header() {
   const [showNav, setShowNav] = useState(false);
@@ -41,7 +36,7 @@ export default function Header() {
           showNav ? "flex" : "hidden"
         } mt-3 flex-wrap justify-center gap-2 sm:mt-0 sm:flex sm:flex-row sm:gap-4`}
       >
-        {NAV_LINKS.map((link) => (
+        {pages.map((link) => (
           <NavLink
             key={link.to}
             to={link.to}

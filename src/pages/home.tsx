@@ -1,10 +1,6 @@
 import { Link } from "react-router";
 import { colors } from "../constants/colors";
-
-const actions = [
-  { to: "/habit-tracker", label: "Habit Tracker", bg: colors.primary },
-  { to: "/listings", label: "Listings", bg: colors.secondary },
-];
+import { pages } from "../constants/pages";
 
 export default function HomePage() {
   return (
@@ -25,7 +21,7 @@ export default function HomePage() {
         </p>
 
         <div className="flex flex-col gap-3">
-          {actions.map((action) => (
+          {pages.map((action) => (
             <Link
               key={action.to}
               to={action.to}
