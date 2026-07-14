@@ -4,7 +4,7 @@ import { pages } from "../constants/pages";
 
 export default function HomePage() {
   return (
-    <section
+    <div
       className="flex min-h-full flex-1 items-center justify-center px-4 py-10"
       style={{ backgroundColor: colors.background }}
     >
@@ -33,6 +33,6 @@ export default function HomePage() {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }

@@ -94,7 +94,7 @@ export default function TrackerPage() {
   }
 
   return (
-    <section className="mx-auto min-h-full w-full bg-white px-4 py-6 sm:px-6 lg:px-8">
+    <div className="mx-auto min-h-full w-full bg-white px-4 py-6 sm:px-6 lg:px-8">
       <div className="mb-3 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
         <button
           type="button"
@@ -130,7 +130,7 @@ export default function TrackerPage() {
         </div>
       ) : (
         <div className="overflow-x-auto rounded-3xl border border-gray-200 bg-white shadow-sm">
-          <table className="min-w-240 border-collapse">
+          <table className="w-full min-w-240 border-collapse">
             <thead className="bg-gray-900">
               <tr>
                 {COLUMNS.map((col) => (
@@ -200,6 +200,6 @@ export default function TrackerPage() {
         onDelete={selectedApp ? () => handleDelete(selectedApp.id) : undefined}
         initialData={selectedApp}
       />
-    </section>
+    </div>
   );
 }

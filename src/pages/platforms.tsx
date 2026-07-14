@@ -4,7 +4,7 @@ import { platforms } from "../data/platforms";
 
 export default function PlatformsPage() {
   return (
-    <section
+    <div
       className="px-4 py-8 md:px-6"
       style={{ backgroundColor: colors.background }}
     >
@@ -29,6 +29,6 @@ export default function PlatformsPage() {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }

@@ -30,7 +30,7 @@ export default function ListingsPage() {
   };
 
   return (
-    <section className="flex flex-col items-center">
+    <div className="flex flex-col items-center">
       <h2 className="my-4 text-2xl font-bold">Listings</h2>
 
       {tags.length > 0 && (
@@ -93,6 +93,6 @@ export default function ListingsPage() {
           <ListingDetails key={modal.id} listing={modal} />
         </Modal>
       )}
-    </section>
+    </div>
   );
 }

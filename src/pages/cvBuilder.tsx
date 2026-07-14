@@ -128,7 +128,7 @@ export default function CvBuilderPage() {
   }
 
   return (
-    <section className="min-h-full w-full bg-[#f5f7fb]">
+    <div className="min-h-full w-full bg-[#f5f7fb]">
       <div className="mx-auto w-full max-w-4xl px-4 py-6 sm:px-6 lg:px-8">
         <div className="mb-6">
           <h1 className="text-2xl font-bold text-gray-900">CV Builder</h1>
@@ -406,7 +406,7 @@ export default function CvBuilderPage() {
           Export PDF
         </button>
       </div>
-    </section>
+    </div>
   );
 }
 
