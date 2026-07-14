@@ -4,8 +4,8 @@ import { pages } from "../constants/pages";
 
 export default function HomePage() {
   return (
-    <main
-      className="flex flex-1 items-center justify-center px-4 py-10"
+    <section
+      className="flex flex-1 items-center justify-center px-4 py-10 min-h-full"
       style={{ backgroundColor: colors.background }}
     >
       <div className="mx-auto w-full max-w-md">
@@ -33,6 +33,6 @@ export default function HomePage() {
           ))}
         </div>
       </div>
-    </main>
+    </section>
   );
 }
