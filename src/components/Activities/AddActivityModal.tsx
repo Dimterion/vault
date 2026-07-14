@@ -1,38 +1,33 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
-import type {
-  ApplicationStatus,
-  JobApplication,
-} from "../assets/data/applications";
-import { APPLICATION_STATUS_COLORS } from "../assets/data/applications";
+import type { Activity, ActivityStatus } from "../../data/activities";
+import { ACTIVITY_STATUS_COLORS } from "../../data/activities";
 
-type ApplicationFormData = Omit<JobApplication, "id" | "number">;
+type ActivityFormData = Omit<Activity, "id" | "number">;
 
 type Props = {
   open: boolean;
   onClose: () => void;
-  onSave: (application: ApplicationFormData) => void;
+  onSave: (activity: ActivityFormData) => void;
   onDelete?: () => void;
-  initialData?: JobApplication;
+  initialData?: Activity;
 };
 
-const APPLICATION_STATUSES: ApplicationStatus[] = [
-  "Applied",
-  "Interview",
-  "Offer",
-  "Rejected",
-  "Withdrawn",
+const ACTIVITY_STATUSES: ActivityStatus[] = [
+  "Active",
+  "Completed",
+  "Canceled",
+  "Paused",
 ];
 
-const EMPTY_FORM: ApplicationFormData = {
-  company: "",
-  role: "",
+const EMPTY_FORM: ActivityFormData = {
+  activity: "",
   date: "",
-  status: "Applied",
+  status: "Active",
   notes: "",
 };
 
-export default function AddApplicationModal({
+export default function AddActivityModal({
   open,
   onClose,
   onSave,
@@ -41,17 +36,16 @@ export default function AddApplicationModal({
 }: Props) {
   const isEditing = !!initialData;
 
-  const initialForm: ApplicationFormData = initialData
+  const initialForm: ActivityFormData = initialData
     ? {
-        company: initialData.company,
-        role: initialData.role,
+        activity: initialData.activity,
         date: initialData.date,
         status: initialData.status,
         notes: initialData.notes,
       }
     : EMPTY_FORM;
 
-  const [form, setForm] = useState<ApplicationFormData>(initialForm);
+  const [form, setForm] = useState<ActivityFormData>(initialForm);
 
   useEffect(() => {
     if (!open) return;
@@ -71,15 +65,15 @@ export default function AddApplicationModal({
     };
   }, [open, onClose]);
 
-  function updateField<K extends keyof ApplicationFormData>(
+  function updateField<K extends keyof ActivityFormData>(
     key: K,
-    value: ApplicationFormData[K],
+    value: ActivityFormData[K],
   ) {
     setForm((prev) => ({ ...prev, [key]: value }));
   }
 
   function handleSave() {
-    if (!form.company.trim() || !form.role.trim() || !form.date.trim()) return;
+    if (!form.activity.trim() || !form.date.trim()) return;
 
     const dateRegex = /^\d{4}-\d{2}-\d{2}$/;
     if (!dateRegex.test(form.date)) {
@@ -88,8 +82,7 @@ export default function AddApplicationModal({
     }
 
     onSave({
-      company: form.company.trim(),
-      role: form.role.trim(),
+      activity: form.activity.trim(),
       date: form.date.trim(),
       status: form.status,
       notes: form.notes.trim(),
@@ -101,7 +94,7 @@ export default function AddApplicationModal({
   function handleDelete() {
     if (!onDelete) return;
 
-    const confirmed = window.confirm(`Remove ${form.company} — ${form.role}?`);
+    const confirmed = window.confirm(`Remove ${form.activity}?`);
     if (!confirmed) return;
 
     onDelete();
@@ -110,8 +103,7 @@ export default function AddApplicationModal({
 
   if (!open) return null;
 
-  const isSaveDisabled =
-    !form.company.trim() || !form.role.trim() || !form.date.trim();
+  const isSaveDisabled = !form.activity.trim() || !form.date.trim();
 
   return createPortal(
     <div
@@ -124,17 +116,17 @@ export default function AddApplicationModal({
         onClick={(e) => e.stopPropagation()}
         role="dialog"
         aria-modal="true"
-        aria-labelledby="application-modal-title"
+        aria-labelledby="activity-modal-title"
       >
         <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-gray-300 sm:hidden" />
 
         <div className="max-h-[90vh] overflow-y-auto px-5 pt-4 pb-5 sm:px-6 sm:pt-5 sm:pb-6">
           <div className="mb-5 flex items-center justify-between gap-4">
             <h2
-              id="application-modal-title"
+              id="activity-modal-title"
               className="text-xl font-bold text-gray-900"
             >
-              {isEditing ? "Edit Application" : "New Application"}
+              {isEditing ? "Edit Activity" : "New Activity"}
             </h2>
 
             {isEditing ? (
@@ -151,33 +143,16 @@ export default function AddApplicationModal({
           <div className="space-y-4">
             <div>
               <label
-                htmlFor="application-company"
+                htmlFor="activity-name"
                 className="mb-1.5 block text-sm font-semibold text-gray-800"
               >
-                Company *
+                Activity *
               </label>
               <input
-                id="application-company"
+                id="activity-name"
                 type="text"
-                value={form.company}
-                onChange={(e) => updateField("company", e.target.value)}
-                placeholder="e.g. Acme Corp"
-                className="w-full rounded-2xl border border-gray-300 px-4 py-3 text-sm text-gray-900 transition outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
-              />
-            </div>
-
-            <div>
-              <label
-                htmlFor="application-role"
-                className="mb-1.5 block text-sm font-semibold text-gray-800"
-              >
-                Role *
-              </label>
-              <input
-                id="application-role"
-                type="text"
-                value={form.role}
-                onChange={(e) => updateField("role", e.target.value)}
+                value={form.activity}
+                onChange={(e) => updateField("activity", e.target.value)}
                 placeholder="e.g. Frontend Developer"
                 className="w-full rounded-2xl border border-gray-300 px-4 py-3 text-sm text-gray-900 transition outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
               />
@@ -185,13 +160,13 @@ export default function AddApplicationModal({
 
             <div>
               <label
-                htmlFor="application-date"
+                htmlFor="activity-date"
                 className="mb-1.5 block text-sm font-semibold text-gray-800"
               >
                 Date *
               </label>
               <input
-                id="application-date"
+                id="activity-date"
                 type="text"
                 value={form.date}
                 onChange={(e) => updateField("date", e.target.value)}
@@ -206,7 +181,7 @@ export default function AddApplicationModal({
               </span>
 
               <div className="flex flex-wrap gap-2">
-                {APPLICATION_STATUSES.map((status) => {
+                {ACTIVITY_STATUSES.map((status) => {
                   const isActive = form.status === status;
 
                   return (
@@ -223,7 +198,7 @@ export default function AddApplicationModal({
                         isActive
                           ? {
                               backgroundColor:
-                                APPLICATION_STATUS_COLORS[status] ?? "#6b7280",
+                                ACTIVITY_STATUS_COLORS[status] ?? "#6b7280",
                             }
                           : undefined
                       }
@@ -237,13 +212,13 @@ export default function AddApplicationModal({
 
             <div>
               <label
-                htmlFor="application-notes"
+                htmlFor="activity-notes"
                 className="mb-1.5 block text-sm font-semibold text-gray-800"
               >
                 Notes
               </label>
               <textarea
-                id="application-notes"
+                id="activity-notes"
                 value={form.notes}
                 onChange={(e) => updateField("notes", e.target.value)}
                 placeholder="Any extra details..."

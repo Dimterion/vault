@@ -1,5 +1,5 @@
-import type { Activity } from "../assets/data/activities";
-import type { JobApplication } from "../assets/data/applications";
+import type { Activity } from "../data/activities";
+import type { JobApplication } from "../data/applications";
 
 function escapeCsvValue(value: string | number): string {
   const str = String(value);

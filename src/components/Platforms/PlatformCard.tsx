@@ -1,6 +1,6 @@
-import type { JobPlatform } from "../assets/data/platforms";
-import { platformImages } from "../assets/images/platforms/platformsImages";
-import { colors } from "../constants/colors";
+import type { JobPlatform } from "../../data/platforms";
+import { platformImages } from "../../assets/images/platforms/platformsImages";
+import { colors } from "../../constants/colors";
 
 type PlatformCardProps = {
   item: JobPlatform;

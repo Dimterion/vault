@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import AddActivityModal from "../components/AddActivityModal";
+import AddActivityModal from "../components/Activities/AddActivityModal";
 import {
   ACTIVITY_STATUS_COLORS,
   type Activity,
   loadActivities,
   saveActivities,
-} from "../assets/data/activities";
+} from "../data/activities";
 import { exportActivitiesCsv } from "../utils/exportCsv";
 
 const COLUMNS = [

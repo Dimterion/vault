@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { listings } from "../assets/data/listings";
+import { listings } from "../data/listings";
 import ListingItem, { type Listing } from "../components/Listings/ListingItem";
 import Button from "../components/Button";
 import Modal from "../components/Modal";

@@ -1,6 +1,6 @@
-import PlatformCard from "../components/PlatformCard";
+import PlatformCard from "../components/Platforms/PlatformCard";
 import { colors } from "../constants/colors";
-import { platforms } from "../assets/data/platforms";
+import { platforms } from "../data/platforms";
 
 export default function PlatformsPage() {
   return (

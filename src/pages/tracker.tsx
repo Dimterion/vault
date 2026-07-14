@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import AddApplicationModal from "../components/AddApplicationModal";
+import AddApplicationModal from "../components/Applications/AddApplicationModal";
 import {
   APPLICATION_STATUS_COLORS,
   type JobApplication,
   loadApplications,
   saveApplications,
-} from "../assets/data/applications";
+} from "../data/applications";
 import { exportApplicationsCsv } from "../utils/exportCsv";
 
 const COLUMNS = [
