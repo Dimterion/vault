@@ -1,8 +1,8 @@
 import { colors } from "./colors";
 
 export const pages = [
-  { to: "/habit-tracker", label: "Habit Tracker", bg: colors.primary },
-  { to: "/listings", label: "Listings", bg: colors.secondary },
-  { to: "/platforms", label: "Platforms", bg: colors.tertiary },
+  { to: "/platforms", label: "Job Search Platforms", bg: colors.primary },
+  { to: "/cv-builder", label: "CV Builder", bg: colors.secondary },
+  { to: "/tracker", label: "Application Tracker", bg: colors.tertiary },
   { to: "/activities", label: "Activities", bg: colors.quaternary },
 ] as const;

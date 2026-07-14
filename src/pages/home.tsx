@@ -5,7 +5,7 @@ import { pages } from "../constants/pages";
 export default function HomePage() {
   return (
     <section
-      className="flex flex-1 items-center justify-center px-4 py-10 min-h-full"
+      className="flex min-h-full flex-1 items-center justify-center px-4 py-10"
       style={{ backgroundColor: colors.background }}
     >
       <div className="mx-auto w-full max-w-md">
@@ -17,7 +17,7 @@ export default function HomePage() {
           className="mb-8 text-center text-base leading-6"
           style={{ color: colors.textMuted }}
         >
-          A vault app.
+          A simple app to organize your job search activities.
         </p>
 
         <div className="flex flex-col gap-3">
