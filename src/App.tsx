@@ -4,7 +4,7 @@ import HabitTrackerPage from "./pages/habitTracker";
 import ListingsPage from "./pages/listings";
 import PlatformsPage from "./pages/platforms";
 import CvBuilderPage from "./pages/cvBuilder";
-import TrackerPage from "./pages/tracker";
+import ApplicationTrackerPage from "./pages/application-tracker";
 import ActivitiesPage from "./pages/activities";
 import AboutPage from "./pages/about";
 import NotFoundPage from "./pages/notFound";
@@ -22,7 +22,10 @@ export default function App() {
           <Route path="/listings" element={<ListingsPage />} />
           <Route path="/platforms" element={<PlatformsPage />} />
           <Route path="/cv-builder" element={<CvBuilderPage />} />
-          <Route path="/tracker" element={<TrackerPage />} />
+          <Route
+            path="/application-tracker"
+            element={<ApplicationTrackerPage />}
+          />
           <Route path="/activities" element={<ActivitiesPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<NotFoundPage />} />

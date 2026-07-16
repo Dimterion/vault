@@ -23,7 +23,7 @@ function renumber(list: JobApplication[]): JobApplication[] {
 
 type ApplicationFormData = Omit<JobApplication, "id" | "number">;
 
-export default function TrackerPage() {
+export default function ApplicationTrackerPage() {
   const [applications, setApplications] = useState<JobApplication[]>([]);
   const [loading, setLoading] = useState(true);
   const [modalOpen, setModalOpen] = useState(false);
