@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import SectionHeader from "../components/CvBuilder/SectionHeader";
+import SectionHeader from "../features/cv/SectionHeader";
 import {
   type CvData,
   type EducationEntry,

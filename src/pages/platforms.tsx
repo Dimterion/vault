@@ -1,4 +1,4 @@
-import PlatformCard from "../components/Platforms/PlatformCard";
+import PlatformCard from "../features/platforms/PlatformCard";
 import { colors } from "../constants/colors";
 import { platforms } from "../data/platforms";
 

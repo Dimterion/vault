@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import AddActivityModal from "../components/Activities/AddActivityModal";
+import AddActivityModal from "../features/activities/AddActivityModal";
 import {
   ACTIVITY_STATUS_COLORS,
   type Activity,

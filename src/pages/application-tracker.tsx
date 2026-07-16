@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import AddApplicationModal from "../components/Applications/AddApplicationModal";
+import AddApplicationModal from "../features/applications/AddApplicationModal";
 import {
   APPLICATION_STATUS_COLORS,
   type JobApplication,
