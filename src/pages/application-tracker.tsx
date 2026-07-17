@@ -5,7 +5,7 @@ import {
   type JobApplication,
   loadApplications,
   saveApplications,
-} from "../data/applications";
+} from "../features/applications/data";
 import { exportApplicationsCsv } from "../utils/exportCsv";
 
 const COLUMNS = [

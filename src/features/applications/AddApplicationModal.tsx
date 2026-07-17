@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
-import type {
-  ApplicationStatus,
-  JobApplication,
-} from "../../data/applications";
-import { APPLICATION_STATUS_COLORS } from "../../data/applications";
+import {
+  type ApplicationStatus,
+  type JobApplication,
+  APPLICATION_STATUS_COLORS,
+} from "./data";
 
 type ApplicationFormData = Omit<JobApplication, "id" | "number">;
 

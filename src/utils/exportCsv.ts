@@ -1,5 +1,5 @@
 import { type Activity } from "../features/activities/data";
-import type { JobApplication } from "../data/applications";
+import { type JobApplication } from "../features/applications/data";
 
 function escapeCsvValue(value: string | number): string {
   const str = String(value);
