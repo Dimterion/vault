@@ -5,7 +5,7 @@ import {
   type Activity,
   loadActivities,
   saveActivities,
-} from "../data/activities";
+} from "../features/activities/data";
 import { exportActivitiesCsv } from "../utils/exportCsv";
 
 const COLUMNS = [

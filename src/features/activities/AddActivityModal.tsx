@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
-import type { Activity, ActivityStatus } from "../../data/activities";
-import { ACTIVITY_STATUS_COLORS } from "../../data/activities";
+import {
+  type ActivityStatus,
+  type Activity,
+  ACTIVITY_STATUS_COLORS,
+} from "./data";
 
 type ActivityFormData = Omit<Activity, "id" | "number">;
 

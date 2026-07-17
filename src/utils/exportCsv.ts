@@ -1,4 +1,4 @@
-import type { Activity } from "../data/activities";
+import { type Activity } from "../features/activities/data";
 import type { JobApplication } from "../data/applications";
 
 function escapeCsvValue(value: string | number): string {
