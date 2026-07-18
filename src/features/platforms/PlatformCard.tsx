@@ -1,4 +1,4 @@
-import type { JobPlatform } from "../../data/platforms";
+import { type JobPlatform } from "./data";
 import { platformImages } from "../../assets/images/platforms/platformsImages";
 import { colors } from "../../constants/colors";
 

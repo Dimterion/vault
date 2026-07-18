@@ -1,6 +1,6 @@
 import PlatformCard from "../features/platforms/PlatformCard";
 import { colors } from "../constants/colors";
-import { platforms } from "../data/platforms";
+import { platforms } from "../features/platforms/data";
 
 export default function PlatformsPage() {
   return (
