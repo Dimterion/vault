@@ -9,7 +9,7 @@ import {
   makeEducationEntry,
   makeWorkEntry,
   saveCv,
-} from "../data/cv";
+} from "../features/cv/data";
 import { exportCvPdf } from "../utils/exportPdf";
 
 type SectionKey =

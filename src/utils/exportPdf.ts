@@ -1,4 +1,4 @@
-import type { CvData } from "../data/cv";
+import { type CvData } from "../features/cv/data";
 
 function escapeHtml(str: string): string {
   return str
