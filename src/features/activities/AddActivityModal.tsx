@@ -1,12 +1,7 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
-import {
-  type ActivityStatus,
-  type Activity,
-  ACTIVITY_STATUS_COLORS,
-} from "./data";
-
-type ActivityFormData = Omit<Activity, "id" | "number">;
+import type { Activity, ActivityFormData, ActivityStatus } from "./types";
+import { ACTIVITY_STATUS_COLORS } from "./data";
 
 type Props = {
   open: boolean;
