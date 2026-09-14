@@ -64,7 +64,7 @@ export default function ListingCard({ item }: ListingCardProps) {
         className="mb-3 block rounded-xl px-4 py-3 text-center text-[15px] font-semibold text-white transition-opacity hover:opacity-90 focus:ring-2 focus:ring-offset-2 focus:outline-none"
         style={{ backgroundColor: colors.primary }}
       >
-        Visit listing
+        Company Site
       </a>
 
       {item.extraLinks && item.extraLinks.length > 0 ? (
