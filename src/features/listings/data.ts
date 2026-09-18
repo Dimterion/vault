@@ -593,4 +593,189 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "back_market",
+    title: "Back Market",
+    websiteUrl: "https://www.backmarket.com",
+    description:
+      "Global online marketplace for professionally refurbished electronics. Connects buyers with vetted refurbishers for phones, laptops, and appliances, with warranties and quality checks to extend device lifecycles and reduce e-waste.",
+    // imageKey: "placeholder",
+    tags: [
+      "E-commerce",
+      "Marketplace",
+      "Sustainability",
+      "Consumer Tech",
+      "EU",
+    ],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/backmarket",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/back-market",
+      },
+    ],
+  },
+  {
+    id: "basikon",
+    title: "Basikon",
+    websiteUrl: "https://www.basikon.com",
+    description:
+      "French IT consulting firm that advises companies on systems, software, and digital projects. Services include IT strategy, architecture, software design, and implementation for mid-sized and large organizations.",
+    // imageKey: "placeholder",
+    tags: [
+      "Consulting",
+      "IT Services",
+      "Software Development",
+      "Enterprise",
+      "EU",
+    ],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://basikon.welcomekit.co",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/basikon",
+      },
+    ],
+  },
+  {
+    id: "batvoiceai",
+    title: "BatvoiceAI",
+    websiteUrl: "https://www.bevoiceai.com",
+    description:
+      "AI startup focused on voice and audio technologies. Builds tools for analyzing, transcribing, or enhancing audio content using machine learning and speech-processing models.",
+    // imageKey: "placeholder",
+    tags: ["AI / Data", "Speech Tech", "SaaS", "Deep Tech", "EU"],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/bevoiceai",
+      },
+    ],
+  },
+  {
+    id: "believe",
+    title: "Believe",
+    websiteUrl: "https://www.believe.com",
+    description:
+      "Global digital music company that distributes and promotes music for independent artists and labels. Offers distribution to streaming platforms, marketing, analytics, and label services through brands like TuneCore.",
+    // imageKey: "placeholder",
+    tags: [
+      "Music Tech",
+      "Digital Distribution",
+      "SaaS",
+      "Media & Entertainment",
+      "EU",
+    ],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.believe.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/believeglobal",
+      },
+    ],
+  },
+  {
+    id: "bending_spoons",
+    title: "Bending Spoons",
+    websiteUrl: "https://bendingspoons.com",
+    description:
+      "Technology company that builds and acquires consumer mobile apps and digital products. Operates a portfolio of apps (e.g., Evernote, Remini, WeTransfer) with a shared infrastructure for growth and monetization.",
+    // imageKey: "placeholder",
+    tags: ["Mobile", "Consumer Apps", "AI / Data", "Publishing", "EU"],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.bendingspoons.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/bendingspoons",
+      },
+    ],
+  },
+  {
+    id: "binance",
+    title: "Binance",
+    websiteUrl: "https://www.binance.com",
+    description:
+      "Global cryptocurrency exchange and digital-asset platform. Enables users to trade, stake, and store cryptocurrencies, with products for spot and derivatives trading, NFTs, and yield services.",
+    // imageKey: "placeholder",
+    tags: ["FinTech", "Crypto", "Trading Platform", "B2C", "Remote-worldwide"],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.binance.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/binance",
+      },
+    ],
+  },
+  {
+    id: "bitstack",
+    title: "Bitstack",
+    websiteUrl: "https://www.bitstack-app.com",
+    description:
+      "Mobile app that makes saving and investing in Bitcoin simple. Offers recurring purchases and round-up savings on everyday spending, targeting long-term Bitcoin savers in Europe.",
+    // imageKey: "placeholder",
+    tags: ["FinTech", "Crypto", "Mobile", "Savings & Investment", "EU"],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.bitstack-app.com/en/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/bitstack-app",
+      },
+    ],
+  },
+  {
+    id: "botpress",
+    title: "Botpress",
+    websiteUrl: "https://botpress.com",
+    description:
+      "Conversational AI platform for building chatbots and AI agents. Provides tools to design, train, and deploy LLM-powered bots for customer support, lead capture, and workflow automation.",
+    // imageKey: "placeholder",
+    tags: ["AI / Data", "SaaS", "Chatbots", "Developer Tools", "EU"],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://botpress.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/botpress",
+      },
+    ],
+  },
+  {
+    id: "buildkite",
+    title: "buildkite",
+    websiteUrl: "https://buildkite.com",
+    description:
+      "Continuous integration and delivery (CI/CD) platform for software teams. Orchestrates build, test, and deployment pipelines on infrastructure companies control, used by high-scale engineering organizations.",
+    // imageKey: "placeholder",
+    tags: ["DevTools", "CI/CD", "SaaS", "Software Development", "EU"],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://buildkite.com/about/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/buildkite",
+      },
+    ],
+  },
 ];
