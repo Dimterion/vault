@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import AddActivityModal from "../features/activities/AddActivityModal";
 import {
   ACTIVITY_STATUS_COLORS,
-  type Activity,
   loadActivities,
   saveActivities,
 } from "../features/activities/data";
+import { type Activity } from "../features/activities/types";
 import { exportActivitiesCsv } from "../utils/exportCsv";
 
 const COLUMNS = [
