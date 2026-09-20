@@ -782,9 +782,10 @@ export const listings: JobListing[] = [
     id: "cadence",
     title: "Cadence",
     websiteUrl: "https://www.cadence.com",
-    description: "",
+    description:
+      "Engineering software company that provides electronic design automation (EDA) tools for designing chips, circuit boards, and complex electronic systems. Used by semiconductor and electronics companies to simulate, verify, and optimize hardware before manufacturing.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Software Development", "EDA", "Semiconductors", "Enterprise", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -800,9 +801,16 @@ export const listings: JobListing[] = [
     id: "cainiao",
     title: "Cainiao",
     websiteUrl: "https://global.cainiao.com",
-    description: "",
+    description:
+      "Global logistics and supply-chain technology company, part of Alibaba Group. Builds smart logistics networks, cross-border shipping solutions, and warehouse/last-mile technology for e-commerce merchants worldwide.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Logistics",
+      "E-commerce",
+      "Supply Chain",
+      "Platform",
+      "Remote-worldwide",
+    ],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -818,9 +826,16 @@ export const listings: JobListing[] = [
     id: "canal+",
     title: "Canal+",
     websiteUrl: "https://www.canalplusgroup.com",
-    description: "",
+    description:
+      "Global media and entertainment group operating pay-TV channels, streaming services, and production studios. Creates and distributes films, series, sports, and original content across Europe, Africa, and Asia.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Media & Entertainment",
+      "Streaming",
+      "Content Production",
+      "Enterprise",
+      "EU",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -836,9 +851,16 @@ export const listings: JobListing[] = [
     id: "canonical",
     title: "Canonical",
     websiteUrl: "https://canonical.com",
-    description: "",
+    description:
+      "Company behind the Ubuntu Linux operating system. Provides enterprise support, security updates, and management tools for Ubuntu on desktops, servers, cloud, and IoT devices, used by developers and IT teams worldwide.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Open Source",
+      "Cloud",
+      "Linux",
+      "Developer Tools",
+      "Remote-worldwide",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -854,9 +876,16 @@ export const listings: JobListing[] = [
     id: "capi",
     title: "Capi",
     websiteUrl: "https://capi.com",
-    description: "",
+    description:
+      "Fintech platform that simplifies cross-border payments for businesses in emerging markets. Enables fast, low-cost international transfers and currency exchange for importers and SMEs in Africa and beyond.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "FinTech",
+      "Payments",
+      "B2B",
+      "Emerging Markets",
+      "Remote-worldwide",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -872,9 +901,10 @@ export const listings: JobListing[] = [
     id: "cegid",
     title: "Cegid",
     websiteUrl: "https://www.cegid.com",
-    description: "",
+    description:
+      "French software publisher of cloud-based business management solutions. Offers ERP, payroll, finance, tax, and retail software for accountants, retailers, and mid-sized enterprises.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["SaaS", "ERP", "Finance", "Retail Tech", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -890,9 +920,10 @@ export const listings: JobListing[] = [
     id: "checkout.com",
     title: "Checkout.com",
     websiteUrl: "https://www.checkout.com",
-    description: "",
+    description:
+      "Global payment service provider that helps online businesses accept and manage payments. Offers payment gateway, acquiring, fraud prevention, and payout solutions through a unified API for enterprise merchants.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["FinTech", "Payments", "SaaS", "E-commerce", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -908,9 +939,10 @@ export const listings: JobListing[] = [
     id: "christy_media",
     title: "Christy Media",
     websiteUrl: "https://www.christy-media.com",
-    description: "",
+    description:
+      "Digital media and ad-tech company that operates content sites and monetizes traffic through advertising and affiliate marketing. Teams work on SEO, content strategy, programmatic ads, and revenue optimization.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Media & Entertainment", "AdTech", "SEO", "Content", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -926,9 +958,10 @@ export const listings: JobListing[] = [
     id: "clerk",
     title: "Clerk",
     websiteUrl: "https://clerk.com",
-    description: "",
+    description:
+      "E-commerce personalization platform that helps online shops increase conversions with tailored product recommendations, email capture, and behavioral targeting. Integrates with major e-commerce platforms.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["E-commerce", "MarTech", "SaaS", "Personalization", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -944,9 +977,16 @@ export const listings: JobListing[] = [
     id: "clipboard",
     title: "Clipboard",
     websiteUrl: "https://www.clipboard.com",
-    description: "",
+    description:
+      "Healthcare software company building tools for clinical documentation and care coordination. Provides digital charting, templates, and workflow automation for hospitals and medical practices.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "HealthTech",
+      "SaaS",
+      "Clinical Software",
+      "B2B",
+      "Remote-worldwide",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -959,12 +999,13 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "clipMyHorse",
+    id: "clipmyhorse",
     title: "ClipMyHorse",
     websiteUrl: "https://www.clipmyhorse.tv",
-    description: "",
+    description:
+      "Streaming platform dedicated to equestrian sports. Broadcasts live competitions, on-demand videos, and original content for horse-riding enthusiasts worldwide.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Media & Entertainment", "Streaming", "Sports", "B2C", "EU"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -976,9 +1017,16 @@ export const listings: JobListing[] = [
     id: "cloudflare",
     title: "Cloudflare",
     websiteUrl: "https://www.cloudflare.com",
-    description: "",
+    description:
+      "Web infrastructure and security company that protects and accelerates websites and applications. Provides CDN, DDoS protection, DNS, Zero Trust security, and developer platforms used by millions of sites.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Cybersecurity",
+      "Cloud",
+      "CDN",
+      "Developer Tools",
+      "Remote-worldwide",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -994,9 +1042,10 @@ export const listings: JobListing[] = [
     id: "coinspaid",
     title: "Coinspaid",
     websiteUrl: "https://coinspaid.com",
-    description: "",
+    description:
+      "Crypto payment gateway and treasury platform for online businesses. Enables merchants to accept cryptocurrencies, manage digital assets, and convert to fiat with integrated risk and compliance tools.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["FinTech", "Crypto", "Payments", "B2B", "EU"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
@@ -1012,9 +1061,16 @@ export const listings: JobListing[] = [
     id: "consensys",
     title: "Consensys",
     websiteUrl: "https://consensys.io",
-    description: "",
+    description:
+      "Blockchain software company behind MetaMask and Ethereum infrastructure tools. Builds wallets, developer platforms, and protocol clients that power decentralized applications and onchain finance.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Blockchain",
+      "Crypto",
+      "Developer Tools",
+      "Infrastructure",
+      "Remote-worldwide",
+    ],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -1023,12 +1079,19 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "constellR",
+    id: "constellr",
     title: "ConstellR",
     websiteUrl: "https://www.constellr.com",
-    description: "",
+    description:
+      "Space-tech startup building a constellation of small satellites to measure land surface temperature and other Earth-observation data. Sells analytics to agriculture, climate, and environmental sectors.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Space Tech",
+      "Earth Observation",
+      "Data & Analytics",
+      "Deep Tech",
+      "EU",
+    ],
     extraLinks: [
       {
         label: "Careers page (Greenhouse)",
@@ -1044,9 +1107,10 @@ export const listings: JobListing[] = [
     id: "contentsquare",
     title: "Contentsquare",
     websiteUrl: "https://contentsquare.com",
-    description: "",
+    description:
+      "Digital experience analytics platform that shows how users interact with websites and apps. Combines session replays, heatmaps, journey analytics, and feedback to help teams improve UX and conversions.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["MarTech", "SaaS", "Analytics", "UX", "EU"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
@@ -1062,9 +1126,10 @@ export const listings: JobListing[] = [
     id: "contractbook",
     title: "Contractbook",
     websiteUrl: "https://contractbook.com",
-    description: "",
+    description:
+      "Legal-tech platform that automates contract creation and management for companies. Provides templates, workflows, and e-signature to streamline drafting, negotiating, and storing contracts.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Legal Tech", "SaaS", "Automation", "B2B", "EU"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -1076,9 +1141,16 @@ export const listings: JobListing[] = [
     id: "converteo",
     title: "Converteo",
     websiteUrl: "https://converteo.com",
-    description: "",
+    description:
+      "Digital agency specialized in e-commerce and performance marketing. Helps brands optimize conversion rates, run paid campaigns, and improve online sales through data-driven strategies.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Digital Agency",
+      "E-commerce",
+      "MarTech",
+      "Performance Marketing",
+      "EU",
+    ],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -1094,9 +1166,10 @@ export const listings: JobListing[] = [
     id: "corma",
     title: "Corma",
     websiteUrl: "https://www.corma.io",
-    description: "",
+    description:
+      "AI productivity startup building tools to reduce distractions and help knowledge workers focus. Combines AI with workflow management to prioritize tasks and minimize context switching.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["AI / Data", "Productivity", "SaaS", "Developer Tools", "EU"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -1112,9 +1185,10 @@ export const listings: JobListing[] = [
     id: "corsearch",
     title: "Corsearch",
     websiteUrl: "https://corsearch.com",
-    description: "",
+    description:
+      "Brand protection and trademark management platform. Uses AI and expert services to monitor online channels, detect counterfeits, enforce IP rights, and manage domain portfolios for global brands.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Legal Tech", "Brand Protection", "AI / Data", "B2B", "EU"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -1130,9 +1204,10 @@ export const listings: JobListing[] = [
     id: "creative_fabrica",
     title: "Creative Fabrica",
     websiteUrl: "https://www.creativefabrica.com",
-    description: "",
+    description:
+      "Online marketplace for digital design assets like fonts, graphics, and templates. Serves designers, crafters, and creators with subscriptions and à la carte downloads for personal and commercial projects.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["E-commerce", "Marketplace", "Design", "Creator Economy", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1148,9 +1223,10 @@ export const listings: JobListing[] = [
     id: "criteo",
     title: "Criteo",
     websiteUrl: "https://www.criteo.com",
-    description: "",
+    description:
+      "Ad-tech company that powers performance advertising and retargeting campaigns. Uses AI to deliver personalized ads across the web and help retailers and brands increase online sales.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["AdTech", "MarTech", "AI / Data", "E-commerce", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1166,9 +1242,10 @@ export const listings: JobListing[] = [
     id: "cryptoNext_security",
     title: "CryptoNext Security",
     websiteUrl: "https://www.cryptonext-security.com",
-    description: "",
+    description:
+      "Cybersecurity firm specialized in quantum-safe cryptography and post-quantum security solutions. Helps organizations protect data and communications against future quantum-computing threats.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Cybersecurity", "Cryptography", "Deep Tech", "Enterprise", "EU"],
     extraLinks: [
       {
         label: "Careers page (Workable)",
