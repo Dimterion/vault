@@ -868,4 +868,316 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "cegid",
+    title: "Cegid",
+    websiteUrl: "https://www.cegid.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.cegid.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/cegid",
+      },
+    ],
+  },
+  {
+    id: "checkout.com",
+    title: "Checkout.com",
+    websiteUrl: "https://www.checkout.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.checkout.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/checkout",
+      },
+    ],
+  },
+  {
+    id: "christy_media",
+    title: "Christy Media",
+    websiteUrl: "https://www.christy-media.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.christy-media.com/job-results",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/christy-media-solutions",
+      },
+    ],
+  },
+  {
+    id: "clerk",
+    title: "Clerk",
+    websiteUrl: "https://clerk.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://clerk.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/clerkinc",
+      },
+    ],
+  },
+  {
+    id: "clipboard",
+    title: "Clipboard",
+    websiteUrl: "https://www.clipboard.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.clipboard.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/clipboard",
+      },
+    ],
+  },
+  {
+    id: "clipMyHorse",
+    title: "ClipMyHorse",
+    websiteUrl: "https://www.clipmyhorse.tv",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/clipmyhorse-tv",
+      },
+    ],
+  },
+  {
+    id: "cloudflare",
+    title: "Cloudflare",
+    websiteUrl: "https://www.cloudflare.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.cloudflare.com/careers/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/cloudflare",
+      },
+    ],
+  },
+  {
+    id: "coinspaid",
+    title: "Coinspaid",
+    websiteUrl: "https://coinspaid.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.eu.lever.co/coinspaid",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/coinspaid-com",
+      },
+    ],
+  },
+  {
+    id: "consensys",
+    title: "Consensys",
+    websiteUrl: "https://consensys.io",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/consensys-incorporated",
+      },
+    ],
+  },
+  {
+    id: "constellR",
+    title: "ConstellR",
+    websiteUrl: "https://www.constellr.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Greenhouse)",
+        url: "https://job-boards.eu.greenhouse.io/constellrgmbh",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/constellr",
+      },
+    ],
+  },
+  {
+    id: "contentsquare",
+    title: "Contentsquare",
+    websiteUrl: "https://contentsquare.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.lever.co/contentsquare",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/contentsquare",
+      },
+    ],
+  },
+  {
+    id: "contractbook",
+    title: "Contractbook",
+    websiteUrl: "https://contractbook.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/contractbook/about",
+      },
+    ],
+  },
+  {
+    id: "converteo",
+    title: "Converteo",
+    websiteUrl: "https://converteo.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://jobs.converteo.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/converteo",
+      },
+    ],
+  },
+  {
+    id: "corma",
+    title: "Corma",
+    websiteUrl: "https://www.corma.io",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://corma.welcomekit.co",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/getcorma",
+      },
+    ],
+  },
+  {
+    id: "corsearch",
+    title: "Corsearch",
+    websiteUrl: "https://corsearch.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.corsearch.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/corsearchinc",
+      },
+    ],
+  },
+  {
+    id: "creative_fabrica",
+    title: "Creative Fabrica",
+    websiteUrl: "https://www.creativefabrica.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.creativefabrica.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/creative-fabrica",
+      },
+    ],
+  },
+  {
+    id: "criteo",
+    title: "Criteo",
+    websiteUrl: "https://www.criteo.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.criteo.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/criteo",
+      },
+    ],
+  },
+  {
+    id: "cryptoNext_security",
+    title: "CryptoNext Security",
+    websiteUrl: "https://www.cryptonext-security.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workable)",
+        url: "https://apply.workable.com/cryptonext-security",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/cryptonext-security",
+      },
+    ],
+  },
 ];
