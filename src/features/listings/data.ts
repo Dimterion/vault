@@ -1261,9 +1261,10 @@ export const listings: JobListing[] = [
     id: "dailymotion",
     title: "Dailymotion",
     websiteUrl: "https://www.dailymotion.com",
-    description: "",
+    description:
+      "Video hosting and streaming platform where users can upload, share, and watch videos. Offers ad-supported content and programmatic video advertising for publishers and brands.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Media & Entertainment", "Video", "AdTech", "Platform", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1279,9 +1280,10 @@ export const listings: JobListing[] = [
     id: "dash0",
     title: "Dash0",
     websiteUrl: "https://www.dash0.com",
-    description: "",
+    description:
+      "Observability platform built on OpenTelemetry for monitoring logs, metrics, and traces. Helps engineering teams detect issues, analyze performance, and automate incident response across cloud and AI systems.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["DevTools", "Observability", "SaaS", "Cloud", "EU"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -1297,9 +1299,10 @@ export const listings: JobListing[] = [
     id: "dashdoc",
     title: "Dashdoc",
     websiteUrl: "https://www.dashdoc.com",
-    description: "",
+    description:
+      "Healthtech startup building digital care pathway and patient engagement tools. Helps clinics and hospitals coordinate care, collect patient-reported outcomes, and improve treatment adherence.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["HealthTech", "SaaS", "Care Coordination", "B2B", "EU"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -1315,9 +1318,10 @@ export const listings: JobListing[] = [
     id: "dashlane",
     title: "Dashlane",
     websiteUrl: "https://www.dashlane.com",
-    description: "",
+    description:
+      "Password manager and digital identity platform for consumers and businesses. Stores passwords, passkeys, and personal data securely, with breach alerts and autofill across devices.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Cybersecurity", "SaaS", "Identity", "B2C", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1333,9 +1337,10 @@ export const listings: JobListing[] = [
     id: "dassault_systèmes",
     title: "Dassault Systèmes",
     websiteUrl: "https://www.3ds.com",
-    description: "",
+    description:
+      "Software company behind 3D design, simulation, and product lifecycle management (PLM) solutions. Provides the 3DEXPERIENCE platform used in aerospace, automotive, life sciences, and manufacturing.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Software Development", "3D Design", "PLM", "Enterprise", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1351,9 +1356,10 @@ export const listings: JobListing[] = [
     id: "datadog",
     title: "Datadog",
     websiteUrl: "https://www.datadoghq.com",
-    description: "",
+    description:
+      "Cloud monitoring and analytics platform for applications, infrastructure, and logs. Provides dashboards, alerts, and tracing to help engineering teams detect and fix performance issues.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["DevTools", "Observability", "SaaS", "Cloud", "Remote-worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1369,9 +1375,10 @@ export const listings: JobListing[] = [
     id: "datagalaxy",
     title: "DataGalaxy",
     websiteUrl: "https://www.datagalaxy.com",
-    description: "",
+    description:
+      "Data catalog and governance platform that maps metadata, lineage, and business definitions. Helps organizations discover, understand, and trust their data assets across teams.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Data & Analytics", "Data Governance", "SaaS", "Enterprise", "EU"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -1387,9 +1394,10 @@ export const listings: JobListing[] = [
     id: "dataiku",
     title: "Dataiku",
     websiteUrl: "https://www.dataiku.com",
-    description: "",
+    description:
+      "Enterprise AI and data science platform (Data Science Studio) for building, deploying, and governing analytics and machine learning projects. Supports code and no-code workflows for mixed teams.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["AI / Data", "SaaS", "Machine Learning", "Enterprise", "EU"],
     extraLinks: [
       {
         label: "Careers page (Greenhouse)",
@@ -1405,9 +1413,10 @@ export const listings: JobListing[] = [
     id: "deca_games",
     title: "DECA Games",
     websiteUrl: "https://decagames.com",
-    description: "",
+    description:
+      "Mobile gaming company that acquires, operates, and grows live-service games. Works with external studios on user acquisition, monetization, product management, and live operations.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Gaming", "Mobile", "Publishing", "User Acquisition", "EU"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -1419,9 +1428,10 @@ export const listings: JobListing[] = [
     id: "dedalus",
     title: "Dedalus",
     websiteUrl: "https://www.dedalus.com",
-    description: "",
+    description:
+      "Healthcare IT company providing electronic health records, laboratory systems, and diagnostic software for hospitals and care networks. Focuses on clinical workflows and interoperability across care settings.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["HealthTech", "EHR", "Software Development", "Enterprise", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1437,9 +1447,10 @@ export const listings: JobListing[] = [
     id: "deel",
     title: "Deel",
     websiteUrl: "https://www.deel.com",
-    description: "",
+    description:
+      "Global HR and payroll platform for hiring and paying employees and contractors in many countries. Offers employer-of-record, payroll, benefits, and HRIS tools for remote and international teams.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["HR Tech", "Payroll", "SaaS", "Remote", "Remote-worldwide"],
     extraLinks: [
       {
         label: "Careers page",
