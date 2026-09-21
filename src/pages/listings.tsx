@@ -25,7 +25,7 @@ export default function ListingsPage() {
       style={{ backgroundColor: colors.background }}
     >
       <div className="mx-auto max-w-3xl">
-        <header className="mb-5">
+        <header className="relative mb-5">
           <h1
             className="mb-2 text-3xl font-bold"
             style={{ color: colors.textPrimary }}
@@ -43,13 +43,26 @@ export default function ListingsPage() {
             placeholder="Search jobs..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="mt-4 w-full rounded-xl border px-4 py-3 text-[15px] transition outline-none focus:ring-2 focus:ring-offset-2"
+            className="mt-4 w-full rounded-xl border px-4 py-3 pr-10 text-[15px] transition outline-none focus:ring-2 focus:ring-offset-2"
             style={{
               backgroundColor: "#ffffff",
               borderColor: "#e5e7eb",
               color: "#111827",
             }}
           />
+          <button
+            type="button"
+            className={`absolute right-3 bottom-3 ${
+              searchQuery
+                ? "cursor-pointer text-gray-500 hover:text-gray-700"
+                : "pointer-events-none text-gray-300"
+            }`}
+            onClick={() => setSearchQuery("")}
+            aria-label="Clear search"
+            disabled={!searchQuery}
+          >
+            ✕
+          </button>
         </header>
 
         {filteredListings.length > 0 ? (
