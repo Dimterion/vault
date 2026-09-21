@@ -362,7 +362,7 @@ export const listings: JobListing[] = [
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
-        url: "https://www.welcometothejungle.com/fr/companies-v1/alma/jobs",
+        url: "https://www.welcometothejungle.com/companies-v1/alma/jobs",
       },
       {
         label: "LinkedIn",
@@ -1254,6 +1254,200 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/cryptonext-security",
+      },
+    ],
+  },
+  {
+    id: "dailymotion",
+    title: "Dailymotion",
+    websiteUrl: "https://www.dailymotion.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.dailymotion.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/dailymotion",
+      },
+    ],
+  },
+  {
+    id: "dash0",
+    title: "Dash0",
+    websiteUrl: "https://www.dash0.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/dash0",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/dash0hq",
+      },
+    ],
+  },
+  {
+    id: "dashdoc",
+    title: "Dashdoc",
+    websiteUrl: "https://www.dashdoc.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/dashdoc/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/dashdoc-eu",
+      },
+    ],
+  },
+  {
+    id: "dashlane",
+    title: "Dashlane",
+    websiteUrl: "https://www.dashlane.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.dashlane.com/about/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/dashlane",
+      },
+    ],
+  },
+  {
+    id: "dassault_systèmes",
+    title: "Dassault Systèmes",
+    websiteUrl: "https://www.3ds.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.3ds.com/careers/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/dassaultsystemes",
+      },
+    ],
+  },
+  {
+    id: "datadog",
+    title: "Datadog",
+    websiteUrl: "https://www.datadoghq.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.datadoghq.com/all-jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/datadog",
+      },
+    ],
+  },
+  {
+    id: "datagalaxy",
+    title: "DataGalaxy",
+    websiteUrl: "https://www.datagalaxy.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/datagalaxy/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/datagalaxy",
+      },
+    ],
+  },
+  {
+    id: "dataiku",
+    title: "Dataiku",
+    websiteUrl: "https://www.dataiku.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Greenhouse)",
+        url: "https://job-boards.greenhouse.io/dataiku",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/dataiku",
+      },
+    ],
+  },
+  {
+    id: "deca_games",
+    title: "DECA Games",
+    websiteUrl: "https://decagames.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/deca-games",
+      },
+    ],
+  },
+  {
+    id: "dedalus",
+    title: "Dedalus",
+    websiteUrl: "https://www.dedalus.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.dedalus.com/global/working-at-dedalus/our-job-offers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/dedalus-group",
+      },
+    ],
+  },
+  {
+    id: "deel",
+    title: "Deel",
+    websiteUrl: "https://www.deel.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.deel.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/deel",
       },
     ],
   },
