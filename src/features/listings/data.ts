@@ -1462,4 +1462,198 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "deezer",
+    title: "Deezer",
+    websiteUrl: "https://www.deezer.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.deezerjobs.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/deezer",
+      },
+    ],
+  },
+  {
+    id: "deloitte",
+    title: "Deloitte",
+    websiteUrl: "https://www.deloitte.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.deloitte.com/global/en/careers/job-search.html",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/deloitte",
+      },
+    ],
+  },
+  {
+    id: "descartes_&_mauss_verra",
+    title: "Descartes & Mauss (Verra)",
+    websiteUrl: "https://verra.work",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/descartes-mauss/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/verra-work",
+      },
+    ],
+  },
+  {
+    id: "descartes_underwriting",
+    title: "Descartes Underwriting",
+    websiteUrl: "https://descartesunderwriting.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://descartesunderwriting.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/descartesunderwriting",
+      },
+    ],
+  },
+  {
+    id: "diduenjoy",
+    title: "Diduenjoy",
+    websiteUrl: "https://www.diduenjoy.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/diduenjoy/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/diduenjoy",
+      },
+    ],
+  },
+  {
+    id: "digisap-Solutions",
+    title: "Digisap Solutions",
+    websiteUrl: "https://www.digisap-solutions.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://digisapsolutions.teamtailor.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/digisap-solutions",
+      },
+    ],
+  },
+  {
+    id: "disruptive_games",
+    title: "Disruptive Games",
+    websiteUrl: "https://www.disruptivegames.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/disruptive-games",
+      },
+    ],
+  },
+  {
+    id: "distribusion",
+    title: "Distribusion",
+    websiteUrl: "https://www.distribusion.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.distribusion.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/distribusion",
+      },
+    ],
+  },
+  {
+    id: "doctrine",
+    title: "Doctrine",
+    websiteUrl: "https://www.doctrine.fr",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.doctrine.fr/recrutement",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/doctrine",
+      },
+    ],
+  },
+  {
+    id: "doubleVerify",
+    title: "DoubleVerify",
+    websiteUrl: "https://doubleverify.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://doubleverify.com/en/company/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/doubleverify-inc",
+      },
+    ],
+  },
+  {
+    id: "dust",
+    title: "Dust",
+    websiteUrl: "https://dust.tt",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/dust",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/dust-tt",
+      },
+    ],
+  },
 ];
