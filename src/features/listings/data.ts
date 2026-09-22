@@ -1466,9 +1466,10 @@ export const listings: JobListing[] = [
     id: "deezer",
     title: "Deezer",
     websiteUrl: "https://www.deezer.com",
-    description: "",
+    description:
+      "Music streaming service offering on-demand access to a large catalog of songs, albums, playlists, and podcasts. Provides subscription plans for consumers and family, plus ad-supported tiers and artist tools.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Media & Entertainment", "Music Tech", "Streaming", "B2C", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1484,9 +1485,16 @@ export const listings: JobListing[] = [
     id: "deloitte",
     title: "Deloitte",
     websiteUrl: "https://www.deloitte.com",
-    description: "",
+    description:
+      "Global professional services firm offering audit, consulting, tax, and advisory services. Helps large organizations with strategy, technology implementation, operations, risk, and M&A projects.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Consulting",
+      "Audit",
+      "Financial Advisory",
+      "Enterprise",
+      "Remote-worldwide",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -1502,9 +1510,10 @@ export const listings: JobListing[] = [
     id: "descartes_&_mauss_verra",
     title: "Descartes & Mauss (Verra)",
     websiteUrl: "https://verra.work",
-    description: "",
+    description:
+      "Strategy-tech startup building an AI-powered assistant for strategic decision-making. Analyzes market signals and internal data to help leadership teams identify opportunities and model long-term scenarios.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["AI / Data", "Consulting", "Strategy", "B2B", "EU"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -1520,9 +1529,10 @@ export const listings: JobListing[] = [
     id: "descartes_underwriting",
     title: "Descartes Underwriting",
     websiteUrl: "https://descartesunderwriting.com",
-    description: "",
+    description:
+      "Insurtech specializing in parametric insurance for climate, cyber, and emerging risks. Uses data, AI, and climate science to design policies that pay out automatically when predefined triggers (e.g., wind speed, rainfall) are met.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["InsurTech", "Climate Tech", "Data & Analytics", "B2B", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1538,9 +1548,10 @@ export const listings: JobListing[] = [
     id: "diduenjoy",
     title: "Diduenjoy",
     websiteUrl: "https://www.diduenjoy.com",
-    description: "",
+    description:
+      "Customer feedback and voice-of-customer platform. Collects surveys, reviews, and social signals, then uses AI to analyze sentiment and surface actionable insights for product, marketing, and support teams.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["MarTech", "SaaS", "Customer Feedback", "AI / Data", "EU"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -1556,9 +1567,16 @@ export const listings: JobListing[] = [
     id: "digisap-Solutions",
     title: "Digisap Solutions",
     websiteUrl: "https://www.digisap-solutions.com",
-    description: "",
+    description:
+      "IT services and consulting company delivering software development, integration, and support projects. Works with clients on custom applications, modernization, and managed services.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "IT Services",
+      "Software Development",
+      "Consulting",
+      "Enterprise",
+      "EU",
+    ],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -1574,9 +1592,10 @@ export const listings: JobListing[] = [
     id: "disruptive_games",
     title: "Disruptive Games",
     websiteUrl: "https://www.disruptivegames.com",
-    description: "",
+    description:
+      "Independent game development studio founded by industry veterans. Builds online and multiplayer games, providing design, engineering, live-ops, and backend services for partners and original titles.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Gaming", "Game Development", "Multiplayer", "Entertainment", "EU"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -1588,9 +1607,10 @@ export const listings: JobListing[] = [
     id: "distribusion",
     title: "Distribusion",
     websiteUrl: "https://www.distribusion.com",
-    description: "",
+    description:
+      "Ground-transportation technology platform connecting rail, bus, ferry, and airport-transfer operators with travel retailers. Provides APIs and booking tools for search, pricing, and ticketing across multiple carriers.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Travel Tech", "Transportation", "API", "B2B", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1606,9 +1626,10 @@ export const listings: JobListing[] = [
     id: "doctrine",
     title: "Doctrine",
     websiteUrl: "https://www.doctrine.fr",
-    description: "",
+    description:
+      "Legal-tech platform offering AI-powered legal research, document analysis, and drafting tools. Aggregates court decisions and legal texts to help lawyers and legal departments work faster and more accurately.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Legal Tech", "AI / Data", "SaaS", "B2B", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1624,9 +1645,10 @@ export const listings: JobListing[] = [
     id: "doubleVerify",
     title: "DoubleVerify",
     websiteUrl: "https://doubleverify.com",
-    description: "",
+    description:
+      "Digital advertising verification platform that measures ad viewability, fraud, brand safety, and attention. Helps advertisers and agencies ensure ads are seen by real users in suitable environments.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["AdTech", "Measurement", "SaaS", "B2B", "Remote-worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1642,9 +1664,10 @@ export const listings: JobListing[] = [
     id: "dust",
     title: "Dust",
     websiteUrl: "https://dust.tt",
-    description: "",
+    description:
+      "Enterprise AI platform for building and deploying AI agents that connect to company data and tools. Enables teams to automate workflows across apps like Notion, Slack, and Salesforce with shared, governed agents.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["AI / Data", "SaaS", "Enterprise AI", "Automation", "EU"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
