@@ -30,17 +30,16 @@ export default function ListingsPage() {
             className="mb-2 text-3xl font-bold"
             style={{ color: colors.textPrimary }}
           >
-            Job Listings
+            Job Listings ({filteredListings.length})
           </h1>
 
           <p className="text-base leading-6" style={{ color: "#4b5563" }}>
-            Explore different job search listings and learn what each one can
-            offer.
+            Explore different companies and their potential career options.
           </p>
 
           <input
             type="text"
-            placeholder="Search jobs..."
+            placeholder="Search companies..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="mt-4 w-full rounded-xl border px-4 py-3 pr-10 text-[15px] transition outline-none focus:ring-2 focus:ring-offset-2"
@@ -74,7 +73,7 @@ export default function ListingsPage() {
         ) : (
           <div className="py-12 text-center">
             <p className="text-base" style={{ color: "#6b7280" }}>
-              No listings found
+              No listings found.
             </p>
           </div>
         )}

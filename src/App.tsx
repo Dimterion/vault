@@ -10,6 +10,7 @@ import AboutPage from "./pages/about";
 import NotFoundPage from "./pages/notFound";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
+        <ScrollToTop />
       </main>
       <Footer />
     </>
