@@ -760,6 +760,24 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "brevo",
+    title: "Brevo",
+    websiteUrl: "https://www.brevo.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.brevo.com/careers/open-positions",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/brevo",
+      },
+    ],
+  },
+  {
     id: "buildkite",
     title: "Buildkite",
     websiteUrl: "https://buildkite.com",
@@ -1564,7 +1582,7 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "digisap-Solutions",
+    id: "digisap-solutions",
     title: "Digisap Solutions",
     websiteUrl: "https://www.digisap-solutions.com",
     description:
@@ -1676,6 +1694,186 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/dust-tt",
+      },
+    ],
+  },
+  {
+    id: "ekimetrics",
+    title: "Ekimetrics",
+    websiteUrl: "https://www.ekimetrics.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.lever.co/ekimetrics",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ekimetrics",
+      },
+    ],
+  },
+  {
+    id: "elevenlabs",
+    title: "ElevenLabs",
+    websiteUrl: "https://elevenlabs.io",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://elevenlabs.io/careers/positions",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/elevenlabs",
+      },
+    ],
+  },
+  {
+    id: "enapi",
+    title: "ENAPI",
+    websiteUrl: "https://enapi.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://enapi.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/enapi",
+      },
+    ],
+  },
+  {
+    id: "eneba",
+    title: "Eneba",
+    websiteUrl: "https://www.eneba.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/eneba",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/enebagames",
+      },
+    ],
+  },
+  {
+    id: "ensol",
+    title: "Ensol",
+    websiteUrl: "https://www.goensol.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/ensol/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ensol-solaire",
+      },
+    ],
+  },
+  {
+    id: "equativ",
+    title: "Equativ",
+    websiteUrl: "https://www.equativ.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.lever.co/equativ",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/equativ",
+      },
+    ],
+  },
+  {
+    id: "escape_velocity_entertainment",
+    title: "Escape Velocity Entertainment",
+    websiteUrl: "https://eve.games",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://eve.games/home/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/escape-velocity-entertainment",
+      },
+    ],
+  },
+  {
+    id: "euroclear",
+    title: "Euroclear",
+    websiteUrl: "https://www.euroclear.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.euroclear.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/euroclear",
+      },
+    ],
+  },
+  {
+    id: "euronext",
+    title: "Euronext",
+    websiteUrl: "https://www.euronext.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.euronext.com/about/careers/open-positions",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/euronext",
+      },
+    ],
+  },
+  {
+    id: "extia",
+    title: "Extia",
+    websiteUrl: "https://www.extia-group.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.extia-group.com/join-us",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/extia",
       },
     ],
   },
