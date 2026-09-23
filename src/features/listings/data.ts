@@ -763,9 +763,10 @@ export const listings: JobListing[] = [
     id: "brevo",
     title: "Brevo",
     websiteUrl: "https://www.brevo.com",
-    description: "",
+    description:
+      "Cloud marketing platform (formerly Sendinblue) for email, SMS, and marketing automation. Provides tools for campaigns, transactional messages, CRM, landing pages, and chat to help businesses manage customer communication.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["MarTech", "SaaS", "Email Marketing", "CRM", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1701,9 +1702,16 @@ export const listings: JobListing[] = [
     id: "ekimetrics",
     title: "Ekimetrics",
     websiteUrl: "https://www.ekimetrics.com",
-    description: "",
+    description:
+      "Data science and AI consulting firm helping companies optimize marketing, pricing, and operations. Builds custom analytics solutions, marketing mix models, and decision tools combining data, business strategy, and sustainability.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Consulting",
+      "Data & Analytics",
+      "AI / Data",
+      "Marketing Analytics",
+      "EU",
+    ],
     extraLinks: [
       {
         label: "Careers page (Lever)",
@@ -1719,9 +1727,16 @@ export const listings: JobListing[] = [
     id: "elevenlabs",
     title: "ElevenLabs",
     websiteUrl: "https://elevenlabs.io",
-    description: "",
+    description:
+      "AI voice research and product company. Provides text-to-speech, voice cloning, dubbing, and conversational voice agents used by creators, developers, and enterprises for content, customer support, and interactive experiences.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "AI / Data",
+      "Speech Tech",
+      "SaaS",
+      "Developer Tools",
+      "Remote-worldwide",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -1737,9 +1752,10 @@ export const listings: JobListing[] = [
     id: "enapi",
     title: "ENAPI",
     websiteUrl: "https://enapi.com",
-    description: "",
+    description:
+      "EV charging infrastructure platform providing roaming and clearing services between charge-point operators and e-mobility apps. Implements OCPI standards to enable cross-network charging and settlement across Europe.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["CleanTech", "EV Charging", "API", "Infrastructure", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1755,9 +1771,10 @@ export const listings: JobListing[] = [
     id: "eneba",
     title: "Eneba",
     websiteUrl: "https://www.eneba.com",
-    description: "",
+    description:
+      "Digital marketplace for video game keys, gift cards, and in-game content. Connects gamers with verified sellers offering PC, console, and subscription products at competitive prices.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["E-commerce", "Gaming", "Marketplace", "B2C", "EU"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -1773,9 +1790,10 @@ export const listings: JobListing[] = [
     id: "ensol",
     title: "Ensol",
     websiteUrl: "https://www.goensol.com",
-    description: "",
+    description:
+      "Residential solar and home energy company offering solar panels, batteries, EV chargers, and heat pumps. Provides end-to-end installation and an app to monitor and optimize energy production and consumption.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["CleanTech", "Solar", "Energy", "Hardware & Software", "EU"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -1791,9 +1809,10 @@ export const listings: JobListing[] = [
     id: "equativ",
     title: "Equativ",
     websiteUrl: "https://www.equativ.com",
-    description: "",
+    description:
+      "Independent adtech platform offering an ad server, SSP, and DSP for publishers and advertisers. Supports programmatic and direct deals across display, video, and connected TV with a focus on transparency and performance.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["AdTech", "Programmatic", "SaaS", "Video & CTV", "EU"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
@@ -1809,9 +1828,16 @@ export const listings: JobListing[] = [
     id: "escape_velocity_entertainment",
     title: "Escape Velocity Entertainment",
     websiteUrl: "https://eve.games",
-    description: "",
+    description:
+      "Independent game development studio creating new genres with inclusive, accessible gameplay. Builds multiplayer and competitive titles designed for players of all skill levels and backgrounds.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Gaming",
+      "Game Development",
+      "Multiplayer",
+      "Entertainment",
+      "Remote-worldwide",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -1827,9 +1853,16 @@ export const listings: JobListing[] = [
     id: "euroclear",
     title: "Euroclear",
     websiteUrl: "https://www.euroclear.com",
-    description: "",
+    description:
+      "Financial market infrastructure providing settlement, custody, and post-trade services for bonds, equities, funds, and derivatives. Operates central securities depositories and clearing systems across multiple European markets.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Financial Services",
+      "Market Infrastructure",
+      "Securities",
+      "Enterprise",
+      "EU",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -1845,9 +1878,16 @@ export const listings: JobListing[] = [
     id: "euronext",
     title: "Euronext",
     websiteUrl: "https://www.euronext.com",
-    description: "",
+    description:
+      "Leading European stock exchange operator running regulated markets in multiple countries. Provides listing, trading, clearing, and settlement for equities, bonds, derivatives, commodities, and indices such as the CAC 40 and AEX.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Financial Services",
+      "Stock Exchange",
+      "Capital Markets",
+      "Enterprise",
+      "EU",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -1863,9 +1903,16 @@ export const listings: JobListing[] = [
     id: "extia",
     title: "Extia",
     websiteUrl: "https://www.extia-group.com",
-    description: "",
+    description:
+      "IT and digital consulting firm placing consultants in client teams across sectors like finance, telecom, energy, and retail. Supports projects in development, infrastructure, data, cybersecurity, and agile transformation.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "IT Services",
+      "Consulting",
+      "Software Development",
+      "Enterprise",
+      "EU",
+    ],
     extraLinks: [
       {
         label: "Careers page",
