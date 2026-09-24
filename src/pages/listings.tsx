@@ -1,23 +1,45 @@
+import { useState, useMemo } from "react";
 import ListingCard from "../features/listings/ListingCard";
 import { colors } from "../constants/colors";
 import { listings } from "../features/listings/data";
-import { useState } from "react";
 
 export default function ListingsPage() {
   const [searchQuery, setSearchQuery] = useState("");
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+
+  const allTags = useMemo(() => {
+    const tagsSet = new Set<string>();
+    listings.forEach((listing) => {
+      listing.tags?.forEach((tag) => tagsSet.add(tag));
+    });
+    return Array.from(tagsSet).sort();
+  }, []);
 
   const filteredListings = listings.filter((item) => {
     const query = searchQuery.toLowerCase().trim();
-    if (!query) return true;
+    const matchesSearch =
+      !query ||
+      item.title.toLowerCase().includes(query) ||
+      item.description.toLowerCase().includes(query) ||
+      item.tags?.some((tag) => tag.toLowerCase().includes(query));
 
-    const titleMatch = item.title.toLowerCase().includes(query);
-    const descriptionMatch = item.description.toLowerCase().includes(query);
-    const tagsMatch = item.tags?.some((tag) =>
-      tag.toLowerCase().includes(query),
-    );
+    const matchesTags =
+      selectedTags.length === 0 ||
+      selectedTags.every((tag) => item.tags?.includes(tag));
 
-    return titleMatch || descriptionMatch || tagsMatch;
+    return matchesSearch && matchesTags;
   });
+
+  const toggleTag = (tag: string) => {
+    setSelectedTags((prev) =>
+      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag],
+    );
+  };
+
+  const clearFilters = () => {
+    setSelectedTags([]);
+    setSearchQuery("");
+  };
 
   return (
     <div
@@ -63,6 +85,46 @@ export default function ListingsPage() {
             ✕
           </button>
         </header>
+
+        {/* Tag Filters */}
+        {allTags.length > 0 && (
+          <div className="mb-6">
+            <div className="mb-3 flex items-center justify-between">
+              <h2
+                className="text-sm font-semibold"
+                style={{ color: colors.textPrimary }}
+              >
+                Filter by tags
+              </h2>
+              {(selectedTags.length > 0 || searchQuery) && (
+                <button
+                  onClick={clearFilters}
+                  className="text-sm font-medium text-blue-600 hover:text-blue-700 hover:underline"
+                >
+                  Clear all filters
+                </button>
+              )}
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {allTags.map((tag) => {
+                const isSelected = selectedTags.includes(tag);
+                return (
+                  <button
+                    key={tag}
+                    onClick={() => toggleTag(tag)}
+                    className={`cursor-pointer rounded-full px-3 py-1.5 text-[13px] font-semibold transition ${
+                      isSelected
+                        ? "bg-blue-600 text-white"
+                        : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                    }`}
+                  >
+                    {tag}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
 
         {filteredListings.length > 0 ? (
           <div className="flex flex-col gap-4">
