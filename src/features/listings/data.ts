@@ -1924,4 +1924,220 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "fairly_made",
+    title: "Fairly Made",
+    websiteUrl: "https://www.fairlymade.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.fairlymade.com/career",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/fairly-made",
+      },
+    ],
+  },
+  {
+    id: "figma",
+    title: "Figma",
+    websiteUrl: "https://www.figma.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.figma.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/figma",
+      },
+    ],
+  },
+  {
+    id: "fingerprint",
+    title: "Fingerprint",
+    websiteUrl: "https://fingerprint.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://fingerprint.com/careers/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/fingerprintjs",
+      },
+    ],
+  },
+  {
+    id: "flexai",
+    title: "FlexAI",
+    websiteUrl: "https://flex.ai",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://flex.ai/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/flexaihq",
+      },
+    ],
+  },
+  {
+    id: "flowdesk",
+    title: "Flowdesk",
+    websiteUrl: "https://flowdesk.co",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.flowdesk.co/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/flowdesk-france",
+      },
+    ],
+  },
+  {
+    id: "fluence_cloud",
+    title: "Fluence Cloud",
+    websiteUrl: "https://fluence.ai",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://cloudless.dev/join",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/fluence-cloud",
+      },
+    ],
+  },
+  {
+    id: "forgotten_empires",
+    title: "Forgotten Empires",
+    websiteUrl: "https://www.forgottenempires.net",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workable)",
+        url: "https://apply.workable.com/forgotten-empires",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/forgotten-empires",
+      },
+    ],
+  },
+  {
+    id: "fountain",
+    title: "Fountain",
+    websiteUrl: "https://www.fountain.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://fountain.scalis.ai/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/fountaininc",
+      },
+    ],
+  },
+  {
+    id: "front",
+    title: "Front",
+    websiteUrl: "https://front.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://front.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/fronthq",
+      },
+    ],
+  },
+  {
+    id: "gameloft",
+    title: "Gameloft",
+    websiteUrl: "https://www.gameloft.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.gameloft.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/gameloft",
+      },
+    ],
+  },
+  {
+    id: "gandi",
+    title: "Gandi",
+    websiteUrl: "https://www.gandi.net",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Taleez)",
+        url: "https://gandi.taleez.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/gandi",
+      },
+    ],
+  },
+  {
+    id: "ge_healthcare",
+    title: "GE HealthCare",
+    websiteUrl: "https://www.gehealthcare.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.gehealthcare.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/gehealthcare",
+      },
+    ],
+  },
 ];
