@@ -5,6 +5,7 @@ import { listings } from "../features/listings/data";
 
 export default function ListingsPage() {
   const [searchQuery, setSearchQuery] = useState("");
+  const [showTags, setShowTags] = useState(false);
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
 
   const allTags = useMemo(() => {
@@ -90,12 +91,35 @@ export default function ListingsPage() {
         {allTags.length > 0 && (
           <div className="mb-6">
             <div className="mb-3 flex items-center justify-between">
-              <h2
-                className="text-sm font-semibold"
-                style={{ color: colors.textPrimary }}
+              <button
+                className="flex items-center gap-2 rounded-xl border border-blue-600 bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700"
+                onClick={() => setShowTags(!showTags)}
+                aria-expanded={showTags}
+                aria-controls="tag-filters"
               >
-                Filter by tags
-              </h2>
+                <span>
+                  Filter by tags
+                  {selectedTags.length > 0 && (
+                    <span className="ml-1 rounded-full bg-white/20 px-2 py-0.5 text-xs">
+                      {selectedTags.length}
+                    </span>
+                  )}
+                </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className={`transform transition-transform ${showTags ? "rotate-180" : ""}`}
+                >
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
               {(selectedTags.length > 0 || searchQuery) && (
                 <button
                   onClick={clearFilters}
@@ -105,24 +129,28 @@ export default function ListingsPage() {
                 </button>
               )}
             </div>
-            <div className="flex flex-wrap gap-2">
-              {allTags.map((tag) => {
-                const isSelected = selectedTags.includes(tag);
-                return (
-                  <button
-                    key={tag}
-                    onClick={() => toggleTag(tag)}
-                    className={`cursor-pointer rounded-full px-3 py-1.5 text-[13px] font-semibold transition ${
-                      isSelected
-                        ? "bg-blue-600 text-white"
-                        : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-                    }`}
-                  >
-                    {tag}
-                  </button>
-                );
-              })}
-            </div>
+
+            {showTags && (
+              <div id="tag-filters" className="flex flex-wrap gap-2">
+                {allTags.map((tag) => {
+                  const isSelected = selectedTags.includes(tag);
+                  return (
+                    <button
+                      key={tag}
+                      onClick={() => toggleTag(tag)}
+                      className={`rounded-full px-3 py-1.5 text-[13px] font-semibold transition ${
+                        isSelected
+                          ? "bg-blue-600 text-white"
+                          : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                      }`}
+                      aria-pressed={isSelected}
+                    >
+                      {tag}
+                    </button>
+                  );
+                })}
+              </div>
+            )}
           </div>
         )}
 
