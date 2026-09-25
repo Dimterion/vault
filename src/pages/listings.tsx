@@ -92,7 +92,7 @@ export default function ListingsPage() {
           <div className="mb-6">
             <div className="mb-3 flex items-center justify-between">
               <button
-                className="flex items-center gap-2 rounded-xl border border-blue-600 bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700"
+                className="flex cursor-pointer items-center gap-2 rounded-xl border border-blue-600 bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700"
                 onClick={() => setShowTags(!showTags)}
                 aria-expanded={showTags}
                 aria-controls="tag-filters"
@@ -123,7 +123,7 @@ export default function ListingsPage() {
               {(selectedTags.length > 0 || searchQuery) && (
                 <button
                   onClick={clearFilters}
-                  className="text-sm font-medium text-blue-600 hover:text-blue-700 hover:underline"
+                  className="cursor-pointer text-sm font-medium text-blue-600 hover:text-blue-700 hover:underline"
                 >
                   Clear all filters
                 </button>
@@ -138,7 +138,7 @@ export default function ListingsPage() {
                     <button
                       key={tag}
                       onClick={() => toggleTag(tag)}
-                      className={`rounded-full px-3 py-1.5 text-[13px] font-semibold transition ${
+                      className={`cursor-pointer rounded-full px-3 py-1.5 text-[13px] font-semibold transition ${
                         isSelected
                           ? "bg-blue-600 text-white"
                           : "bg-gray-200 text-gray-700 hover:bg-gray-300"
