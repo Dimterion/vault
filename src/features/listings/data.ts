@@ -2182,4 +2182,450 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "gentis",
+    title: "Gentis",
+    websiteUrl: "https://www.gentis.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.gentis.com/vacancies/list/1",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/gentis-group",
+      },
+    ],
+  },
+  {
+    id: "gestimum",
+    title: "Gestimum",
+    websiteUrl: "https://www.gestimum.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.gestimum.com/recrutement",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/gestimum",
+      },
+    ],
+  },
+  {
+    id: "getvocal_ai",
+    title: "GetVocal AI",
+    websiteUrl: "https://www.getvocal.ai",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workable)",
+        url: "https://apply.workable.com/getvocal-ai",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/getvocal",
+      },
+    ],
+  },
+  {
+    id: "gitguardian",
+    title: "GitGuardian",
+    websiteUrl: "https://www.gitguardian.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.gitguardian.com/job-openings",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/gitguardian",
+      },
+    ],
+  },
+  {
+    id: "gitlab",
+    title: "GitLab",
+    websiteUrl: "https://about.gitlab.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://about.gitlab.com/jobs/all-jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/gitlab-com",
+      },
+    ],
+  },
+  {
+    id: "gladia",
+    title: "Gladia",
+    websiteUrl: "https://www.gladia.io",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/gladia/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/gladia-io",
+      },
+    ],
+  },
+  {
+    id: "glera_games",
+    title: "Glera Games",
+    websiteUrl: "https://www.glera-games.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://glera-games.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/gleragames",
+      },
+    ],
+  },
+  {
+    id: "graphmytech",
+    title: "GraphMyTech",
+    websiteUrl: "https://www.graphmytech.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.graphmytech.com/nous-recrutons",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/graphmytech",
+      },
+    ],
+  },
+  {
+    id: "greenly",
+    title: "Greenly",
+    websiteUrl: "https://greenly.earth",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.greenly.earth/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/greenly-earth",
+      },
+    ],
+  },
+  {
+    id: "greenspark",
+    title: "Greenspark",
+    websiteUrl: "https://www.getgreenspark.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Notion)",
+        url: "https://getgreenspark.notion.site/Join-our-team-at-Greenspark-a3a1148f7d034ce2b09229090d44977b",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/get-greenspark",
+      },
+    ],
+  },
+  {
+    id: "groupe_bpce",
+    title: "Groupe BPCE",
+    websiteUrl: "https://www.groupebpce.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://recrutement.bpce.fr/offres-emploi",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/bpce",
+      },
+    ],
+  },
+  {
+    id: "h_company",
+    title: "H Company",
+    websiteUrl: "https://hcompany.ai",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/hcompany",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/h-company-ai",
+      },
+    ],
+  },
+  {
+    id: "harfanglab",
+    title: "HarfangLab",
+    websiteUrl: "https://harfanglab.io",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://harfanglab-1666711819.teamtailor.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/harfanglab",
+      },
+    ],
+  },
+  {
+    id: "harvest",
+    title: "Harvest",
+    websiteUrl: "https://www.harvest.fr",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Taleez)",
+        url: "https://groupe-harvest.taleez.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/harvest-sas",
+      },
+    ],
+  },
+  {
+    id: "harvey",
+    title: "Harvey",
+    websiteUrl: "https://www.harvey.ai",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.harvey.ai/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/harvey-ai",
+      },
+    ],
+  },
+  {
+    id: "hegia",
+    title: "Hegia",
+    websiteUrl: "https://hegia.fr",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/heg-ia",
+      },
+    ],
+  },
+  {
+    id: "hellobetter",
+    title: "HelloBetter",
+    websiteUrl: "https://hellobetter.de",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Personio)",
+        url: "https://geton.jobs.personio.de",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/hellobetter",
+      },
+    ],
+  },
+  {
+    id: "helpline",
+    title: "Helpline",
+    websiteUrl: "https://www.helpline.fr",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (SmartRecruiters)",
+        url: "https://careers.smartrecruiters.com/EVERIENCE/helpline",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/helpline-service-desk",
+      },
+    ],
+  },
+  {
+    id: "hexa",
+    title: "Hexa",
+    websiteUrl: "https://www.hexa.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.hexa.com/positions",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/joinhexa",
+      },
+    ],
+  },
+  {
+    id: "hexaly",
+    title: "Hexaly",
+    websiteUrl: "https://www.hexaly.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.hexaly.com/join-us",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/hexaly",
+      },
+    ],
+  },
+  {
+    id: "hgh_infrared_systems",
+    title: "HGH Infrared Systems",
+    websiteUrl: "https://hgh-infrared.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://hgh-infrared.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/hgh-infrared-systems",
+      },
+    ],
+  },
+  {
+    id: "hightouch",
+    title: "Hightouch",
+    websiteUrl: "https://hightouch.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://hightouch.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/hightouchio",
+      },
+    ],
+  },
+  {
+    id: "homa",
+    title: "Homa",
+    websiteUrl: "https://www.homagames.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workable)",
+        url: "https://apply.workable.com/homa-games",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/homa-games",
+      },
+    ],
+  },
+  {
+    id: "honoré_gaming",
+    title: "Honoré Gaming",
+    websiteUrl: "https://honore-gaming.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.honore-gaming.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/honore-gaming",
+      },
+    ],
+  },
+  {
+    id: "hublo",
+    title: "Hublo",
+    websiteUrl: "https://hublo.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.hublo.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/hublo-fr",
+      },
+    ],
+  },
 ];
