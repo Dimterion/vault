@@ -2186,9 +2186,10 @@ export const listings: JobListing[] = [
     id: "gentis",
     title: "Gentis",
     websiteUrl: "https://www.gentis.com",
-    description: "",
+    description:
+      "Global recruitment and staffing agency specializing in IT, engineering, finance, life sciences, and construction. Connects professionals with permanent and contract roles across Europe, the Middle East, and North America.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Recruitment", "HR Tech", "Staffing", "B2B", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2204,9 +2205,10 @@ export const listings: JobListing[] = [
     id: "gestimum",
     title: "Gestimum",
     websiteUrl: "https://www.gestimum.com",
-    description: "",
+    description:
+      "French ERP software publisher for SMEs. Provides integrated modules for sales, purchasing, inventory, accounting, and asset management, with industry-specific configurations and web services for integrations.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["SaaS", "ERP", "SMB", "Finance", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2222,9 +2224,10 @@ export const listings: JobListing[] = [
     id: "getvocal_ai",
     title: "GetVocal AI",
     websiteUrl: "https://www.getvocal.ai",
-    description: "",
+    description:
+      "AI voice platform for realistic text-to-speech and voice cloning. Enables creators and businesses to generate natural-sounding audio in multiple languages for content, ads, and applications.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["AI / Data", "Speech Tech", "SaaS", "Creator Tools", "EU"],
     extraLinks: [
       {
         label: "Careers page (Workable)",
@@ -2240,9 +2243,10 @@ export const listings: JobListing[] = [
     id: "gitguardian",
     title: "GitGuardian",
     websiteUrl: "https://www.gitguardian.com",
-    description: "",
+    description:
+      "Secrets detection and security platform for code and developer tools. Scans repositories, CI/CD pipelines, and collaboration apps to find and remediate leaked API keys, credentials, and tokens before they cause breaches.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Cybersecurity", "DevSecOps", "SaaS", "Developer Tools", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2258,9 +2262,16 @@ export const listings: JobListing[] = [
     id: "gitlab",
     title: "GitLab",
     websiteUrl: "https://about.gitlab.com",
-    description: "",
+    description:
+      "DevOps platform that combines source code management, CI/CD, security scanning, and project management in a single application. Enables teams to plan, build, test, and ship software with end-to-end traceability.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "DevTools",
+      "CI/CD",
+      "SaaS",
+      "Software Development",
+      "Remote-worldwide",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -2276,9 +2287,10 @@ export const listings: JobListing[] = [
     id: "gladia",
     title: "Gladia",
     websiteUrl: "https://www.gladia.io",
-    description: "",
+    description:
+      "AI audio infrastructure API for speech recognition, transcription, and enrichment. Provides multilingual, real-time transcription and speaker diarization for apps, contact centers, and media platforms.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["AI / Data", "Speech Tech", "API", "SaaS", "EU"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -2294,9 +2306,10 @@ export const listings: JobListing[] = [
     id: "glera_games",
     title: "Glera Games",
     websiteUrl: "https://www.glera-games.com",
-    description: "",
+    description:
+      "Mobile game development studio creating casual and mid-core games for global audiences. Handles full production from concept and art to live operations and monetization.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Gaming", "Mobile", "Game Development", "Live Operations", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2312,9 +2325,10 @@ export const listings: JobListing[] = [
     id: "graphmytech",
     title: "GraphMyTech",
     websiteUrl: "https://www.graphmytech.com",
-    description: "",
+    description:
+      "Innovation intelligence platform using AI and graph modeling to analyze patents, scientific papers, and technical data. Helps R&D and strategy teams detect emerging technologies and prioritize innovation opportunities.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["AI / Data", "R&D", "SaaS", "Enterprise", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2330,9 +2344,10 @@ export const listings: JobListing[] = [
     id: "greenly",
     title: "Greenly",
     websiteUrl: "https://greenly.earth",
-    description: "",
+    description:
+      "Carbon accounting and climate management platform for businesses. Automates Scope 1–3 emissions measurement, reduction planning, and regulatory reporting (CSRD, CBAM) with expert support.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Climate Tech", "SaaS", "Carbon Accounting", "Sustainability", "EU"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -2348,9 +2363,10 @@ export const listings: JobListing[] = [
     id: "greenspark",
     title: "Greenspark",
     websiteUrl: "https://www.getgreenspark.com",
-    description: "",
+    description:
+      "Climate action plugin and API for e-commerce and apps. Enables brands to plant trees, rescue plastic, and offset carbon per order, review, or subscription, with impact dashboards and customer-facing widgets.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Climate Tech", "E-commerce", "Sustainability", "API", "EU"],
     extraLinks: [
       {
         label: "Careers page (Notion)",
@@ -2366,9 +2382,10 @@ export const listings: JobListing[] = [
     id: "groupe_bpce",
     title: "Groupe BPCE",
     websiteUrl: "https://www.groupebpce.com",
-    description: "",
+    description:
+      "Second-largest banking group in France, operating retail banks (Banque Populaire, Caisse d'Epargne), corporate and investment banking (Natixis), asset management, insurance, and payment services across Europe.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Financial Services", "Banking", "Enterprise", "Insurance", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2384,9 +2401,10 @@ export const listings: JobListing[] = [
     id: "h_company",
     title: "H Company",
     websiteUrl: "https://hcompany.ai",
-    description: "",
+    description:
+      "AI research and product company building action-oriented agents that operate computers and browsers. Develops models and tools that automate complex workflows for enterprises.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["AI / Data", "Automation", "Enterprise AI", "Deep Tech", "EU"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -2402,9 +2420,10 @@ export const listings: JobListing[] = [
     id: "harfanglab",
     title: "HarfangLab",
     websiteUrl: "https://harfanglab.io",
-    description: "",
+    description:
+      "French cybersecurity company providing EDR (Endpoint Detection and Response) and endpoint protection. Offers a unified, ANSSI-certified platform for preventing, detecting, and responding to cyberattacks on workstations and servers.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Cybersecurity", "EDR", "Enterprise", "SaaS", "EU"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -2420,9 +2439,10 @@ export const listings: JobListing[] = [
     id: "harvest",
     title: "Harvest",
     websiteUrl: "https://www.harvest.fr",
-    description: "",
+    description:
+      "French digital group offering consulting, integration, and managed services in cloud, data, cybersecurity, and application development. Supports large enterprises and public sector organizations in their digital transformation.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["IT Services", "Consulting", "Cloud", "Enterprise", "EU"],
     extraLinks: [
       {
         label: "Careers page (Taleez)",
@@ -2438,9 +2458,10 @@ export const listings: JobListing[] = [
     id: "harvey",
     title: "Harvey",
     websiteUrl: "https://www.harvey.ai",
-    description: "",
+    description:
+      "Legal AI platform for law firms and corporate legal teams. Uses specialized models and agents to automate contract analysis, due diligence, compliance, litigation research, and document drafting.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Legal Tech", "AI / Data", "SaaS", "Enterprise", "Remote-worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2456,9 +2477,10 @@ export const listings: JobListing[] = [
     id: "hegia",
     title: "Hegia",
     websiteUrl: "https://hegia.fr",
-    description: "",
+    description:
+      "Legal-tech startup building AI tools for legal professionals. Focuses on automating legal research, document review, and analysis to help lawyers and in-house teams work more efficiently.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Legal Tech", "AI / Data", "SaaS", "B2B", "EU"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -2470,9 +2492,10 @@ export const listings: JobListing[] = [
     id: "hellobetter",
     title: "HelloBetter",
     websiteUrl: "https://hellobetter.de",
-    description: "",
+    description:
+      "Digital mental health company offering evidence-based online therapy programs and an AI companion for stress, anxiety, sleep, and other conditions. Provides prescription-covered digital therapeutics in Germany.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["HealthTech", "Mental Health", "Digital Therapeutics", "B2C", "EU"],
     extraLinks: [
       {
         label: "Careers page (Personio)",
@@ -2488,9 +2511,10 @@ export const listings: JobListing[] = [
     id: "helpline",
     title: "Helpline",
     websiteUrl: "https://www.helpline.fr",
-    description: "",
+    description:
+      "IT service desk and digital workplace provider. Delivers user support, application support, and IT asset management for enterprises, combining human expertise with AI-enhanced tools.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["IT Services", "Service Desk", "Enterprise", "Support", "EU"],
     extraLinks: [
       {
         label: "Careers page (SmartRecruiters)",
@@ -2506,9 +2530,10 @@ export const listings: JobListing[] = [
     id: "hexa",
     title: "Hexa",
     websiteUrl: "https://www.hexa.com",
-    description: "",
+    description:
+      "Crypto wallet and on-ramp platform simplifying access to Web3. Provides a user-friendly interface for buying, storing, and managing digital assets across multiple blockchains.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Crypto", "Wallet", "Web3", "B2C", "Remote-worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2524,9 +2549,10 @@ export const listings: JobListing[] = [
     id: "hexaly",
     title: "Hexaly",
     websiteUrl: "https://www.hexaly.com",
-    description: "",
+    description:
+      "Mathematical optimization software company. Provides a next-generation solver and low-code studio for routing, scheduling, packing, and supply-chain problems used by logistics, manufacturing, and tech companies.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Optimization", "SaaS", "Operations Research", "Enterprise", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2542,9 +2568,16 @@ export const listings: JobListing[] = [
     id: "hgh_infrared_systems",
     title: "HGH Infrared Systems",
     websiteUrl: "https://hgh-infrared.com",
-    description: "",
+    description:
+      "Electro-optics and infrared technology company designing surveillance, thermography, and test-and-measurement systems. Serves defense, security, and industrial markets with panoramic IR cameras and calibration equipment.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Defense Tech",
+      "Infrared",
+      "Hardware & Software",
+      "Enterprise",
+      "EU",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -2560,9 +2593,16 @@ export const listings: JobListing[] = [
     id: "hightouch",
     title: "Hightouch",
     websiteUrl: "https://hightouch.com",
-    description: "",
+    description:
+      "Data activation and composable CDP platform. Syncs customer data from warehouses to 300+ marketing, sales, and support tools, and provides AI-driven audience building and campaign orchestration.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "MarTech",
+      "Data & Analytics",
+      "SaaS",
+      "Customer Data",
+      "Remote-worldwide",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -2578,9 +2618,10 @@ export const listings: JobListing[] = [
     id: "homa",
     title: "Homa",
     websiteUrl: "https://www.homagames.com",
-    description: "",
+    description:
+      "Mobile game developer and publisher focused on hyper-casual and casual titles. Provides data-driven tools, funding, and user-acquisition expertise to help studios scale hit games.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Gaming", "Mobile", "Publishing", "User Acquisition", "EU"],
     extraLinks: [
       {
         label: "Careers page (Workable)",
@@ -2596,9 +2637,10 @@ export const listings: JobListing[] = [
     id: "honoré_gaming",
     title: "Honoré Gaming",
     websiteUrl: "https://honore-gaming.com",
-    description: "",
+    description:
+      "Betting software provider for regulated iGaming operators. Offers a turnkey platform for sports betting, horse racing (pari-mutuel), lottery, and casino with integrated odds, risk management, and reporting.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Gaming", "Betting", "B2B", "Platform", "EU"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -2614,9 +2656,10 @@ export const listings: JobListing[] = [
     id: "hublo",
     title: "Hublo",
     websiteUrl: "https://hublo.com",
-    description: "",
+    description:
+      "Alumni and community engagement platform for schools, universities, and organizations. Provides networking, mentoring, job boards, and events tools to strengthen alumni relations and career support.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["EdTech", "Community", "SaaS", "Networking", "EU"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
