@@ -2675,9 +2675,16 @@ export const listings: JobListing[] = [
     id: "ibm",
     title: "IBM",
     websiteUrl: "https://www.ibm.com",
-    description: "",
+    description:
+      "Global technology and consulting company providing hybrid cloud, AI, quantum computing, and enterprise software. Offers consulting, infrastructure, security, and automation solutions for large organizations.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Enterprise",
+      "Cloud",
+      "AI / Data",
+      "Consulting",
+      "Remote-worldwide",
+    ],
     extraLinks: [
       {
         label: "Careers page",
@@ -2693,9 +2700,10 @@ export const listings: JobListing[] = [
     id: "icd_international",
     title: "ICD INTERNATIONAL",
     websiteUrl: "https://icdint.fr",
-    description: "",
+    description:
+      "Engineering and digital consulting firm supporting clients in automotive, aerospace, energy, and industry. Provides R&D, embedded systems, IT, and digital transformation services across Europe.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Engineering", "Consulting", "Embedded Systems", "Enterprise", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2711,9 +2719,16 @@ export const listings: JobListing[] = [
     id: "ideawise_group",
     title: "IDEAWISE GROUP",
     websiteUrl: "https://www.ideawisegroup.com",
-    description: "",
+    description:
+      "Digital product and technology group building web and mobile applications for startups and scale-ups. Combines product strategy, UX/UI design, and engineering to launch and scale digital products.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Digital Agency",
+      "Software Development",
+      "Product Design",
+      "Startups",
+      "EU",
+    ],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -2725,9 +2740,10 @@ export const listings: JobListing[] = [
     id: "iliad",
     title: "Iliad",
     websiteUrl: "https://www.iliad.fr",
-    description: "",
+    description:
+      "French telecom group operating Free Mobile, Freebox, and data-center infrastructure. Provides mobile, fixed-line, and internet services to consumers and businesses in Europe.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Telecom", "ISP", "Infrastructure", "Consumer", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2743,9 +2759,10 @@ export const listings: JobListing[] = [
     id: "implicity",
     title: "Implicity",
     websiteUrl: "https://implicity.com",
-    description: "",
+    description:
+      "Digital health startup offering remote monitoring and decision-support tools for breast cancer care. Provides AI-assisted imaging analysis and care coordination for radiologists and oncologists.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["HealthTech", "AI / Data", "Medical Imaging", "B2B", "EU"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
