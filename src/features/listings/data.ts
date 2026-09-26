@@ -2671,4 +2671,90 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "ibm",
+    title: "IBM",
+    websiteUrl: "https://www.ibm.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.ibm.com/careers/search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ibm",
+      },
+    ],
+  },
+  {
+    id: "icd_international",
+    title: "ICD INTERNATIONAL",
+    websiteUrl: "https://icdint.fr",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://icdint.fr/carrieres",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/icd-international-icdsc",
+      },
+    ],
+  },
+  {
+    id: "ideawise_group",
+    title: "IDEAWISE GROUP",
+    websiteUrl: "https://www.ideawisegroup.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ideawise-group",
+      },
+    ],
+  },
+  {
+    id: "iliad",
+    title: "Iliad",
+    websiteUrl: "https://www.iliad.fr",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://recrutement.iliad-free.fr",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/groupe-iliad",
+      },
+    ],
+  },
+  {
+    id: "implicity",
+    title: "Implicity",
+    websiteUrl: "https://implicity.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://implicity.welcomekit.co",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/implicity-healthcare",
+      },
+    ],
+  },
 ];
