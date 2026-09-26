@@ -18,6 +18,16 @@ export default function HomePage() {
         >
           A simple app to organize your job search activities.
         </p>
+        <ul
+          className="mb-10 ml-5 list-outside list-disc space-y-2"
+          style={{ color: colors.textMuted }}
+        >
+          <li>Check major job search platforms</li>
+          <li>Explore job opportunities in various companies</li>
+          <li>Create a CV</li>
+          <li>Track your applications</li>
+          <li>Track your job search activities</li>
+        </ul>
 
         <div className="flex flex-col gap-3">
           <Link
