@@ -2774,4 +2774,94 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "inato",
+    title: "Inato",
+    websiteUrl: "https://www.inato.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.inato.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/inato",
+      },
+    ],
+  },
+  {
+    id: "inetum",
+    title: "Inetum",
+    websiteUrl: "https://www.inetum.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.inetum.com/global/en/careers/jobs.html",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/inetum",
+      },
+    ],
+  },
+  {
+    id: "ingenico",
+    title: "Ingenico",
+    websiteUrl: "https://ingenico.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.ingenico.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ingenico",
+      },
+    ],
+  },
+  {
+    id: "ingenius",
+    title: "Ingenius",
+    websiteUrl: "https://www.ingenius.global",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.ingenius.global/career",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ingeniusai",
+      },
+    ],
+  },
+  {
+    id: "inpulse",
+    title: "Inpulse",
+    websiteUrl: "https://www.inpulse.ai",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/deepsight/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/inpulseai",
+      },
+    ],
+  },
 ];
