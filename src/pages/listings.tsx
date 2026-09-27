@@ -37,6 +37,13 @@ export default function ListingsPage() {
     );
   };
 
+  const handleTagClick = (tag: string) => {
+    if (!selectedTags.includes(tag)) {
+      toggleTag(tag);
+      setShowTags(true);
+    }
+  };
+
   const clearFilters = () => {
     setSelectedTags([]);
     setSearchQuery("");
@@ -157,7 +164,11 @@ export default function ListingsPage() {
         {filteredListings.length > 0 ? (
           <div className="flex flex-col gap-4">
             {filteredListings.map((listing) => (
-              <ListingCard key={listing.id} item={listing} />
+              <ListingCard
+                key={listing.id}
+                item={listing}
+                onTagClick={handleTagClick}
+              />
             ))}
           </div>
         ) : (
