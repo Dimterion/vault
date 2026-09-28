@@ -2869,4 +2869,108 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "institut_français_d'intelligence_artificielle",
+    title: "Institut Français d'Intelligence Artificielle",
+    websiteUrl: "https://www.institut-ia.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/institut-fran%C3%A7ais-d-intelligence-artificielle",
+      },
+    ],
+  },
+  {
+    id: "jobadder",
+    title: "JobAdder",
+    websiteUrl: "https://jobadder.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobadder.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/jobadder-com",
+      },
+    ],
+  },
+  {
+    id: "jobgether",
+    title: "Jobgether",
+    websiteUrl: "https://jobgether.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobgether.com/remote-jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/jobgether",
+      },
+    ],
+  },
+  {
+    id: "joko",
+    title: "Joko",
+    websiteUrl: "https://home.joko.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/joko/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/jokoapp",
+      },
+    ],
+  },
+  {
+    id: "jus_mundi",
+    title: "Jus Mundi",
+    websiteUrl: "https://jusmundi.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://jus-mundi.welcomekit.co",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/jus-mundi",
+      },
+    ],
+  },
+  {
+    id: "justrelate",
+    title: "JustRelate",
+    websiteUrl: "https://www.justrelate.com",
+    description: "",
+    // imageKey: "placeholder",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.justrelate.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/justrelate-group",
+      },
+    ],
+  },
 ];
