@@ -2873,9 +2873,10 @@ export const listings: JobListing[] = [
     id: "institut_français_d'intelligence_artificielle",
     title: "Institut Français d'Intelligence Artificielle",
     websiteUrl: "https://www.institut-ia.com",
-    description: "",
+    description:
+      "French AI research and training institute offering courses, certifications, and applied research projects in machine learning, deep learning, and generative AI. Works with students, professionals, and companies to build AI skills and solutions.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["AI / Data", "Education", "Research", "Training", "EU"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -2887,9 +2888,10 @@ export const listings: JobListing[] = [
     id: "jobadder",
     title: "JobAdder",
     websiteUrl: "https://jobadder.com",
-    description: "",
+    description:
+      "Cloud-based recruitment software for staffing agencies and HR teams. Provides applicant tracking, candidate management, job posting, and reporting tools to streamline hiring workflows.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["HR Tech", "SaaS", "Recruiting", "B2B", "Remote-worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2905,9 +2907,10 @@ export const listings: JobListing[] = [
     id: "jobgether",
     title: "Jobgether",
     websiteUrl: "https://jobgether.com",
-    description: "",
+    description:
+      "Remote job board and career platform focused on flexible and location-independent roles. Aggregates remote opportunities across tech, marketing, customer support, and more, with company profiles and salary insights.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Job Board", "Remote", "Career Platform", "B2C", "EU"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2923,9 +2926,10 @@ export const listings: JobListing[] = [
     id: "joko",
     title: "Joko",
     websiteUrl: "https://home.joko.com",
-    description: "",
+    description:
+      "Cashback and rewards app that gives users money back on everyday purchases. Partners with major retailers and brands to offer automatic cashback when shopping online or in-store via linked cards.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["FinTech", "Cashback", "Mobile", "B2C", "EU"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -2941,9 +2945,10 @@ export const listings: JobListing[] = [
     id: "jus_mundi",
     title: "Jus Mundi",
     websiteUrl: "https://jusmundi.com",
-    description: "",
+    description:
+      "Legal research platform specializing in international arbitration and public international law. Provides access to case law, treaties, awards, and scholarly content with AI-powered search for lawyers and academics.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: ["Legal Tech", "Research", "AI / Data", "B2B", "EU"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -2959,9 +2964,16 @@ export const listings: JobListing[] = [
     id: "justrelate",
     title: "JustRelate",
     websiteUrl: "https://www.justrelate.com",
-    description: "",
+    description:
+      "Digital agency and software studio building web and mobile products for startups and enterprises. Offers product strategy, UX/UI design, and full-stack development with a focus on scalable, user-centric solutions.",
     // imageKey: "placeholder",
-    tags: [],
+    tags: [
+      "Digital Agency",
+      "Software Development",
+      "Product Design",
+      "B2B",
+      "EU",
+    ],
     extraLinks: [
       {
         label: "Careers page",
