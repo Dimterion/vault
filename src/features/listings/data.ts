@@ -2758,8 +2758,9 @@ export const listings: JobListing[] = [
     id: "lagardère_travel_retail",
     title: "Lagardère Travel Retail",
     websiteUrl: "https://www.lagardere-tr.com",
-    description: "",
-    tags: [],
+    description:
+      "Global travel retail operator running shops and restaurants in airports and train stations. Manages duty-free, fashion, travel essentials, and dining brands such as Relay and Aelia across dozens of countries.",
+    tags: ["Ecommerce", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2775,8 +2776,9 @@ export const listings: JobListing[] = [
     id: "lago",
     title: "Lago",
     websiteUrl: "https://getlago.com",
-    description: "",
-    tags: [],
+    description:
+      "Open-source billing infrastructure for usage-based and subscription pricing. Provides APIs and dashboards to meter usage, configure plans, generate invoices, and sync with payment providers and accounting tools.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2792,8 +2794,9 @@ export const listings: JobListing[] = [
     id: "launchmetrics",
     title: "Launchmetrics",
     websiteUrl: "https://www.launchmetrics.com",
-    description: "",
-    tags: [],
+    description:
+      "Brand performance cloud for fashion, luxury, and beauty. Combines media monitoring, influencer data, and event management to measure campaign impact and optimize marketing strategies.",
+    tags: ["Media", "Data", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -2809,8 +2812,9 @@ export const listings: JobListing[] = [
     id: "le_wagon",
     title: "Le Wagon",
     websiteUrl: "https://www.lewagon.com",
-    description: "",
-    tags: [],
+    description:
+      "Tech bootcamp offering intensive courses in web development, data, and AI. Trains students and professionals through live, project-based programs on campus and online, with career support.",
+    tags: ["ITServices", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Notion)",
@@ -2826,8 +2830,9 @@ export const listings: JobListing[] = [
     id: "leboncoin",
     title: "Leboncoin",
     websiteUrl: "https://www.leboncoin.fr",
-    description: "",
-    tags: [],
+    description:
+      "Leading French online marketplace for classified ads. Connects buyers and sellers for real estate, cars, jobs, home goods, and services, with both consumer and professional listings.",
+    tags: ["Ecommerce", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2843,8 +2848,9 @@ export const listings: JobListing[] = [
     id: "ledger",
     title: "Ledger",
     websiteUrl: "https://www.ledger.com",
-    description: "",
-    tags: [],
+    description:
+      "Crypto security company designing hardware wallets and software for self-custody of digital assets. Provides devices and apps to store, manage, and transact with cryptocurrencies and NFTs securely.",
+    tags: ["FinTech", "France"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -2860,8 +2866,9 @@ export const listings: JobListing[] = [
     id: "lemlist",
     title: "Lemlist",
     websiteUrl: "https://www.lemlist.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered sales engagement platform for multichannel outbound. Combines lead database, enrichment, and automated sequences across email, LinkedIn, calls, and messaging to personalize outreach at scale.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
