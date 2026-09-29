@@ -2610,4 +2610,140 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "kaisa",
+    title: "Kaisa",
+    websiteUrl: "https://www.kaisa.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.kaisa.io/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/kaisa-io",
+      },
+    ],
+  },
+  {
+    id: "kbrw",
+    title: "Kbrw",
+    websiteUrl: "https://kbrw.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.kbrw.fr/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/kbrw",
+      },
+    ],
+  },
+  {
+    id: "klara",
+    title: "Klara",
+    websiteUrl: "https://www.klarahr.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/madtech/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/klarahr",
+      },
+    ],
+  },
+  {
+    id: "kolsquare",
+    title: "Kolsquare",
+    websiteUrl: "https://www.kolsquare.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://kolsquareteamblue.teamtailor.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/kolsquare",
+      },
+    ],
+  },
+  {
+    id: "komodo",
+    title: "Komodo",
+    websiteUrl: "https://www.komodohealth.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Greenhouse)",
+        url: "https://job-boards.greenhouse.io/komodohealth",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/komodo-health",
+      },
+    ],
+  },
+  {
+    id: "koyeb",
+    title: "Koyeb",
+    websiteUrl: "https://www.koyeb.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.koyeb.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/koyeb",
+      },
+    ],
+  },
+  {
+    id: "kpmg",
+    title: "KPMG",
+    websiteUrl: "http://www.kpmg.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://kpmg.com/xx/en/careers/job-search.html",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/kpmg",
+      },
+    ],
+  },
+  {
+    id: "kyriba",
+    title: "Kyriba",
+    websiteUrl: "https://www.kyriba.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/kyriba/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/kyriba",
+      },
+    ],
+  },
 ];
