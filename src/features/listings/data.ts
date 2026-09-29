@@ -2754,4 +2754,123 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "lagardère_travel_retail",
+    title: "Lagardère Travel Retail",
+    websiteUrl: "https://www.lagardere-tr.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.lagardere-tr.com/join-us/join-us",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lagarderetravelretail",
+      },
+    ],
+  },
+  {
+    id: "lago",
+    title: "Lago",
+    websiteUrl: "https://getlago.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://getlago.com/hiring",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/getlago",
+      },
+    ],
+  },
+  {
+    id: "launchmetrics",
+    title: "Launchmetrics",
+    websiteUrl: "https://www.launchmetrics.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.launchmetrics.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/launchmetrics",
+      },
+    ],
+  },
+  {
+    id: "le_wagon",
+    title: "Le Wagon",
+    websiteUrl: "https://www.lewagon.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Notion)",
+        url: "https://lewagon.notion.site/career-at-le-wagon",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/school/le-wagon",
+      },
+    ],
+  },
+  {
+    id: "leboncoin",
+    title: "Leboncoin",
+    websiteUrl: "https://www.leboncoin.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.leboncoin.fr/boutique/11532/postulez_aux_offres_d_emploi_leboncoin.htm",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/leboncoin",
+      },
+    ],
+  },
+  {
+    id: "ledger",
+    title: "Ledger",
+    websiteUrl: "https://www.ledger.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/ledger",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ledgerhq",
+      },
+    ],
+  },
+  {
+    id: "lemlist",
+    title: "Lemlist",
+    websiteUrl: "https://www.lemlist.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/lemlist",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lemlist",
+      },
+    ],
+  },
 ];
