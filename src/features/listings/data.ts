@@ -2614,8 +2614,9 @@ export const listings: JobListing[] = [
     id: "kaisa",
     title: "Kaisa",
     websiteUrl: "https://www.kaisa.io",
-    description: "",
-    tags: [],
+    description:
+      "Customer engagement platform for high-consideration purchases such as cars and marketplaces. Combines conversational data, AI voice agents, and automation to personalize buyer journeys and improve conversion across channels.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2631,8 +2632,9 @@ export const listings: JobListing[] = [
     id: "kbrw",
     title: "Kbrw",
     websiteUrl: "https://kbrw.com",
-    description: "",
-    tags: [],
+    description:
+      "Supply chain software publisher offering OMS and WMS solutions for retailers, luxury brands, and industrial companies. Orchestrates orders, inventory, and fulfillment in real time across complex, multi-channel environments.",
+    tags: ["SaaS", "Data", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -2648,8 +2650,9 @@ export const listings: JobListing[] = [
     id: "klara",
     title: "Klara",
     websiteUrl: "https://www.klarahr.com",
-    description: "",
-    tags: [],
+    description:
+      "Employee development and skills platform for frontline and deskless teams. Uses AI to map skills, track progress, and guide training and career paths, helping managers improve performance and retention.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -2665,8 +2668,9 @@ export const listings: JobListing[] = [
     id: "kolsquare",
     title: "Kolsquare",
     websiteUrl: "https://www.kolsquare.com",
-    description: "",
-    tags: [],
+    description:
+      "Influencer marketing platform that uses AI and big data to find creators, manage campaigns, and measure ROI. Covers Instagram, TikTok, YouTube, and other social networks for brands and agencies.",
+    tags: ["AI", "Media", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -2682,8 +2686,9 @@ export const listings: JobListing[] = [
     id: "komodo",
     title: "Komodo",
     websiteUrl: "https://www.komodohealth.com",
-    description: "",
-    tags: [],
+    description:
+      "Healthcare data and AI company building a large-scale patient journey map. Provides analytics and insights for life sciences, payers, and providers to improve treatments, access, and outcomes.",
+    tags: ["HealthTech", "Data", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Greenhouse)",
@@ -2699,8 +2704,9 @@ export const listings: JobListing[] = [
     id: "koyeb",
     title: "Koyeb",
     websiteUrl: "https://www.koyeb.com",
-    description: "",
-    tags: [],
+    description:
+      "Serverless platform for deploying and running applications, APIs, and workers globally. Lets developers ship from Git or containers without managing servers or Kubernetes, with automatic scaling and edge deployment.",
+    tags: ["SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2716,8 +2722,9 @@ export const listings: JobListing[] = [
     id: "kpmg",
     title: "KPMG",
     websiteUrl: "http://www.kpmg.com",
-    description: "",
-    tags: [],
+    description:
+      "Global professional services firm offering audit, tax, and advisory services. Helps organizations with financial reporting, risk, compliance, strategy, and digital transformation across industries.",
+    tags: ["Consulting", "FinTech", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2733,8 +2740,9 @@ export const listings: JobListing[] = [
     id: "kyriba",
     title: "Kyriba",
     websiteUrl: "https://www.kyriba.com",
-    description: "",
-    tags: [],
+    description:
+      "Cloud treasury and liquidity performance platform for CFOs and treasurers. Centralizes cash management, payments, forecasting, and risk to give real-time visibility and control over global liquidity.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
