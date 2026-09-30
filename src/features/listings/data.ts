@@ -2880,4 +2880,170 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "licorne_society",
+    title: "Licorne Society",
+    websiteUrl: "https://www.licornesociety.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.licornesociety.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/licorne-society",
+      },
+    ],
+  },
+  {
+    id: "lightdash",
+    title: "Lightdash",
+    websiteUrl: "https://www.lightdash.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/lightdash",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lightdash",
+      },
+    ],
+  },
+  {
+    id: "lightspeed",
+    title: "Lightspeed",
+    websiteUrl: "https://www.lightspeedhq.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.lightspeedhq.com/careers/openings",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lightspeedcommerce",
+      },
+    ],
+  },
+  {
+    id: "limova.ai",
+    title: "Limova.ai",
+    websiteUrl: "https://www.limova.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/limova",
+      },
+    ],
+  },
+  {
+    id: "linear",
+    title: "Linear",
+    websiteUrl: "https://linear.app",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://linear.app/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/linearapp",
+      },
+    ],
+  },
+  {
+    id: "linear",
+    title: "Linear",
+    websiteUrl: "https://linear.app",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://linear.app/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/linearapp",
+      },
+    ],
+  },
+  {
+    id: "lity",
+    title: "Lity",
+    websiteUrl: "https://lity.so",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://lity.so/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lityso",
+      },
+    ],
+  },
+  {
+    id: "lseg",
+    title: "LSEG",
+    websiteUrl: "https://www.lseg.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workday)",
+        url: "https://lseg.wd3.myworkdayjobs.com/Careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/london-stock-exchange-group",
+      },
+    ],
+  },
+  {
+    id: "luma_ai",
+    title: "Luma AI",
+    websiteUrl: "https://lumalabs.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://lumalabs.ai/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lumalabsai",
+      },
+    ],
+  },
+  {
+    id: "lumapps",
+    title: "Lumapps",
+    websiteUrl: "https://www.lumapps.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://job.lumapps.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lumapps",
+      },
+    ],
+  },
 ];
