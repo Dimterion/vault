@@ -2884,8 +2884,9 @@ export const listings: JobListing[] = [
     id: "licorne_society",
     title: "Licorne Society",
     websiteUrl: "https://www.licornesociety.com",
-    description: "",
-    tags: [],
+    description:
+      "Recruitment firm specialized in tech, digital, and startups. Connects startups and scale-ups with candidates in engineering, data, product, sales, marketing, and operations across France and Europe.",
+    tags: ["ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2901,8 +2902,9 @@ export const listings: JobListing[] = [
     id: "lightdash",
     title: "Lightdash",
     websiteUrl: "https://www.lightdash.com",
-    description: "",
-    tags: [],
+    description:
+      "Open-source, AI-first BI platform for modern data teams. Connects to dbt and data warehouses to define metrics once and expose them via dashboards, AI agents, and embedded analytics.",
+    tags: ["Data", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -2918,8 +2920,9 @@ export const listings: JobListing[] = [
     id: "lightspeed",
     title: "Lightspeed",
     websiteUrl: "https://www.lightspeedhq.com",
-    description: "",
-    tags: [],
+    description:
+      "Cloud commerce platform providing POS, payments, inventory, and ecommerce for retail and hospitality. Unifies in-store and online sales, procurement, and reporting for merchants worldwide.",
+    tags: ["Ecommerce", "FinTech", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2935,8 +2938,9 @@ export const listings: JobListing[] = [
     id: "limova.ai",
     title: "Limova.ai",
     websiteUrl: "https://www.limova.ai",
-    description: "",
-    tags: [],
+    description:
+      "Platform of autonomous AI agents for business operations. Automates legal documents, compliance checks, marketing, sales, and customer tasks by connecting to everyday tools via chat interfaces.",
+    tags: ["AI", "LegalTech", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -2948,25 +2952,9 @@ export const listings: JobListing[] = [
     id: "linear",
     title: "Linear",
     websiteUrl: "https://linear.app",
-    description: "",
-    tags: [],
-    extraLinks: [
-      {
-        label: "Careers page",
-        url: "https://linear.app/careers",
-      },
-      {
-        label: "LinkedIn",
-        url: "https://www.linkedin.com/company/linearapp",
-      },
-    ],
-  },
-  {
-    id: "linear",
-    title: "Linear",
-    websiteUrl: "https://linear.app",
-    description: "",
-    tags: [],
+    description:
+      "Product development system for software teams. Combines issue tracking, roadmaps, and AI-powered workflows to plan, build, and ship products with tight integration to code and CI/CD.",
+    tags: ["SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2982,8 +2970,9 @@ export const listings: JobListing[] = [
     id: "lity",
     title: "Lity",
     websiteUrl: "https://lity.so",
-    description: "",
-    tags: [],
+    description:
+      "Multi-specialist recruitment agency covering tech, sales, marketing, finance, legal, and people roles. Supports startups and large companies across France with permanent and freelance hiring.",
+    tags: ["ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2999,8 +2988,9 @@ export const listings: JobListing[] = [
     id: "lseg",
     title: "LSEG",
     websiteUrl: "https://www.lseg.com",
-    description: "",
-    tags: [],
+    description:
+      "Global financial markets infrastructure and data provider. Operates the London Stock Exchange and offers data & analytics, indices, risk intelligence, trading, clearing, and post-trade services.",
+    tags: ["FinTech", "Data", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Workday)",
@@ -3016,8 +3006,9 @@ export const listings: JobListing[] = [
     id: "luma_ai",
     title: "Luma AI",
     websiteUrl: "https://lumalabs.ai",
-    description: "",
-    tags: [],
+    description:
+      "Creative AI platform for generating and editing video, images, and 3D content. Provides AI agents and models that assist with visual creation from concept to final render.",
+    tags: ["AI", "Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3033,8 +3024,9 @@ export const listings: JobListing[] = [
     id: "lumapps",
     title: "Lumapps",
     websiteUrl: "https://www.lumapps.com",
-    description: "",
-    tags: [],
+    description:
+      "Employee experience platform combining intranet, communications, AI, and workflows. Connects employees, tools, and knowledge in a unified hub for internal comms, learning, and operations.",
+    tags: ["SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
