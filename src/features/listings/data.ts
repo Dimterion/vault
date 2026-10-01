@@ -3038,4 +3038,153 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "madbox",
+    title: "Madbox",
+    websiteUrl: "https://madbox.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.madbox.io",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/madbox",
+      },
+    ],
+  },
+  {
+    id: "mallow",
+    title: "Mallow",
+    websiteUrl: "https://mallow.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/mallow-kids",
+      },
+    ],
+  },
+  {
+    id: "malou",
+    title: "Malou",
+    websiteUrl: "https://www.malou.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/malou",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/malou",
+      },
+    ],
+  },
+  {
+    id: "mambu",
+    title: "Mambu",
+    websiteUrl: "https://mambu.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers-mambu.icims.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/mambu",
+      },
+    ],
+  },
+  {
+    id: "mastercard",
+    title: "Mastercard",
+    websiteUrl: "https://www.mastercard.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.mastercard.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/mastercard",
+      },
+    ],
+  },
+  {
+    id: "medusa",
+    title: "Medusa",
+    websiteUrl: "https://medusajs.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://medusajs.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/medusajs",
+      },
+    ],
+  },
+  {
+    id: "meltwater",
+    title: "Meltwater",
+    websiteUrl: "https://www.meltwater.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://meltwatercareers.ttcportals.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/meltwater",
+      },
+    ],
+  },
+  {
+    id: "meritis",
+    title: "Meritis",
+    websiteUrl: "https://meritis.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://meritis.fr/home-career",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/meritis-b-corp%E2%84%A2",
+      },
+    ],
+  },
+  {
+    id: "metabase",
+    title: "Metabase",
+    websiteUrl: "https://www.metabase.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.metabase.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/metabase",
+      },
+    ],
+  },
 ];
