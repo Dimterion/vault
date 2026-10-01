@@ -3042,8 +3042,9 @@ export const listings: JobListing[] = [
     id: "madbox",
     title: "Madbox",
     websiteUrl: "https://madbox.io",
-    description: "",
-    tags: [],
+    description:
+      "Mobile gaming studio that creates and self-publishes casual games for a global audience. Focuses on hyper-casual and hybrid-casual titles with large-scale user acquisition and live operations.",
+    tags: ["Gaming", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -3059,8 +3060,9 @@ export const listings: JobListing[] = [
     id: "mallow",
     title: "Mallow",
     websiteUrl: "https://mallow.fr",
-    description: "",
-    tags: [],
+    description:
+      "Edtech startup creating screen-free audio learning experiences for children. Combines storytelling, voice interaction, and AI to build educational games that develop concentration, memory, and confidence.",
+    tags: ["EdTech", "AI", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -3072,8 +3074,9 @@ export const listings: JobListing[] = [
     id: "malou",
     title: "Malou",
     websiteUrl: "https://www.malou.io",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered marketing platform for multi-location restaurant groups. Centralizes local SEO, listings, reviews, and social media to improve visibility, attract diners, and automate reputation management.",
+    tags: ["AI", "Media", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -3089,8 +3092,9 @@ export const listings: JobListing[] = [
     id: "mambu",
     title: "Mambu",
     websiteUrl: "https://mambu.com",
-    description: "",
-    tags: [],
+    description:
+      "Cloud-native core banking platform for lenders and financial institutions. Provides composable SaaS infrastructure for deposits, loans, and digital banking products with open APIs and integrations.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3106,8 +3110,9 @@ export const listings: JobListing[] = [
     id: "mastercard",
     title: "Mastercard",
     websiteUrl: "https://www.mastercard.com",
-    description: "",
-    tags: [],
+    description:
+      "Global payments technology company operating one of the world’s largest card networks. Enables secure electronic transactions for consumers, merchants, and financial institutions across debit, credit, and digital payments.",
+    tags: ["FinTech", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3123,8 +3128,9 @@ export const listings: JobListing[] = [
     id: "medusa",
     title: "Medusa",
     websiteUrl: "https://medusajs.com",
-    description: "",
-    tags: [],
+    description:
+      "Open-source, headless commerce platform for building custom ecommerce experiences. Provides a modular backend with APIs for products, cart, checkout, payments, and order management, designed for developers.",
+    tags: ["Ecommerce", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3140,8 +3146,9 @@ export const listings: JobListing[] = [
     id: "meltwater",
     title: "Meltwater",
     websiteUrl: "https://www.meltwater.com",
-    description: "",
-    tags: [],
+    description:
+      "Media and consumer intelligence platform for PR, marketing, and insights teams. Monitors news, social media, and online conversations, and uses AI to analyze sentiment, trends, and brand perception.",
+    tags: ["Media", "AI", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3157,8 +3164,9 @@ export const listings: JobListing[] = [
     id: "meritis",
     title: "Meritis",
     websiteUrl: "https://meritis.fr",
-    description: "",
-    tags: [],
+    description:
+      "IT and digital transformation consulting group. Supports clients with IT strategy, project management, software engineering, data, cloud, cybersecurity, and finance-related technology projects.",
+    tags: ["ITServices", "Consulting", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3174,8 +3182,9 @@ export const listings: JobListing[] = [
     id: "metabase",
     title: "Metabase",
     websiteUrl: "https://www.metabase.com",
-    description: "",
-    tags: [],
+    description:
+      "Open-source business intelligence and analytics platform. Lets teams explore data, build dashboards, and ask questions via a visual interface or AI, with options to embed analytics in other products.",
+    tags: ["Data", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
