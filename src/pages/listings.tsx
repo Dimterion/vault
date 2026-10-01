@@ -7,6 +7,7 @@ export default function ListingsPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [showTags, setShowTags] = useState(false);
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  const [showMoreText, setShowMoreText] = useState(false);
 
   const allTags = useMemo(() => {
     const tagsSet = new Set<string>();
@@ -63,9 +64,41 @@ export default function ListingsPage() {
             Job Listings ({filteredListings.length})
           </h1>
 
-          <p className="text-base leading-6" style={{ color: "#4b5563" }}>
-            Explore different companies and their potential career options.
-          </p>
+          <div className="mb-4">
+            <p className="text-base leading-6" style={{ color: "#4b5563" }}>
+              Explore different companies and their potential career options.
+            </p>
+
+            {showMoreText && (
+              <div className="mt-3 space-y-3" style={{ color: "#4b5563" }}>
+                <p className="text-base leading-6">
+                  This is a list of companies that may have open positions
+                  remotely (around the world), within Europe, or France.
+                </p>
+                <p className="text-base leading-6">
+                  You can use the search or available tags to filter the
+                  results.
+                </p>
+                <p className="text-base leading-6">
+                  Main link leads to the company's website and then there are
+                  additional links directly to the jobs page and LinkedIn.
+                </p>
+                <p className="text-base leading-6">
+                  Some companies may not have a dedicated jobs page or LinkedIn
+                  profile, or they may use a separate platform (in that case its
+                  name is mentioned in parenthesis).
+                </p>
+              </div>
+            )}
+
+            <button
+              onClick={() => setShowMoreText(!showMoreText)}
+              className="mt-2 cursor-pointer text-sm font-medium text-blue-600 hover:text-blue-700 hover:underline focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:outline-none"
+              aria-expanded={showMoreText}
+            >
+              {showMoreText ? "Show less" : "Read more"}
+            </button>
+          </div>
 
           <input
             type="text"
@@ -122,7 +155,9 @@ export default function ListingsPage() {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className={`transform transition-transform ${showTags ? "rotate-180" : ""}`}
+                  className={`transform transition-transform ${
+                    showTags ? "rotate-180" : ""
+                  }`}
                 >
                   <polyline points="6 9 12 15 18 9"></polyline>
                 </svg>
