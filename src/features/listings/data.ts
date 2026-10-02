@@ -3200,8 +3200,9 @@ export const listings: JobListing[] = [
     id: "mind7_consulting",
     title: "Mind7 Consulting",
     websiteUrl: "https://mind7.com",
-    description: "",
-    tags: [],
+    description:
+      "Consulting and services group helping organizations with digital transformation, IT strategy, and sustainable tech. Combines project management, microservices architecture, data engineering, and Green IT expertise.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -3217,8 +3218,9 @@ export const listings: JobListing[] = [
     id: "mistral",
     title: "Mistral",
     websiteUrl: "https://mistral.ai",
-    description: "",
-    tags: [],
+    description:
+      "French AI company developing large language models and an enterprise AI platform. Offers open-weight models, custom model training, and sovereign AI infrastructure for deploying assistants and agents from cloud to edge.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -3234,8 +3236,9 @@ export const listings: JobListing[] = [
     id: "mobiapps",
     title: "Mobiapps",
     websiteUrl: "https://mobiapps.fr",
-    description: "",
-    tags: [],
+    description:
+      "Mobile and digital agency designing, developing, and managing multi-platform apps and enterprise mobility solutions. Covers UX/UI, native and hybrid development, testing, and mobile device management for businesses.",
+    tags: ["ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3251,8 +3254,9 @@ export const listings: JobListing[] = [
     id: "molotov",
     title: "Molotov",
     websiteUrl: "https://www.molotov.tv",
-    description: "",
-    tags: [],
+    description:
+      "Streaming TV platform aggregating live channels, replay, and on-demand content in a unified interface. Provides free and premium plans with cloud recording, multi-screen support, and advanced discovery features.",
+    tags: ["Media", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -3268,8 +3272,9 @@ export const listings: JobListing[] = [
     id: "mui",
     title: "MUI",
     websiteUrl: "https://mui.com",
-    description: "",
-    tags: [],
+    description:
+      "Open-source React component library and design system toolkit. Provides Material UI, Base UI, and advanced components (data grid, date pickers, charts) to help teams build accessible, production-ready interfaces.",
+    tags: ["SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
