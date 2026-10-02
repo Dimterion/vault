@@ -3080,7 +3080,7 @@ export const listings: JobListing[] = [
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
-        url: "https://www.welcometothejungle.com/companies-v1/malou",
+        url: "https://www.welcometothejungle.com/companies-v1/malou/jobs",
       },
       {
         label: "LinkedIn",
@@ -3193,6 +3193,91 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/metabase",
+      },
+    ],
+  },
+  {
+    id: "mind7_consulting",
+    title: "Mind7 Consulting",
+    websiteUrl: "https://mind7.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/mind7/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/groupe-mind7-consulting",
+      },
+    ],
+  },
+  {
+    id: "mistral",
+    title: "Mistral",
+    websiteUrl: "https://mistral.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/mistral.ai",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/mistralai",
+      },
+    ],
+  },
+  {
+    id: "mobiapps",
+    title: "Mobiapps",
+    websiteUrl: "https://mobiapps.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://mobiapps.fr/job/nos-offres-demploi",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/mobiappsfr",
+      },
+    ],
+  },
+  {
+    id: "molotov",
+    title: "Molotov",
+    websiteUrl: "https://www.molotov.tv",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/molotov/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/molotov-tv",
+      },
+    ],
+  },
+  {
+    id: "mui",
+    title: "MUI",
+    websiteUrl: "https://mui.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://mui.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/mui",
       },
     ],
   },
