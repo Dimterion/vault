@@ -3286,4 +3286,89 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "murex",
+    title: "Murex",
+    websiteUrl: "https://www.murex.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workday)",
+        url: "https://murex.wd3.myworkdayjobs.com/MurexCareerPage1",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/murex",
+      },
+    ],
+  },
+  {
+    id: "my.games",
+    title: "MY.GAMES",
+    websiteUrl: "https://my.games",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.my.games",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/mygames",
+      },
+    ],
+  },
+  {
+    id: "myconnectedcompany",
+    title: "myConnectedCompany",
+    websiteUrl: "https://www.myconnectedcompany.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (SmartRecruiters)",
+        url: "https://careers.smartrecruiters.com/EVERIENCE/myconnectedcompany",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/myconnectedcompany",
+      },
+    ],
+  },
+  {
+    id: "myedspace",
+    title: "myEdSpace",
+    websiteUrl: "https://myedspace.co.uk",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/myedspacecareers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/myedspace",
+      },
+    ],
+  },
+  {
+    id: "n8n",
+    title: "n8n",
+    websiteUrl: "https://n8n.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://n8n.io/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/n8n",
+      },
+    ],
+  },
 ];
