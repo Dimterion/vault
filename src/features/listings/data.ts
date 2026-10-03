@@ -3290,8 +3290,9 @@ export const listings: JobListing[] = [
     id: "murex",
     title: "Murex",
     websiteUrl: "https://www.murex.com",
-    description: "",
-    tags: [],
+    description:
+      "Enterprise software platform for cross-asset trading, risk management, and post-trade processing. Serves banks, asset managers, and corporates with an integrated front-to-back solution for derivatives, securities, and commodities.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Workday)",
@@ -3307,8 +3308,9 @@ export const listings: JobListing[] = [
     id: "my.games",
     title: "MY.GAMES",
     websiteUrl: "https://my.games",
-    description: "",
-    tags: [],
+    description:
+      "European video game developer and publisher with over a billion registered users. Creates and operates mobile, PC, and console titles across genres including shooters, strategy, and RPGs, plus a premium publishing label.",
+    tags: ["Gaming", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3324,8 +3326,9 @@ export const listings: JobListing[] = [
     id: "myconnectedcompany",
     title: "myConnectedCompany",
     websiteUrl: "https://www.myconnectedcompany.com",
-    description: "",
-    tags: [],
+    description:
+      "Digital workplace consultancy and IT services firm. Helps companies with digital transformation, VIP/Apple support, workspace design, and employee experience through consulting, managed services, and custom tools.",
+    tags: ["ITServices", "Consulting", "France"],
     extraLinks: [
       {
         label: "Careers page (SmartRecruiters)",
@@ -3341,8 +3344,9 @@ export const listings: JobListing[] = [
     id: "myedspace",
     title: "myEdSpace",
     websiteUrl: "https://myedspace.co.uk",
-    description: "",
-    tags: [],
+    description:
+      "Online education platform offering live, interactive group lessons for UK students. Combines expert teachers, structured curriculum, and a learning platform with recordings, workbooks, and practice for KS3, GCSE, and A-level.",
+    tags: ["EdTech", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -3358,8 +3362,9 @@ export const listings: JobListing[] = [
     id: "n8n",
     title: "n8n",
     websiteUrl: "https://n8n.io",
-    description: "",
-    tags: [],
+    description:
+      "Workflow automation platform with native AI capabilities. Enables teams to visually build and code-customize automations and AI agents that connect apps, APIs, and data sources, with self-hosted or cloud deployment.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
