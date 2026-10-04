@@ -3376,4 +3376,157 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "natixis",
+    title: "Natixis",
+    websiteUrl: "https://www.interepargne.natixis.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.interepargne.natixis.com/epargnants/a-propos/rejoignez-nous",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/natixis-interepargne",
+      },
+    ],
+  },
+  {
+    id: "neo4j",
+    title: "Neo4j",
+    websiteUrl: "https://neo4j.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://neo4j.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/neo4j",
+      },
+    ],
+  },
+  {
+    id: "neon",
+    title: "Neon",
+    websiteUrl: "https://neon.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.databricks.com/company/careers/open-positions",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/neo4j",
+      },
+    ],
+  },
+  {
+    id: "new_tales",
+    title: "New Tales",
+    websiteUrl: "https://www.newtales.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.newtales.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/newtales",
+      },
+    ],
+  },
+  {
+    id: "nexen",
+    title: "Nexen",
+    websiteUrl: "https://nexen-tech.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://nexen-tech.fr/carrieres",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/nexen-grid-technologies",
+      },
+    ],
+  },
+  {
+    id: "nexway",
+    title: "Nexway",
+    websiteUrl: "https://www.nexway.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.nexway.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/nexway",
+      },
+    ],
+  },
+  {
+    id: "nonplusultra",
+    title: "Nonplusultra",
+    websiteUrl: "https://nonplusultra.eu",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://nonplusultra.eu/career",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/nonplusultra",
+      },
+    ],
+  },
+  {
+    id: "notion",
+    title: "Notion",
+    websiteUrl: "https://www.notion.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.notion.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/notionhq",
+      },
+    ],
+  },
+  {
+    id: "novutech",
+    title: "Novutech",
+    websiteUrl: "https://www.novutech.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.novutech.com/company/career",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/novutech",
+      },
+    ],
+  },
 ];
