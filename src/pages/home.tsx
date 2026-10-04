@@ -5,7 +5,7 @@ import { pages } from "../constants/pages";
 export default function HomePage() {
   return (
     <div
-      className="flex min-h-full flex-1 items-center justify-center px-4 py-10"
+      className="flex min-h-full flex-1 items-center justify-center px-4 py-10 text-center"
       style={{ backgroundColor: colors.background }}
     >
       <div className="mx-auto w-full max-w-md">
@@ -14,13 +14,21 @@ export default function HomePage() {
         </h1>
 
         <p
-          className="mb-8 text-center text-base leading-6"
+          className="text-center text-base leading-6"
           style={{ color: colors.textMuted }}
         >
           A simple app to organize your job search activities.
         </p>
 
-        <div className="flex flex-col gap-3">
+        <Link
+          to="/about"
+          className="underline"
+          style={{ color: colors.textMuted }}
+        >
+          Read more about the app.
+        </Link>
+
+        <div className="mt-8 flex flex-col gap-3">
           {pages.map((action) => (
             <Link
               key={action.to}
