@@ -3538,4 +3538,221 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "odaseva",
+    title: "Odaseva",
+    websiteUrl: "https://www.odaseva.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.lever.co/odaseva",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/odaseva",
+      },
+    ],
+  },
+  {
+    id: "ogury",
+    title: "Ogury",
+    websiteUrl: "https://www.ogury.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.ogury.com/job-listings",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ogury-ltd",
+      },
+    ],
+  },
+  {
+    id: "okta",
+    title: "Okta",
+    websiteUrl: "https://www.okta.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.okta.com/company/careers/job-listing",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/okta-inc-",
+      },
+    ],
+  },
+  {
+    id: "old_skull_games",
+    title: "Old Skull Games",
+    websiteUrl: "https://www.oldskullgames.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.oldskullgames.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/old-skull-games",
+      },
+    ],
+  },
+  {
+    id: "onepoint",
+    title: "Onepoint",
+    websiteUrl: "https://www.groupeonepoint.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workday)",
+        url: "https://onepoint.wd3.myworkdayjobs.com/OnepointFR",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/onepoint",
+      },
+    ],
+  },
+  {
+    id: "openreplay",
+    title: "OpenReplay",
+    websiteUrl: "https://openreplay.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/openreplay",
+      },
+    ],
+  },
+  {
+    id: "orchestrade",
+    title: "Orchestrade",
+    websiteUrl: "https://www.orchestrade.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.orchestrade.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/orchestrade",
+      },
+    ],
+  },
+  {
+    id: "orisha",
+    title: "Orisha",
+    websiteUrl: "https://www.orisha.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.orisha.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/orisha-group",
+      },
+    ],
+  },
+  {
+    id: "orki",
+    title: "Orki",
+    websiteUrl: "https://orki.green",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/orki",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/orkigreen",
+      },
+    ],
+  },
+  {
+    id: "orus",
+    title: "Orus",
+    websiteUrl: "https://www.orus.eu",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.orus.eu/carrieres",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/orus-insurance",
+      },
+    ],
+  },
+  {
+    id: "outsight",
+    title: "Outsight",
+    websiteUrl: "https://www.outsight.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.outsight.ai/company/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/outsight",
+      },
+    ],
+  },
+  {
+    id: "ovhcloud",
+    title: "OVHcloud",
+    websiteUrl: "https://www.ovhcloud.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.ovhcloud.com/search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ovhgroup",
+      },
+    ],
+  },
+  {
+    id: "ovrsea",
+    title: "OVRSEA",
+    websiteUrl: "https://www.ovrsea.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/ovrsea/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ovrsea",
+      },
+    ],
+  },
 ];
