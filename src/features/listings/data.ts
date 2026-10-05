@@ -3542,8 +3542,9 @@ export const listings: JobListing[] = [
     id: "odaseva",
     title: "Odaseva",
     websiteUrl: "https://www.odaseva.com",
-    description: "",
-    tags: [],
+    description:
+      "Enterprise data platform for Salesforce. Provides backup, archiving, encryption, masking, and data movement to secure and manage large-scale Salesforce data across orgs and regions.",
+    tags: ["Data", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
@@ -3559,8 +3560,9 @@ export const listings: JobListing[] = [
     id: "ogury",
     title: "Ogury",
     websiteUrl: "https://www.ogury.com",
-    description: "",
-    tags: [],
+    description:
+      "Global adtech company delivering personified, privacy-first advertising. Uses consented personas and attention-optimized formats to activate audiences across mobile, in-app, and digital channels.",
+    tags: ["Media", "AI", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3576,8 +3578,9 @@ export const listings: JobListing[] = [
     id: "okta",
     title: "Okta",
     websiteUrl: "https://www.okta.com",
-    description: "",
-    tags: [],
+    description:
+      "Identity and access management platform for workforce and customers. Provides single sign-on, multi-factor authentication, lifecycle management, and API security to connect people safely to applications.",
+    tags: ["SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3593,8 +3596,9 @@ export const listings: JobListing[] = [
     id: "old_skull_games",
     title: "Old Skull Games",
     websiteUrl: "https://www.oldskullgames.com",
-    description: "",
-    tags: [],
+    description:
+      "Independent video game studio creating original IPs. Focuses on community-driven development and player-centric design across PC and console titles.",
+    tags: ["Gaming", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3610,8 +3614,9 @@ export const listings: JobListing[] = [
     id: "onepoint",
     title: "Onepoint",
     websiteUrl: "https://www.groupeonepoint.com",
-    description: "",
-    tags: [],
+    description:
+      "International consulting and tech group driving digital transformation. Combines strategy, design, data, AI, cloud, cybersecurity, and software engineering for enterprises and public sector clients.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page (Workday)",
@@ -3627,8 +3632,9 @@ export const listings: JobListing[] = [
     id: "openreplay",
     title: "OpenReplay",
     websiteUrl: "https://openreplay.com",
-    description: "",
-    tags: [],
+    description:
+      "Open-source session replay and product analytics platform. Enables self-hosted replay of user sessions, error tracking, and co-browsing to debug issues and improve UX while keeping data under full control.",
+    tags: ["Data", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -3640,8 +3646,9 @@ export const listings: JobListing[] = [
     id: "orchestrade",
     title: "Orchestrade",
     websiteUrl: "https://www.orchestrade.com",
-    description: "",
-    tags: [],
+    description:
+      "Cross-asset trading and risk management platform for finance and energy markets. Covers front-to-back workflows for derivatives, commodities, power, gas, emissions, and renewables with real-time risk analytics.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3657,8 +3664,9 @@ export const listings: JobListing[] = [
     id: "orisha",
     title: "Orisha",
     websiteUrl: "https://www.orisha.com",
-    description: "",
-    tags: [],
+    description:
+      "European B2B software publisher serving retail, real estate, healthcare, agrifood, and construction. Provides sector-specific management software enhanced with AI to automate tasks and support decision-making.",
+    tags: ["SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -3674,8 +3682,9 @@ export const listings: JobListing[] = [
     id: "orki",
     title: "Orki",
     websiteUrl: "https://orki.green",
-    description: "",
-    tags: [],
+    description:
+      "Climate software for corporate carbon accounting and LCA. Helps companies calculate emissions, define reduction plans, and report in line with regulations and CSR goals.",
+    tags: ["Climate", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -3691,8 +3700,9 @@ export const listings: JobListing[] = [
     id: "orus",
     title: "Orus",
     websiteUrl: "https://www.orus.eu",
-    description: "",
-    tags: [],
+    description:
+      "Digital insurer for SMBs and self-employed professionals. Offers professional liability, multi-risk, and health insurance with instant quotes, flexible contracts, and fast claims handling.",
+    tags: ["FinTech", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3708,8 +3718,9 @@ export const listings: JobListing[] = [
     id: "outsight",
     title: "Outsight",
     websiteUrl: "https://www.outsight.ai",
-    description: "",
-    tags: [],
+    description:
+      "Physical AI company turning 3D LiDAR data into spatial intelligence. Tracks people and vehicles in real time to optimize operations, safety, and visitor experience in airports, venues, and infrastructure.",
+    tags: ["AI", "Data", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3725,8 +3736,9 @@ export const listings: JobListing[] = [
     id: "ovhcloud",
     title: "OVHcloud",
     websiteUrl: "https://www.ovhcloud.com",
-    description: "",
-    tags: [],
+    description:
+      "Leading European cloud provider offering public and private cloud, VPS, dedicated servers, and web hosting. Operates its own data centers and network to deliver open, reversible, and cost-effective infrastructure.",
+    tags: ["ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3742,8 +3754,9 @@ export const listings: JobListing[] = [
     id: "ovrsea",
     title: "OVRSEA",
     websiteUrl: "https://www.ovrsea.com",
-    description: "",
-    tags: [],
+    description:
+      "Digital freight forwarder simplifying international shipping. Combines logistics expertise with a platform for quotes, booking, customs, and real-time tracking across sea, air, and road.",
+    tags: ["FinTech", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
