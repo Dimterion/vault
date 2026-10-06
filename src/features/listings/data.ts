@@ -3768,4 +3768,191 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "padoa",
+    title: "Padoa",
+    websiteUrl: "https://www.padoa.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/padoa/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/padoa",
+      },
+    ],
+  },
+  {
+    id: "parity",
+    title: "Parity",
+    websiteUrl: "https://www.parity.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.parity.io/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/paritytech",
+      },
+    ],
+  },
+  {
+    id: "patients_know_best",
+    title: "Patients Know Best",
+    websiteUrl: "https://patientsknowbest.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workable)",
+        url: "https://apply.workable.com/patients",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/patients-know-best",
+      },
+    ],
+  },
+  {
+    id: "payfit",
+    title: "PayFit",
+    websiteUrl: "https://payfit.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.payfit.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/payfit",
+      },
+    ],
+  },
+  {
+    id: "payrollpanda",
+    title: "PayrollPanda",
+    websiteUrl: "https://www.payrollpanda.my",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://app.welcometothejungle.com/companies/Payroll-Panda",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/payroll-panda",
+      },
+    ],
+  },
+  {
+    id: "pelico",
+    title: "Pelico",
+    websiteUrl: "https://www.pelico.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.pelico.ai/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/pelico-io",
+      },
+    ],
+  },
+  {
+    id: "pennylane",
+    title: "Pennylane",
+    websiteUrl: "https://www.pennylane.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/pennylane",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/pennylaneaccounting",
+      },
+    ],
+  },
+  {
+    id: "percona",
+    title: "Percona",
+    websiteUrl: "https://www.percona.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.percona.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/percona",
+      },
+    ],
+  },
+  {
+    id: "phantombuster",
+    title: "PhantomBuster",
+    websiteUrl: "https://phantombuster.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.phantombuster.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/phantombuster-official",
+      },
+    ],
+  },
+  {
+    id: "phorest",
+    title: "Phorest",
+    websiteUrl: "https://www.phorest.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.phorest.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/phorest",
+      },
+    ],
+  },
+  {
+    id: "pigment",
+    title: "Pigment",
+    websiteUrl: "https://www.pigment.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.lever.co/pigment",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/pigment",
+      },
+    ],
+  },
 ];
