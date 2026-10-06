@@ -3772,8 +3772,9 @@ export const listings: JobListing[] = [
     id: "padoa",
     title: "Padoa",
     websiteUrl: "https://www.padoa.fr",
-    description: "",
-    tags: [],
+    description:
+      "SaaS platform for occupational health and workplace prevention. Connects occupational health services, employers, and employees to manage risk assessments, medical follow-ups, and regulatory compliance.",
+    tags: ["HealthTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -3789,8 +3790,9 @@ export const listings: JobListing[] = [
     id: "parity",
     title: "Parity",
     websiteUrl: "https://www.parity.io",
-    description: "",
-    tags: [],
+    description:
+      "Blockchain infrastructure company behind Polkadot and the Polkadot SDK. Builds core protocol components, developer tooling, and modular blockchain frameworks to enable interoperable Web3 networks.",
+    tags: ["FinTech", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3806,8 +3808,9 @@ export const listings: JobListing[] = [
     id: "patients_know_best",
     title: "Patients Know Best",
     websiteUrl: "https://patientsknowbest.com",
-    description: "",
-    tags: [],
+    description:
+      "Personal Health Record platform that gives patients a single, secure record combining data from providers, devices, and self-reported information. Enables sharing with clinicians and carers to support coordinated, proactive care.",
+    tags: ["HealthTech", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Workable)",
@@ -3823,8 +3826,9 @@ export const listings: JobListing[] = [
     id: "payfit",
     title: "PayFit",
     websiteUrl: "https://payfit.com",
-    description: "",
-    tags: [],
+    description:
+      "Cloud payroll and HR platform for SMBs. Automates payslips, statutory filings, and core HR processes with local compliance in multiple countries, backed by expert payroll teams and AI-assisted checks.",
+    tags: ["FinTech", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -3840,8 +3844,9 @@ export const listings: JobListing[] = [
     id: "payrollpanda",
     title: "PayrollPanda",
     websiteUrl: "https://www.payrollpanda.my",
-    description: "",
-    tags: [],
+    description:
+      "Malaysian cloud payroll and HR software. Automates salary calculations, statutory contributions, tax forms, and payslips while ensuring compliance with local regulations for SMEs.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -3857,8 +3862,9 @@ export const listings: JobListing[] = [
     id: "pelico",
     title: "Pelico",
     websiteUrl: "https://www.pelico.ai",
-    description: "",
-    tags: [],
+    description:
+      "AI-driven manufacturing orchestration platform. Connects shop-floor data and ERP systems to anticipate disruptions, optimize inventory, and coordinate recovery actions across complex production networks.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3874,8 +3880,9 @@ export const listings: JobListing[] = [
     id: "pennylane",
     title: "Pennylane",
     websiteUrl: "https://www.pennylane.com",
-    description: "",
-    tags: [],
+    description:
+      "All-in-one financial management and accounting platform for SMEs and startups. Combines invoicing, expense management, cash flow tracking, bank account, and full accounting production in a single tool.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -3891,8 +3898,9 @@ export const listings: JobListing[] = [
     id: "percona",
     title: "Percona",
     websiteUrl: "https://www.percona.com",
-    description: "",
-    tags: [],
+    description:
+      "Enterprise open-source database software and services. Provides distributions, support, managed operations, and tooling for MySQL, PostgreSQL, MongoDB, MariaDB, and Redis/Valkey across cloud and on-prem.",
+    tags: ["Data", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3908,8 +3916,9 @@ export const listings: JobListing[] = [
     id: "phantombuster",
     title: "PhantomBuster",
     websiteUrl: "https://phantombuster.com",
-    description: "",
-    tags: [],
+    description:
+      "Cloud automation platform for sales prospecting and growth. Automates data extraction, enrichment, and outreach workflows across LinkedIn, Sales Navigator, and other web sources without code.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -3925,8 +3934,9 @@ export const listings: JobListing[] = [
     id: "phorest",
     title: "Phorest",
     websiteUrl: "https://www.phorest.com",
-    description: "",
-    tags: [],
+    description:
+      "All-in-one salon, spa, and aesthetic clinic software. Manages online booking, POS, payments, marketing automation, loyalty, and client records with tools tailored to premium beauty and aesthetics businesses.",
+    tags: ["SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -3942,8 +3952,9 @@ export const listings: JobListing[] = [
     id: "pigment",
     title: "Pigment",
     websiteUrl: "https://www.pigment.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered business planning platform for FP&A and corporate performance management. Enables budgeting, forecasting, headcount planning, and scenario modeling with live data and AI agents.",
+    tags: ["FinTech", "AI", "France"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
