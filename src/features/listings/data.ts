@@ -3966,4 +3966,187 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "pivot",
+    title: "Pivot",
+    websiteUrl: "https://www.pivotapp.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/Pivot",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/pivothq",
+      },
+    ],
+  },
+  {
+    id: "playmakers",
+    title: "PlayMakers",
+    websiteUrl: "https://www.playmakers.co",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Wellfound)",
+        url: "https://wellfound.com/company/playmakers-3",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/playmakersgames",
+      },
+    ],
+  },
+  {
+    id: "playrix",
+    title: "Playrix",
+    websiteUrl: "https://playrix.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://playrix.com/job/open",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/playrix-entertainment",
+      },
+    ],
+  },
+  {
+    id: "posthog",
+    title: "PostHog",
+    websiteUrl: "https://posthog.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://posthog.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/posthog",
+      },
+    ],
+  },
+  {
+    id: "prelude",
+    title: "Prelude",
+    websiteUrl: "https://prelude.so",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://prelude.so/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/prelude-so",
+      },
+    ],
+  },
+  {
+    id: "primer",
+    title: "Primer",
+    websiteUrl: "https://primer.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/primer.io",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/primerapi",
+      },
+    ],
+  },
+  {
+    id: "prisma",
+    title: "Prisma",
+    websiteUrl: "https://www.prisma.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.prisma.io/company/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/prisma-io",
+      },
+    ],
+  },
+  {
+    id: "proton",
+    title: "Proton",
+    websiteUrl: "https://proton.me",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://proton.me/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/protonprivacy",
+      },
+    ],
+  },
+  {
+    id: "pubstack",
+    title: "Pubstack",
+    websiteUrl: "https://www.pubstack.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/pubstack",
+      },
+    ],
+  },
+  {
+    id: "pullup_entertainment",
+    title: "Pullup Entertainment",
+    websiteUrl: "https://pullupent.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://pullupent.com/career/open-positions",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/pullup-entertainment",
+      },
+    ],
+  },
+  {
+    id: "pwc",
+    title: "PwC",
+    websiteUrl: "https://www.pwc.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://carrieres.pwc.fr",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/pwc-france",
+      },
+    ],
+  },
 ];
