@@ -4164,8 +4164,9 @@ export const listings: JobListing[] = [
     id: "qevlar",
     title: "Qevlar",
     websiteUrl: "https://www.qevlar.com",
-    description: "",
-    tags: [],
+    description:
+      "AI SOC platform that autonomously investigates security alerts across the entire stack. Delivers evidence-based verdicts, reduces false positives and MTTR, and turns each case into reusable intelligence for detection and response.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -4181,8 +4182,9 @@ export const listings: JobListing[] = [
     id: "qlik",
     title: "Qlik",
     websiteUrl: "https://www.qlik.com",
-    description: "",
-    tags: [],
+    description:
+      "End-to-end data integration and analytics platform. Combines data pipelines, catalogs, and an associative analytics engine with AI-powered insights to enable self-service BI and governed data products.",
+    tags: ["Data", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4198,8 +4200,9 @@ export const listings: JobListing[] = [
     id: "qonto",
     title: "Qonto",
     websiteUrl: "https://qonto.com",
-    description: "",
-    tags: [],
+    description:
+      "All-in-one business banking and finance management platform for freelancers and SMEs. Provides IBAN accounts, cards, invoicing, bookkeeping, spend controls, and cash-flow tools with local compliance across Europe.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4215,8 +4218,9 @@ export const listings: JobListing[] = [
     id: "qualcomm",
     title: "Qualcomm",
     websiteUrl: "https://www.qualcomm.com",
-    description: "",
-    tags: [],
+    description:
+      "Semiconductor and wireless technology company. Designs Snapdragon mobile and edge AI platforms, modems, RF systems, and connectivity solutions, and licenses foundational cellular and Wi‑Fi patents used in billions of devices.",
+    tags: ["FinTech", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4232,8 +4236,9 @@ export const listings: JobListing[] = [
     id: "qualio",
     title: "Qualio",
     websiteUrl: "https://www.qualio.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered quality and compliance platform for life sciences. Unifies QMS, document control, training, risk, and supplier management with automated gap analysis and continuous monitoring for FDA/ISO/GxP readiness.",
+    tags: ["HealthTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4249,8 +4254,9 @@ export const listings: JobListing[] = [
     id: "quantic_dream",
     title: "Quantic Dream",
     websiteUrl: "https://www.quanticdream.com",
-    description: "",
-    tags: [],
+    description:
+      "French video game developer and publisher known for narrative-driven interactive experiences. Creator of Heavy Rain, Beyond: Two Souls, and Detroit: Become Human, and publisher of independent story-focused titles.",
+    tags: ["Gaming", "France"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
@@ -4266,8 +4272,9 @@ export const listings: JobListing[] = [
     id: "reality_defender",
     title: "Reality Defender",
     websiteUrl: "https://www.realitydefender.com",
-    description: "",
-    tags: [],
+    description:
+      "Deepfake and synthetic media detection company. Provides real-time voice, video, image, and text detection APIs and tools for enterprises, platforms, and governments to prevent fraud and disinformation.",
+    tags: ["AI", "Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4283,8 +4290,9 @@ export const listings: JobListing[] = [
     id: "relationalai",
     title: "RelationalAI",
     websiteUrl: "https://www.relational.ai",
-    description: "",
-    tags: [],
+    description:
+      "Decision intelligence platform and AI coprocessor for Snowflake. Builds relational knowledge graphs and semantic models to enable graph analytics, reasoning, optimization, and composite AI workloads on enterprise data.",
+    tags: ["Data", "AI", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Greenhouse)",
@@ -4300,8 +4308,9 @@ export const listings: JobListing[] = [
     id: "rerun",
     title: "Rerun",
     websiteUrl: "https://rerun.io",
-    description: "",
-    tags: [],
+    description:
+      "Unified data layer for physical AI. Provides SDKs and a visualizer to log, query, and explore multimodal, time-series data from robotics, computer vision, simulation, and embodied AI pipelines.",
+    tags: ["AI", "Data", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4317,8 +4326,9 @@ export const listings: JobListing[] = [
     id: "riot",
     title: "Riot",
     websiteUrl: "https://tryriot.com",
-    description: "",
-    tags: [],
+    description:
+      "Hiring platform connecting candidates with top startups and tech companies. Combines curated opportunities, skill-based matching, and a streamlined application process to accelerate recruitment for engineering and product roles.",
+    tags: ["ITServices", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Workable)",
@@ -4334,8 +4344,9 @@ export const listings: JobListing[] = [
     id: "rtb_house",
     title: "RTB House",
     websiteUrl: "https://www.rtbhouse.com",
-    description: "",
-    tags: [],
+    description:
+      "Next-generation performance DSP powered by proprietary deep learning. Runs first‑party, privacy-safe display and retargeting campaigns across web and app, with self-serve and managed solutions for brands and agencies.",
+    tags: ["Media", "AI", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4351,8 +4362,9 @@ export const listings: JobListing[] = [
     id: "runway",
     title: "Runway",
     websiteUrl: "https://runway.com",
-    description: "",
-    tags: [],
+    description:
+      "Generative AI company building foundational models and tools for video, image, and audio creation. Offers text-to-video, editing, and multimodal generation used by creators, filmmakers, and developers via cloud and API.",
+    tags: ["AI", "Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
