@@ -95,6 +95,14 @@ export default function ApplicationTrackerPage() {
 
   return (
     <div className="mx-auto min-h-full w-full bg-white px-4 py-6 sm:px-6 lg:px-8">
+      <div className="mb-6">
+        <h1 className="text-2xl font-bold text-gray-900">
+          Application Tracker
+        </h1>
+        <p className="mt-2 text-sm text-gray-500">
+          Track and manage your job applications.
+        </p>
+      </div>
       <div className="mb-3 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
         <button
           type="button"

@@ -4376,4 +4376,191 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "saas.group",
+    title: "saas.group",
+    websiteUrl: "https://saas.group",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://saas.group/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/saas-group",
+      },
+    ],
+  },
+  {
+    id: "sabio",
+    title: "Sabio",
+    websiteUrl: "https://sabiogroup.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Pinpoint)",
+        url: "https://sabio.pinpointhq.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sabio",
+      },
+    ],
+  },
+  {
+    id: "sagemcom",
+    title: "Sagemcom",
+    websiteUrl: "https://sagemcom.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.sagemcom.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sagemcom",
+      },
+    ],
+  },
+  {
+    id: "sander",
+    title: "Sander",
+    websiteUrl: "https://www.wearesander.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.wearesander.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/wearesander",
+      },
+    ],
+  },
+  {
+    id: "sanofi",
+    title: "Sanofi",
+    websiteUrl: "https://www.sanofi.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.sanofi.com/search-jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sanofi",
+      },
+    ],
+  },
+  {
+    id: "sap",
+    title: "SAP",
+    websiteUrl: "https://www.sap.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.sap.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sap",
+      },
+    ],
+  },
+  {
+    id: "scaleway",
+    title: "Scaleway",
+    websiteUrl: "https://www.scaleway.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.lever.co/scaleway",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/scaleway",
+      },
+    ],
+  },
+  {
+    id: "scortex",
+    title: "Scortex",
+    websiteUrl: "https://scortex.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://scortex.welcomekit.co",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/scortex",
+      },
+    ],
+  },
+  {
+    id: "sekoia",
+    title: "Sekoia",
+    websiteUrl: "https://www.sekoia.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.sekoia.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sekoia",
+      },
+    ],
+  },
+  {
+    id: "seyna",
+    title: "Seyna",
+    websiteUrl: "https://www.seyna.eu",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/seyna",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/seyna-insurance",
+      },
+    ],
+  },
+  {
+    id: "seyos",
+    title: "Seyos",
+    websiteUrl: "https://www.seyos.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.seyos.fr/offres",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/seyos-recrutement-it",
+      },
+    ],
+  },
 ];
