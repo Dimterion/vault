@@ -4160,4 +4160,208 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "qevlar",
+    title: "Qevlar",
+    websiteUrl: "https://www.qevlar.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://qevlar-1721317262.teamtailor.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/qevlar",
+      },
+    ],
+  },
+  {
+    id: "qlik",
+    title: "Qlik",
+    websiteUrl: "https://www.qlik.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careerhub.qlik.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/qlik",
+      },
+    ],
+  },
+  {
+    id: "qonto",
+    title: "Qonto",
+    websiteUrl: "https://qonto.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://qonto.com/en/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/qonto",
+      },
+    ],
+  },
+  {
+    id: "qualcomm",
+    title: "Qualcomm",
+    websiteUrl: "https://www.qualcomm.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.qualcomm.com/company/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/qualcomm",
+      },
+    ],
+  },
+  {
+    id: "qualio",
+    title: "Qualio",
+    websiteUrl: "https://www.qualio.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.qualio.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/qualiohq",
+      },
+    ],
+  },
+  {
+    id: "quantic_dream",
+    title: "Quantic Dream",
+    websiteUrl: "https://www.quanticdream.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.eu.lever.co/quanticdream",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/quantic-dream",
+      },
+    ],
+  },
+  {
+    id: "reality_defender",
+    title: "Reality Defender",
+    websiteUrl: "https://www.realitydefender.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.realitydefender.com/careers/open-roles",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/reality-defender",
+      },
+    ],
+  },
+  {
+    id: "relationalai",
+    title: "RelationalAI",
+    websiteUrl: "https://www.relational.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Greenhouse)",
+        url: "https://job-boards.greenhouse.io/relationalai",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/relationalai",
+      },
+    ],
+  },
+  {
+    id: "rerun",
+    title: "Rerun",
+    websiteUrl: "https://rerun.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://rerun.io/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/rerun-io",
+      },
+    ],
+  },
+  {
+    id: "riot",
+    title: "Riot",
+    websiteUrl: "https://tryriot.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workable)",
+        url: "https://apply.workable.com/riot",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/tryriot",
+      },
+    ],
+  },
+  {
+    id: "rtb_house",
+    title: "RTB House",
+    websiteUrl: "https://www.rtbhouse.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.rtbhouse.com/careers-offers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/rtb-house/",
+      },
+    ],
+  },
+  {
+    id: "runway",
+    title: "Runway",
+    websiteUrl: "https://runway.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://runway.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/runwayml",
+      },
+    ],
+  },
 ];
