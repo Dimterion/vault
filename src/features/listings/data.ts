@@ -5006,4 +5006,179 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "tactical_adventures",
+    title: "Tactical Adventures",
+    websiteUrl: "https://www.tactical-adventures.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/tactical-adventures",
+      },
+    ],
+  },
+  {
+    id: "teads",
+    title: "Teads",
+    websiteUrl: "https://www.teads.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.teads.com/teads-careers/job-openings",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/teads",
+      },
+    ],
+  },
+  {
+    id: "team.is",
+    title: "team.is",
+    websiteUrl: "https://team-is.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://team-is.fr/offres",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/teamis",
+      },
+    ],
+  },
+  {
+    id: "tekkare",
+    title: "Tekkare",
+    websiteUrl: "https://tekkare.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/tekkare",
+      },
+    ],
+  },
+  {
+    id: "temporal",
+    title: "Temporal",
+    websiteUrl: "https://temporal.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://temporal.io/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/temporal-technologies",
+      },
+    ],
+  },
+  {
+    id: "tesla",
+    title: "Tesla",
+    websiteUrl: "https://www.tesla.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.tesla.com/careers/search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/tesla-motors",
+      },
+    ],
+  },
+  {
+    id: "theodo",
+    title: "Theodo",
+    websiteUrl: "https://www.theodo.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.theodo.com/offres-emploi",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/theodo",
+      },
+    ],
+  },
+  {
+    id: "theory",
+    title: "Theory",
+    websiteUrl: "https://www.theory.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/theory",
+      },
+    ],
+  },
+  {
+    id: "tiger_data",
+    title: "Tiger Data",
+    websiteUrl: "https://www.tigerdata.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.tigerdata.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/tigerdata",
+      },
+    ],
+  },
+  {
+    id: "too_good_to_go",
+    title: "Too Good To Go",
+    websiteUrl: "https://www.toogoodtogo.com/",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.toogoodtogo.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/too-good-to-go",
+      },
+    ],
+  },
+  {
+    id: "totalenergies",
+    title: "TotalEnergies",
+    websiteUrl: "https://totalenergies.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.totalenergies.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/totalenergies",
+      },
+    ],
+  },
 ];

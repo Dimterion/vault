@@ -13,7 +13,7 @@ const COLUMNS = [
   { key: "activity", label: "Activity", width: "180px" },
   { key: "date", label: "Date", width: "140px" },
   { key: "status", label: "Status", width: "140px" },
-  { key: "notes", label: "Notes", width: "260px" },
+  { key: "notes", label: "Notes", width: "440px" },
 ] as const;
 
 function renumber(list: Activity[]): Activity[] {
@@ -94,6 +94,12 @@ export default function ActivitiesPage() {
 
   return (
     <div className="mx-auto min-h-full w-full bg-white px-4 py-6 sm:px-6 lg:px-8">
+      <div className="mb-6">
+        <h1 className="text-2xl font-bold text-gray-900">Activities Tracker</h1>
+        <p className="mt-2 text-sm text-gray-500">
+          Track and manage your job search activities.
+        </p>
+      </div>
       <div className="mb-3 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
         <button
           type="button"
@@ -178,7 +184,7 @@ export default function ActivitiesPage() {
                   </td>
 
                   <td className="px-4 py-3 text-sm text-gray-900">
-                    <div className="15 line-clamp-3">{act.notes || "—"}</div>
+                    <div className="line-clamp-3">{act.notes || "—"}</div>
                   </td>
                 </tr>
               ))}
