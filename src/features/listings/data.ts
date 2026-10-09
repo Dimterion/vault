@@ -4380,8 +4380,9 @@ export const listings: JobListing[] = [
     id: "saas.group",
     title: "saas.group",
     websiteUrl: "https://saas.group",
-    description: "",
-    tags: [],
+    description:
+      "SaaS holding company that acquires, operates, and grows bootstrapped or lightly funded B2B software businesses. Focuses on product-led, profitable SaaS in marketing, development, CX, and productivity, providing capital and shared expertise post-acquisition.",
+    tags: ["SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4397,8 +4398,9 @@ export const listings: JobListing[] = [
     id: "sabio",
     title: "Sabio",
     websiteUrl: "https://sabiogroup.com",
-    description: "",
-    tags: [],
+    description:
+      "Customer experience consultancy and technology partner. Combines CX strategy, contact centre solutions, AI automation, and data analytics to transform customer service operations for large enterprises across Europe.",
+    tags: ["Consulting", "AI", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Pinpoint)",
@@ -4414,8 +4416,9 @@ export const listings: JobListing[] = [
     id: "sagemcom",
     title: "Sagemcom",
     websiteUrl: "https://sagemcom.com",
-    description: "",
-    tags: [],
+    description:
+      "Global provider of connected terminals and solutions for broadband, audio‑video, and smart energy. Supplies CPE, set‑top boxes, smart meters, and grid communication systems to ISPs, utilities, and broadcasters worldwide.",
+    tags: ["ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4431,8 +4434,9 @@ export const listings: JobListing[] = [
     id: "sander",
     title: "Sander",
     websiteUrl: "https://www.wearesander.com",
-    description: "",
-    tags: [],
+    description:
+      "Recruitment consultancy specializing in Finance, IT, Legal, and HR roles. Supports permanent and contract hiring with sector‑expert consultants across Belgium and Europe, combining traditional search with HR‑tech tools.",
+    tags: ["ITServices", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4448,8 +4452,9 @@ export const listings: JobListing[] = [
     id: "sanofi",
     title: "Sanofi",
     websiteUrl: "https://www.sanofi.com",
-    description: "",
-    tags: [],
+    description:
+      "Global biopharmaceutical company focused on immunology, rare diseases, oncology, neurology, and vaccines. Develops, manufactures, and markets prescription medicines and vaccines, increasingly leveraging AI in R&D and operations.",
+    tags: ["HealthTech", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4465,8 +4470,9 @@ export const listings: JobListing[] = [
     id: "sap",
     title: "SAP",
     websiteUrl: "https://www.sap.com",
-    description: "",
-    tags: [],
+    description:
+      "Enterprise software company best known for ERP and cloud business applications. Provides integrated suites for finance, supply chain, HR, procurement, and analytics, with embedded AI and industry-specific solutions.",
+    tags: ["SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4482,8 +4488,9 @@ export const listings: JobListing[] = [
     id: "scaleway",
     title: "Scaleway",
     websiteUrl: "https://www.scaleway.com",
-    description: "",
-    tags: [],
+    description:
+      "European sovereign cloud and AI provider. Offers compute, storage, networking, Kubernetes, managed databases, serverless, and GPU infrastructure for AI workloads, with a focus on transparency, sustainability, and data residency in Europe.",
+    tags: ["ITServices", "AI", "France"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
@@ -4499,8 +4506,9 @@ export const listings: JobListing[] = [
     id: "scortex",
     title: "Scortex",
     websiteUrl: "https://scortex.io",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered visual inspection solutions for manufacturing quality control. Provides turnkey camera kits and software that use deep learning to detect defects in real time on production lines across cosmetics, automotive, electronics, and packaging.",
+    tags: ["AI", "Climate", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -4516,8 +4524,9 @@ export const listings: JobListing[] = [
     id: "sekoia",
     title: "Sekoia",
     websiteUrl: "https://www.sekoia.com",
-    description: "",
-    tags: [],
+    description:
+      "Agentic cybersecurity company building an autonomous SOC platform. Combines detection, threat intelligence, and AI agents to investigate alerts end-to-end and deliver audit-ready verdicts with automated response actions.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -4533,8 +4542,9 @@ export const listings: JobListing[] = [
     id: "seyna",
     title: "Seyna",
     websiteUrl: "https://www.seyna.eu",
-    description: "",
-    tags: [],
+    description:
+      "AI-native insurer and platform for brokers. Enables rapid design and launch of white-label insurance products (professional risks, health, pet, protection, affinity) with built-in distribution and management tools to optimize performance.",
+    tags: ["FinTech", "AI", "France"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -4550,8 +4560,9 @@ export const listings: JobListing[] = [
     id: "seyos",
     title: "Seyos",
     websiteUrl: "https://www.seyos.fr",
-    description: "",
-    tags: [],
+    description:
+      "IT and digital recruitment consultancy based in France. Specializes in technical, functional, and leadership roles across software, infrastructure, data, cybersecurity, and AI, supporting startups to large enterprises nationwide.",
+    tags: ["ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4560,6 +4571,414 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/seyos-recrutement-it",
+      },
+    ],
+  },
+  {
+    id: "shadow",
+    title: "Shadow",
+    websiteUrl: "https://shadow.tech",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/shadow/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/shadowpc",
+      },
+    ],
+  },
+  {
+    id: "shift",
+    title: "Shift",
+    websiteUrl: "https://www.shift-technology.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.shift-technology.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/shift-technology",
+      },
+    ],
+  },
+  {
+    id: "shine",
+    title: "Shine",
+    websiteUrl: "https://shine.co",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.shine.co/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/shine-global-tools",
+      },
+    ],
+  },
+  {
+    id: "shippeo",
+    title: "Shippeo",
+    websiteUrl: "https://www.shippeo.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.shippeo.com/company/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/shippeo",
+      },
+    ],
+  },
+  {
+    id: "shopify",
+    title: "Shopify",
+    websiteUrl: "https://www.shopify.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.shopify.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/shopify",
+      },
+    ],
+  },
+  {
+    id: "sidetrade",
+    title: "Sidetrade",
+    websiteUrl: "https://www.sidetrade.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.sidetrade.com/company/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sidetrade",
+      },
+    ],
+  },
+  {
+    id: "sinch",
+    title: "Sinch",
+    websiteUrl: "https://sinch.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.group.sinch.com/careers/join-us",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sinch",
+      },
+    ],
+  },
+  {
+    id: "sitecore",
+    title: "Sitecore",
+    websiteUrl: "https://www.sitecore.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/sitecore",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sitecore",
+      },
+    ],
+  },
+  {
+    id: "skello",
+    title: "Skello",
+    websiteUrl: "https://www.skello.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://skello.teamtailor.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/skello",
+      },
+    ],
+  },
+  {
+    id: "sloclap",
+    title: "Sloclap",
+    websiteUrl: "https://sloclap.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.sloclap.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sloclap",
+      },
+    ],
+  },
+  {
+    id: "sofatutor",
+    title: "Sofatutor",
+    websiteUrl: "https://www.sofatutor.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.sofatutor.com/job-uebersicht",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sofatutor-gmbh",
+      },
+    ],
+  },
+  {
+    id: "solina",
+    title: "Solina",
+    websiteUrl: "https://www.solina.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workday)",
+        url: "https://solina.wd502.myworkdayjobs.com/Sol_ext_car",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/solina-group",
+      },
+    ],
+  },
+  {
+    id: "sopra_steria",
+    title: "Sopra Steria",
+    websiteUrl: "https://www.soprasteria.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.soprasteria.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/soprasteria",
+      },
+    ],
+  },
+  {
+    id: "sparteo",
+    title: "Sparteo",
+    websiteUrl: "https://corporate.sparteo.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://sparteo.teamtailor.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sparteo",
+      },
+    ],
+  },
+  {
+    id: "spendesk",
+    title: "Spendesk",
+    websiteUrl: "https://www.spendesk.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://career.spendesk.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/spendesk",
+      },
+    ],
+  },
+  {
+    id: "spinergie",
+    title: "Spinergie",
+    websiteUrl: "https://www.spinergie.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.spinergie.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/spinergie",
+      },
+    ],
+  },
+  {
+    id: "station_f",
+    title: "Station F",
+    websiteUrl: "https://stationf.co",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://jobs.stationf.co/search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/stationf",
+      },
+    ],
+  },
+  {
+    id: "storyblok",
+    title: "Storyblok",
+    websiteUrl: "https://www.storyblok.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.storyblok.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/storyblok",
+      },
+    ],
+  },
+  {
+    id: "strangebee",
+    title: "StrangeBee",
+    websiteUrl: "https://strangebee.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.strangebee.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/strangebee",
+      },
+    ],
+  },
+  {
+    id: "supabase",
+    title: "Supabase",
+    websiteUrl: "https://supabase.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://supabase.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/supabase",
+      },
+    ],
+  },
+  {
+    id: "suse",
+    title: "SUSE",
+    websiteUrl: "https://www.suse.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workday)",
+        url: "https://suse.wd3.myworkdayjobs.com/Jobsatsuse",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/suse",
+      },
+    ],
+  },
+  {
+    id: "swan",
+    title: "Swan",
+    websiteUrl: "https://www.swan.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/swan/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/swan-embedded-banking",
+      },
+    ],
+  },
+  {
+    id: "synapsys",
+    title: "Synapsys",
+    websiteUrl: "https://synapsys-groupe.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://synapsys-groupe.com/offres-emploi",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/synapsys-sas",
+      },
+    ],
+  },
+  {
+    id: "syndigo",
+    title: "Syndigo",
+    websiteUrl: "https://syndigo.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://syndigo.com/open-positions",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/syndigo",
       },
     ],
   },
