@@ -4578,8 +4578,9 @@ export const listings: JobListing[] = [
     id: "shadow",
     title: "Shadow",
     websiteUrl: "https://shadow.tech",
-    description: "",
-    tags: [],
+    description:
+      "Cloud PC platform that streams a full Windows machine with high-end GPU to any device. Lets gamers, creators, and businesses run games, apps, and workloads remotely with low latency and full software freedom.",
+    tags: ["Gaming", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -4595,8 +4596,9 @@ export const listings: JobListing[] = [
     id: "shift",
     title: "Shift",
     websiteUrl: "https://www.shift-technology.com",
-    description: "",
-    tags: [],
+    description:
+      "AI platform for insurers. Provides agentic and generative AI to detect fraud, automate claims, assess liability, and optimize underwriting across P&C, health, travel, and life insurance.",
+    tags: ["AI", "FinTech", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4612,8 +4614,9 @@ export const listings: JobListing[] = [
     id: "shine",
     title: "Shine",
     websiteUrl: "https://shine.co",
-    description: "",
-    tags: [],
+    description:
+      "Business finance platform for freelancers and small businesses. Combines banking, invoicing, accounting, payroll, payments, and tax filing in one tool to simplify day-to-day administration.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -4629,8 +4632,9 @@ export const listings: JobListing[] = [
     id: "shippeo",
     title: "Shippeo",
     websiteUrl: "https://www.shippeo.com",
-    description: "",
-    tags: [],
+    description:
+      "Real-time multimodal transportation visibility platform. Connects shippers, carriers, and logistics systems across road, rail, sea, and air to provide predictive ETAs, exception alerts, and AI-driven operational insights.",
+    tags: ["FinTech", "AI", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4646,8 +4650,9 @@ export const listings: JobListing[] = [
     id: "shopify",
     title: "Shopify",
     websiteUrl: "https://www.shopify.com",
-    description: "",
-    tags: [],
+    description:
+      "All-in-one commerce platform for online and in-person selling. Provides storefronts, payments, inventory, fulfillment, marketing, and APIs for merchants and developers to run businesses globally.",
+    tags: ["Ecommerce", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4663,8 +4668,9 @@ export const listings: JobListing[] = [
     id: "sidetrade",
     title: "Sidetrade",
     websiteUrl: "https://www.sidetrade.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-native Order-to-Cash platform for large enterprises. Automates credit, invoicing, collections, cash application, and dispute resolution with domain-specific AI agents and a proprietary O2C data lake.",
+    tags: ["FinTech", "AI", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4680,8 +4686,9 @@ export const listings: JobListing[] = [
     id: "sinch",
     title: "Sinch",
     websiteUrl: "https://sinch.com",
-    description: "",
-    tags: [],
+    description:
+      "Global CPaaS provider for customer communications. Offers APIs and platforms for SMS, RCS, voice, video, email, verification, and fraud prevention across 60+ countries.",
+    tags: ["SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4697,8 +4704,9 @@ export const listings: JobListing[] = [
     id: "sitecore",
     title: "Sitecore",
     websiteUrl: "https://www.sitecore.com",
-    description: "",
-    tags: [],
+    description:
+      "Digital experience and content platform for enterprises. Combines CMS, DAM, personalization, commerce, and AI to manage and deliver content across web, mobile, and other channels.",
+    tags: ["SaaS", "Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -4714,8 +4722,9 @@ export const listings: JobListing[] = [
     id: "skello",
     title: "Skello",
     websiteUrl: "https://www.skello.io",
-    description: "",
-    tags: [],
+    description:
+      "Workforce management platform for shift-based teams. Automates scheduling, time tracking, payroll prep, and HR administration for hospitality, retail, healthcare, and other frontline industries.",
+    tags: ["SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -4731,8 +4740,9 @@ export const listings: JobListing[] = [
     id: "sloclap",
     title: "Sloclap",
     websiteUrl: "https://sloclap.com",
-    description: "",
-    tags: [],
+    description:
+      "Independent video game studio known for stylized action titles. Creator of Absolver and Sifu, focusing on challenging gameplay systems, martial arts-inspired combat, and hand-crafted animation.",
+    tags: ["Gaming", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -4748,8 +4758,9 @@ export const listings: JobListing[] = [
     id: "sofatutor",
     title: "Sofatutor",
     websiteUrl: "https://www.sofatutor.com",
-    description: "",
-    tags: [],
+    description:
+      "German online learning platform for K-12 students. Provides explainer videos, interactive exercises, worksheets, and teacher support across school subjects, with tools for self-paced and classroom learning.",
+    tags: ["EdTech", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4765,8 +4776,9 @@ export const listings: JobListing[] = [
     id: "solina",
     title: "Solina",
     websiteUrl: "https://www.solina.com",
-    description: "",
-    tags: [],
+    description:
+      "Global food solutions company creating customized culinary ingredients for savory food manufacturers. Provides seasonings, sauces, coatings, and functional mixes with R&D and production across Europe and beyond.",
+    tags: ["Climate", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Workday)",
@@ -4782,8 +4794,9 @@ export const listings: JobListing[] = [
     id: "sopra_steria",
     title: "Sopra Steria",
     websiteUrl: "https://www.soprasteria.com",
-    description: "",
-    tags: [],
+    description:
+      "European technology and consulting group. Provides digital transformation, systems integration, software development, cloud, cybersecurity, and AI services to public and private sector clients.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4799,8 +4812,9 @@ export const listings: JobListing[] = [
     id: "sparteo",
     title: "Sparteo",
     websiteUrl: "https://corporate.sparteo.com",
-    description: "",
-    tags: [],
+    description:
+      "Adtech suite for publishers combining display, video, audio, consent management, and analytics. Uses AI and first-party data to optimize ad monetization on sustainable, sovereign infrastructure.",
+    tags: ["Media", "AI", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -4816,8 +4830,9 @@ export const listings: JobListing[] = [
     id: "spendesk",
     title: "Spendesk",
     websiteUrl: "https://www.spendesk.com",
-    description: "",
-    tags: [],
+    description:
+      "Spend management platform for finance teams. Centralizes corporate cards, expenses, invoices, procurement, and budgets with automated approvals, reconciliation, and real-time visibility into company spend.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -4833,8 +4848,9 @@ export const listings: JobListing[] = [
     id: "spinergie",
     title: "Spinergie",
     websiteUrl: "https://www.spinergie.com",
-    description: "",
-    tags: [],
+    description:
+      "Maritime data intelligence platform. Uses vessel, operational, and environmental data to optimize fleet performance, reduce fuel consumption, and support decarbonization across shipping and offshore operations.",
+    tags: ["Climate", "Data", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4850,8 +4866,9 @@ export const listings: JobListing[] = [
     id: "station_f",
     title: "Station F",
     websiteUrl: "https://stationf.co",
-    description: "",
-    tags: [],
+    description:
+      "World’s largest startup campus in Paris. Hosts 1,000+ startups and 30+ programs with access to investors, corporates, mentors, and services for founders from idea to scale.",
+    tags: ["ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -4867,8 +4884,9 @@ export const listings: JobListing[] = [
     id: "storyblok",
     title: "Storyblok",
     websiteUrl: "https://www.storyblok.com",
-    description: "",
-    tags: [],
+    description:
+      "Headless CMS with a visual editor for developers and marketers. Provides API-first content modeling, workflows, localization, and omnichannel delivery for websites, apps, and AI-driven experiences.",
+    tags: ["SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4884,8 +4902,9 @@ export const listings: JobListing[] = [
     id: "strangebee",
     title: "StrangeBee",
     websiteUrl: "https://strangebee.com",
-    description: "",
-    tags: [],
+    description:
+      "Cybersecurity company behind TheHive and Cortex. Provides collaborative case management, alert triage, threat intelligence, and automated response tools for SOCs, CERTs, and MSSPs.",
+    tags: ["SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -4901,8 +4920,9 @@ export const listings: JobListing[] = [
     id: "supabase",
     title: "Supabase",
     websiteUrl: "https://supabase.com",
-    description: "",
-    tags: [],
+    description:
+      "Open-source backend platform built on Postgres. Provides database, auth, storage, realtime, edge functions, and vector embeddings with auto-generated APIs for building full-stack applications.",
+    tags: ["Data", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4918,8 +4938,9 @@ export const listings: JobListing[] = [
     id: "suse",
     title: "SUSE",
     websiteUrl: "https://www.suse.com",
-    description: "",
-    tags: [],
+    description:
+      "Enterprise open-source software company. Provides Linux, Kubernetes, edge, and cloud-native solutions with support and services to run and secure workloads from data center to edge.",
+    tags: ["ITServices", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Workday)",
@@ -4935,8 +4956,9 @@ export const listings: JobListing[] = [
     id: "swan",
     title: "Swan",
     websiteUrl: "https://www.swan.io",
-    description: "",
-    tags: [],
+    description:
+      "European Banking-as-a-Service platform. Enables companies to embed accounts, cards, payments, and compliance into their products via APIs and white-label interfaces across Europe.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -4952,8 +4974,9 @@ export const listings: JobListing[] = [
     id: "synapsys",
     title: "Synapsys",
     websiteUrl: "https://synapsys-groupe.com",
-    description: "",
-    tags: [],
+    description:
+      "IT infrastructure consulting and services firm. Helps clients modernize cloud, DevOps, digital workplace, cybersecurity, and AI/data platforms from strategy to implementation and training.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4969,8 +4992,9 @@ export const listings: JobListing[] = [
     id: "syndigo",
     title: "Syndigo",
     websiteUrl: "https://syndigo.com",
-    description: "",
-    tags: [],
+    description:
+      "Product experience cloud for brands, retailers, and distributors. Centralizes product data and content, manages master data, and syndicates listings to thousands of retailers, marketplaces, and AI surfaces.",
+    tags: ["Ecommerce", "Data", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
