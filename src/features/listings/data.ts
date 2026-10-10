@@ -5196,8 +5196,9 @@ export const listings: JobListing[] = [
     id: "ubisoft",
     title: "Ubisoft",
     websiteUrl: "https://www.ubisoft.com",
-    description: "",
-    tags: [],
+    description:
+      "Global video game developer and publisher behind franchises including Assassin’s Creed, Far Cry, Rainbow Six, Just Dance, and The Crew. Creates games, live services, Ubisoft Connect, and Ubisoft+ subscription offerings.",
+    tags: ["Gaming", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5213,8 +5214,9 @@ export const listings: JobListing[] = [
     id: "understanding_recruitment",
     title: "Understanding Recruitment",
     websiteUrl: "https://www.understandingrecruitment.com",
-    description: "",
-    tags: [],
+    description:
+      "Technology recruitment consultancy connecting companies with talent across software engineering, AI, data, cloud, and emerging technology. Operates in the UK, Europe, and the US.",
+    tags: ["ITServices", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5230,8 +5232,9 @@ export const listings: JobListing[] = [
     id: "unikraft",
     title: "Unikraft",
     websiteUrl: "https://unikraft.com",
-    description: "",
-    tags: [],
+    description:
+      "Cloud infrastructure platform for running Docker-based workloads as lightweight, isolated microVMs. Provides millisecond cold starts, scale-to-zero, and high-density compute for AI agents, sandboxes, CI, and serverless workloads.",
+    tags: ["ITServices", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5247,8 +5250,9 @@ export const listings: JobListing[] = [
     id: "upbound",
     title: "Upbound",
     websiteUrl: "https://www.upbound.io",
-    description: "",
-    tags: [],
+    description:
+      "Cloud infrastructure platform built around Crossplane. Helps platform teams create, operate, and govern declarative control planes for provisioning and managing cloud resources across environments.",
+    tags: ["SaaS", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5264,8 +5268,9 @@ export const listings: JobListing[] = [
     id: "upcloud",
     title: "UpCloud",
     websiteUrl: "https://upcloud.com",
-    description: "",
-    tags: [],
+    description:
+      "European cloud hosting provider offering compute, storage, networking, managed databases, and Kubernetes. Serves developers and businesses with high-performance infrastructure and a 100% uptime SLA.",
+    tags: ["ITServices", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5281,8 +5286,9 @@ export const listings: JobListing[] = [
     id: "upfluence",
     title: "Upfluence",
     websiteUrl: "https://www.upfluence.com",
-    description: "",
-    tags: [],
+    description:
+      "Influencer marketing platform for ecommerce and social commerce brands. Helps identify creators, manage partnerships and affiliates, run UGC campaigns, and attribute sales through Shopify, WooCommerce, Amazon, and other integrations.",
+    tags: ["Media", "AI", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (JazzHR)",
@@ -5298,8 +5304,9 @@ export const listings: JobListing[] = [
     id: "upway",
     title: "Upway",
     websiteUrl: "https://upway.fr",
-    description: "",
-    tags: [],
+    description:
+      "Marketplace for new and professionally refurbished electric bikes. Buys, inspects, repairs, and resells e-bikes with warranty, return options, and trade-in services across Europe and the US.",
+    tags: ["Climate", "Ecommerce", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5315,8 +5322,9 @@ export const listings: JobListing[] = [
     id: "urban_linker",
     title: "Urban Linker",
     websiteUrl: "https://urbanlinker.com",
-    description: "",
-    tags: [],
+    description:
+      "Tech and AI recruitment firm specializing in software engineering, data, cloud, product, and technology leadership roles. Supports startups, scale-ups, and technology companies across France and Europe.",
+    tags: ["ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
