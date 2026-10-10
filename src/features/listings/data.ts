@@ -5010,8 +5010,9 @@ export const listings: JobListing[] = [
     id: "tactical_adventures",
     title: "Tactical Adventures",
     websiteUrl: "https://www.tactical-adventures.com",
-    description: "",
-    tags: [],
+    description:
+      "French video game development and publishing studio specializing in tactical role-playing games. Known for Solasta: Crown of the Magister and focused on bringing tabletop RPG-style systems to PC and console games.",
+    tags: ["Gaming", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -5023,8 +5024,9 @@ export const listings: JobListing[] = [
     id: "teads",
     title: "Teads",
     websiteUrl: "https://www.teads.com",
-    description: "",
-    tags: [],
+    description:
+      "Omnichannel advertising platform connecting brands with premium publishers. Uses audience and contextual data, creative formats, and predictive technology to run and measure advertising campaigns across screens.",
+    tags: ["Media", "AI", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5040,8 +5042,9 @@ export const listings: JobListing[] = [
     id: "team.is",
     title: "team.is",
     websiteUrl: "https://team-is.fr",
-    description: "",
-    tags: [],
+    description:
+      "Recruitment firm focused on strategic hiring in technology, AI, deep tech, gaming, engineering, industry, and business roles. Works with startups, scale-ups, and established companies in France and internationally.",
+    tags: ["Consulting", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5057,8 +5060,9 @@ export const listings: JobListing[] = [
     id: "tekkare",
     title: "Tekkare",
     websiteUrl: "https://tekkare.com",
-    description: "",
-    tags: [],
+    description:
+      "French HealthTech company building data and AI tools for healthcare and life sciences. Its Open Innovation Program organizes official medical and scientific data to support research, market access, competitive intelligence, analytics, and AI projects.",
+    tags: ["HealthTech", "Data", "AI", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -5070,8 +5074,9 @@ export const listings: JobListing[] = [
     id: "temporal",
     title: "Temporal",
     websiteUrl: "https://temporal.io",
-    description: "",
-    tags: [],
+    description:
+      "Durable execution platform for building reliable distributed applications. Lets developers define workflows in code and automatically recover, retry, or resume them after failures.",
+    tags: ["SaaS", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5087,8 +5092,9 @@ export const listings: JobListing[] = [
     id: "tesla",
     title: "Tesla",
     websiteUrl: "https://www.tesla.com",
-    description: "",
-    tags: [],
+    description:
+      "Electric vehicle and clean energy company. Designs and sells electric cars, battery storage, and solar energy products, alongside charging, software, and related services.",
+    tags: ["Climate", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5104,8 +5110,9 @@ export const listings: JobListing[] = [
     id: "theodo",
     title: "Theodo",
     websiteUrl: "https://www.theodo.com",
-    description: "",
-    tags: [],
+    description:
+      "Digital and technology consulting group that designs and builds software products. Helps organizations with product strategy, web and mobile development, data, cloud, and digital transformation.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5121,8 +5128,9 @@ export const listings: JobListing[] = [
     id: "theory",
     title: "Theory",
     websiteUrl: "https://www.theory.com",
-    description: "",
-    tags: [],
+    description:
+      "Contemporary fashion brand producing clothing and accessories for women and men, with a focus on modern design, premium fabrics, and everyday wear.",
+    tags: ["Ecommerce", "Worldwide"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -5134,8 +5142,9 @@ export const listings: JobListing[] = [
     id: "tiger_data",
     title: "Tiger Data",
     websiteUrl: "https://www.tigerdata.com",
-    description: "",
-    tags: [],
+    description:
+      "PostgreSQL data platform built for time-series, sensor, and machine data. Offers managed cloud and enterprise products that support fast ingestion, real-time queries, analytics, and AI workloads.",
+    tags: ["Data", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5151,8 +5160,9 @@ export const listings: JobListing[] = [
     id: "too_good_to_go",
     title: "Too Good To Go",
     websiteUrl: "https://www.toogoodtogo.com/",
-    description: "",
-    tags: [],
+    description:
+      "Social impact company helping prevent food waste. Its marketplace connects consumers with shops, restaurants, and food businesses selling surplus food, and it also provides surplus-food management tools for retailers.",
+    tags: ["Climate", "Ecommerce", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5168,8 +5178,9 @@ export const listings: JobListing[] = [
     id: "totalenergies",
     title: "TotalEnergies",
     websiteUrl: "https://totalenergies.com",
-    description: "",
-    tags: [],
+    description:
+      "Global integrated energy company producing and marketing oil, natural gas, electricity, biofuels, and renewable energy. Operates across the energy value chain while investing in lower-carbon power and fuels.",
+    tags: ["Climate", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
