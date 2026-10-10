@@ -5192,4 +5192,140 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "ubisoft",
+    title: "Ubisoft",
+    websiteUrl: "https://www.ubisoft.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.ubisoft.com/en-us/company/careers/working-at-ubisoft",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ubisoft",
+      },
+    ],
+  },
+  {
+    id: "understanding_recruitment",
+    title: "Understanding Recruitment",
+    websiteUrl: "https://www.understandingrecruitment.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.lifeatur.com/job-search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/understanding-recruitment",
+      },
+    ],
+  },
+  {
+    id: "unikraft",
+    title: "Unikraft",
+    websiteUrl: "https://unikraft.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.unikraft.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/unikraft-sdk",
+      },
+    ],
+  },
+  {
+    id: "upbound",
+    title: "Upbound",
+    websiteUrl: "https://www.upbound.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.upbound.io/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/upbound-io",
+      },
+    ],
+  },
+  {
+    id: "upcloud",
+    title: "UpCloud",
+    websiteUrl: "https://upcloud.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://upcloud.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/upcloud",
+      },
+    ],
+  },
+  {
+    id: "upfluence",
+    title: "Upfluence",
+    websiteUrl: "https://www.upfluence.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (JazzHR)",
+        url: "https://20210622225953_gzcqqm2mip0nmi2b.applytojob.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/upfluence",
+      },
+    ],
+  },
+  {
+    id: "upway",
+    title: "Upway",
+    websiteUrl: "https://upway.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.upway.shop",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/shopupway",
+      },
+    ],
+  },
+  {
+    id: "urban_linker",
+    title: "Urban Linker",
+    websiteUrl: "https://urbanlinker.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://urbanlinker.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/urban-linker",
+      },
+    ],
+  },
 ];
