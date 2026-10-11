@@ -5336,4 +5336,149 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "vaadigm",
+    title: "Vaadigm",
+    websiteUrl: "https://vaadigm.studio",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/vaadigm",
+      },
+    ],
+  },
+  {
+    id: "valtech",
+    title: "Valtech",
+    websiteUrl: "https://www.valtech.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.valtech.com/career/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/valtech",
+      },
+    ],
+  },
+  {
+    id: "veesual",
+    title: "Veesual",
+    websiteUrl: "https://www.veesual.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://veesual.welcomekit.co",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/veesual",
+      },
+    ],
+  },
+  {
+    id: "veeva",
+    title: "Veeva",
+    websiteUrl: "https://www.veeva.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.veeva.com/job-search-results",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/veeva-systems",
+      },
+    ],
+  },
+  {
+    id: "vianova",
+    title: "Vianova",
+    websiteUrl: "https://vianova.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/vianova-io",
+      },
+    ],
+  },
+  {
+    id: "virtuos",
+    title: "Virtuos",
+    websiteUrl: "https://www.virtuosgames.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Oracle Cloud)",
+        url: "https://fa-exhj-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/virtuosgames",
+      },
+    ],
+  },
+  {
+    id: "visable",
+    title: "Visable",
+    websiteUrl: "https://www.visable.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.visable.com/en_int/career/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/visable-company",
+      },
+    ],
+  },
+  {
+    id: "vizzia",
+    title: "Vizzia",
+    websiteUrl: "https://www.vizzia.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/vizzia/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/vizziafr",
+      },
+    ],
+  },
+  {
+    id: "voodoo",
+    title: "Voodoo",
+    websiteUrl: "https://voodoo.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://voodoo.io/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/voodoo.io",
+      },
+    ],
+  },
 ];
