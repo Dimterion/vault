@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { Activity, ActivityFormData, ActivityStatus } from "./types";
 import { ACTIVITY_STATUS_COLORS } from "./data";
@@ -32,6 +32,9 @@ export default function AddActivityModal({
   onDelete,
   initialData,
 }: Props) {
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const previouslyFocusedElement = useRef<HTMLElement | null>(null);
+
   const isEditing = !!initialData;
 
   const initialForm: ActivityFormData = initialData
@@ -48,9 +51,35 @@ export default function AddActivityModal({
   useEffect(() => {
     if (!open) return;
 
+    previouslyFocusedElement.current =
+      document.activeElement as HTMLElement | null;
+
+    const dialog = dialogRef.current;
+    dialog?.focus();
+
     function handleKeyDown(event: KeyboardEvent) {
       if (event.key === "Escape") {
         onClose();
+        return;
+      }
+
+      if (event.key !== "Tab" || !dialog) return;
+
+      const focusableElements = dialog.querySelectorAll<HTMLElement>(
+        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])',
+      );
+
+      if (focusableElements.length === 0) return;
+
+      const first = focusableElements[0];
+      const last = focusableElements[focusableElements.length - 1];
+
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
       }
     }
 
@@ -60,6 +89,7 @@ export default function AddActivityModal({
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
       document.body.style.overflow = "";
+      previouslyFocusedElement.current?.focus();
     };
   }, [open, onClose]);
 
@@ -107,14 +137,15 @@ export default function AddActivityModal({
     <div
       className="fixed inset-0 z-1000 flex items-end justify-center bg-black/45 px-4 py-6 sm:items-center"
       onClick={onClose}
-      aria-hidden="true"
     >
       <div
-        className="w-full max-w-2xl rounded-3xl bg-white shadow-2xl"
-        onClick={(e) => e.stopPropagation()}
+        ref={dialogRef}
+        tabIndex={-1}
         role="dialog"
         aria-modal="true"
         aria-labelledby="activity-modal-title"
+        className="w-full max-w-2xl rounded-3xl bg-white shadow-2xl outline-none"
+        onClick={(e) => e.stopPropagation()}
       >
         <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-gray-300 sm:hidden" />
 
@@ -165,10 +196,9 @@ export default function AddActivityModal({
               </label>
               <input
                 id="activity-date"
-                type="text"
+                type="date"
                 value={form.date}
                 onChange={(e) => updateField("date", e.target.value)}
-                placeholder="YYYY-MM-DD"
                 className="w-full rounded-2xl border border-gray-300 px-4 py-3 text-sm text-gray-900 transition outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
               />
             </div>
