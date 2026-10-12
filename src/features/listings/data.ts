@@ -5494,8 +5494,9 @@ export const listings: JobListing[] = [
     id: "wakeo",
     title: "Wakeo",
     websiteUrl: "https://wakeo.co",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered SaaS platform providing real-time, multimodal visibility for international shipments. Combines predictive ETAs, disruption alerts, transport analytics, and emissions tracking to help shippers and logistics providers build more resilient supply chains.",
+    tags: ["Data", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -5511,8 +5512,9 @@ export const listings: JobListing[] = [
     id: "walter_learning",
     title: "Walter Learning",
     websiteUrl: "https://walter-learning.com",
-    description: "",
-    tags: [],
+    description:
+      "French online training company that designs, produces, and delivers professional courses. Its e-learning combines expert-led video lessons, quizzes, downloadable materials, virtual classes, and learner support.",
+    tags: ["EdTech", "France"],
     extraLinks: [
       {
         label: "Careers page (We Recruit)",
@@ -5528,8 +5530,9 @@ export const listings: JobListing[] = [
     id: "webb_traders",
     title: "WEBB Traders",
     websiteUrl: "https://www.webbtraders.com",
-    description: "",
-    tags: [],
+    description:
+      "Proprietary trading and market-making firm using its own capital and electronic trading technology in global equity and derivatives markets. WEBB Traders is now part of Marex’s Market Making division.",
+    tags: ["FinTech", "Data", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5545,8 +5548,9 @@ export const listings: JobListing[] = [
     id: "webnet",
     title: "Webnet",
     websiteUrl: "https://www.webnet.fr",
-    description: "",
-    tags: [],
+    description:
+      "French digital services and IT consulting firm specializing in web and mobile architectures. Provides custom software, product and UX design, cloud and DevOps, application maintenance, data, and AI services.",
+    tags: ["ITServices", "Consulting", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -5562,12 +5566,13 @@ export const listings: JobListing[] = [
     id: "welcome_to_the_jungle",
     title: "Welcome To The Jungle",
     websiteUrl: "https://www.welcometothejungle.com",
-    description: "",
-    tags: [],
+    description:
+      "Recruitment and employer-branding platform helping candidates discover companies and jobs while giving employers tools for sourcing, applicant tracking, and recruiting. Combines company profiles, job matching, recruitment software, and career content.",
+    tags: ["SaaS", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
-        url: "https://app.welcometothejungle.com/companies/Welcome-to-the-Jungle-(formerly-Otta)",
+        url: "https://www.welcometothejungle.com/en/companies/wttj/jobs",
       },
       {
         label: "LinkedIn",
@@ -5579,8 +5584,9 @@ export const listings: JobListing[] = [
     id: "wiremind",
     title: "Wiremind",
     websiteUrl: "https://www.wiremind.io",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered SaaS company building revenue, inventory, distribution, and capacity optimization software for passenger transport, air cargo, and live events. Its tools support forecasting, pricing, ticketing, and operational planning.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5596,8 +5602,9 @@ export const listings: JobListing[] = [
     id: "witco",
     title: "Witco",
     websiteUrl: "https://www.witco.io",
-    description: "",
-    tags: [],
+    description:
+      "Workplace experience platform that brings hybrid-work management, desk and room booking, visitor management, workplace services, and employee communications into one app.",
+    tags: ["SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -5613,8 +5620,9 @@ export const listings: JobListing[] = [
     id: "withings",
     title: "Withings",
     websiteUrl: "https://www.withings.com",
-    description: "",
-    tags: [],
+    description:
+      "French connected-health company making smart scales, health-tracking watches, blood-pressure monitors, sleep devices, and related apps. Its products help consumers and healthcare professionals monitor health measurements over time.",
+    tags: ["HealthTech", "France"],
     extraLinks: [
       {
         label: "Careers page (Workable)",
@@ -5630,8 +5638,9 @@ export const listings: JobListing[] = [
     id: "wiz",
     title: "Wiz",
     websiteUrl: "https://www.wiz.io",
-    description: "",
-    tags: [],
+    description:
+      "Cloud and AI security platform that connects code, cloud, and runtime context to identify, prioritize, and help remediate security risks across cloud environments.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5647,8 +5656,9 @@ export const listings: JobListing[] = [
     id: "worldline",
     title: "Worldline",
     websiteUrl: "https://worldline.com",
-    description: "",
-    tags: [],
+    description:
+      "Global payments technology company providing payment services for merchants, banks, and public-sector organizations. Offers in-store and online acquiring, payment processing, digital services, and financial-services technology.",
+    tags: ["FinTech", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
