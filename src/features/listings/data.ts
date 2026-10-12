@@ -5490,4 +5490,174 @@ export const listings: JobListing[] = [
       },
     ],
   },
+  {
+    id: "wakeo",
+    title: "Wakeo",
+    websiteUrl: "https://wakeo.co",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/wakeo/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/wakeo",
+      },
+    ],
+  },
+  {
+    id: "walter_learning",
+    title: "Walter Learning",
+    websiteUrl: "https://walter-learning.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (We Recruit)",
+        url: "https://careers.werecruit.io/walter-learning",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/walter-learning",
+      },
+    ],
+  },
+  {
+    id: "webb_traders",
+    title: "WEBB Traders",
+    websiteUrl: "https://www.webbtraders.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.webbtraders.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/webb-traders",
+      },
+    ],
+  },
+  {
+    id: "webnet",
+    title: "Webnet",
+    websiteUrl: "https://www.webnet.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/webnet/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/webnet",
+      },
+    ],
+  },
+  {
+    id: "welcome_to_the_jungle",
+    title: "Welcome To The Jungle",
+    websiteUrl: "https://www.welcometothejungle.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://app.welcometothejungle.com/companies/Welcome-to-the-Jungle-(formerly-Otta)",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/wttj-en",
+      },
+    ],
+  },
+  {
+    id: "wiremind",
+    title: "Wiremind",
+    websiteUrl: "https://www.wiremind.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.wiremind.io/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/wiremind",
+      },
+    ],
+  },
+  {
+    id: "witco",
+    title: "Witco",
+    websiteUrl: "https://www.witco.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/witco/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/witcoapp",
+      },
+    ],
+  },
+  {
+    id: "withings",
+    title: "Withings",
+    websiteUrl: "https://www.withings.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workable)",
+        url: "https://apply.workable.com/withings",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/withings",
+      },
+    ],
+  },
+  {
+    id: "wiz",
+    title: "Wiz",
+    websiteUrl: "https://www.wiz.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.wiz.io/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/wizsecurity",
+      },
+    ],
+  },
+  {
+    id: "worldline",
+    title: "Worldline",
+    websiteUrl: "https://worldline.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.worldline.com/search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/worldlineglobal",
+      },
+    ],
+  },
 ];
