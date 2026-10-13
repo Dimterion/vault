@@ -9,11 +9,34 @@ export const ACTIVITY_STATUS_COLORS: Record<ActivityStatus, string> = {
   Paused: "#6b7280",
 };
 
+function isValidActivity(value: unknown): value is Activity {
+  if (!value || typeof value !== "object") return false;
+
+  const activity = value as Partial<Activity>;
+
+  return (
+    typeof activity.id === "string" &&
+    typeof activity.number === "number" &&
+    typeof activity.activity === "string" &&
+    typeof activity.date === "string" &&
+    typeof activity.status === "string" &&
+    typeof activity.notes === "string"
+  );
+}
+
 export async function loadActivities(): Promise<Activity[]> {
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
-    return raw ? JSON.parse(raw) : [];
-  } catch {
+
+    if (!raw) return [];
+
+    const parsed: unknown = JSON.parse(raw);
+
+    if (!Array.isArray(parsed)) return [];
+
+    return parsed.filter(isValidActivity);
+  } catch (error) {
+    console.error("Failed to load activities:", error);
     return [];
   }
 }
