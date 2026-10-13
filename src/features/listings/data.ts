@@ -5157,6 +5157,19 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "tohmo",
+    title: "Tohmo",
+    websiteUrl: "https://go-tohmo.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/tohmo",
+      },
+    ],
+  },
+  {
     id: "too_good_to_go",
     title: "Too Good To Go",
     websiteUrl: "https://www.toogoodtogo.com/",
@@ -5667,6 +5680,91 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/worldlineglobal",
+      },
+    ],
+  },
+  {
+    id: "xbow",
+    title: "XBOW",
+    websiteUrl: "https://xbow.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/xbowcareers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/xbow",
+      },
+    ],
+  },
+  {
+    id: "youtrust",
+    title: "Youtrust",
+    websiteUrl: "https://youtrust.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/yousign/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/youtrust",
+      },
+    ],
+  },
+  {
+    id: "zama",
+    title: "Zama",
+    websiteUrl: "https://www.zama.org",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.zama.org",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/zama-org",
+      },
+    ],
+  },
+  {
+    id: "zeffy",
+    title: "Zeffy",
+    websiteUrl: "https://www.zeffy.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.zeffy.com/home/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/zeffy",
+      },
+    ],
+  },
+  {
+    id: "zefir",
+    title: "Zefir",
+    websiteUrl: "https://www.zefir.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/zefir",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/zefir-fr",
       },
     ],
   },
