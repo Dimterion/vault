@@ -5160,8 +5160,9 @@ export const listings: JobListing[] = [
     id: "tohmo",
     title: "Tohmo",
     websiteUrl: "https://go-tohmo.com",
-    description: "",
-    tags: [],
+    description:
+      "European EV-charging company helping residents and businesses install and manage charging infrastructure. Provides charging stations, installation, maintenance, and support for homes, apartment buildings, and workplaces.",
+    tags: ["Climate", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -5687,8 +5688,9 @@ export const listings: JobListing[] = [
     id: "xbow",
     title: "XBOW",
     websiteUrl: "https://xbow.com",
-    description: "",
-    tags: [],
+    description:
+      "Autonomous offensive security platform that uses AI agents to discover, chain, and validate exploitable vulnerabilities in web applications and APIs. Delivers continuous penetration testing with proof-of-exploit findings.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -5704,12 +5706,13 @@ export const listings: JobListing[] = [
     id: "youtrust",
     title: "Youtrust",
     websiteUrl: "https://youtrust.com",
-    description: "",
-    tags: [],
+    description:
+      "European digital-trust platform, formerly Yousign. Combines e-signature, identity and document verification, KYC/KYB workflows, electronic seals, and API-based automation for compliant digital transactions.",
+    tags: ["LegalTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
-        url: "https://www.welcometothejungle.com/companies-v1/yousign/jobs",
+        url: "https://www.welcometothejungle.com/companies-v1/youtrust/jobs",
       },
       {
         label: "LinkedIn",
@@ -5721,8 +5724,9 @@ export const listings: JobListing[] = [
     id: "zama",
     title: "Zama",
     websiteUrl: "https://www.zama.org",
-    description: "",
-    tags: [],
+    description:
+      "Open-source cryptography company building fully homomorphic encryption (FHE) technology. Enables confidential computation on encrypted data for blockchain, AI, cloud, and privacy-preserving applications.",
+    tags: ["AI", "FinTech", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5738,8 +5742,9 @@ export const listings: JobListing[] = [
     id: "zeffy",
     title: "Zeffy",
     websiteUrl: "https://www.zeffy.com",
-    description: "",
-    tags: [],
+    description:
+      "Free fundraising and donor-management platform for nonprofits. Provides donation forms, event ticketing, memberships, auctions, peer-to-peer campaigns, payments, and donor communications with no platform or transaction fees.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5755,8 +5760,9 @@ export const listings: JobListing[] = [
     id: "zefir",
     title: "Zefir",
     websiteUrl: "https://www.zefir.fr",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered real-estate sales platform that coordinates a network of agents to sell homes faster. Provides valuation, listing distribution, buyer matching, and transaction support for property sellers.",
+    tags: ["AI", "FinTech", "France"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
