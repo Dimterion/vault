@@ -69,4 +69,54 @@ export const platforms: JobPlatform[] = [
       "Use Google Jobs to quickly aggregate job listings from many sources in one search. It is best for getting a broad overview of available roles, comparing titles and locations, and finding listings that may not appear on a single platform. Use it for discovery, then apply through the original employer or job board whenever possible.",
     tags: ["Jobs", "Search", "Aggregator"],
   },
+  {
+    id: "indeed",
+    title: "Indeed",
+    websiteUrl: "https://indeed.com",
+    description:
+      "Use Indeed as a high-volume general job search engine for finding roles across many industries and experience levels. It is especially useful for setting up targeted alerts, filtering by location and contract type, and quickly comparing a large number of listings. Start here for broad discovery, but apply through the employer’s own site when that option is available.",
+    tags: ["Jobs", "Search", "Aggregator"],
+    extraLinks: [
+      {
+        label: "Help Center",
+        url: "https://www.indeed.com/help",
+      },
+    ],
+  },
+  {
+    id: "monster",
+    title: "Monster",
+    websiteUrl: "https://www.monster.com",
+    description:
+      "Use Monster for broad job discovery across sectors and seniority levels, particularly when you want to cast a wide net beyond specialized platforms. Create alerts for relevant titles and locations, then focus your applications on listings that closely match your skills. It can be a useful supplementary source, but it is rarely the only platform you need.",
+    tags: ["Jobs", "Search", "Aggregator"],
+  },
+  {
+    id: "urban_linker",
+    title: "Urban Linker",
+    websiteUrl: "https://urbanlinker.com",
+    description:
+      "Use Urban Linker mainly for tech, digital, product, and design opportunities in France and wider Europe. It is particularly relevant if you want recruiter support for software engineering, data, cloud, cybersecurity, or product roles at startups, scale-ups, and technology companies. Browse current openings, but also consider a spontaneous application if your target role is not currently listed.",
+    tags: ["Jobs", "Tech", "Recruiter"],
+    extraLinks: [
+      {
+        label: "Job Offers",
+        url: "https://urbanlinker.com/jobs",
+      },
+    ],
+  },
+  {
+    id: "upwork",
+    title: "Upwork",
+    websiteUrl: "https://www.upwork.com",
+    description:
+      "Use Upwork primarily for freelance, contract, and remote project work rather than traditional full-time employment. Build a focused profile and portfolio, search for short- or long-term projects, and submit tailored proposals with a clear rate. It is most useful once you have a defined service or skill set and are comfortable managing client communication and payments.",
+    tags: ["Freelance", "Remote", "Contracts"],
+    extraLinks: [
+      {
+        label: "Help Center",
+        url: "https://support.upwork.com",
+      },
+    ],
+  },
 ];
