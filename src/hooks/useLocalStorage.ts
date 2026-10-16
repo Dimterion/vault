@@ -1,24 +1,47 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { parseISO } from "date-fns";
 
 export function useLocalStorage<T>(key: string, initialValue: T) {
   const [storedValue, setStoredValue] = useState<T>(() => {
+    if (typeof window === "undefined") {
+      return initialValue;
+    }
+
     try {
-      const item = localStorage.getItem(key);
+      const item = window.localStorage.getItem(key);
 
-      if (item == null) return initialValue;
+      if (item == null) {
+        return initialValue;
+      }
 
-      return JSON.parse(item, dateReviver);
-    } catch {
+      return JSON.parse(item, dateReviver) as T;
+    } catch (error) {
+      console.error(`Failed to load localStorage key "${key}":`, error);
       return initialValue;
     }
   });
 
   useEffect(() => {
-    localStorage.setItem(key, JSON.stringify(storedValue));
-  }, [storedValue, key]);
+    if (typeof window === "undefined") {
+      return;
+    }
 
-  return [storedValue, setStoredValue] as const;
+    try {
+      window.localStorage.setItem(key, JSON.stringify(storedValue));
+    } catch (error) {
+      console.error(`Failed to save localStorage key "${key}":`, error);
+    }
+  }, [key, storedValue]);
+
+  const setValue = useCallback((value: T | ((previousValue: T) => T)) => {
+    setStoredValue((previousValue) =>
+      typeof value === "function"
+        ? (value as (previousValue: T) => T)(previousValue)
+        : value,
+    );
+  }, []);
+
+  return [storedValue, setValue] as const;
 }
 
 function dateReviver(_key: string, value: unknown) {
