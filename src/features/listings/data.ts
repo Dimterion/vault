@@ -864,12 +864,13 @@ export const listings: JobListing[] = [
     id: "click&boat",
     title: "Click&Boat",
     websiteUrl: "https://www.clickandboat.com",
-    description: "",
-    tags: [],
+    description:
+      "Peer-to-peer boat rental marketplace connecting private and professional owners with renters. Lets users charter sailboats, motorboats, yachts, and other vessels with or without a skipper across Europe and beyond.",
+    tags: ["Ecommerce", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
-        url: "https://clickboat.teamtailor.com",
+        url: "https://clickboat.teamtailor.com/jobs",
       },
       {
         label: "LinkedIn",
@@ -1617,8 +1618,9 @@ export const listings: JobListing[] = [
     id: "escape",
     title: "Escape",
     websiteUrl: "https://escape.tech",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered offensive security platform for APIs, web applications, and cloud infrastructure. Discovers attack surface, runs business-logic-aware testing and agentic penetration testing, and helps teams validate and remediate vulnerabilities.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1688,8 +1690,9 @@ export const listings: JobListing[] = [
     id: "expaceo",
     title: "EXPACEO",
     websiteUrl: "https://www.expaceo.com",
-    description: "",
-    tags: [],
+    description:
+      "French IT consulting and expertise firm focused on Microsoft technologies. Supports enterprises with Azure, cloud platforming, data and AI, security, software engineering, and Microsoft-centric digital transformation.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -1845,8 +1848,9 @@ export const listings: JobListing[] = [
     id: "formance",
     title: "Formance",
     websiteUrl: "https://www.formance.com",
-    description: "",
-    tags: [],
+    description:
+      "Open-source financial infrastructure platform for building and operating flows of funds. Provides a programmable ledger, payment connectivity, wallet and workflow orchestration, and reconciliation across banks and payment providers.",
+    tags: ["FinTech", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
