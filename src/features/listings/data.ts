@@ -861,6 +861,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "click&boat",
+    title: "Click&Boat",
+    websiteUrl: "https://www.clickandboat.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://clickboat.teamtailor.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/click-&-boat",
+      },
+    ],
+  },
+  {
     id: "clipboard",
     title: "Clipboard",
     websiteUrl: "https://www.clipboard.com",
@@ -1083,7 +1100,7 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "cryptoNext_security",
+    id: "cryptonext_security",
     title: "CryptoNext Security",
     websiteUrl: "https://www.cryptonext-security.com",
     description:
@@ -1453,7 +1470,7 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "doubleVerify",
+    id: "doubleverify",
     title: "DoubleVerify",
     websiteUrl: "https://doubleverify.com",
     description:
@@ -1597,6 +1614,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "escape",
+    title: "Escape",
+    websiteUrl: "https://escape.tech",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://escape.tech/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/escapetech",
+      },
+    ],
+  },
+  {
     id: "escape_velocity_entertainment",
     title: "Escape Velocity Entertainment",
     websiteUrl: "https://eve.games",
@@ -1647,6 +1681,19 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/euronext",
+      },
+    ],
+  },
+  {
+    id: "expaceo",
+    title: "EXPACEO",
+    websiteUrl: "https://www.expaceo.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/expaceo",
       },
     ],
   },
@@ -1791,6 +1838,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/forgotten-empires",
+      },
+    ],
+  },
+  {
+    id: "formance",
+    title: "Formance",
+    websiteUrl: "https://www.formance.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/formance",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/formancehq",
       },
     ],
   },
