@@ -2381,6 +2381,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "horizon3",
+    title: "Horizon3",
+    websiteUrl: "https://horizon3.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://horizon3.ai/join-our-team",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/horizon3ai",
+      },
+    ],
+  },
+  {
     id: "hublo",
     title: "Hublo",
     websiteUrl: "https://hublo.com",
@@ -3369,6 +3386,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/murex",
+      },
+    ],
+  },
+  {
+    id: "mwm",
+    title: "MWM",
+    websiteUrl: "https://mwm.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://mwm.teamtailor.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/mwmcompany",
       },
     ],
   },
@@ -4927,6 +4961,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/spinergie",
+      },
+    ],
+  },
+  {
+    id: "stackblitz",
+    title: "StackBlitz",
+    websiteUrl: "https://stackblitz.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Greenhouse)",
+        url: "https://job-boards.greenhouse.io/stackblitz",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/boltdotnew",
       },
     ],
   },
