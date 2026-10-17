@@ -2384,8 +2384,9 @@ export const listings: JobListing[] = [
     id: "horizon3",
     title: "Horizon3",
     websiteUrl: "https://horizon3.ai",
-    description: "",
-    tags: [],
+    description:
+      "AI-native proactive security company behind NodeZero. Autonomously tests infrastructure, cloud, identity, and web applications to uncover exploitable attack paths, prioritize remediation, and verify fixes.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3393,8 +3394,9 @@ export const listings: JobListing[] = [
     id: "mwm",
     title: "MWM",
     websiteUrl: "https://mwm.ai",
-    description: "",
-    tags: [],
+    description:
+      "Mobile-app technology company covering creation, growth, operations, publishing, and data intelligence. Known for creative apps in music, photo, and video, it also offers AI tools for building and launching native mobile apps.",
+    tags: ["AI", "Media", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -4968,8 +4970,9 @@ export const listings: JobListing[] = [
     id: "stackblitz",
     title: "StackBlitz",
     websiteUrl: "https://stackblitz.com",
-    description: "",
-    tags: [],
+    description:
+      "Developer platform behind WebContainers and Bolt. Lets developers run full web development environments in the browser and use AI to create, edit, and launch web applications from natural-language prompts.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Greenhouse)",
