@@ -149,6 +149,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "aghanim",
+    title: "Aghanim",
+    websiteUrl: "https://aghanim.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/aghanim",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/aghanim",
+      },
+    ],
+  },
+  {
+    id: "air_apps",
+    title: "Air Apps",
+    websiteUrl: "https://airapps.co",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/airapps",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/airapps",
+      },
+    ],
+  },
+  {
     id: "aircall",
     title: "Aircall",
     websiteUrl: "https://aircall.io",
@@ -311,6 +345,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "allphins",
+    title: "Allphins",
+    websiteUrl: "https://www.allphins.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/allphins",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/allphins",
+      },
+    ],
+  },
+  {
     id: "alma",
     title: "Alma",
     websiteUrl: "https://almapay.com",
@@ -325,6 +376,32 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/almapay",
+      },
+    ],
+  },
+  {
+    id: "alpic",
+    title: "Alpic",
+    websiteUrl: "https://alpic.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/alpic-ai",
+      },
+    ],
+  },
+  {
+    id: "altherias",
+    title: "Altherias",
+    websiteUrl: "https://altherias.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/altherias",
       },
     ],
   },
