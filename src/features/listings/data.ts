@@ -152,8 +152,9 @@ export const listings: JobListing[] = [
     id: "aghanim",
     title: "Aghanim",
     websiteUrl: "https://aghanim.com",
-    description: "",
-    tags: [],
+    description:
+      "Commerce, live-ops automation, community engagement, and payments platform for video games. Helps game studios sell directly to players, manage digital goods and payments, and operate direct-to-player relationships.",
+    tags: ["Gaming", "FinTech", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -169,8 +170,9 @@ export const listings: JobListing[] = [
     id: "air_apps",
     title: "Air Apps",
     websiteUrl: "https://airapps.co",
-    description: "",
-    tags: [],
+    description:
+      "Consumer app company building AI-powered utility and productivity apps. Develops and operates apps such as Translate Now and Calculator Air, with a focus on mobile tools that simplify everyday tasks.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -348,12 +350,13 @@ export const listings: JobListing[] = [
     id: "allphins",
     title: "Allphins",
     websiteUrl: "https://www.allphins.com",
-    description: "",
-    tags: [],
+    description:
+      "InsurTech platform for risk management in insurance and reinsurance. Uses data and machine learning to help underwriters analyze exposure, assess complex risks, and make more informed underwriting decisions.",
+    tags: ["FinTech", "Data", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
-        url: "https://www.welcometothejungle.com/companies-v1/allphins",
+        url: "https://www.welcometothejungle.com/companies-v1/allphins/jobs",
       },
       {
         label: "LinkedIn",
@@ -383,8 +386,9 @@ export const listings: JobListing[] = [
     id: "alpic",
     title: "Alpic",
     websiteUrl: "https://alpic.ai",
-    description: "",
-    tags: [],
+    description:
+      "Cloud platform for building, deploying, monitoring, and distributing MCP servers and ChatGPT apps. Provides developer tooling, hosting, security, observability, and distribution for AI-native conversational interfaces.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -396,8 +400,9 @@ export const listings: JobListing[] = [
     id: "altherias",
     title: "Altherias",
     websiteUrl: "https://altherias.com",
-    description: "",
-    tags: [],
+    description:
+      "Automation-first IT staffing and consulting firm focused on European institutions and regulated markets. Provides staff augmentation, project teams, and consulting for technology, data, and transformation roles.",
+    tags: ["ITServices", "Europe"],
     extraLinks: [
       {
         label: "LinkedIn",
