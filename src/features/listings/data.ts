@@ -446,8 +446,9 @@ export const listings: JobListing[] = [
     id: "ankorstore",
     title: "Ankorstore",
     websiteUrl: "https://www.ankorstore.com",
-    description: "",
-    tags: [],
+    description:
+      "B2B commerce platform connecting independent retailers with European brands. Lets retailers discover and order products with flexible terms, while helping brands manage wholesale sales, catalogs, payments, and customer relationships.",
+    tags: ["Ecommerce", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -463,8 +464,9 @@ export const listings: JobListing[] = [
     id: "anthropic",
     title: "Anthropic",
     websiteUrl: "https://www.anthropic.com",
-    description: "",
-    tags: [],
+    description:
+      "AI safety and research company building Claude and frontier AI systems. Conducts research on model behavior, interpretability, and alignment, and develops AI products and APIs for individuals, developers, and enterprises.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -606,8 +608,9 @@ export const listings: JobListing[] = [
     id: "aubay",
     title: "Aubay",
     websiteUrl: "https://aubay.com",
-    description: "",
-    tags: [],
+    description:
+      "Pan-European IT services and consulting company specializing in critical applications. Provides consulting, software development, cloud and DevOps, data and analytics, cybersecurity, testing, and AI services across banking, insurance, industry, and telecom.",
+    tags: ["Consulting", "ITServices", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -623,8 +626,9 @@ export const listings: JobListing[] = [
     id: "avelsen",
     title: "Avelsen",
     websiteUrl: "https://avelsen.com",
-    description: "",
-    tags: [],
+    description:
+      "Tech consulting firm specializing in data, AI, software engineering, and platform engineering. Places senior engineers and consultants with scale-ups and large enterprises for AI, cloud, DevOps, and product delivery projects.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
