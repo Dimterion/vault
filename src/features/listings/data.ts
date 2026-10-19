@@ -443,6 +443,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "ankorstore",
+    title: "Ankorstore",
+    websiteUrl: "https://www.ankorstore.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://my.ankorstore.com/join-us/en",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ankorstore",
+      },
+    ],
+  },
+  {
+    id: "anthropic",
+    title: "Anthropic",
+    websiteUrl: "https://www.anthropic.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.anthropic.com/careers/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/anthropicresearch",
+      },
+    ],
+  },
+  {
     id: "appquantum",
     title: "AppQuantum",
     websiteUrl: "https://appquantum.com",
@@ -565,6 +599,36 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/assemblyai",
+      },
+    ],
+  },
+  {
+    id: "aubay",
+    title: "Aubay",
+    websiteUrl: "https://aubay.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://aubay.com/join-aubay",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/aubay",
+      },
+    ],
+  },
+  {
+    id: "avelsen",
+    title: "Avelsen",
+    websiteUrl: "https://avelsen.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/avelsen",
       },
     ],
   },
