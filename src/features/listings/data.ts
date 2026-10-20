@@ -694,8 +694,9 @@ export const listings: JobListing[] = [
     id: "banqup",
     title: "Banqup",
     websiteUrl: "https://www.banqup.com",
-    description: "",
-    tags: [],
+    description:
+      "Business finance platform for e-invoicing, e-payments, e-reporting, and compliance. Automates invoicing, payment, and reporting workflows while helping companies exchange compliant electronic documents across international networks.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -729,8 +730,9 @@ export const listings: JobListing[] = [
     id: "bastion_technologies",
     title: "Bastion Technologies",
     websiteUrl: "https://bastion.tech",
-    description: "",
-    tags: [],
+    description:
+      "AI-native security and compliance platform for technology companies. Automates compliance evidence, security controls, and remediation workflows while embedding security tooling and expert guidance into engineering workflows.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -814,8 +816,9 @@ export const listings: JobListing[] = [
     id: "biomemory",
     title: "Biomemory",
     websiteUrl: "https://www.biomemory.com",
-    description: "",
-    tags: [],
+    description:
+      "Deep-tech company industrializing DNA data storage for long-term, low-energy digital preservation. Builds molecular storage infrastructure and DNA Shield, a managed service for sovereign protection of critical data.",
+    tags: ["Climate", "Data", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
