@@ -691,6 +691,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "banqup",
+    title: "Banqup",
+    websiteUrl: "https://www.banqup.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.banqup.com/working-at-banqup",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/banqup-group",
+      },
+    ],
+  },
+  {
     id: "basikon",
     title: "Basikon",
     websiteUrl: "https://www.basikon.com",
@@ -705,6 +722,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/basikon",
+      },
+    ],
+  },
+  {
+    id: "bastion_technologies",
+    title: "Bastion Technologies",
+    websiteUrl: "https://bastion.tech",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://bastion.tech/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/bastiontech",
       },
     ],
   },
@@ -773,6 +807,19 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/binance",
+      },
+    ],
+  },
+  {
+    id: "biomemory",
+    title: "Biomemory",
+    websiteUrl: "https://www.biomemory.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/biomemory",
       },
     ],
   },
