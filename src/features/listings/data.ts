@@ -971,11 +971,12 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "capi",
-    title: "Capi",
+    id: "capi_money",
+    title: "Capi Money",
     websiteUrl: "https://capimoney.com",
-    description: "",
-    tags: [],
+    description:
+      "Cross-border payments platform for businesses in emerging markets. Helps importers pay international suppliers faster and at lower cost through local payment methods, FX, compliance, and settlement infrastructure.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -991,8 +992,9 @@ export const listings: JobListing[] = [
     id: "carrefour",
     title: "Carrefour",
     websiteUrl: "https://www.carrefour.fr",
-    description: "",
-    tags: [],
+    description:
+      "Global multi-format retailer operating hypermarkets, supermarkets, convenience stores, cash-and-carry, e-commerce, and franchise networks. Sells food, household goods, and services while investing in digital commerce, data, and supply chain.",
+    tags: ["Ecommerce", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1284,8 +1286,9 @@ export const listings: JobListing[] = [
     id: "cozycozy",
     title: "Cozycozy",
     websiteUrl: "https://www.cozycozy.com",
-    description: "",
-    tags: [],
+    description:
+      "Travel-tech platform that aggregates accommodation listings across booking sites. Helps travelers compare hotels, apartments, cabins, and other stays in one search, with filters for price, location, and amenities.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1355,8 +1358,9 @@ export const listings: JobListing[] = [
     id: "cursor",
     title: "Cursor",
     websiteUrl: "https://cursor.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-native code editor and software development environment. Helps developers write, edit, and debug code with AI agents, codebase context, terminal actions, and multi-step task execution.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1372,8 +1376,9 @@ export const listings: JobListing[] = [
     id: "cyera",
     title: "Cyera",
     websiteUrl: "https://www.cyera.com",
-    description: "",
-    tags: [],
+    description:
+      "Data, identity, and AI security platform that helps organizations discover sensitive data, govern identities, and secure AI agents. Combines classification, context, and automated remediation to reduce enterprise data risk.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
