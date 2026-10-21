@@ -973,18 +973,34 @@ export const listings: JobListing[] = [
   {
     id: "capi",
     title: "Capi",
-    websiteUrl: "https://capi.com",
-    description:
-      "Fintech platform that simplifies cross-border payments for businesses in emerging markets. Enables fast, low-cost international transfers and currency exchange for importers and SMEs in Africa and beyond.",
-    tags: ["FinTech", "Worldwide"],
+    websiteUrl: "https://capimoney.com",
+    description: "",
+    tags: [],
     extraLinks: [
       {
-        label: "Careers page",
-        url: "https://capi.com/careers",
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/capimoney",
       },
       {
         label: "LinkedIn",
-        url: "https://www.linkedin.com/company/capilux",
+        url: "https://www.linkedin.com/company/capimoney",
+      },
+    ],
+  },
+  {
+    id: "carrefour",
+    title: "Carrefour",
+    websiteUrl: "https://www.carrefour.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://recrute.carrefour.fr/offres",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/carrefour",
       },
     ],
   },
@@ -1265,6 +1281,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "cozycozy",
+    title: "Cozycozy",
+    websiteUrl: "https://www.cozycozy.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.cozycozy.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/cozycozy",
+      },
+    ],
+  },
+  {
     id: "creative_fabrica",
     title: "Creative Fabrica",
     websiteUrl: "https://www.creativefabrica.com",
@@ -1315,6 +1348,40 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/cryptonext-security",
+      },
+    ],
+  },
+  {
+    id: "cursor",
+    title: "Cursor",
+    websiteUrl: "https://cursor.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://cursor.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/cursorai",
+      },
+    ],
+  },
+  {
+    id: "cyera",
+    title: "Cyera",
+    websiteUrl: "https://www.cyera.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.cyera.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/cyera",
       },
     ],
   },
