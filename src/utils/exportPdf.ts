@@ -12,6 +12,25 @@ function optional(value: string, render: (v: string) => string): string {
   return value.trim() ? render(value.trim()) : "";
 }
 
+function isSafeHttpUrl(value: string): boolean {
+  try {
+    const url = new URL(value.trim());
+    return url.protocol === "https:" || url.protocol === "http:";
+  } catch {
+    return false;
+  }
+}
+
+function optionalLink(value: string, label: string): string {
+  const trimmed = value.trim();
+
+  if (!trimmed || !isSafeHttpUrl(trimmed)) {
+    return "";
+  }
+
+  return `<a href="${escapeHtml(trimmed)}">${label}</a>`;
+}
+
 function buildHtml(cv: CvData): string {
   const skills = cv.skills
     .split(",")
@@ -53,9 +72,9 @@ function buildHtml(cv: CvData): string {
     .join("");
 
   const links = [
-    cv.linkedin && `<a href="${escapeHtml(cv.linkedin)}">LinkedIn</a>`,
-    cv.github && `<a href="${escapeHtml(cv.github)}">GitHub</a>`,
-    cv.website && `<a href="${escapeHtml(cv.website)}">Website</a>`,
+    optionalLink(cv.linkedin, "LinkedIn"),
+    optionalLink(cv.github, "GitHub"),
+    optionalLink(cv.website, "Website"),
   ]
     .filter(Boolean)
     .join(" &nbsp;·&nbsp; ");
@@ -181,20 +200,54 @@ export async function exportCvPdf(cv: CvData): Promise<void> {
     return;
   }
 
-  const html = buildHtml(cv);
-  const printWindow = window.open("", "_blank", "width=900,height=1200");
+  try {
+    const html = buildHtml(cv);
 
-  if (!printWindow) {
-    window.alert("Pop-up blocked. Please allow pop-ups to export the CV.");
-    return;
+    const iframe = document.createElement("iframe");
+
+    iframe.style.position = "fixed";
+    iframe.style.right = "0";
+    iframe.style.bottom = "0";
+    iframe.style.width = "0";
+    iframe.style.height = "0";
+    iframe.style.border = "0";
+    iframe.style.visibility = "hidden";
+
+    document.body.appendChild(iframe);
+
+    let hasPrinted = false;
+
+    const printIframe = () => {
+      if (hasPrinted) return;
+
+      hasPrinted = true;
+
+      iframe.contentWindow?.focus();
+      iframe.contentWindow?.print();
+
+      setTimeout(() => {
+        iframe.remove();
+      }, 1000);
+    };
+
+    iframe.onload = printIframe;
+
+    const iframeDocument = iframe.contentDocument;
+
+    if (!iframeDocument) {
+      throw new Error("Unable to create print document");
+    }
+
+    iframeDocument.open();
+    iframeDocument.write(html);
+    iframeDocument.close();
+
+    setTimeout(() => {
+      if (document.body.contains(iframe)) {
+        printIframe();
+      }
+    }, 500);
+  } catch {
+    window.alert("Export failed. Please try again.");
   }
-
-  printWindow.document.open();
-  printWindow.document.write(html);
-  printWindow.document.close();
-  printWindow.focus();
-
-  setTimeout(() => {
-    printWindow.print();
-  }, 250);
 }
