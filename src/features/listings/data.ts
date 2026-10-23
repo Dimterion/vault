@@ -1168,8 +1168,9 @@ export const listings: JobListing[] = [
     id: "connecting_flow",
     title: "Connecting Flow",
     websiteUrl: "https://www.connectingflow.com",
-    description: "",
-    tags: [],
+    description:
+      "Document automation platform for asset managers. Centralizes data, automates production and translation of regulatory and marketing documents, and manages compliant publication across languages and jurisdictions.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Indeed)",
@@ -1411,8 +1412,9 @@ export const listings: JobListing[] = [
     id: "d_studio",
     title: "D-Studio",
     websiteUrl: "https://www.dstudio.company",
-    description: "",
-    tags: [],
+    description:
+      "Paris-based creative and technology agency helping brands and entrepreneurs design digital products and experiences. Combines branding, UX/UI, web and mobile development, AI, marketing, and scalable architecture.",
+    tags: ["ITServices", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -1830,8 +1832,9 @@ export const listings: JobListing[] = [
     id: "electra",
     title: "Electra",
     websiteUrl: "https://www.go-electra.com",
-    description: "",
-    tags: [],
+    description:
+      "European EV fast-charging network operator. Deploys and operates high-power charging hubs for drivers, fleets, and businesses while building charging, payment, and energy-management technology.",
+    tags: ["Climate", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -1919,8 +1922,9 @@ export const listings: JobListing[] = [
     id: "epam",
     title: "Epam",
     websiteUrl: "https://www.epam.com",
-    description: "",
-    tags: [],
+    description:
+      "Global digital platform engineering and consulting company. Helps enterprises with software engineering, cloud, data, AI, product design, cybersecurity, and digital transformation across industries.",
+    tags: ["Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
