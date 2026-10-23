@@ -1165,6 +1165,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "connecting_flow",
+    title: "Connecting Flow",
+    websiteUrl: "https://www.connectingflow.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Indeed)",
+        url: "https://fr.indeed.com/cmp/Connecting-Flow/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/connectingflow",
+      },
+    ],
+  },
+  {
     id: "consensys",
     title: "Consensys",
     websiteUrl: "https://consensys.io",
@@ -1387,6 +1404,19 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/cyera",
+      },
+    ],
+  },
+  {
+    id: "d_studio",
+    title: "D-Studio",
+    websiteUrl: "https://www.dstudio.company",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/d-studio-company",
       },
     ],
   },
@@ -1797,6 +1827,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "electra",
+    title: "Electra",
+    websiteUrl: "https://www.go-electra.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.go-electra.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/electra-charge",
+      },
+    ],
+  },
+  {
     id: "elevenlabs",
     title: "ElevenLabs",
     websiteUrl: "https://elevenlabs.io",
@@ -1865,6 +1912,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/ensol-solaire",
+      },
+    ],
+  },
+  {
+    id: "epam",
+    title: "Epam",
+    websiteUrl: "https://www.epam.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.epam.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/epam-systems",
       },
     ],
   },
