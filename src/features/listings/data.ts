@@ -2077,6 +2077,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "fairmat",
+    title: "Fairmat",
+    websiteUrl: "https://www.fairmat.tech",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.lever.co/Fairmat",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/fairmat-tech",
+      },
+    ],
+  },
+  {
     id: "figma",
     title: "Figma",
     websiteUrl: "https://www.figma.com",
@@ -2091,6 +2108,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/figma",
+      },
+    ],
+  },
+  {
+    id: "filigran",
+    title: "Filigran",
+    websiteUrl: "https://filigran.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://filigran.io/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/filigran",
       },
     ],
   },
@@ -2221,6 +2255,19 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "france_billet",
+    title: "France billet",
+    websiteUrl: "https://www.francebillet.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/francebillet",
+      },
+    ],
+  },
+  {
     id: "front",
     title: "Front",
     websiteUrl: "https://front.com",
@@ -2235,6 +2282,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/fronthq",
+      },
+    ],
+  },
+  {
+    id: "galadrim",
+    title: "Galadrim",
+    websiteUrl: "https://galadrim.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://galadrim.fr/carrieres",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/galadrim",
       },
     ],
   },
@@ -2325,6 +2389,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/gestimum",
+      },
+    ],
+  },
+  {
+    id: "gestinnov",
+    title: "Gestinnov",
+    websiteUrl: "https://www.gestinnov.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.gestinnov.com/carriere",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/gestinnov",
       },
     ],
   },
