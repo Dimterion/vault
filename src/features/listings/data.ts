@@ -2080,8 +2080,9 @@ export const listings: JobListing[] = [
     id: "fairmat",
     title: "Fairmat",
     websiteUrl: "https://www.fairmat.tech",
-    description: "",
-    tags: [],
+    description:
+      "Deep-tech company recycling carbon fiber composite waste into high-performance recycled materials. Combines robotics, AI, software, and a proprietary recycling process to build a circular supply chain for mobility, sports, energy, and industrial applications.",
+    tags: ["Climate", "AI", "France"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
@@ -2115,8 +2116,9 @@ export const listings: JobListing[] = [
     id: "filigran",
     title: "Filigran",
     websiteUrl: "https://filigran.io",
-    description: "",
-    tags: [],
+    description:
+      "Open-source cybersecurity company building an eXtended Threat Management platform. Combines threat intelligence, exposure validation, breach and attack simulation, and cyber risk management to help security teams act proactively.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2258,8 +2260,9 @@ export const listings: JobListing[] = [
     id: "france_billet",
     title: "France billet",
     websiteUrl: "https://www.francebillet.com",
-    description: "",
-    tags: [],
+    description:
+      "French ticketing platform for cultural and entertainment events. Provides ticket sales, distribution, marketing, and audience solutions for venues, promoters, festivals, and event organizers.",
+    tags: ["Media", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -2289,8 +2292,9 @@ export const listings: JobListing[] = [
     id: "galadrim",
     title: "Galadrim",
     websiteUrl: "https://galadrim.fr",
-    description: "",
-    tags: [],
+    description:
+      "Digital product agency designing and building AI, web, and mobile products. Supports clients with product strategy, UX/UI, software engineering, AI agents, and end-to-end delivery from prototype to production.",
+    tags: ["AI", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2396,8 +2400,9 @@ export const listings: JobListing[] = [
     id: "gestinnov",
     title: "Gestinnov",
     websiteUrl: "https://www.gestinnov.com",
-    description: "",
-    tags: [],
+    description:
+      "Microsoft-focused consulting and systems-integration firm. Helps organizations implement ERP, CRM, HRIS, e-commerce, data, AI, and Power Platform solutions to modernize operations and digital workflows.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
