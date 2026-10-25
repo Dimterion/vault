@@ -2508,8 +2508,9 @@ export const listings: JobListing[] = [
     id: "global_enterprise_partners",
     title: "Global Enterprise Partners",
     websiteUrl: "https://www.globalenterprisepartners.com",
-    description: "",
-    tags: [],
+    description:
+      "Global technology recruitment and consulting firm connecting enterprises with SAP, ERP, cloud, AI, cybersecurity, and digital-transformation talent. Provides contract recruitment, permanent hiring, and global employment solutions.",
+    tags: ["Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2525,8 +2526,9 @@ export const listings: JobListing[] = [
     id: "google",
     title: "Google",
     websiteUrl: "https://www.google.com",
-    description: "",
-    tags: [],
+    description:
+      "Global technology company building search, advertising, cloud, AI, Android, Chrome, hardware, and developer products. Helps people and businesses access, organize, and act on information at internet scale.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2542,8 +2544,9 @@ export const listings: JobListing[] = [
     id: "gorgias",
     title: "Gorgias",
     websiteUrl: "https://www.gorgias.com",
-    description: "",
-    tags: [],
+    description:
+      "Conversational AI platform for ecommerce. Helps brands automate customer support, personalize shopping experiences, and drive sales through an AI agent, helpdesk, chat, and deep Shopify and ecommerce integrations.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2703,11 +2706,12 @@ export const listings: JobListing[] = [
     id: "hcltech",
     title: "HCLTech",
     websiteUrl: "https://www.hcltech.com",
-    description: "",
-    tags: [],
+    description:
+      "Global technology and IT-services company delivering digital, engineering, cloud, AI, cybersecurity, and business-process services. Works with enterprises across industries to modernize technology and operations.",
+    tags: ["Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
-        label: "Careers page",
+        label: "Careers page (Workday)",
         url: "https://careers.hcltech.com/go/NonTPDemand/9558355",
       },
       {
@@ -2770,8 +2774,9 @@ export const listings: JobListing[] = [
     id: "hercules",
     title: "Hercules",
     websiteUrl: "https://hercules.app",
-    description: "",
-    tags: [],
+    description:
+      "AI app builder for businesses. Lets users create and deploy custom software such as CRMs, ERPs, HRIS platforms, client portals, and inventory systems using AI agents and a full-stack application platform.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2910,11 +2915,12 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "hrflow.ai",
+    id: "hrflow_ai",
     title: "HrFlow.ai",
     websiteUrl: "https://hrflow.ai",
-    description: "",
-    tags: [],
+    description:
+      "API-first AI platform for HR and talent data. Provides parsing, tagging, embedding, search, scoring, matching, and upskilling APIs, plus connectors that help employers, staffing firms, and HR-tech products automate hiring workflows.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
