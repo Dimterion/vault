@@ -2505,6 +2505,57 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "global_enterprise_partners",
+    title: "Global Enterprise Partners",
+    websiteUrl: "https://www.globalenterprisepartners.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.globalenterprisepartners.com/en-us/job-search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/globalenterprisepartners",
+      },
+    ],
+  },
+  {
+    id: "google",
+    title: "Google",
+    websiteUrl: "https://www.google.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.google.com/about/careers/applications/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/google",
+      },
+    ],
+  },
+  {
+    id: "gorgias",
+    title: "Gorgias",
+    websiteUrl: "https://www.gorgias.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.gorgias.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/gorgias",
+      },
+    ],
+  },
+  {
     id: "graphmytech",
     title: "GraphMyTech",
     websiteUrl: "https://www.graphmytech.com",
@@ -2649,6 +2700,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "hcltech",
+    title: "HCLTech",
+    websiteUrl: "https://www.hcltech.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.hcltech.com/go/NonTPDemand/9558355",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/hcltech",
+      },
+    ],
+  },
+  {
     id: "hegia",
     title: "Hegia",
     websiteUrl: "https://hegia.fr",
@@ -2695,6 +2763,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/helpline-service-desk",
+      },
+    ],
+  },
+  {
+    id: "hercules",
+    title: "Hercules",
+    websiteUrl: "https://hercules.app",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://hercules.app/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/herculeshq",
       },
     ],
   },
@@ -2821,6 +2906,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/horizon3ai",
+      },
+    ],
+  },
+  {
+    id: "hrflow.ai",
+    title: "HrFlow.ai",
+    websiteUrl: "https://hrflow.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://hrflow.ai/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/hrflowai",
       },
     ],
   },
