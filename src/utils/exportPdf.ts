@@ -28,7 +28,7 @@ function optionalLink(value: string, label: string): string {
     return "";
   }
 
-  return `<a href="${escapeHtml(trimmed)}">${label}</a>`;
+  return `<a href="${escapeHtml(trimmed)}">${escapeHtml(label)}</a>`;
 }
 
 function buildHtml(cv: CvData): string {
@@ -71,11 +71,9 @@ function buildHtml(cv: CvData): string {
     )
     .join("");
 
-  const links = [
-    optionalLink(cv.linkedin, "LinkedIn"),
-    optionalLink(cv.github, "GitHub"),
-    optionalLink(cv.website, "Website"),
-  ]
+  const links = cv.links
+    .filter((link) => link.label.trim() && link.url.trim())
+    .map((link) => optionalLink(link.url, link.label))
     .filter(Boolean)
     .join(" &nbsp;·&nbsp; ");
 
@@ -170,24 +168,23 @@ function buildHtml(cv: CvData): string {
       : ""
   }
 
-  ${
-    cv.experience.length > 0
-      ? `
-    <div class="section">
-      <div class="section-title">Work Experience</div>
-      ${experienceHtml}
-    </div>
-    <hr />`
-      : ""
-  }
+    ${
+      cv.experience.length > 0
+        ? `
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+    ${experienceHtml}
+  </div>`
+        : ""
+    }
 
   ${
     cv.education.length > 0
       ? `
-    <div class="section">
-      <div class="section-title">Education</div>
-      ${educationHtml}
-    </div>`
+  <div class="section">
+    <div class="section-title">Education</div>
+    ${educationHtml}
+  </div>`
       : ""
   }
 </body>

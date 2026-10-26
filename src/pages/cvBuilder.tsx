@@ -3,10 +3,12 @@ import SectionHeader from "../features/cv/SectionHeader";
 import {
   type CvData,
   type EducationEntry,
+  type LinkEntry,
   type WorkEntry,
   EMPTY_CV,
   loadCv,
   makeEducationEntry,
+  makeLinkEntry,
   makeWorkEntry,
   saveCv,
 } from "../features/cv/data";
@@ -75,8 +77,8 @@ export default function CvBuilderPage() {
 
   function updateExperience(id: string, patch: Partial<WorkEntry>) {
     updateCv({
-      experience: cv.experience.map((e) =>
-        e.id === id ? { ...e, ...patch } : e,
+      experience: cv.experience.map((entry) =>
+        entry.id === id ? { ...entry, ...patch } : entry,
       ),
     });
   }
@@ -85,9 +87,12 @@ export default function CvBuilderPage() {
     const confirmed = window.confirm(
       "Are you sure you want to remove this experience entry? This cannot be undone.",
     );
+
     if (!confirmed) return;
 
-    updateCv({ experience: cv.experience.filter((e) => e.id !== id) });
+    updateCv({
+      experience: cv.experience.filter((entry) => entry.id !== id),
+    });
   }
 
   function addEducation() {
@@ -104,8 +109,8 @@ export default function CvBuilderPage() {
 
   function updateEducation(id: string, patch: Partial<EducationEntry>) {
     updateCv({
-      education: cv.education.map((e) =>
-        e.id === id ? { ...e, ...patch } : e,
+      education: cv.education.map((entry) =>
+        entry.id === id ? { ...entry, ...patch } : entry,
       ),
     });
   }
@@ -114,9 +119,41 @@ export default function CvBuilderPage() {
     const confirmed = window.confirm(
       "Are you sure you want to remove this education entry? This cannot be undone.",
     );
+
     if (!confirmed) return;
 
-    updateCv({ education: cv.education.filter((e) => e.id !== id) });
+    updateCv({
+      education: cv.education.filter((entry) => entry.id !== id),
+    });
+  }
+
+  function addLink() {
+    const entry = makeLinkEntry({
+      label: "",
+      url: "",
+    });
+
+    updateCv({ links: [...cv.links, entry] });
+  }
+
+  function updateLink(id: string, patch: Partial<LinkEntry>) {
+    updateCv({
+      links: cv.links.map((link) =>
+        link.id === id ? { ...link, ...patch } : link,
+      ),
+    });
+  }
+
+  function removeLink(id: string) {
+    const confirmed = window.confirm(
+      "Are you sure you want to remove this link? This cannot be undone.",
+    );
+
+    if (!confirmed) return;
+
+    updateCv({
+      links: cv.links.filter((link) => link.id !== id),
+    });
   }
 
   if (loading) {
@@ -147,33 +184,33 @@ export default function CvBuilderPage() {
             <Field
               label="Full Name"
               value={cv.name}
-              onChange={(v) => updateCv({ name: v })}
+              onChange={(value) => updateCv({ name: value })}
               placeholder="e.g. Jane Smith"
             />
             <Field
               label="Job Title"
               value={cv.title}
-              onChange={(v) => updateCv({ title: v })}
+              onChange={(value) => updateCv({ title: value })}
               placeholder="e.g. Frontend Developer"
             />
             <Field
               label="Email"
               value={cv.email}
-              onChange={(v) => updateCv({ email: v })}
+              onChange={(value) => updateCv({ email: value })}
               placeholder="e.g. jane@email.com"
               type="email"
             />
             <Field
               label="Phone"
               value={cv.phone}
-              onChange={(v) => updateCv({ phone: v })}
+              onChange={(value) => updateCv({ phone: value })}
               placeholder="e.g. +33 6 12 34 56 78"
               type="tel"
             />
             <Field
               label="Address"
               value={cv.address}
-              onChange={(v) => updateCv({ address: v })}
+              onChange={(value) => updateCv({ address: value })}
               placeholder="e.g. Paris, France"
               last
             />
@@ -190,7 +227,7 @@ export default function CvBuilderPage() {
             <Field
               label="Summary"
               value={cv.summary}
-              onChange={(v) => updateCv({ summary: v })}
+              onChange={(value) => updateCv({ summary: value })}
               placeholder="A brief description of yourself..."
               multiline
               last
@@ -208,7 +245,7 @@ export default function CvBuilderPage() {
             <Field
               label="Skills"
               value={cv.skills}
-              onChange={(v) => updateCv({ skills: v })}
+              onChange={(value) => updateCv({ skills: value })}
               placeholder="e.g. React, TypeScript, Node.js"
               multiline
               last
@@ -246,32 +283,40 @@ export default function CvBuilderPage() {
                 <Field
                   label="Company"
                   value={entry.company}
-                  onChange={(v) => updateExperience(entry.id, { company: v })}
+                  onChange={(value) =>
+                    updateExperience(entry.id, { company: value })
+                  }
                   placeholder="e.g. Acme Corp"
                 />
                 <Field
                   label="Role"
                   value={entry.role}
-                  onChange={(v) => updateExperience(entry.id, { role: v })}
+                  onChange={(value) =>
+                    updateExperience(entry.id, { role: value })
+                  }
                   placeholder="e.g. Frontend Developer"
                 />
                 <Field
                   label="Start Date"
                   value={entry.startDate}
-                  onChange={(v) => updateExperience(entry.id, { startDate: v })}
+                  onChange={(value) =>
+                    updateExperience(entry.id, { startDate: value })
+                  }
                   placeholder="e.g. 01-2023"
                 />
                 <Field
                   label="End Date"
                   value={entry.endDate}
-                  onChange={(v) => updateExperience(entry.id, { endDate: v })}
+                  onChange={(value) =>
+                    updateExperience(entry.id, { endDate: value })
+                  }
                   placeholder="e.g. 03-2026 or Present"
                 />
                 <Field
                   label="Description"
                   value={entry.description}
-                  onChange={(v) =>
-                    updateExperience(entry.id, { description: v })
+                  onChange={(value) =>
+                    updateExperience(entry.id, { description: value })
                   }
                   placeholder="Key responsibilities and achievements..."
                   multiline
@@ -320,34 +365,40 @@ export default function CvBuilderPage() {
                 <Field
                   label="Institution"
                   value={entry.institution}
-                  onChange={(v) =>
-                    updateEducation(entry.id, { institution: v })
+                  onChange={(value) =>
+                    updateEducation(entry.id, { institution: value })
                   }
                   placeholder="e.g. University of Paris"
                 />
                 <Field
                   label="Degree"
                   value={entry.degree}
-                  onChange={(v) => updateEducation(entry.id, { degree: v })}
+                  onChange={(value) =>
+                    updateEducation(entry.id, { degree: value })
+                  }
                   placeholder="e.g. BSc Computer Science"
                 />
                 <Field
                   label="Start Date"
                   value={entry.startDate}
-                  onChange={(v) => updateEducation(entry.id, { startDate: v })}
+                  onChange={(value) =>
+                    updateEducation(entry.id, { startDate: value })
+                  }
                   placeholder="e.g. 09-2019"
                 />
                 <Field
                   label="End Date"
                   value={entry.endDate}
-                  onChange={(v) => updateEducation(entry.id, { endDate: v })}
+                  onChange={(value) =>
+                    updateEducation(entry.id, { endDate: value })
+                  }
                   placeholder="e.g. 06-2022 or Present"
                 />
                 <Field
                   label="Description"
                   value={entry.description}
-                  onChange={(v) =>
-                    updateEducation(entry.id, { description: v })
+                  onChange={(value) =>
+                    updateEducation(entry.id, { description: value })
                   }
                   placeholder="Relevant coursework, achievements..."
                   multiline
@@ -373,28 +424,49 @@ export default function CvBuilderPage() {
         />
         {expanded.links && (
           <div className="mb-3 rounded-2xl border border-gray-200 bg-white p-4 sm:p-5">
-            <Field
-              label="LinkedIn"
-              value={cv.linkedin}
-              onChange={(v) => updateCv({ linkedin: v })}
-              placeholder="https://linkedin.com/in/yourname"
-              type="url"
-            />
-            <Field
-              label="GitHub"
-              value={cv.github}
-              onChange={(v) => updateCv({ github: v })}
-              placeholder="https://github.com/yourname"
-              type="url"
-            />
-            <Field
-              label="Website"
-              value={cv.website}
-              onChange={(v) => updateCv({ website: v })}
-              placeholder="https://yoursite.com"
-              type="url"
-              last
-            />
+            {cv.links.map((link) => (
+              <div
+                key={link.id}
+                className="mb-3 rounded-xl border border-gray-200 bg-gray-50 p-3"
+              >
+                <div className="mb-3 flex items-center justify-between gap-3">
+                  <h3 className="flex-1 text-sm font-semibold text-gray-900">
+                    {link.label || "New Link"}
+                  </h3>
+
+                  <button
+                    type="button"
+                    onClick={() => removeLink(link.id)}
+                    className="rounded-lg bg-red-100 px-3 py-1.5 text-sm font-semibold text-red-800 transition hover:bg-red-200"
+                  >
+                    Remove
+                  </button>
+                </div>
+
+                <Field
+                  label="Link Name"
+                  value={link.label}
+                  onChange={(value) => updateLink(link.id, { label: value })}
+                  placeholder="e.g. LinkedIn, Portfolio, Dribbble"
+                />
+                <Field
+                  label="URL"
+                  value={link.url}
+                  onChange={(value) => updateLink(link.id, { url: value })}
+                  placeholder="https://example.com"
+                  type="url"
+                  last
+                />
+              </div>
+            ))}
+
+            <button
+              type="button"
+              onClick={addLink}
+              className="w-full rounded-xl border border-dashed border-blue-600 px-4 py-3 text-center text-sm font-semibold text-blue-600 transition hover:bg-blue-50"
+            >
+              + Add link
+            </button>
           </div>
         )}
 
@@ -413,7 +485,7 @@ export default function CvBuilderPage() {
 type FieldProps = {
   label: string;
   value: string;
-  onChange: (v: string) => void;
+  onChange: (value: string) => void;
   placeholder?: string;
   multiline?: boolean;
   type?: React.HTMLInputTypeAttribute;
@@ -438,7 +510,7 @@ function Field({
       {multiline ? (
         <textarea
           value={value}
-          onChange={(e) => onChange(e.target.value)}
+          onChange={(event) => onChange(event.target.value)}
           placeholder={placeholder}
           rows={4}
           className="min-h-22.5 w-full rounded-xl border border-gray-300 bg-gray-50 px-3 py-2.5 text-sm text-gray-900 transition outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
@@ -447,7 +519,7 @@ function Field({
         <input
           type={type}
           value={value}
-          onChange={(e) => onChange(e.target.value)}
+          onChange={(event) => onChange(event.target.value)}
           placeholder={placeholder}
           autoCapitalize={
             type === "email" || type === "url" ? "none" : "sentences"
