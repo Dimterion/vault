@@ -3077,8 +3077,8 @@ export const listings: JobListing[] = [
     title: "Infinity Constellation",
     websiteUrl: "https://www.infinityconstellation.com",
     description:
-      "",
-    tags: [],
+      "AI-native services company builder and holding company. Partners with founder-operators to launch and scale AI-enabled professional-services businesses across hiring, compliance, finance, data, executive support, and other verticals.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3163,8 +3163,8 @@ export const listings: JobListing[] = [
     title: "InterEx Group",
     websiteUrl: "https://interex-group.com",
     description:
-      "",
-    tags: [],
+      "Global technology recruitment and consulting firm specializing in data, ERP, and CRM transformation. Connects enterprises with specialized talent and delivers project-based, outcome-driven technology programs.",
+    tags: ["Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3289,8 +3289,8 @@ export const listings: JobListing[] = [
     title: "KatchMe",
     websiteUrl: "https://www.katchme.fr",
     description:
-      "",
-    tags: [],
+      "Paris- and Bordeaux-based recruitment firm specializing in IT, digital, sales, and finance. Places candidates in permanent roles and freelance missions, including executive search through its Black Search practice.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3379,8 +3379,8 @@ export const listings: JobListing[] = [
     title: "Kong",
     websiteUrl: "https://konghq.com",
     description:
-      "",
-    tags: [],
+      "API and AI connectivity platform company. Provides API gateway, service mesh, and AI gateway technology that helps organizations secure, route, govern, observe, and monetize traffic across APIs, LLMs, and AI services.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
