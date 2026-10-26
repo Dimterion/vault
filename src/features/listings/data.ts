@@ -3073,6 +3073,24 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "infinity_constellation",
+    title: "Infinity Constellation",
+    websiteUrl: "https://www.infinityconstellation.com",
+    description:
+      "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.infinityconstellation.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/infinity-constellation",
+      },
+    ],
+  },
+  {
     id: "ingenico",
     title: "Ingenico",
     websiteUrl: "https://ingenico.com",
@@ -3137,6 +3155,24 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/institut-fran%C3%A7ais-d-intelligence-artificielle",
+      },
+    ],
+  },
+  {
+    id: "interex_group",
+    title: "InterEx Group",
+    websiteUrl: "https://interex-group.com",
+    description:
+      "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://interex-group.com/join-us",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/interex-group",
       },
     ],
   },
@@ -3249,6 +3285,24 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "katchme",
+    title: "KatchMe",
+    websiteUrl: "https://www.katchme.fr",
+    description:
+      "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.katchme.fr/offres-emploi-it-digital-finance-sales",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/katchme2",
+      },
+    ],
+  },
+  {
     id: "kbrw",
     title: "Kbrw",
     websiteUrl: "https://kbrw.com",
@@ -3317,6 +3371,24 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/komodo-health",
+      },
+    ],
+  },
+  {
+    id: "kong",
+    title: "Kong",
+    websiteUrl: "https://konghq.com",
+    description:
+      "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/kong",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/konghq",
       },
     ],
   },
