@@ -191,7 +191,7 @@ export default function CvBuilderPage() {
               label="Job Title"
               value={cv.title}
               onChange={(value) => updateCv({ title: value })}
-              placeholder="e.g. Frontend Developer"
+              placeholder="e.g. Web Developer"
             />
             <Field
               label="Email"
@@ -246,7 +246,7 @@ export default function CvBuilderPage() {
               label="Skills"
               value={cv.skills}
               onChange={(value) => updateCv({ skills: value })}
-              placeholder="e.g. React, TypeScript, Node.js"
+              placeholder="e.g. Project Management, Data Analysis, Search Engine Optimization"
               multiline
               last
             />
@@ -274,7 +274,7 @@ export default function CvBuilderPage() {
                   <button
                     type="button"
                     onClick={() => removeExperience(entry.id)}
-                    className="rounded-lg bg-red-100 px-3 py-1.5 text-sm font-semibold text-red-800 transition hover:bg-red-200"
+                    className="cursor-pointer rounded-lg bg-red-100 px-3 py-1.5 text-sm font-semibold text-red-800 transition hover:bg-red-200"
                   >
                     Remove
                   </button>
@@ -294,7 +294,7 @@ export default function CvBuilderPage() {
                   onChange={(value) =>
                     updateExperience(entry.id, { role: value })
                   }
-                  placeholder="e.g. Frontend Developer"
+                  placeholder="e.g. Web Developer"
                 />
                 <Field
                   label="Start Date"
@@ -328,7 +328,7 @@ export default function CvBuilderPage() {
             <button
               type="button"
               onClick={addExperience}
-              className="w-full rounded-xl border border-dashed border-blue-600 px-4 py-3 text-center text-sm font-semibold text-blue-600 transition hover:bg-blue-50"
+              className="w-full cursor-pointer rounded-xl border border-dashed border-blue-600 px-4 py-3 text-center text-sm font-semibold text-blue-600 transition hover:bg-blue-50"
             >
               + Add experience
             </button>
@@ -356,7 +356,7 @@ export default function CvBuilderPage() {
                   <button
                     type="button"
                     onClick={() => removeEducation(entry.id)}
-                    className="rounded-lg bg-red-100 px-3 py-1.5 text-sm font-semibold text-red-800 transition hover:bg-red-200"
+                    className="cursor-pointer rounded-lg bg-red-100 px-3 py-1.5 text-sm font-semibold text-red-800 transition hover:bg-red-200"
                   >
                     Remove
                   </button>
@@ -376,7 +376,7 @@ export default function CvBuilderPage() {
                   onChange={(value) =>
                     updateEducation(entry.id, { degree: value })
                   }
-                  placeholder="e.g. BSc Computer Science"
+                  placeholder="e.g. Bachelor in Computer Science"
                 />
                 <Field
                   label="Start Date"
@@ -410,7 +410,7 @@ export default function CvBuilderPage() {
             <button
               type="button"
               onClick={addEducation}
-              className="w-full rounded-xl border border-dashed border-blue-600 px-4 py-3 text-center text-sm font-semibold text-blue-600 transition hover:bg-blue-50"
+              className="w-full cursor-pointer rounded-xl border border-dashed border-blue-600 px-4 py-3 text-center text-sm font-semibold text-blue-600 transition hover:bg-blue-50"
             >
               + Add education
             </button>
@@ -437,7 +437,7 @@ export default function CvBuilderPage() {
                   <button
                     type="button"
                     onClick={() => removeLink(link.id)}
-                    className="rounded-lg bg-red-100 px-3 py-1.5 text-sm font-semibold text-red-800 transition hover:bg-red-200"
+                    className="cursor-pointer rounded-lg bg-red-100 px-3 py-1.5 text-sm font-semibold text-red-800 transition hover:bg-red-200"
                   >
                     Remove
                   </button>
@@ -447,7 +447,7 @@ export default function CvBuilderPage() {
                   label="Link Name"
                   value={link.label}
                   onChange={(value) => updateLink(link.id, { label: value })}
-                  placeholder="e.g. LinkedIn, Portfolio, Dribbble"
+                  placeholder="e.g. LinkedIn, Portfolio, GitHub"
                 />
                 <Field
                   label="URL"
@@ -463,7 +463,7 @@ export default function CvBuilderPage() {
             <button
               type="button"
               onClick={addLink}
-              className="w-full rounded-xl border border-dashed border-blue-600 px-4 py-3 text-center text-sm font-semibold text-blue-600 transition hover:bg-blue-50"
+              className="w-full cursor-pointer rounded-xl border border-dashed border-blue-600 px-4 py-3 text-center text-sm font-semibold text-blue-600 transition hover:bg-blue-50"
             >
               + Add link
             </button>
@@ -473,7 +473,7 @@ export default function CvBuilderPage() {
         <button
           type="button"
           onClick={() => exportCvPdf(cv)}
-          className="mt-2 w-full rounded-2xl bg-blue-600 px-5 py-3.5 text-sm font-bold text-white transition hover:bg-blue-700"
+          className="mt-2 w-full cursor-pointer rounded-2xl bg-blue-600 px-5 py-3.5 text-sm font-bold text-white transition hover:bg-blue-700"
         >
           Export PDF
         </button>
