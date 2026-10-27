@@ -3731,6 +3731,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "lumiform",
+    title: "Lumiform",
+    websiteUrl: "https://lumiformapp.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Join)",
+        url: "https://join.com/companies/lumiform",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lumiform",
+      },
+    ],
+  },
+  {
     id: "madbox",
     title: "Madbox",
     websiteUrl: "https://madbox.io",
@@ -3907,6 +3924,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "minitap",
+    title: "minitap",
+    websiteUrl: "https://www.minitap.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.minitap.ai/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/minitap-ai",
+      },
+    ],
+  },
+  {
+    id: "mintlify",
+    title: "Mintlify",
+    websiteUrl: "https://www.mintlify.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.mintlify.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/mintlify",
+      },
+    ],
+  },
+  {
     id: "mistral",
     title: "Mistral",
     websiteUrl: "https://mistral.ai",
@@ -3957,6 +4008,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/molotov-tv",
+      },
+    ],
+  },
+  {
+    id: "montreal_associates",
+    title: "Montreal Associates",
+    websiteUrl: "https://www.montrealassociates.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.montrealassociates.com/uk/candidates/job-search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/montreal-associates",
       },
     ],
   },
@@ -4141,6 +4209,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "neosoft",
+    title: "Neosoft",
+    websiteUrl: "https://www.neosoft.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workday)",
+        url: "https://neosoft.wd3.myworkdayjobs.com/neo-soft",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/neosoft-",
+      },
+    ],
+  },
+  {
     id: "new_tales",
     title: "New Tales",
     websiteUrl: "https://www.newtales.com",
@@ -4213,6 +4298,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "noota",
+    title: "Noota",
+    websiteUrl: "https://www.noota.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.noota.io/join-us",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/noota",
+      },
+    ],
+  },
+  {
     id: "notion",
     title: "Notion",
     websiteUrl: "https://www.notion.com",
@@ -4231,6 +4333,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "novaspace",
+    title: "Novaspace",
+    websiteUrl: "https://nova.space",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.lever.co/novaspace",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/novaspace-leadingconsulting",
+      },
+    ],
+  },
+  {
     id: "novutech",
     title: "Novutech",
     websiteUrl: "https://www.novutech.com",
@@ -4245,6 +4364,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/novutech",
+      },
+    ],
+  },
+  {
+    id: "nunu.ai",
+    title: "Nunu.ai",
+    websiteUrl: "https://nunu.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Notion)",
+        url: "https://nunu-ai.notion.site",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/nunu-ai",
       },
     ],
   },
