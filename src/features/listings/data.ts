@@ -3734,8 +3734,9 @@ export const listings: JobListing[] = [
     id: "lumiform",
     title: "Lumiform",
     websiteUrl: "https://lumiformapp.com",
-    description: "",
-    tags: [],
+    description:
+      "Mobile-first operations platform for frontline teams. Helps multi-site businesses digitize inspections, audits, checklists, training, and corrective actions while turning field data into compliance reporting and operational analytics.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Join)",
@@ -3927,8 +3928,9 @@ export const listings: JobListing[] = [
     id: "minitap",
     title: "minitap",
     websiteUrl: "https://www.minitap.ai",
-    description: "",
-    tags: [],
+    description:
+      "AI quality-assurance platform for mobile and web applications. Its agent, mini, understands product specs, tickets, and codebases to map user journeys, test releases, investigate failures, and produce actionable QA reports.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3944,8 +3946,9 @@ export const listings: JobListing[] = [
     id: "mintlify",
     title: "Mintlify",
     websiteUrl: "https://www.mintlify.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-native documentation platform for developer teams. Helps teams create, host, maintain, and improve technical documentation with AI authoring, codebase-aware agents, search, analytics, and developer-facing product experiences.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4015,8 +4018,9 @@ export const listings: JobListing[] = [
     id: "montreal_associates",
     title: "Montreal Associates",
     websiteUrl: "https://www.montrealassociates.com",
-    description: "",
-    tags: [],
+    description:
+      "Specialist technology recruitment and workforce-solutions firm serving Europe and North America. Places talent in SAP, Salesforce, ServiceNow, Microsoft, cloud, data, cybersecurity, AI, and software-engineering roles.",
+    tags: ["Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4212,8 +4216,9 @@ export const listings: JobListing[] = [
     id: "neosoft",
     title: "Neosoft",
     websiteUrl: "https://www.neosoft.fr",
-    description: "",
-    tags: [],
+    description:
+      "French digital-transformation consulting group with expertise across AI, cloud, cybersecurity, data, software engineering, agility, and enterprise systems. Helps organizations design, build, secure, and scale digital products and platforms.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page (Workday)",
@@ -4301,8 +4306,9 @@ export const listings: JobListing[] = [
     id: "noota",
     title: "Noota",
     websiteUrl: "https://www.noota.io",
-    description: "",
-    tags: [],
+    description:
+      "AI meeting and interview assistant that records, transcribes, summarizes, and turns conversations into structured follow-up. Automates meeting notes, action items, emails, and CRM or ATS updates for recruiters and business teams.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4336,8 +4342,9 @@ export const listings: JobListing[] = [
     id: "novaspace",
     title: "Novaspace",
     websiteUrl: "https://nova.space",
-    description: "",
-    tags: [],
+    description:
+      "Global consulting and market-intelligence firm focused on the space sector. Provides strategy, technology consulting, market data, training, and executive summits across satellite, ground, defence, and space-industry markets.",
+    tags: ["Consulting", "France"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
