@@ -156,6 +156,32 @@ export default function CvBuilderPage() {
     });
   }
 
+  function clearCv() {
+    const confirmed = window.confirm(
+      "Are you sure you want to clear your CV? All fields, experience, education, and links will be removed. This cannot be undone.",
+    );
+
+    if (!confirmed) return;
+
+    if (saveTimeout.current) {
+      clearTimeout(saveTimeout.current);
+      saveTimeout.current = null;
+    }
+
+    setCv(EMPTY_CV);
+
+    setExpanded({
+      personal: true,
+      summary: false,
+      skills: false,
+      experience: false,
+      education: false,
+      links: false,
+    });
+
+    saveCv(EMPTY_CV);
+  }
+
   if (loading) {
     return (
       <div className="flex min-h-[50vh] items-center justify-center">
@@ -470,13 +496,23 @@ export default function CvBuilderPage() {
           </div>
         )}
 
-        <button
-          type="button"
-          onClick={() => exportCvPdf(cv)}
-          className="mt-2 w-full cursor-pointer rounded-2xl bg-blue-600 px-5 py-3.5 text-sm font-bold text-white transition hover:bg-blue-700"
-        >
-          Export PDF
-        </button>
+        <div className="mt-2 flex flex-col gap-3 sm:flex-row">
+          <button
+            type="button"
+            onClick={() => exportCvPdf(cv)}
+            className="w-full cursor-pointer rounded-2xl bg-blue-600 px-5 py-3.5 text-sm font-bold text-white transition hover:bg-blue-700"
+          >
+            Export PDF
+          </button>
+
+          <button
+            type="button"
+            onClick={clearCv}
+            className="w-full cursor-pointer rounded-2xl border border-red-600 px-5 py-3.5 text-sm font-bold text-red-600 transition hover:bg-red-50"
+          >
+            Clear CV
+          </button>
+        </div>
       </div>
     </div>
   );
