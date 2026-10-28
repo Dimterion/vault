@@ -4375,11 +4375,12 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "nunu.ai",
+    id: "nunu_ai",
     title: "Nunu.ai",
     websiteUrl: "https://nunu.ai",
-    description: "",
-    tags: [],
+    description:
+      "AI-native engineering company building multimodal AI agents for game and software QA. Its agents test and play games on real devices, helping teams automate quality assurance, simulate player behavior, and improve live-game experiences.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Notion)",
@@ -4395,11 +4396,12 @@ export const listings: JobListing[] = [
     id: "ocus",
     title: "Ocus",
     websiteUrl: "https://www.ocus.com",
-    description: "",
-    tags: [],
+    description:
+      "Visual-tech company providing end-to-end imagery services for businesses. Combines a global creator network with AI-powered moderation, editing, and visual-performance tools to produce and optimize photos and videos at scale.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
-        label: "Careers page  (Welcome to the Jungle)",
+        label: "Careers page (Welcome to the Jungle)",
         url: "https://www.welcometothejungle.com/companies-v1/ocus/jobs",
       },
       {
@@ -4697,8 +4699,8 @@ export const listings: JobListing[] = [
     title: "Payabli",
     websiteUrl: "https://www.payabli.com",
     description:
-      "",
-    tags: [],
+      "Embedded-payments infrastructure platform for vertical SaaS companies. Provides APIs and low-code components for payment acceptance, payouts, onboarding, reconciliation, compliance, and monetization of financial services.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -4805,8 +4807,8 @@ export const listings: JobListing[] = [
     title: "Phantom",
     websiteUrl: "https://phantom.com",
     description:
-      "",
-    tags: [],
+      "Consumer crypto and trading platform. Provides a self-custody wallet and trading app for discovering tokens, managing digital assets, trading, and interacting with blockchain applications across major networks.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4895,8 +4897,8 @@ export const listings: JobListing[] = [
     title: "Pixys",
     websiteUrl: "https://www.pixys.com",
     description:
-      "",
-    tags: [],
+      "French company specializing in control-room design, engineering, and IT solutions for mission-critical environments. Serves transportation, airports, telecom, energy, banking, insurance, and defense with operations centers, software, and consulting.",
+    tags: ["ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
