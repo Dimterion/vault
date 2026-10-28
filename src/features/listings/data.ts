@@ -4392,6 +4392,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "ocus",
+    title: "Ocus",
+    websiteUrl: "https://www.ocus.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page  (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/ocus/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ocus",
+      },
+    ],
+  },
+  {
     id: "odaseva",
     title: "Odaseva",
     websiteUrl: "https://www.odaseva.com",
@@ -4676,6 +4693,24 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "payabli",
+    title: "Payabli",
+    websiteUrl: "https://www.payabli.com",
+    description:
+      "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/payabli",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/payabli",
+      },
+    ],
+  },
+  {
     id: "payfit",
     title: "PayFit",
     websiteUrl: "https://payfit.com",
@@ -4766,6 +4801,24 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "phantom",
+    title: "Phantom",
+    websiteUrl: "https://phantom.com",
+    description:
+      "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://phantom.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/phantom-app",
+      },
+    ],
+  },
+  {
     id: "phantombuster",
     title: "PhantomBuster",
     websiteUrl: "https://phantombuster.com",
@@ -4834,6 +4887,24 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/pivothq",
+      },
+    ],
+  },
+  {
+    id: "pixys",
+    title: "Pixys",
+    websiteUrl: "https://www.pixys.com",
+    description:
+      "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.pixys.com/about-us/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/pixys-s-a-",
       },
     ],
   },
