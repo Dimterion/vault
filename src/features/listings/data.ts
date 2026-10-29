@@ -4641,6 +4641,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "owkin",
+    title: "Owkin",
+    websiteUrl: "https://www.owkin.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.owkin.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/owkin",
+      },
+    ],
+  },
+  {
     id: "padoa",
     title: "Padoa",
     websiteUrl: "https://www.padoa.fr",
@@ -5231,6 +5248,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "renaissance_fusion",
+    title: "Renaissance Fusion",
+    websiteUrl: "https://renfusion.eu",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://renfusion.eu/job-openings",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/renaissance-fusion",
+      },
+    ],
+  },
+  {
+    id: "reply",
+    title: "Reply",
+    websiteUrl: "https://www.reply.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.reply.com/en/about/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/reply",
+      },
+    ],
+  },
+  {
     id: "rerun",
     title: "Rerun",
     websiteUrl: "https://rerun.io",
@@ -5263,6 +5314,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/tryriot",
+      },
+    ],
+  },
+  {
+    id: "rollstack",
+    title: "Rollstack",
+    websiteUrl: "https://www.rollstack.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.rollstack.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/rollstack",
       },
     ],
   },
