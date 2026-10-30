@@ -5375,6 +5375,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "s&p_global",
+    title: "S&P Global",
+    websiteUrl: "https://www.spglobal.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.spglobal.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/spglobal",
+      },
+    ],
+  },
+  {
     id: "saas.group",
     title: "saas.group",
     websiteUrl: "https://saas.group",
@@ -5483,6 +5500,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "savencia",
+    title: "Savencia",
+    websiteUrl: "https://savencia.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Oracle Cloud)",
+        url: "https://eoct.fa.em2.oraclecloud.com/hcmUI/CandidateExperience",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/savencia-groupe",
+      },
+    ],
+  },
+  {
+    id: "scalesys",
+    title: "Scalesys",
+    websiteUrl: "https://scalesys.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://scalesys.fr/offre-emploi",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/scalesysfrance",
+      },
+    ],
+  },
+  {
     id: "scaleway",
     title: "Scaleway",
     websiteUrl: "https://www.scaleway.com",
@@ -5497,6 +5548,40 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/scaleway",
+      },
+    ],
+  },
+  {
+    id: "schneider_electric",
+    title: "Schneider Electric",
+    websiteUrl: "https://www.se.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.se.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/schneider-electric",
+      },
+    ],
+  },
+  {
+    id: "scoreplay",
+    title: "ScorePlay",
+    websiteUrl: "https://www.scoreplay.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/scoreplay",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/scoreplay",
       },
     ],
   },
