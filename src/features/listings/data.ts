@@ -5375,11 +5375,12 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "s&p_global",
+    id: "s_p_global",
     title: "S&P Global",
     websiteUrl: "https://www.spglobal.com",
-    description: "",
-    tags: [],
+    description:
+      "Global provider of financial-market intelligence, benchmarks, credit ratings, commodity and energy data, ESG analytics, and risk solutions. Helps businesses, governments, and investors make decisions with trusted data and technology.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5503,8 +5504,9 @@ export const listings: JobListing[] = [
     id: "savencia",
     title: "Savencia",
     websiteUrl: "https://savencia.com",
-    description: "",
-    tags: [],
+    description:
+      "International family-owned food group focused on dairy and cocoa. Develops and sells premium food brands across retail, food service, and ingredients, including cheese, butter, chocolate, deli, and seafood products.",
+    tags: ["France"],
     extraLinks: [
       {
         label: "Careers page (Oracle Cloud)",
@@ -5520,8 +5522,9 @@ export const listings: JobListing[] = [
     id: "scalesys",
     title: "Scalesys",
     websiteUrl: "https://scalesys.fr",
-    description: "",
-    tags: [],
+    description:
+      "French SAP consulting and systems-integration firm. Helps enterprises modernize and operate SAP environments through implementation, S/4HANA migration, managed services, support, and specialized SAP expertise.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5555,8 +5558,9 @@ export const listings: JobListing[] = [
     id: "schneider_electric",
     title: "Schneider Electric",
     websiteUrl: "https://www.se.com",
-    description: "",
-    tags: [],
+    description:
+      "Global energy-technology company enabling electrification, automation, and digitalization for buildings, data centers, industry, infrastructure, and grids. Provides electrical distribution, industrial automation, energy management, and AI-enabled digital services.",
+    tags: ["Climate", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5572,8 +5576,9 @@ export const listings: JobListing[] = [
     id: "scoreplay",
     title: "ScorePlay",
     websiteUrl: "https://www.scoreplay.io",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered sports-media platform that helps teams, leagues, and federations create, manage, distribute, and monetize photo and video content. Centralizes media workflows across broadcast, digital channels, and commercial partnerships.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
