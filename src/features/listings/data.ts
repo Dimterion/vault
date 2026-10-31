@@ -5810,8 +5810,9 @@ export const listings: JobListing[] = [
     id: "skaleet",
     title: "Skaleet",
     websiteUrl: "https://skaleet.com",
-    description: "",
-    tags: [],
+    description:
+      "Cloud-native core-banking SaaS platform for banks, fintechs, and embedded-finance providers. Provides modular, API-first infrastructure for accounts, cards, payments, lending, savings, KYC, and banking operations across EMEA.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -5953,8 +5954,9 @@ export const listings: JobListing[] = [
     id: "spiko",
     title: "Spiko",
     websiteUrl: "https://www.spiko.io",
-    description: "",
-    tags: [],
+    description:
+      "European cash-management fintech giving businesses, nonprofits, financial advisers, and fintechs access to institutional-grade money-market products through an app and API. Builds the full issuance, operating, and distribution infrastructure.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -6024,8 +6026,9 @@ export const listings: JobListing[] = [
     id: "steerlab",
     title: "Steerlab",
     websiteUrl: "https://www.steerlab.ai",
-    description: "",
-    tags: [],
+    description:
+      "AI proposal-automation platform for B2B sales and security teams. Helps organizations respond to RFPs, RFIs, and security questionnaires with sourced answers, managed content libraries, collaboration workflows, and win-probability insights.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Notion)",
@@ -6077,8 +6080,9 @@ export const listings: JobListing[] = [
     id: "streem_energy",
     title: "Streem Energy",
     websiteUrl: "https://www.streem.eu",
-    description: "",
-    tags: [],
+    description:
+      "SaaS platform for commercial management of renewable-energy assets. Helps producers, aggregators, suppliers, and asset managers optimize operations, market participation, forecasting, contracts, and portfolio performance across Europe.",
+    tags: ["Climate", "AI", "France"],
     extraLinks: [
       {
         label: "Careers page (SmartRecruiters)",
@@ -6184,8 +6188,9 @@ export const listings: JobListing[] = [
     id: "synopsia",
     title: "Synopsia",
     websiteUrl: "https://www.synopsia.com",
-    description: "",
-    tags: [],
+    description:
+      "Paris-based software-engineering company providing technical expertise, architecture, project management, and development services. Helps clients deliver custom digital projects and build long-term technology capabilities.",
+    tags: ["ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
