@@ -5807,6 +5807,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "skaleet",
+    title: "Skaleet",
+    websiteUrl: "https://skaleet.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.skaleet.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/skaleet",
+      },
+    ],
+  },
+  {
     id: "skello",
     title: "Skello",
     websiteUrl: "https://www.skello.io",
@@ -5933,6 +5950,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "spiko",
+    title: "Spiko",
+    websiteUrl: "https://www.spiko.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://spiko.teamtailor.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/spiko-tech",
+      },
+    ],
+  },
+  {
     id: "spinergie",
     title: "Spinergie",
     websiteUrl: "https://www.spinergie.com",
@@ -5987,6 +6021,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "steerlab",
+    title: "Steerlab",
+    websiteUrl: "https://www.steerlab.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Notion)",
+        url: "https://steerlab.notion.site",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/steerlab",
+      },
+    ],
+  },
+  {
     id: "storyblok",
     title: "Storyblok",
     websiteUrl: "https://www.storyblok.com",
@@ -6019,6 +6070,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/strangebee",
+      },
+    ],
+  },
+  {
+    id: "streem_energy",
+    title: "Streem Energy",
+    websiteUrl: "https://www.streem.eu",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (SmartRecruiters)",
+        url: "https://careers.smartrecruiters.com/StreemEnergy",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/streemenergy",
       },
     ],
   },
@@ -6109,6 +6177,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/syndigo",
+      },
+    ],
+  },
+  {
+    id: "synopsia",
+    title: "Synopsia",
+    websiteUrl: "https://www.synopsia.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.synopsia.com/?page_id=682",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/synopsia",
       },
     ],
   },
