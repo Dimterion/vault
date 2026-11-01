@@ -4429,6 +4429,19 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "odyssee_technologies",
+    title: "Odyssee Technologies",
+    websiteUrl: "https://www.odyssee-technologies.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/odyssee-technologies",
+      },
+    ],
+  },
+  {
     id: "ogury",
     title: "Ogury",
     websiteUrl: "https://www.ogury.com",
@@ -6217,6 +6230,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "talan",
+    title: "Talan",
+    websiteUrl: "https://www.talan.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.talan.com/global/en/our-job-offers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/talan",
+      },
+    ],
+  },
+  {
     id: "teads",
     title: "Teads",
     websiteUrl: "https://www.teads.com",
@@ -6349,6 +6379,36 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/tigerdata",
+      },
+    ],
+  },
+  {
+    id: "thélios",
+    title: "Thélios",
+    websiteUrl: "https://www.thelios.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.thelios.com/static/tlk/en/index.html",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/thelios",
+      },
+    ],
+  },
+  {
+    id: "thundersoft",
+    title: "ThunderSoft",
+    websiteUrl: "http://www.thundersoft.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/thundersoft",
       },
     ],
   },
@@ -6525,6 +6585,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/shopupway",
+      },
+    ],
+  },
+  {
+    id: "uscreen",
+    title: "Uscreen",
+    websiteUrl: "https://www.uscreen.tv",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (BambooHR)",
+        url: "https://uscreen.bamboohr.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/uscreen-tv",
       },
     ],
   },
