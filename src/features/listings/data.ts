@@ -6661,6 +6661,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "veeam",
+    title: "Veeam",
+    websiteUrl: "https://www.veeam.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.veeam.com/search-jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/veeam-software",
+      },
+    ],
+  },
+  {
     id: "veesual",
     title: "Veesual",
     websiteUrl: "https://www.veesual.ai",
@@ -6873,6 +6890,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "wezen",
+    title: "Wezen",
+    websiteUrl: "https://wezen.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/wezen",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/wezentech",
+      },
+    ],
+  },
+  {
     id: "wiremind",
     title: "Wiremind",
     websiteUrl: "https://www.wiremind.io",
@@ -6963,6 +6997,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "xapo",
+    title: "Xapo",
+    websiteUrl: "https://www.xapobank.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.xapobank.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/xapobankapp",
+      },
+    ],
+  },
+  {
     id: "xbow",
     title: "XBOW",
     websiteUrl: "https://xbow.com",
@@ -6977,6 +7028,19 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/xbow",
+      },
+    ],
+  },
+  {
+    id: "ykone",
+    title: "YKONE",
+    websiteUrl: "https://ykone.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ykone",
       },
     ],
   },
