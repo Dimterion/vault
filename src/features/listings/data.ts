@@ -6664,8 +6664,9 @@ export const listings: JobListing[] = [
     id: "veeam",
     title: "Veeam",
     websiteUrl: "https://www.veeam.com",
-    description: "",
-    tags: [],
+    description:
+      "Data resilience, cyber-resilience, and AI-trust platform provider. Helps organizations protect, recover, govern, and secure data across cloud, SaaS, Kubernetes, endpoints, and on-premises environments, with backup, disaster recovery, and AI-security capabilities.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -6893,8 +6894,9 @@ export const listings: JobListing[] = [
     id: "wezen",
     title: "Wezen",
     websiteUrl: "https://wezen.com",
-    description: "",
-    tags: [],
+    description:
+      "SaaS platform for AI-assisted, multilingual content production. Helps brands and content teams create, localize, manage, and publish high-quality copy across markets, combining semantic analysis, collaboration, and AI workflows.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -6997,11 +6999,12 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "xapo",
-    title: "Xapo",
+    id: "xapo_bank",
+    title: "Xapo Bank",
     websiteUrl: "https://www.xapobank.com",
-    description: "",
-    tags: [],
+    description:
+      "Gibraltar-regulated private bank combining Bitcoin and traditional banking. Provides a fully remote banking platform where members can hold USD and BTC, earn interest, invest, and use Bitcoin payments through the Lightning Network.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -7035,8 +7038,9 @@ export const listings: JobListing[] = [
     id: "ykone",
     title: "YKONE",
     websiteUrl: "https://ykone.com",
-    description: "",
-    tags: [],
+    description:
+      "Global influencer-marketing and social-media group headquartered in Paris. Helps brands build campaigns and cultural programs through creator strategy, data intelligence, production, talent management, and its Campaygn technology platform.",
+    tags: ["Media", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
