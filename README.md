@@ -8,6 +8,7 @@ React / TypeScript application
 
 - [Introduction](#introduction)
 - [Tech Stack](#tech-stack)
+- [Live Version](#live-version)
 - [Contact Info](#contact-info)
 
 ## <a id="introduction"></a>🔎 Introduction
@@ -20,6 +21,12 @@ Vault is an app to organize your activities.
 - TypeScript
 - Tailwind CSS
 - Prettier
+
+## <a id="live-version"></a>🔗 Live Version
+
+This is a work-in-progress version, but you can check its current state by using the following link:
+
+### [Job Search Platform](https://jobs.dimterion.com/)
 
 ## <a id="contact-info"></a>📫 Contact info
 
