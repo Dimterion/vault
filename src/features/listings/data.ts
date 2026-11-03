@@ -27,6 +27,23 @@ export type JobListing = {
 
 export const listings: JobListing[] = [
   {
+    id: "3commas",
+    title: "3Commas",
+    websiteUrl: "https://3commas.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/3commas",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/3commas-io",
+      },
+    ],
+  },
+  {
     id: "360_learning",
     title: "360Learning",
     websiteUrl: "https://360learning.com",
@@ -117,6 +134,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "activeviam",
+    title: "ActiveViam",
+    websiteUrl: "https://www.activeviam.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.activeviam.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/activeviam",
+      },
+    ],
+  },
+  {
+    id: "adacore",
+    title: "AdaCore",
+    websiteUrl: "https://www.adacore.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.adacore.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/adacore",
+      },
+    ],
+  },
+  {
     id: "adelean",
     title: "Adelean",
     websiteUrl: "https://www.adelean.com",
@@ -163,6 +214,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/aghanim",
+      },
+    ],
+  },
+  {
+    id: "agilebio",
+    title: "AgileBio",
+    websiteUrl: "https://agilebio.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://agilebio.com/career-at-agilebio",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/agilebio",
       },
     ],
   },
@@ -275,6 +343,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "albyon",
+    title: "Albyon",
+    websiteUrl: "https://atlasv.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://atlasv.io/career",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/albyon",
+      },
+    ],
+  },
+  {
     id: "alcatel_lucent",
     title: "Alcatel-Lucent",
     websiteUrl: "https://www.al-enterprise.com",
@@ -289,6 +374,19 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/alcatellucententerprise",
+      },
+    ],
+  },
+  {
+    id: "aldecis",
+    title: "Aldecis",
+    websiteUrl: "https://aldecis.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/aldecis",
       },
     ],
   },
@@ -383,6 +481,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "alpaca",
+    title: "Alpaca",
+    websiteUrl: "https://alpaca.markets",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://alpaca.markets/hiring",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/alpacamarkets",
+      },
+    ],
+  },
+  {
     id: "alpic",
     title: "Alpic",
     websiteUrl: "https://alpic.ai",
@@ -393,6 +508,19 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/alpic-ai",
+      },
+    ],
+  },
+  {
+    id: "alqen",
+    title: "Alqen",
+    websiteUrl: "https://alqen.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/alqenhq",
       },
     ],
   },
@@ -439,6 +567,19 @@ export const listings: JobListing[] = [
       {
         label: "Careers page",
         url: "https://www.amplemarket.com/careers",
+      },
+    ],
+  },
+  {
+    id: "amplitude_studios",
+    title: "Amplitude Studios",
+    websiteUrl: "https://www.amplitude-studios.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/amplitude-studios",
       },
     ],
   },
@@ -497,6 +638,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "approach_people",
+    title: "Approach People",
+    websiteUrl: "https://www.approachpeople.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.approachpeople.com/job-search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/approach-people-recruitment",
+      },
+    ],
+  },
+  {
     id: "apsia",
     title: "Apsia",
     websiteUrl: "https://www.apsia.eu",
@@ -511,6 +669,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/sharpdx",
+      },
+    ],
+  },
+  {
+    id: "argos_multilingual",
+    title: "Argos Multilingual",
+    websiteUrl: "https://www.argosmultilingual.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (BambooHR)",
+        url: "https://argosmultilingual.bamboohr.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/argos-multilingual",
       },
     ],
   },
@@ -669,6 +844,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/axa",
+      },
+    ],
+  },
+  {
+    id: "axway",
+    title: "Axway",
+    websiteUrl: "https://www.axway.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (ICIMS)",
+        url: "https://careers-axway.icims.com/jobs/intro",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/axway",
       },
     ],
   },
