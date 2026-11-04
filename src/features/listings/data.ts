@@ -964,10 +964,11 @@ export const listings: JobListing[] = [
   },
   {
     id: "becpg",
-    title: "BeCPG",
+    title: "beCPG",
     websiteUrl: "https://www.becpg.net",
-    description: "",
-    tags: [],
+    description:
+      "Open-source PLM SaaS for food, beverage, cosmetics, and consumer-goods manufacturers. Centralizes recipes, ingredients, packaging, allergens, nutrition, regulatory labeling, supplier data, quality, and product-launch workflows.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -979,8 +980,9 @@ export const listings: JobListing[] = [
     id: "beev",
     title: "Beev",
     websiteUrl: "https://www.beev.co",
-    description: "",
-    tags: [],
+    description:
+      "Electric-mobility platform for businesses and individuals. Helps companies finance EVs, install workplace and home charging stations, manage fleets, optimize car policies, and simplify the transition to electric vehicles.",
+    tags: ["Climate", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -1032,8 +1034,9 @@ export const listings: JobListing[] = [
     id: "better_collective",
     title: "Better Collective",
     websiteUrl: "https://bettercollective.com",
-    description: "",
-    tags: [],
+    description:
+      "Global digital sports-media and esports-media group. Owns brands such as HLTV, Action Network, Playmaker, FUTBIN, and The Nation Network, combining editorial content, communities, data products, betting-adjacent services, and advertising technology.",
+    tags: ["Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1099,8 +1102,9 @@ export const listings: JobListing[] = [
     id: "blablacar",
     title: "BlaBlaCar",
     websiteUrl: "https://www.blablacar.com",
-    description: "",
-    tags: [],
+    description:
+      "Shared-mobility marketplace connecting drivers and passengers for carpooling, bus travel, and train journeys. Helps people travel affordably and sustainably across Europe and other markets through its consumer app and mobility infrastructure.",
+    tags: ["Climate", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1113,11 +1117,12 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "blockchain",
-    title: "Blockchain",
+    id: "blockchain.com",
+    title: "Blockchain.com",
     websiteUrl: "https://www.blockchain.com",
-    description: "",
-    tags: [],
+    description:
+      "Cryptocurrency financial-services platform providing wallets, trading, institutional products, custody, lending, savings, and blockchain data infrastructure. Helps consumers and institutions buy, hold, trade, and use digital assets.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1151,8 +1156,9 @@ export const listings: JobListing[] = [
     id: "brandbastion",
     title: "BrandBastion",
     websiteUrl: "https://www.brandbastion.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered social-media management and brand-protection platform. Helps brands monitor conversations, moderate harmful content, manage communities, respond to customers, and protect reputation across major social platforms.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Workable)",
