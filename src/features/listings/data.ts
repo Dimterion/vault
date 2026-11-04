@@ -963,6 +963,36 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "becpg",
+    title: "BeCPG",
+    websiteUrl: "https://www.becpg.net",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/becpg",
+      },
+    ],
+  },
+  {
+    id: "beev",
+    title: "Beev",
+    websiteUrl: "https://www.beev.co",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/beev/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/beev",
+      },
+    ],
+  },
+  {
     id: "believe",
     title: "Believe",
     websiteUrl: "https://www.believe.com",
@@ -995,6 +1025,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/bendingspoons",
+      },
+    ],
+  },
+  {
+    id: "better_collective",
+    title: "Better Collective",
+    websiteUrl: "https://bettercollective.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://bettercollective.recruitee.com/better-collective-open-positions",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/better-collective",
       },
     ],
   },
@@ -1049,6 +1096,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "blablacar",
+    title: "BlaBlaCar",
+    websiteUrl: "https://www.blablacar.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.blablacar.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/blablacar",
+      },
+    ],
+  },
+  {
+    id: "blockchain",
+    title: "Blockchain",
+    websiteUrl: "https://www.blockchain.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.blockchain.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/blockchain",
+      },
+    ],
+  },
+  {
     id: "botpress",
     title: "Botpress",
     websiteUrl: "https://botpress.com",
@@ -1063,6 +1144,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/botpress",
+      },
+    ],
+  },
+  {
+    id: "brandbastion",
+    title: "BrandBastion",
+    websiteUrl: "https://www.brandbastion.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workable)",
+        url: "https://apply.workable.com/brandbastion",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/brandbastion",
       },
     ],
   },
