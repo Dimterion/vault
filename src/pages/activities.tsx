@@ -26,6 +26,7 @@ export default function ActivitiesPage() {
   const [activities, setActivities] = useState<Activity[]>([]);
   const [loading, setLoading] = useState(true);
   const [modalOpen, setModalOpen] = useState(false);
+  const [modalOpenCount, setModalOpenCount] = useState(0);
   const [selectedAct, setSelectedAct] = useState<Activity | undefined>();
 
   useEffect(() => {
@@ -71,11 +72,13 @@ export default function ActivitiesPage() {
 
   function openAdd() {
     setSelectedAct(undefined);
+    setModalOpenCount((count) => count + 1);
     setModalOpen(true);
   }
 
   function openEdit(act: Activity) {
     setSelectedAct(act);
+    setModalOpenCount((count) => count + 1);
     setModalOpen(true);
   }
 
@@ -194,7 +197,7 @@ export default function ActivitiesPage() {
       )}
 
       <AddActivityModal
-        key={selectedAct?.id ?? "new"}
+        key={`${selectedAct?.id ?? "new"}-${modalOpenCount}`}
         open={modalOpen}
         onClose={closeModal}
         onSave={selectedAct ? handleEdit : handleAdd}

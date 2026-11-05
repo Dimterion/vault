@@ -27,6 +27,7 @@ export default function ApplicationTrackerPage() {
   const [applications, setApplications] = useState<JobApplication[]>([]);
   const [loading, setLoading] = useState(true);
   const [modalOpen, setModalOpen] = useState(false);
+  const [modalOpenCount, setModalOpenCount] = useState(0);
   const [selectedApp, setSelectedApp] = useState<JobApplication | undefined>();
 
   useEffect(() => {
@@ -72,11 +73,13 @@ export default function ApplicationTrackerPage() {
 
   function openAdd() {
     setSelectedApp(undefined);
+    setModalOpenCount((count) => count + 1);
     setModalOpen(true);
   }
 
   function openEdit(app: JobApplication) {
     setSelectedApp(app);
+    setModalOpenCount((count) => count + 1);
     setModalOpen(true);
   }
 
@@ -201,7 +204,7 @@ export default function ApplicationTrackerPage() {
       )}
 
       <AddApplicationModal
-        key={selectedApp?.id ?? "new"}
+        key={`${selectedApp?.id ?? "new"}-${modalOpenCount}`}
         open={modalOpen}
         onClose={closeModal}
         onSave={selectedApp ? handleEdit : handleAdd}
