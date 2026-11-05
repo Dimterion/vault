@@ -824,10 +824,11 @@ export const listings: JobListing[] = [
   },
   {
     id: "aveva",
-    title: "Aveva",
+    title: "AVEVA",
     websiteUrl: "https://www.aveva.com",
-    description: "",
-    tags: [],
+    description:
+      "Industrial-software company providing engineering, operations, asset-performance, and industrial AIoT solutions. Helps energy, manufacturing, infrastructure, chemicals, and utilities customers connect data, optimize operations, and use AI safely at industrial scale.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Workday)",
@@ -1299,8 +1300,9 @@ export const listings: JobListing[] = [
     id: "capgemini",
     title: "Capgemini",
     websiteUrl: "https://www.capgemini.com",
-    description: "",
-    tags: [],
+    description:
+      "Global consulting, technology-services, and digital-transformation company. Helps organizations with AI, cloud, data, cybersecurity, engineering, enterprise systems, and industry-specific digital platforms.",
+    tags: ["AI", "Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1352,8 +1354,9 @@ export const listings: JobListing[] = [
     id: "catenda",
     title: "Catenda",
     websiteUrl: "https://catenda.com",
-    description: "",
-    tags: [],
+    description:
+      "Open common-data-environment platform for architecture, engineering, construction, and operations. Connects BIM models, drawings, documents, project data, and AI workflows to improve collaboration and reduce rework across the asset lifecycle.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -1365,8 +1368,9 @@ export const listings: JobListing[] = [
     id: "cegedim",
     title: "Cegedim",
     websiteUrl: "https://www.cegedim.com",
-    description: "",
-    tags: [],
+    description:
+      "French technology and services group for healthcare and B2B data flows. Provides health-professional software, insurance and payroll platforms, cloud and cybersecurity services, data hosting, document digitization, and business-process outsourcing.",
+    tags: ["SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4387,11 +4391,12 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "monday.com",
+    id: "monday_com",
     title: "monday.com",
     websiteUrl: "https://monday.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered work-management platform for projects, CRM, service desks, software development, and business operations. Combines no-code workflows, automations, dashboards, integrations, and AI agents to help teams execute work at scale.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
