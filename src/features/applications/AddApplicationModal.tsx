@@ -170,7 +170,7 @@ export default function AddApplicationModal({
               <button
                 type="button"
                 onClick={handleDelete}
-                className="rounded-xl border border-red-200 px-3 py-2 text-sm font-semibold text-red-700 transition hover:bg-red-50"
+                className="cursor-pointer rounded-xl border border-red-200 px-3 py-2 text-sm font-semibold text-red-700 transition hover:bg-red-50"
               >
                 Delete
               </button>
@@ -245,7 +245,7 @@ export default function AddApplicationModal({
                       className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
                         isActive
                           ? "text-white"
-                          : "border border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
+                          : "cursor-pointer border border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
                       }`}
                       style={
                         isActive
@@ -285,7 +285,7 @@ export default function AddApplicationModal({
             <button
               type="button"
               onClick={onClose}
-              className="rounded-2xl border border-gray-300 px-5 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-50"
+              className="cursor-pointer rounded-2xl border border-gray-300 px-5 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-50"
             >
               Cancel
             </button>
@@ -294,7 +294,7 @@ export default function AddApplicationModal({
               type="button"
               onClick={handleSave}
               disabled={isSaveDisabled}
-              className="rounded-2xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-blue-300"
+              className="cursor-pointer rounded-2xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-blue-300"
             >
               {isEditing ? "Update" : "Save"}
             </button>

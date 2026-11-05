@@ -107,7 +107,7 @@ export default function ApplicationTrackerPage() {
         <button
           type="button"
           onClick={openAdd}
-          className="rounded-2xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-700"
+          className="cursor-pointer rounded-2xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-700"
         >
           + Add entry
         </button>
@@ -116,7 +116,7 @@ export default function ApplicationTrackerPage() {
           <button
             type="button"
             onClick={() => exportApplicationsCsv(applications)}
-            className="rounded-2xl border border-blue-600 px-5 py-3 text-sm font-semibold text-blue-600 transition hover:bg-blue-50"
+            className="cursor-pointer rounded-2xl border border-blue-600 px-5 py-3 text-sm font-semibold text-blue-600 transition hover:bg-blue-50"
           >
             Export CSV
           </button>
