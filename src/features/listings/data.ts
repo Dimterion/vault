@@ -823,6 +823,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "aveva",
+    title: "Aveva",
+    websiteUrl: "https://www.aveva.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workday)",
+        url: "https://aveva.wd3.myworkdayjobs.com/AVEVA_careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/aveva",
+      },
+    ],
+  },
+  {
     id: "aviv_group",
     title: "AVIV Group",
     websiteUrl: "https://www.aviv-group.com",
@@ -1279,6 +1296,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "capgemini",
+    title: "Capgemini",
+    websiteUrl: "https://www.capgemini.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.capgemini.com/careers/join-capgemini/job-search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/capgemini",
+      },
+    ],
+  },
+  {
     id: "capi_money",
     title: "Capi Money",
     websiteUrl: "https://capimoney.com",
@@ -1311,6 +1345,36 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/carrefour",
+      },
+    ],
+  },
+  {
+    id: "catenda",
+    title: "Catenda",
+    websiteUrl: "https://catenda.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/catenda-as/",
+      },
+    ],
+  },
+  {
+    id: "cegedim",
+    title: "Cegedim",
+    websiteUrl: "https://www.cegedim.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.cegedim.com/annonces",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/cegedim",
       },
     ],
   },
@@ -4319,6 +4383,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/molotov-tv",
+      },
+    ],
+  },
+  {
+    id: "monday.com",
+    title: "monday.com",
+    websiteUrl: "https://monday.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://monday.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/mondaydotcom",
       },
     ],
   },
