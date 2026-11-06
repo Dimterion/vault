@@ -1404,8 +1404,9 @@ export const listings: JobListing[] = [
     id: "cfm",
     title: "CFM",
     websiteUrl: "https://www.cfm.com",
-    description: "",
-    tags: [],
+    description:
+      "Paris-based quantitative and systematic asset manager. Uses machine learning, data science, and large-scale market and alternative data to develop diversified investment strategies across global markets.",
+    tags: ["AI", "FinTech", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1525,8 +1526,9 @@ export const listings: JobListing[] = [
     id: "clone",
     title: "Clone",
     websiteUrl: "https://www.getclone.io",
-    description: "",
-    tags: [],
+    description:
+      "Virtual-takeout platform for restaurants. Helps kitchens launch delivery-focused virtual brands, consolidate orders from major delivery platforms, optimize menus with data, and manage marketing and operations.",
+    tags: ["SaaS", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -1556,8 +1558,9 @@ export const listings: JobListing[] = [
     id: "coachhub",
     title: "CoachHub",
     websiteUrl: "https://www.coachhub.com",
-    description: "",
-    tags: [],
+    description:
+      "Digital coaching and talent-development platform for enterprises. Combines human coaches, behavioral science, and its AIMY AI coach to deliver personalized, measurable coaching and leadership-development programs at scale.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -1573,8 +1576,9 @@ export const listings: JobListing[] = [
     id: "cohere",
     title: "Cohere",
     websiteUrl: "https://cohere.com",
-    description: "",
-    tags: [],
+    description:
+      "Enterprise AI company building foundation models, retrieval, and agentic AI solutions for businesses. Provides secure, deployable AI for search, generation, automation, and knowledge work across private and sovereign infrastructure.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -1608,8 +1612,9 @@ export const listings: JobListing[] = [
     id: "collective_work",
     title: "Collective.work",
     websiteUrl: "https://www.collective.work",
-    description: "",
-    tags: [],
+    description:
+      "AI recruiting platform for modern talent teams. Provides an AI sourcing agent, ATS, job board, candidate matching, outreach, and workflow automation to help recruiters source and engage candidates more efficiently.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
