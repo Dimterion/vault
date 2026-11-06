@@ -1401,6 +1401,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "cfm",
+    title: "CFM",
+    websiteUrl: "https://www.cfm.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.cfm.com/search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/capital-fund-management",
+      },
+    ],
+  },
+  {
     id: "checkout.com",
     title: "Checkout.com",
     websiteUrl: "https://www.checkout.com",
@@ -1505,6 +1522,19 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "clone",
+    title: "Clone",
+    websiteUrl: "https://www.getclone.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/clone-fr",
+      },
+    ],
+  },
+  {
     id: "cloudflare",
     title: "Cloudflare",
     websiteUrl: "https://www.cloudflare.com",
@@ -1523,6 +1553,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "coachhub",
+    title: "CoachHub",
+    websiteUrl: "https://www.coachhub.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/CoachHub%20Careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/coachhub",
+      },
+    ],
+  },
+  {
+    id: "cohere",
+    title: "Cohere",
+    websiteUrl: "https://cohere.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/cohere",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/cohere-ai",
+      },
+    ],
+  },
+  {
     id: "coinspaid",
     title: "Coinspaid",
     websiteUrl: "https://coinspaid.com",
@@ -1537,6 +1601,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/coinspaid-com",
+      },
+    ],
+  },
+  {
+    id: "collective_work",
+    title: "Collective.work",
+    websiteUrl: "https://www.collective.work",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.collective.work/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/usecollective",
       },
     ],
   },
