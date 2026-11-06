@@ -4,9 +4,10 @@ import { colors } from "../../constants/colors";
 
 type PlatformCardProps = {
   item: JobPlatform;
+  onTagClick?: (tag: string) => void;
 };
 
-export default function PlatformCard({ item }: PlatformCardProps) {
+export default function PlatformCard({ item, onTagClick }: PlatformCardProps) {
   const imageSrc = item.imageKey ? platformImages[item.imageKey] : undefined;
 
   return (
@@ -43,16 +44,18 @@ export default function PlatformCard({ item }: PlatformCardProps) {
       {item.tags && item.tags.length > 0 ? (
         <div className="mb-4 flex flex-wrap gap-2">
           {item.tags.map((tag) => (
-            <span
+            <button
               key={tag}
-              className="rounded-full px-3 py-1.5 text-[13px] font-semibold"
+              type="button"
+              onClick={() => onTagClick?.(tag)}
+              className="cursor-pointer rounded-full px-3 py-1.5 text-[13px] font-semibold transition"
               style={{
                 backgroundColor: "#e8f0fe",
                 color: "#1d4ed8",
               }}
             >
               {tag}
-            </span>
+            </button>
           ))}
         </div>
       ) : null}
