@@ -4,10 +4,15 @@ import { colors } from "../../constants/colors";
 
 type PlatformCardProps = {
   item: JobPlatform;
+  selectedTags?: string[];
   onTagClick?: (tag: string) => void;
 };
 
-export default function PlatformCard({ item, onTagClick }: PlatformCardProps) {
+export default function PlatformCard({
+  item,
+  selectedTags = [],
+  onTagClick,
+}: PlatformCardProps) {
   const imageSrc = item.imageKey ? platformImages[item.imageKey] : undefined;
 
   return (
@@ -43,20 +48,25 @@ export default function PlatformCard({ item, onTagClick }: PlatformCardProps) {
 
       {item.tags && item.tags.length > 0 ? (
         <div className="mb-4 flex flex-wrap gap-2">
-          {item.tags.map((tag) => (
-            <button
-              key={tag}
-              type="button"
-              onClick={() => onTagClick?.(tag)}
-              className="cursor-pointer rounded-full px-3 py-1.5 text-[13px] font-semibold transition"
-              style={{
-                backgroundColor: "#e8f0fe",
-                color: "#1d4ed8",
-              }}
-            >
-              {tag}
-            </button>
-          ))}
+          {item.tags.map((tag) => {
+            const isSelected = selectedTags.includes(tag);
+
+            return (
+              <button
+                key={tag}
+                type="button"
+                onClick={() => onTagClick?.(tag)}
+                className="cursor-pointer rounded-full px-3 py-1.5 text-[13px] font-semibold transition"
+                style={{
+                  backgroundColor: isSelected ? "#1d4ed8" : "#e8f0fe",
+                  color: isSelected ? "#ffffff" : "#1d4ed8",
+                }}
+                aria-pressed={isSelected}
+              >
+                {tag}
+              </button>
+            );
+          })}
         </div>
       ) : null}
 

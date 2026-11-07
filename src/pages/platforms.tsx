@@ -141,6 +141,7 @@ export default function PlatformsPage() {
               <PlatformCard
                 key={platform.id}
                 item={platform}
+                selectedTags={selectedTags}
                 onTagClick={handleTagClick}
               />
             ))}
