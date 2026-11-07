@@ -1627,6 +1627,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "colonies",
+    title: "Colonies",
+    websiteUrl: "https://www.livecolonies.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.livecolonies.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/colonies",
+      },
+    ],
+  },
+  {
     id: "connecting_flow",
     title: "Connecting Flow",
     websiteUrl: "https://www.connectingflow.com",
@@ -1645,6 +1662,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "connecting_food",
+    title: "Connecting Food",
+    websiteUrl: "https://connecting-food.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://connecting-food.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/connecting-food",
+      },
+    ],
+  },
+  {
     id: "consensys",
     title: "Consensys",
     websiteUrl: "https://consensys.io",
@@ -1655,6 +1689,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/consensys-incorporated",
+      },
+    ],
+  },
+  {
+    id: "conserto",
+    title: "Conserto",
+    websiteUrl: "https://conserto.pro",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://carrieres.conserto.pro/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/conserto",
       },
     ],
   },
@@ -4761,6 +4812,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/nexway",
+      },
+    ],
+  },
+  {
+    id: "no_code_factory",
+    title: "No Code Factory",
+    websiteUrl: "https://www.nocodefactory.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.nocodefactory.fr/rejoindre-lequipe",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/nocode-factory",
       },
     ],
   },
