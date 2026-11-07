@@ -1630,8 +1630,9 @@ export const listings: JobListing[] = [
     id: "colonies",
     title: "Colonies",
     websiteUrl: "https://www.livecolonies.com",
-    description: "",
-    tags: [],
+    description:
+      "Residential real-estate operator creating furnished coliving, shared apartments, and private apartments in major European cities. Combines housing design, operations, community services, and digital tools for flexible, all-inclusive living.",
+    tags: ["SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -1665,8 +1666,9 @@ export const listings: JobListing[] = [
     id: "connecting_food",
     title: "Connecting Food",
     websiteUrl: "https://connecting-food.com",
-    description: "",
-    tags: [],
+    description:
+      "Supply-chain transparency platform for food, cosmetics, pharmaceuticals, and other resource-based industries. Helps companies collect, verify, and analyze upstream supplier data to improve traceability, compliance, quality, and sustainability.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -1696,8 +1698,9 @@ export const listings: JobListing[] = [
     id: "conserto",
     title: "Conserto",
     websiteUrl: "https://conserto.pro",
-    description: "",
-    tags: [],
+    description:
+      "French digital-consulting and engineering firm specializing in software development, DevOps, cloud infrastructure, agile delivery, data, AI, and responsible technology. Helps enterprises design, build, run, and modernize digital systems.",
+    tags: ["AI", "Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -4817,10 +4820,11 @@ export const listings: JobListing[] = [
   },
   {
     id: "no_code_factory",
-    title: "No Code Factory",
+    title: "NoCode Factory",
     websiteUrl: "https://www.nocodefactory.fr",
-    description: "",
-    tags: [],
+    description:
+      "Paris-based no-code and low-code agency building custom web and mobile products, internal tools, automations, and AI-enabled workflows. Supports clients from product definition through design, development, launch, and optimization.",
+    tags: ["AI", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
