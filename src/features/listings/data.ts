@@ -1960,8 +1960,9 @@ export const listings: JobListing[] = [
     id: "darktrace",
     title: "Darktrace",
     websiteUrl: "https://www.darktrace.com",
-    description: "",
-    tags: [],
+    description:
+      "AI cybersecurity company providing behavioral defense across email, network, cloud, endpoint, and AI environments. Uses adaptive AI to detect anomalous activity, investigate threats, and automate response across enterprise systems.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Workday)",
@@ -2031,8 +2032,9 @@ export const listings: JobListing[] = [
     id: "dassault_aviation",
     title: "Dassault Aviation",
     websiteUrl: "https://www.dassault-aviation.com",
-    description: "",
-    tags: [],
+    description:
+      "French aerospace company designing, manufacturing, selling, and supporting military aircraft, business jets, and space systems. Works across aircraft design, production, software, avionics, supply chain, maintenance, and customer services.",
+    tags: ["France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2170,8 +2172,9 @@ export const listings: JobListing[] = [
     id: "deepki",
     title: "Deepki",
     websiteUrl: "https://www.deepki.com",
-    description: "",
-    tags: [],
+    description:
+      "ESG and sustainability intelligence platform for real estate. Helps owners, managers, and investors collect energy and environmental data, benchmark portfolios, identify savings, manage compliance, and accelerate decarbonization.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -3448,8 +3451,9 @@ export const listings: JobListing[] = [
     id: "hijob_work",
     title: "HiJob.work",
     websiteUrl: "https://www.hijob.work",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered job-matching and remote-work ecosystem. Connects businesses with verified professionals, helping companies find talent and professionals discover remote opportunities through profiles, matching, and trust-based workflows.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -4119,8 +4123,9 @@ export const listings: JobListing[] = [
     id: "leadfeeder",
     title: "Leadfeeder",
     websiteUrl: "https://www.leadfeeder.com",
-    description: "",
-    tags: [],
+    description:
+      "B2B website-visitor identification and sales-intelligence platform. Helps marketing and sales teams identify companies visiting their site, understand intent and behavior, enrich accounts, and prioritize outbound and account-based marketing.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
