@@ -1957,6 +1957,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "darktrace",
+    title: "Darktrace",
+    websiteUrl: "https://www.darktrace.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workday)",
+        url: "https://darktrace.wd3.myworkdayjobs.com/DarktaceExternal",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/darktrace",
+      },
+    ],
+  },
+  {
     id: "dash0",
     title: "Dash0",
     websiteUrl: "https://www.dash0.com",
@@ -2007,6 +2024,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/dashlane",
+      },
+    ],
+  },
+  {
+    id: "dassault_aviation",
+    title: "Dassault Aviation",
+    websiteUrl: "https://www.dassault-aviation.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/liste-offres.aspx",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/dassault-aviation",
       },
     ],
   },
@@ -2133,6 +2167,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "deepki",
+    title: "Deepki",
+    websiteUrl: "https://www.deepki.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.deepki.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/deepki",
+      },
+    ],
+  },
+  {
     id: "deezer",
     title: "Deezer",
     websiteUrl: "https://www.deezer.com",
@@ -2147,6 +2198,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/deezer",
+      },
+    ],
+  },
+  {
+    id: "degetel",
+    title: "Degetel",
+    websiteUrl: "https://www.degetel.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.degetel.com/nous-rejoindre",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/degetel",
       },
     ],
   },
@@ -3377,6 +3445,19 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "hijob_work",
+    title: "HiJob.work",
+    websiteUrl: "https://www.hijob.work",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/hijob-work",
+      },
+    ],
+  },
+  {
     id: "homa",
     title: "Homa",
     websiteUrl: "https://www.homagames.com",
@@ -4031,6 +4112,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/school/le-wagon",
+      },
+    ],
+  },
+  {
+    id: "leadfeeder",
+    title: "Leadfeeder",
+    websiteUrl: "https://www.leadfeeder.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.leadfeeder.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/leadfeeder",
       },
     ],
   },
@@ -4820,7 +4918,7 @@ export const listings: JobListing[] = [
   },
   {
     id: "no_code_factory",
-    title: "NoCode Factory",
+    title: "Nocode Factory",
     websiteUrl: "https://www.nocodefactory.fr",
     description:
       "Paris-based no-code and low-code agency building custom web and mobile products, internal tools, automations, and AI-enabled workflows. Supports clients from product definition through design, development, launch, and optimization.",
