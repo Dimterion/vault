@@ -4,10 +4,15 @@ import { colors } from "../../constants/colors";
 
 type ListingCardProps = {
   item: JobListing;
+  selectedTags?: string[];
   onTagClick?: (tag: string) => void;
 };
 
-export default function ListingCard({ item, onTagClick }: ListingCardProps) {
+export default function ListingCard({
+  item,
+  selectedTags = [],
+  onTagClick,
+}: ListingCardProps) {
   const imageSrc = item.imageKey ? listingImages[item.imageKey] : undefined;
 
   return (
@@ -43,23 +48,25 @@ export default function ListingCard({ item, onTagClick }: ListingCardProps) {
 
       {item.tags && item.tags.length > 0 ? (
         <div className="mb-4 flex flex-wrap gap-2">
-          {item.tags.map((tag) => (
-            <button
-              key={tag}
-              onClick={(e) => {
-                e.stopPropagation();
-                onTagClick?.(tag);
-              }}
-              className="cursor-pointer rounded-full px-3 py-1.5 text-[13px] font-semibold transition hover:bg-blue-100 focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
-              style={{
-                backgroundColor: "#e8f0fe",
-                color: "#1d4ed8",
-              }}
-              aria-label={`Filter by ${tag} tag`}
-            >
-              {tag}
-            </button>
-          ))}
+          {item.tags.map((tag) => {
+            const isSelected = selectedTags.includes(tag);
+
+            return (
+              <button
+                key={tag}
+                type="button"
+                onClick={() => onTagClick?.(tag)}
+                className="cursor-pointer rounded-full px-3 py-1.5 text-[13px] font-semibold transition"
+                style={{
+                  backgroundColor: isSelected ? "#1d4ed8" : "#e8f0fe",
+                  color: isSelected ? "#ffffff" : "#1d4ed8",
+                }}
+                aria-pressed={isSelected}
+              >
+                {tag}
+              </button>
+            );
+          })}
         </div>
       ) : null}
 

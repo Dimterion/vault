@@ -202,6 +202,7 @@ export default function ListingsPage() {
               <ListingCard
                 key={listing.id}
                 item={listing}
+                selectedTags={selectedTags}
                 onTagClick={handleTagClick}
               />
             ))}
