@@ -2276,6 +2276,57 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "devoteam",
+    title: "Devoteam",
+    websiteUrl: "https://www.devoteam.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.devoteam.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/devoteam",
+      },
+    ],
+  },
+  {
+    id: "dext",
+    title: "Dext",
+    websiteUrl: "https://dext.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/Dext-Careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/dextfrance",
+      },
+    ],
+  },
+  {
+    id: "diabolocom",
+    title: "Diabolocom",
+    websiteUrl: "https://www.diabolocom.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.eu.lever.co/diabolocom",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/diabolocom",
+      },
+    ],
+  },
+  {
     id: "diduenjoy",
     title: "Diduenjoy",
     websiteUrl: "https://www.diduenjoy.com",
@@ -2340,6 +2391,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/distribusion",
+      },
+    ],
+  },
+  {
+    id: "docebo",
+    title: "Docebo",
+    websiteUrl: "https://www.docebo.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.docebo.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/docebo",
       },
     ],
   },
