@@ -2279,8 +2279,9 @@ export const listings: JobListing[] = [
     id: "devoteam",
     title: "Devoteam",
     websiteUrl: "https://www.devoteam.com",
-    description: "",
-    tags: [],
+    description:
+      "Tech-native AI consulting firm helping enterprises transform with cloud, data, cybersecurity, and agentic AI. Provides strategy, engineering, managed services, and forward-deployed teams across EMEA.",
+    tags: ["AI", "Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2296,8 +2297,9 @@ export const listings: JobListing[] = [
     id: "dext",
     title: "Dext",
     websiteUrl: "https://dext.com",
-    description: "",
-    tags: [],
+    description:
+      "Accounting automation platform for accountants, bookkeepers, and finance teams. Uses AI and machine learning to capture, extract, validate, and reconcile financial documents, connecting accounting software with banks, suppliers, and marketplaces.",
+    tags: ["AI", "FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -2313,8 +2315,9 @@ export const listings: JobListing[] = [
     id: "diabolocom",
     title: "Diabolocom",
     websiteUrl: "https://www.diabolocom.com",
-    description: "",
-    tags: [],
+    description:
+      "European AI-first cloud contact-center and customer-experience platform. Combines proprietary AI, telecom infrastructure, CRM integrations, and omnichannel tools to automate service workflows and improve customer and agent experiences.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
@@ -2398,8 +2401,9 @@ export const listings: JobListing[] = [
     id: "docebo",
     title: "Docebo",
     websiteUrl: "https://www.docebo.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered learning platform for enterprises. Helps organizations create, deliver, manage, and measure employee, customer, partner, and compliance training through an LMS, content tools, automation, and integrations.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
