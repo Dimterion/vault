@@ -2471,10 +2471,11 @@ export const listings: JobListing[] = [
   },
   {
     id: "edenity",
-    title: "Edenity",
+    title: "edenity",
     websiteUrl: "https://edenity.co",
-    description: "",
-    tags: [],
+    description:
+      "Talent and organizational advisory firm for technology companies. Helps founders and leadership teams build product, engineering, data, and AI teams through executive search, workforce planning, embedded delivery, and market intelligence.",
+    tags: ["Consulting", "ITServices", "Europe"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -2594,8 +2595,9 @@ export const listings: JobListing[] = [
     id: "entrust",
     title: "Entrust",
     websiteUrl: "https://www.entrust.com",
-    description: "",
-    tags: [],
+    description:
+      "Identity-centric security company providing digital identity verification, authentication, PKI, certificate and key management, HSMs, and post-quantum cryptography. Helps organizations secure people, devices, payments, and data.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Workday)",
@@ -2751,8 +2753,9 @@ export const listings: JobListing[] = [
     id: "f4",
     title: "F4",
     websiteUrl: "https://www.f4-group.com",
-    description: "",
-    tags: [],
+    description:
+      "Technology and consulting group helping enterprises modernize systems and operations. Provides engineering, cloud, data, AI, cybersecurity, and digital-transformation services across industries.",
+    tags: ["AI", "Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2768,8 +2771,9 @@ export const listings: JobListing[] = [
     id: "fabulous",
     title: "Fabulous",
     websiteUrl: "https://www.thefabulous.co",
-    description: "",
-    tags: [],
+    description:
+      "Health-and-wellness app company using behavioral science to help people build sustainable habits. Provides guided routines, coaching, and personalized programs for sleep, focus, fitness, stress, and wellbeing.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Workable)",
@@ -2821,8 +2825,9 @@ export const listings: JobListing[] = [
     id: "featherless_ai",
     title: "Featherless AI",
     websiteUrl: "https://featherless.ai",
-    description: "",
-    tags: [],
+    description:
+      "Serverless AI-inference platform giving developers API access to tens of thousands of open-source models. Provides GPU orchestration, model loading, fine-tuning, and cost-efficient deployment infrastructure for AI applications.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -2946,8 +2951,9 @@ export const listings: JobListing[] = [
     id: "fnac_darty",
     title: "Fnac Darty",
     websiteUrl: "https://www.fnacdarty.com",
-    description: "",
-    tags: [],
+    description:
+      "French retail group operating Fnac and Darty across consumer electronics, culture, leisure, home appliances, and services. Combines omnichannel retail, e-commerce, repair, installation, energy services, and customer support.",
+    tags: ["France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -2999,8 +3005,9 @@ export const listings: JobListing[] = [
     id: "foundever",
     title: "Foundever",
     websiteUrl: "https://foundever.com",
-    description: "",
-    tags: [],
+    description:
+      "Global customer-experience and business-process outsourcing company. Provides customer support, technical support, sales, digital CX, AI-enabled automation, consulting, and back-office services for major brands.",
+    tags: ["AI", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -6953,9 +6960,10 @@ export const listings: JobListing[] = [
   {
     id: "sunstice",
     title: "Sunstice",
-    websiteUrl: "http://www.sunstice.com",
-    description: "",
-    tags: [],
+    websiteUrl: "https://www.sunstice.com",
+    description:
+      "Supply-chain planning and revenue-growth-management software company, formerly FuturMaster. Helps consumer-goods, retail, and industrial companies forecast demand, optimize supply chains, plan promotions, and improve resilience.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
