@@ -33,7 +33,7 @@ export default function HomePage() {
             <Link
               key={action.to}
               to={action.to}
-              className="rounded-xl px-4.5 py-3.5 text-center text-base font-semibold text-white transition-opacity hover:opacity-90 focus:ring-2 focus:ring-offset-2 focus:outline-none"
+              className="rounded-xl px-4.5 py-3.5 text-center text-base font-semibold text-white transition-opacity hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
               style={{ backgroundColor: action.bg }}
             >
               {action.label}

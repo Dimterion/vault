@@ -37,7 +37,7 @@ export default function HomePage() {
         <div className="flex flex-col gap-3">
           <Link
             to="/"
-            className="rounded-xl px-4.5 py-3.5 text-center text-base font-semibold text-white transition-opacity hover:opacity-90 focus:ring-2 focus:ring-offset-2 focus:outline-none"
+            className="rounded-xl px-4.5 py-3.5 text-center text-base font-semibold text-white transition-opacity hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
             style={{ backgroundColor: colors.primary }}
           >
             Start here

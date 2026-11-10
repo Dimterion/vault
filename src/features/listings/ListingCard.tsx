@@ -74,7 +74,7 @@ export default function ListingCard({
         href={item.websiteUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="mb-3 block rounded-xl px-4 py-3 text-center text-[15px] font-semibold text-white transition-opacity hover:opacity-90 focus:ring-2 focus:ring-offset-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+        className="mb-3 block rounded-xl px-4 py-3 text-center text-[15px] font-semibold text-white transition-opacity hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
         style={{ backgroundColor: colors.primary }}
       >
         Company Site

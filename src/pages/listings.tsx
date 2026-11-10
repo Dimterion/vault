@@ -92,8 +92,9 @@ export default function ListingsPage() {
             )}
 
             <button
+              type="button"
               onClick={() => setShowMoreText(!showMoreText)}
-              className="mt-2 cursor-pointer text-sm font-medium text-blue-600 hover:text-blue-700 hover:underline focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:outline-none"
+              className="mt-2 cursor-pointer text-sm font-medium text-blue-600 hover:text-blue-700 hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
               aria-expanded={showMoreText}
             >
               {showMoreText ? "Show less" : "Read more"}
