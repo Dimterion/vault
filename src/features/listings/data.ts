@@ -2470,6 +2470,19 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "edenity",
+    title: "Edenity",
+    websiteUrl: "https://edenity.co",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/edenity-talent",
+      },
+    ],
+  },
+  {
     id: "ekimetrics",
     title: "Ekimetrics",
     websiteUrl: "https://www.ekimetrics.com",
@@ -2574,6 +2587,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/ensol-solaire",
+      },
+    ],
+  },
+  {
+    id: "entrust",
+    title: "Entrust",
+    websiteUrl: "https://www.entrust.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workday)",
+        url: "https://entrust.wd1.myworkdayjobs.com/EntrustCareers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/entrust",
       },
     ],
   },
@@ -2718,6 +2748,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "f4",
+    title: "F4",
+    websiteUrl: "https://www.f4-group.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.f4-group.com/carrieres.html",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/f4-group",
+      },
+    ],
+  },
+  {
+    id: "fabulous",
+    title: "Fabulous",
+    websiteUrl: "https://www.thefabulous.co",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workable)",
+        url: "https://apply.workable.com/fabulousco",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/fabulous-app",
+      },
+    ],
+  },
+  {
     id: "fairly_made",
     title: "Fairly Made",
     websiteUrl: "https://www.fairlymade.com",
@@ -2750,6 +2814,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/fairmat-tech",
+      },
+    ],
+  },
+  {
+    id: "featherless_ai",
+    title: "Featherless AI",
+    websiteUrl: "https://featherless.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/featherlessai",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/featheress-ai",
       },
     ],
   },
@@ -2862,6 +2943,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "fnac_darty",
+    title: "Fnac Darty",
+    websiteUrl: "https://www.fnacdarty.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://carrieres.fnacdarty.com/search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/fnac-darty",
+      },
+    ],
+  },
+  {
     id: "forgotten_empires",
     title: "Forgotten Empires",
     websiteUrl: "https://www.forgottenempires.net",
@@ -2894,6 +2992,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/formancehq",
+      },
+    ],
+  },
+  {
+    id: "foundever",
+    title: "Foundever",
+    websiteUrl: "https://foundever.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.foundever.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/foundever",
       },
     ],
   },
@@ -6832,6 +6947,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/streemenergy",
+      },
+    ],
+  },
+  {
+    id: "sunstice",
+    title: "Sunstice",
+    websiteUrl: "http://www.sunstice.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.sunstice.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sunstice1",
       },
     ],
   },
