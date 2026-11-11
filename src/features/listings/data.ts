@@ -3073,8 +3073,9 @@ export const listings: JobListing[] = [
     id: "gaijin_entertainment",
     title: "Gaijin Entertainment",
     websiteUrl: "https://gaijinent.com",
-    description: "",
-    tags: [],
+    description:
+      "Independent European game developer and publisher behind War Thunder, Enlisted, Crossout, and CRSED. Builds cross-platform multiplayer games using its proprietary Dagor Engine, with teams across Europe and remote contributors worldwide.",
+    tags: ["Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3162,8 +3163,9 @@ export const listings: JobListing[] = [
     id: "genetec",
     title: "Genetec",
     websiteUrl: "https://www.genetec.com",
-    description: "",
-    tags: [],
+    description:
+      "Security and public-safety software company providing unified physical-security, video-surveillance, access-control, ALPR, and cloud solutions. Helps cities, enterprises, transport operators, and critical infrastructure manage security and operations.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Workable)",
@@ -3341,8 +3343,9 @@ export const listings: JobListing[] = [
     id: "goodai",
     title: "GoodAI",
     websiteUrl: "https://www.goodai.com",
-    description: "",
-    tags: [],
+    description:
+      "AI research and development company building general AI, long-term-memory agents, autonomous systems, and AI-enabled games. Works on LLM agents, robotics, simulation, and applied AI for entertainment, business, and science.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Greenhouse)",
@@ -3448,8 +3451,9 @@ export const listings: JobListing[] = [
     id: "green_tomato_media",
     title: "Green Tomato Media",
     websiteUrl: "https://greentomatomedia.com",
-    description: "",
-    tags: [],
+    description:
+      "Remote-first media and mobile-apps company building digital products and content networks. Operates SEO, YouTube, gaming, and iGaming-affiliate businesses, using AI, data, and performance marketing to grow audiences and monetize traffic.",
+    tags: ["Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (BambooHR)",
@@ -3465,8 +3469,9 @@ export const listings: JobListing[] = [
     id: "groupe_alliance",
     title: "Groupe Alliance",
     websiteUrl: "https://www.groupealliance.eu",
-    description: "",
-    tags: [],
+    description:
+      "French IT consulting and engineering group helping enterprises modernize applications, cloud, data, AI, cybersecurity, and workplace infrastructure. Provides architecture, development, DevOps, managed services, and digital-transformation delivery.",
+    tags: ["AI", "Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3497,11 +3502,12 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "groupe_créative",
+    id: "groupe_creative",
     title: "Groupe Créative",
     websiteUrl: "https://www.groupe-creative.fr",
-    description: "",
-    tags: [],
+    description:
+      "French IT consulting and software-engineering group specializing in custom applications, web platforms, mobile apps, testing, data, cloud, and legacy-system modernization. Serves enterprise clients through consulting and delivery teams.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page (Hellowork)",
@@ -3517,8 +3523,9 @@ export const listings: JobListing[] = [
     id: "groupe_gr",
     title: "Groupe GR",
     websiteUrl: "https://www.groupe-gr.com",
-    description: "",
-    tags: [],
+    description:
+      "French staffing and workforce-services group providing recruitment, interim staffing, and managed talent solutions. Its GR International Profiles practice places technical, administrative, and business professionals across client companies.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4896,8 +4903,9 @@ export const listings: JobListing[] = [
     id: "miralia",
     title: "Miralia",
     websiteUrl: "https://miralia.ai",
-    description: "",
-    tags: [],
+    description:
+      "AI company building applied AI products and services. Develops AI-enabled solutions for business workflows, data, and automation, with a focus on practical deployment and enterprise adoption.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
