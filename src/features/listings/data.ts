@@ -3070,6 +3070,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "gaijin_entertainment",
+    title: "Gaijin Entertainment",
+    websiteUrl: "https://gaijinent.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://gaijinent.com/job",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/gaijinentertainment",
+      },
+    ],
+  },
+  {
     id: "galadrim",
     title: "Galadrim",
     websiteUrl: "https://galadrim.fr",
@@ -3138,6 +3155,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/gehealthcare",
+      },
+    ],
+  },
+  {
+    id: "genetec",
+    title: "Genetec",
+    websiteUrl: "https://www.genetec.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workable)",
+        url: "https://apply.workable.com/genetec-inc",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/genetec",
       },
     ],
   },
@@ -3304,6 +3338,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "goodai",
+    title: "GoodAI",
+    websiteUrl: "https://www.goodai.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Greenhouse)",
+        url: "https://job-boards.eu.greenhouse.io/goodai-swarm-robotics",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/goodai",
+      },
+    ],
+  },
+  {
     id: "google",
     title: "Google",
     websiteUrl: "https://www.google.com",
@@ -3394,6 +3445,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "green_tomato_media",
+    title: "Green Tomato Media",
+    websiteUrl: "https://greentomatomedia.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (BambooHR)",
+        url: "https://greentomatomedialimited.bamboohr.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/greentomatomedia",
+      },
+    ],
+  },
+  {
+    id: "groupe_alliance",
+    title: "Groupe Alliance",
+    websiteUrl: "https://www.groupealliance.eu",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.groupealliance.eu/carrieres",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/groupe-alliance",
+      },
+    ],
+  },
+  {
     id: "groupe_bpce",
     title: "Groupe BPCE",
     websiteUrl: "https://www.groupebpce.com",
@@ -3408,6 +3493,40 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/bpce",
+      },
+    ],
+  },
+  {
+    id: "groupe_créative",
+    title: "Groupe Créative",
+    websiteUrl: "https://www.groupe-creative.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Hellowork)",
+        url: "https://www.hellowork.com/fr-fr/entreprises/groupe-creative-15042.html",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/groupe-creative",
+      },
+    ],
+  },
+  {
+    id: "groupe_gr",
+    title: "Groupe GR",
+    websiteUrl: "https://www.groupe-gr.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.groupe-gr.com/nos-offres/gr-interim-recrutement",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/groupegr",
       },
     ],
   },
@@ -4770,6 +4889,19 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/mintlify",
+      },
+    ],
+  },
+  {
+    id: "miralia",
+    title: "Miralia",
+    websiteUrl: "https://miralia.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/miralia",
       },
     ],
   },
