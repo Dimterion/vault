@@ -3663,8 +3663,9 @@ export const listings: JobListing[] = [
     id: "hellowork",
     title: "HelloWork",
     websiteUrl: "https://www.hellowork.com",
-    description: "",
-    tags: [],
+    description:
+      "French employment, recruitment, and training technology group. Operates job-search and recruitment platforms, ATS and employer-branding tools, career sites, virtual recruitment events, and training-marketplace products.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3770,8 +3771,9 @@ export const listings: JobListing[] = [
     id: "hicareer",
     title: "HiCareer",
     websiteUrl: "https://hicareer.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered career and recruitment platform. Helps candidates discover opportunities, tailor resumes, prepare for interviews, and track applications, while giving employers sourcing, talent-pool, and hiring tools.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -3815,8 +3817,9 @@ export const listings: JobListing[] = [
     id: "hivemq",
     title: "HiveMQ",
     websiteUrl: "https://www.hivemq.com",
-    description: "",
-    tags: [],
+    description:
+      "Industrial data and AI platform built on MQTT. Helps manufacturers, automotive companies, utilities, and other enterprises connect devices, stream and govern operational data, and deploy AI-ready workflows from edge to cloud.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3922,8 +3925,9 @@ export const listings: JobListing[] = [
     id: "hugging_face",
     title: "Hugging Face",
     websiteUrl: "https://huggingface.co",
-    description: "",
-    tags: [],
+    description:
+      "AI platform and open-source community for machine learning. Provides models, datasets, Spaces, inference and training infrastructure, developer tools, and enterprise services that help teams build and deploy AI applications.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Workable)",
@@ -3939,8 +3943,9 @@ export const listings: JobListing[] = [
     id: "hunter_io",
     title: "Hunter.io",
     websiteUrl: "https://hunter.io",
-    description: "",
-    tags: [],
+    description:
+      "B2B prospecting and email-intelligence platform. Helps sales, marketing, and recruiting teams find professional email addresses, verify contacts, enrich leads, and run outreach campaigns.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3956,8 +3961,9 @@ export const listings: JobListing[] = [
     id: "hurryman",
     title: "Hurryman",
     websiteUrl: "https://www.hurryman.fr",
-    description: "",
-    tags: [],
+    description:
+      "French recruitment firm specializing in cybersecurity, cloud, data, AI, and IT. Helps enterprises, software vendors, and consultancies hire technical talent and build critical technology capabilities.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -3973,8 +3979,9 @@ export const listings: JobListing[] = [
     id: "huxley",
     title: "Huxley",
     websiteUrl: "https://www.huxley.com",
-    description: "",
-    tags: [],
+    description:
+      "Global technology and financial-services recruitment consultancy within SThree. Connects enterprises with specialists across IT, fintech, data, cybersecurity, transformation, engineering, and supply chain.",
+    tags: ["Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
