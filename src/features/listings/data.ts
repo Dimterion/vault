@@ -3660,6 +3660,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "hellowork",
+    title: "HelloWork",
+    websiteUrl: "https://www.hellowork.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://carrieres.hellowork-group.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/helloworkcom",
+      },
+    ],
+  },
+  {
     id: "helpline",
     title: "Helpline",
     websiteUrl: "https://www.helpline.fr",
@@ -3750,6 +3767,19 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "hicareer",
+    title: "HiCareer",
+    websiteUrl: "https://hicareer.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/hicareer",
+      },
+    ],
+  },
+  {
     id: "hightouch",
     title: "Hightouch",
     websiteUrl: "https://hightouch.com",
@@ -3778,6 +3808,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/hijob-work",
+      },
+    ],
+  },
+  {
+    id: "hivemq",
+    title: "HiveMQ",
+    websiteUrl: "https://www.hivemq.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.hivemq.com/company/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/hivemq-gmbh",
       },
     ],
   },
@@ -3868,6 +3915,74 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/hublo-fr",
+      },
+    ],
+  },
+  {
+    id: "hugging_face",
+    title: "Hugging Face",
+    websiteUrl: "https://huggingface.co",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workable)",
+        url: "https://apply.workable.com/huggingface",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/huggingface",
+      },
+    ],
+  },
+  {
+    id: "hunter_io",
+    title: "Hunter.io",
+    websiteUrl: "https://hunter.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://hunter.io/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/hunterio",
+      },
+    ],
+  },
+  {
+    id: "hurryman",
+    title: "Hurryman",
+    websiteUrl: "https://www.hurryman.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://jobs.hurryman.fr/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/hurrymanpage",
+      },
+    ],
+  },
+  {
+    id: "huxley",
+    title: "Huxley",
+    websiteUrl: "https://www.huxley.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.sthree.com/fr-fr/carrieres/job-search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/huxley",
       },
     ],
   },
