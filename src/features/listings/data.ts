@@ -3997,8 +3997,9 @@ export const listings: JobListing[] = [
     id: "ibanfirst",
     title: "IBanFirst",
     websiteUrl: "https://ibanfirst.com",
-    description: "",
-    tags: [],
+    description:
+      "European cross-border payments and FX platform for SMEs. Provides multi-currency accounts, international payments, payment tracking, FX conversion, and hedging tools to help businesses trade and manage currency risk.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4064,8 +4065,9 @@ export const listings: JobListing[] = [
     id: "igalia",
     title: "Igalia",
     websiteUrl: "https://www.igalia.com",
-    description: "",
-    tags: [],
+    description:
+      "Employee-owned open-source consultancy contributing to browsers, graphics, multimedia, JavaScript engines, and the Linux kernel. Helps device makers, platforms, and enterprises build and maintain critical open-source software.",
+    tags: ["AI", "ITServices", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4153,8 +4155,9 @@ export const listings: JobListing[] = [
     id: "infinitivity_design_labs",
     title: "Infinitivity Design Labs",
     websiteUrl: "https://infinitivitydesignlabs.com",
-    description: "",
-    tags: [],
+    description:
+      "French design and research studio combining UX, learning science, gamification, human-centered AI, explainable AI, NLP, and audiovisual signal processing. Builds digital-learning products and AI-enabled experiences for enterprise, education, and public-sector projects.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -4220,8 +4223,9 @@ export const listings: JobListing[] = [
     id: "initi8_recruitment",
     title: "Initi8 Recruitment",
     websiteUrl: "https://www.initi8recruitment.com",
-    description: "",
-    tags: [],
+    description:
+      "International technology-recruitment agency placing permanent and contract talent across software, cloud, data, AI, product, architecture, and leadership roles. Serves clients in the UK, Europe, and the United States.",
+    tags: ["Consulting", "ITServices", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4287,8 +4291,9 @@ export const listings: JobListing[] = [
     id: "interstellar_lab",
     title: "Interstellar Lab",
     websiteUrl: "https://interstellarlab.com",
-    description: "",
-    tags: [],
+    description:
+      "Deep-tech company building AI-powered biospheric systems and autonomous greenhouses. Its BioPods optimize plant cultivation for cosmetics, fragrance, pharmaceutical, and nutraceutical industries on Earth, while supporting plant research in space.",
+    tags: ["AI", "Climate", "France"],
     extraLinks: [
       {
         label: "Careers page (Greenhouse)",
