@@ -3994,6 +3994,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "ibanfirst",
+    title: "IBanFirst",
+    websiteUrl: "https://ibanfirst.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://ibanfirst.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ibanfirst",
+      },
+    ],
+  },
+  {
     id: "ibm",
     title: "IBM",
     websiteUrl: "https://www.ibm.com",
@@ -4040,6 +4057,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/ideawise-group",
+      },
+    ],
+  },
+  {
+    id: "igalia",
+    title: "Igalia",
+    websiteUrl: "https://www.igalia.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.igalia.com/jobs/open",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/igalia",
       },
     ],
   },
@@ -4116,6 +4150,19 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "infinitivity_design_labs",
+    title: "Infinitivity Design Labs",
+    websiteUrl: "https://infinitivitydesignlabs.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/infinitivitydesignlabs",
+      },
+    ],
+  },
+  {
     id: "infinity_constellation",
     title: "Infinity Constellation",
     websiteUrl: "https://www.infinityconstellation.com",
@@ -4170,6 +4217,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "initi8_recruitment",
+    title: "Initi8 Recruitment",
+    websiteUrl: "https://www.initi8recruitment.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.initi8recruitment.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/initi8-recruitment",
+      },
+    ],
+  },
+  {
     id: "inpulse",
     title: "Inpulse",
     websiteUrl: "https://www.inpulse.ai",
@@ -4216,6 +4280,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/interex-group",
+      },
+    ],
+  },
+  {
+    id: "interstellar_lab",
+    title: "Interstellar Lab",
+    websiteUrl: "https://interstellarlab.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Greenhouse)",
+        url: "https://job-boards.greenhouse.io/interstellarlab",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/interstellar-lab",
       },
     ],
   },
