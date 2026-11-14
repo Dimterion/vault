@@ -4414,6 +4414,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "kameleoon",
+    title: "Kameleoon",
+    websiteUrl: "https://www.kameleoon.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://career.kameleoon.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/kameleoon",
+      },
+    ],
+  },
+  {
+    id: "kapela",
+    title: "Kapela",
+    websiteUrl: "https://www.kapela.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://recrutement.constellation.fr/constellation",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/kapelabyconstellation",
+      },
+    ],
+  },
+  {
     id: "katchme",
     title: "KatchMe",
     websiteUrl: "https://www.katchme.fr",
@@ -4446,6 +4480,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/kbrw",
+      },
+    ],
+  },
+  {
+    id: "kicklox",
+    title: "Kicklox",
+    websiteUrl: "https://www.kicklox.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://app.kicklox.com/missions",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/kicklox",
       },
     ],
   },
