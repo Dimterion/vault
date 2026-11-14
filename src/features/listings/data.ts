@@ -4417,8 +4417,9 @@ export const listings: JobListing[] = [
     id: "kameleoon",
     title: "Kameleoon",
     websiteUrl: "https://www.kameleoon.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered experimentation and personalization platform for digital products and marketing. Helps teams run A/B and feature experiments, manage feature rollouts, personalize experiences, and use AI to build and optimize customer journeys.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -4434,11 +4435,12 @@ export const listings: JobListing[] = [
     id: "kapela",
     title: "Kapela",
     websiteUrl: "https://www.kapela.fr",
-    description: "",
-    tags: [],
+    description:
+      "French IT consulting and software-engineering firm within the Constellation group. Helps enterprises modernize information systems through custom software, data, sovereign AI, cloud-native architecture, DevOps, and digital-transformation programs.",
+    tags: ["AI", "Consulting", "ITServices", "France"],
     extraLinks: [
       {
-        label: "Careers page",
+        label: "Careers page (Constellation)",
         url: "https://recrutement.constellation.fr/constellation",
       },
       {
@@ -4487,8 +4489,9 @@ export const listings: JobListing[] = [
     id: "kicklox",
     title: "Kicklox",
     websiteUrl: "https://www.kicklox.com",
-    description: "",
-    tags: [],
+    description:
+      "French engineering and technology talent platform connecting companies with freelance and permanent engineers, developers, designers, and consultants. Provides AI-assisted matching, sourcing, contracting, and project delivery support.",
+    tags: ["AI", "Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
