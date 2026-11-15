@@ -4630,6 +4630,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "l_acoustics",
+    title: "L Acoustics",
+    websiteUrl: "https://www.l-acoustics.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workday)",
+        url: "https://lgroup.wd3.myworkdayjobs.com/L-Acoustics_Group_career",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/l-acoustics",
+      },
+    ],
+  },
+  {
     id: "lagardère_travel_retail",
     title: "Lagardère Travel Retail",
     websiteUrl: "https://www.lagardere-tr.com",
@@ -4662,6 +4679,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/getlago",
+      },
+    ],
+  },
+  {
+    id: "larian",
+    title: "Larian",
+    websiteUrl: "https://larian.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://larian.com/careers/search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/larian-studios",
       },
     ],
   },
@@ -4756,6 +4790,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "lefty",
+    title: "Lefty",
+    websiteUrl: "https://lefty.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/lefty/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lefty",
+      },
+    ],
+  },
+  {
     id: "lemlist",
     title: "Lemlist",
     websiteUrl: "https://www.lemlist.com",
@@ -4770,6 +4821,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/lemlist",
+      },
+    ],
+  },
+  {
+    id: "lexiFi",
+    title: "LexiFi",
+    websiteUrl: "https://www.lexifi.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.lexifi.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lexifi",
       },
     ],
   },
@@ -4860,6 +4928,19 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "liss_solutions",
+    title: "Liss Solutions",
+    websiteUrl: "https://lisssolutions.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/liss-solutions",
+      },
+    ],
+  },
+  {
     id: "lity",
     title: "Lity",
     websiteUrl: "https://lity.so",
@@ -4874,6 +4955,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/lityso",
+      },
+    ],
+  },
+  {
+    id: "lokad",
+    title: "Lokad",
+    websiteUrl: "https://www.lokad.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.lokad.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lokad",
       },
     ],
   },
