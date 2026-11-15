@@ -4631,10 +4631,11 @@ export const listings: JobListing[] = [
   },
   {
     id: "l_acoustics",
-    title: "L Acoustics",
+    title: "L-Acoustics",
     websiteUrl: "https://www.l-acoustics.com",
-    description: "",
-    tags: [],
+    description:
+      "Professional audio company designing and manufacturing loudspeakers, amplifiers, software, and immersive sound systems. Serves live events, festivals, venues, houses of worship, hospitality, retail, and residential installations worldwide.",
+    tags: ["AI", "France"],
     extraLinks: [
       {
         label: "Careers page (Workday)",
@@ -4686,8 +4687,9 @@ export const listings: JobListing[] = [
     id: "larian",
     title: "Larian",
     websiteUrl: "https://larian.com",
-    description: "",
-    tags: [],
+    description:
+      "Independent video-game developer and publisher known for the Divinity series and Baldur's Gate 3. Creates large-scale RPGs with its proprietary Divinity Engine, operating studios across Europe, Asia, and North America.",
+    tags: ["Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4793,8 +4795,9 @@ export const listings: JobListing[] = [
     id: "lefty",
     title: "Lefty",
     websiteUrl: "https://lefty.io",
-    description: "",
-    tags: [],
+    description:
+      "Influencer-marketing platform for brands and agencies. Helps teams discover and qualify creators, manage ambassador relationships, track content, automate reporting, measure performance, and benchmark competitors.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -4825,11 +4828,12 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "lexiFi",
+    id: "lexifi",
     title: "LexiFi",
     websiteUrl: "https://www.lexifi.com",
-    description: "",
-    tags: [],
+    description:
+      "Financial-software company for derivatives and structured products. Provides pricing, lifecycle management, document generation, and risk tools for banks, asset managers, insurers, brokers, and fintech firms.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -4931,8 +4935,9 @@ export const listings: JobListing[] = [
     id: "liss_solutions",
     title: "Liss Solutions",
     websiteUrl: "https://lisssolutions.com",
-    description: "",
-    tags: [],
+    description:
+      "Digital agency providing web and app development, UI/UX design, branding, e-commerce, digital marketing, SEO, and AI-enabled automation. Helps businesses build and grow custom digital experiences.",
+    tags: ["AI", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -4962,8 +4967,9 @@ export const listings: JobListing[] = [
     id: "lokad",
     title: "Lokad",
     websiteUrl: "https://www.lokad.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-native supply-chain optimization platform. Combines probabilistic forecasting, machine learning, and quantitative decision automation to help companies improve inventory, pricing, purchasing, and production planning.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
