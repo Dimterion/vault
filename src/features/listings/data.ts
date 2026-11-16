@@ -4982,11 +4982,12 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "lr_technologies_groupe",
-    title: "LR TECHNOLOGIES GROUPE",
+    id: "lr_technologies",
+    title: "LR Technologies",
     websiteUrl: "https://lrtechnologies.fr",
-    description: "",
-    tags: [],
+    description:
+      "French engineering and technology consulting group supporting complex industrial projects. Provides expertise in AI, cybersecurity, critical software, embedded systems, energy, aerospace, automotive, rail, defense, and industrial operations.",
+    tags: ["AI", "Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -5074,8 +5075,9 @@ export const listings: JobListing[] = [
     id: "lumy",
     title: "Lumy",
     websiteUrl: "https://lumy.studio",
-    description: "",
-    tags: [],
+    description:
+      "Creative technology studio building AI-enabled digital products, interactive experiences, and generative tools. Combines design, engineering, and AI to help brands and teams create and scale new digital experiences.",
+    tags: ["AI", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page (Join)",
@@ -5091,8 +5093,9 @@ export const listings: JobListing[] = [
     id: "lyceum",
     title: "Lyceum",
     websiteUrl: "https://lyceum.technology",
-    description: "",
-    tags: [],
+    description:
+      "Sovereign European AI cloud for open-source model inference and GPU compute. Provides serverless inference APIs, GPU virtual machines, dedicated clusters, and European data-center infrastructure for AI workloads.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5194,8 +5197,9 @@ export const listings: JobListing[] = [
     id: "matter_labs",
     title: "Matter Labs",
     websiteUrl: "https://matterlabs.com",
-    description: "",
-    tags: [],
+    description:
+      "Blockchain infrastructure company building Prividium, an institutional platform for digital-asset services, and zero-knowledge technology for scalable, privacy-preserving finance. Develops zkSync and related cryptographic systems.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -5203,7 +5207,7 @@ export const listings: JobListing[] = [
       },
       {
         label: "LinkedIn",
-        url: "linkedin.com/company/matter-labs",
+        url: "https://www.linkedin.com/company/matter-labs",
       },
     ],
   },
@@ -5229,8 +5233,9 @@ export const listings: JobListing[] = [
     id: "meetic",
     title: "Meetic",
     websiteUrl: "https://www.meetic-europe.com",
-    description: "",
-    tags: [],
+    description:
+      "European dating and social-discovery group within Match Group. Operates dating brands including Meetic, Match, DisonsDemain, OurTime, and LoveScout, combining product, AI, data, marketing, trust-and-safety, and customer-care capabilities.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
