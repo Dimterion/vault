@@ -4982,6 +4982,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "lr_technologies_groupe",
+    title: "LR TECHNOLOGIES GROUPE",
+    websiteUrl: "https://lrtechnologies.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://groupelrtechnologies.teamtailor.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lr-technologies---groupe",
+      },
+    ],
+  },
+  {
     id: "lseg",
     title: "LSEG",
     websiteUrl: "https://www.lseg.com",
@@ -5050,6 +5067,40 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/lumiform",
+      },
+    ],
+  },
+  {
+    id: "lumy",
+    title: "Lumy",
+    websiteUrl: "https://lumy.studio",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Join)",
+        url: "https://join.com/companies/lumy",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lumy-agency",
+      },
+    ],
+  },
+  {
+    id: "lyceum",
+    title: "Lyceum",
+    websiteUrl: "https://lyceum.technology",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://lyceum.technology/company/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/lyceum-technology",
       },
     ],
   },
@@ -5140,6 +5191,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "matter_labs",
+    title: "Matter Labs",
+    websiteUrl: "https://matterlabs.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/matter-labs",
+      },
+      {
+        label: "LinkedIn",
+        url: "linkedin.com/company/matter-labs",
+      },
+    ],
+  },
+  {
     id: "medusa",
     title: "Medusa",
     websiteUrl: "https://medusajs.com",
@@ -5154,6 +5222,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/medusajs",
+      },
+    ],
+  },
+  {
+    id: "meetic",
+    title: "Meetic",
+    websiteUrl: "https://www.meetic-europe.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.meetic-europe.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/meetic",
       },
     ],
   },
