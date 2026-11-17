@@ -5302,6 +5302,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "micro1",
+    title: "micro1",
+    websiteUrl: "https://www.micro1.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.micro1.ai/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/micro1",
+      },
+    ],
+  },
+  {
     id: "mind7_consulting",
     title: "Mind7 Consulting",
     websiteUrl: "https://mind7.com",
@@ -5442,6 +5459,19 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "monster_theater",
+    title: "Monster Theater",
+    websiteUrl: "https://www.monstertheater.games",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/monster-theater",
+      },
+    ],
+  },
+  {
     id: "montreal_associates",
     title: "Montreal Associates",
     websiteUrl: "https://www.montrealassociates.com",
@@ -5460,6 +5490,19 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "moriarty",
+    title: "Moriarty",
+    websiteUrl: "https://www.moriartygroup.ie",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.moriartygroup.ie/careers.html",
+      },
+    ],
+  },
+  {
     id: "mui",
     title: "MUI",
     websiteUrl: "https://mui.com",
@@ -5474,6 +5517,19 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/mui",
+      },
+    ],
+  },
+  {
+    id: "multiversx",
+    title: "MULTIVERSX",
+    websiteUrl: "https://multiversx.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/multiversx",
       },
     ],
   },
@@ -5582,6 +5638,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/n8n",
+      },
+    ],
+  },
+  {
+    id: "nabla",
+    title: "Nabla",
+    websiteUrl: "https://www.nabla.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/nabla",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/nablahq",
       },
     ],
   },
