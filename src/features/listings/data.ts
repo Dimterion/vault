@@ -5305,8 +5305,9 @@ export const listings: JobListing[] = [
     id: "micro1",
     title: "micro1",
     websiteUrl: "https://www.micro1.ai",
-    description: "",
-    tags: [],
+    description:
+      "AI data lab providing expert human data, reinforcement-learning environments, and evaluation infrastructure for frontier models and agents. Helps AI labs and enterprises train, benchmark, and improve AI systems across software, robotics, healthcare, and enterprise domains.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5462,8 +5463,9 @@ export const listings: JobListing[] = [
     id: "monster_theater",
     title: "Monster Theater",
     websiteUrl: "https://www.monstertheater.games",
-    description: "",
-    tags: [],
+    description:
+      "Independent game developer and publisher making unconventional, comedic, and experimental games. Builds original titles such as Atomic Owl and The Dark Queen of Mortholme, while supporting creators through its Phantom Program.",
+    tags: ["Media", "Worldwide"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -5490,11 +5492,12 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "moriarty",
-    title: "Moriarty",
+    id: "moriarty_group",
+    title: "Moriarty Group",
     websiteUrl: "https://www.moriartygroup.ie",
-    description: "",
-    tags: [],
+    description:
+      "Irish family-owned retail and hospitality group operating SuperValu supermarkets, hotels, and food-service businesses in Dublin. Provides grocery retail, fresh food, accommodation, hospitality, and customer-service services.",
+    tags: ["Ireland"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5522,10 +5525,11 @@ export const listings: JobListing[] = [
   },
   {
     id: "multiversx",
-    title: "MULTIVERSX",
+    title: "MultiversX",
     websiteUrl: "https://multiversx.com",
-    description: "",
-    tags: [],
+    description:
+      "Layer-1 blockchain infrastructure company building scalable, secure, and interoperable decentralized networks. Provides adaptive state sharding, Secure Proof of Stake, smart contracts, developer tooling, and enterprise blockchain solutions.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -5645,8 +5649,9 @@ export const listings: JobListing[] = [
     id: "nabla",
     title: "Nabla",
     websiteUrl: "https://www.nabla.com",
-    description: "",
-    tags: [],
+    description:
+      "Clinical AI company building ambient documentation, dictation, coding, and agentic workflow tools for healthcare. Integrates with Epic and major EHRs to help clinicians reduce administrative burden and focus on patient care.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
