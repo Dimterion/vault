@@ -5664,6 +5664,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "nagarro",
+    title: "Nagarro",
+    websiteUrl: "https://www.nagarro.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.nagarro.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/nagarro",
+      },
+    ],
+  },
+  {
     id: "natixis",
     title: "Natixis",
     websiteUrl: "https://www.interepargne.natixis.com",
@@ -5682,6 +5699,19 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "nekki",
+    title: "Nekki",
+    websiteUrl: "https://nekki.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/nekki",
+      },
+    ],
+  },
+  {
     id: "neo4j",
     title: "Neo4j",
     websiteUrl: "https://neo4j.com",
@@ -5696,6 +5726,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/neo4j",
+      },
+    ],
+  },
+  {
+    id: "neomi",
+    title: "Neomi",
+    websiteUrl: "https://neomi.immo",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://neomi.immo/carriere",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/neomi-immo",
       },
     ],
   },
@@ -5768,6 +5815,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/nexen-grid-technologies",
+      },
+    ],
+  },
+  {
+    id: "nextcloud",
+    title: "Nextcloud",
+    websiteUrl: "https://nextcloud.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://nextcloud.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/nextcloud-gmbh",
       },
     ],
   },
@@ -6998,6 +7062,19 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/wearesander",
+      },
+    ],
+  },
+  {
+    id: "sandfall_interactive",
+    title: "Sandfall Interactive",
+    websiteUrl: "https://www.sandfall.co",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sandfall-interactive",
       },
     ],
   },
