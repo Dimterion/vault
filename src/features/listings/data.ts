@@ -5667,8 +5667,9 @@ export const listings: JobListing[] = [
     id: "nagarro",
     title: "Nagarro",
     websiteUrl: "https://www.nagarro.com",
-    description: "",
-    tags: [],
+    description:
+      "Global digital-engineering and AI consulting company. Helps enterprises build intelligent products and platforms through software engineering, cloud, data, AI, automation, testing, ERP/CRM, and digital transformation.",
+    tags: ["AI", "Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5702,8 +5703,9 @@ export const listings: JobListing[] = [
     id: "nekki",
     title: "Nekki",
     websiteUrl: "https://nekki.com",
-    description: "",
-    tags: [],
+    description:
+      "Game developer and publisher behind the Shadow Fight and Vector franchises. Creates mobile, PC, and console games and develops Cascadeur, an AI-assisted animation tool for physics-based character animation.",
+    tags: ["AI", "Media", "Worldwide"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -5733,8 +5735,9 @@ export const listings: JobListing[] = [
     id: "neomi",
     title: "Neomi",
     websiteUrl: "https://neomi.immo",
-    description: "",
-    tags: [],
+    description:
+      "French proptech platform simplifying collaboration between real-estate developers, banks, and guarantors. Helps manage project financing, documentation, workflows, and funding follow-up across the development lifecycle.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5822,8 +5825,9 @@ export const listings: JobListing[] = [
     id: "nextcloud",
     title: "Nextcloud",
     websiteUrl: "https://nextcloud.com",
-    description: "",
-    tags: [],
+    description:
+      "Open-source content-collaboration and digital-sovereignty platform. Provides self-hosted file sharing, communication, office collaboration, workflow automation, and privacy-preserving AI tools for organizations and public institutions.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -7069,8 +7073,9 @@ export const listings: JobListing[] = [
     id: "sandfall_interactive",
     title: "Sandfall Interactive",
     websiteUrl: "https://www.sandfall.co",
-    description: "",
-    tags: [],
+    description:
+      "Montpellier-based game studio developing premium single-player 3D games for PC and consoles. Created Clair Obscur: Expedition 33, a turn-based RPG built in Unreal Engine 5 and published by Kepler Interactive.",
+    tags: ["Media", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
