@@ -1189,6 +1189,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "braze",
+    title: "Braze",
+    websiteUrl: "https://www.braze.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.braze.com/company/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/braze",
+      },
+    ],
+  },
+  {
     id: "brevo",
     title: "Brevo",
     websiteUrl: "https://www.brevo.com",
@@ -5840,6 +5857,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "nexters",
+    title: "Nexters",
+    websiteUrl: "https://www.nexters.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.nexters.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/nexters",
+      },
+    ],
+  },
+  {
     id: "nexway",
     title: "Nexway",
     websiteUrl: "https://www.nexway.com",
@@ -5966,6 +6000,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "numeral",
+    title: "Numeral",
+    websiteUrl: "https://www.numeral.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.numeral.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/numeralhq",
+      },
+    ],
+  },
+  {
     id: "nunu_ai",
     title: "Nunu.ai",
     websiteUrl: "https://nunu.ai",
@@ -5980,6 +6031,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/nunu-ai",
+      },
+    ],
+  },
+  {
+    id: "octopus_energy",
+    title: "Octopus Energy",
+    websiteUrl: "https://octopus.energy",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://octopus.energy/careers/join-us",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/octopusenergy",
       },
     ],
   },
@@ -6106,6 +6174,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "onibi",
+    title: "Onibi",
+    websiteUrl: "https://www.onibi.gg",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.onibi.gg/career",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/onibi-inc",
+      },
+    ],
+  },
+  {
     id: "openreplay",
     title: "OpenReplay",
     websiteUrl: "https://openreplay.com",
@@ -6116,6 +6201,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/openreplay",
+      },
+    ],
+  },
+  {
+    id: "opensuccess",
+    title: "OpenSuccess",
+    websiteUrl: "https://www.opensuccess.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://candidat.opensourcing.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/opensuccess",
       },
     ],
   },
