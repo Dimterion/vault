@@ -1192,8 +1192,9 @@ export const listings: JobListing[] = [
     id: "braze",
     title: "Braze",
     websiteUrl: "https://www.braze.com",
-    description: "",
-    tags: [],
+    description:
+      "Customer-engagement platform for brands and enterprises. Combines customer data, cross-channel messaging, journey orchestration, experimentation, and AI to help teams personalize and automate marketing across email, SMS, mobile, and web.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5860,8 +5861,9 @@ export const listings: JobListing[] = [
     id: "nexters",
     title: "Nexters",
     websiteUrl: "https://www.nexters.com",
-    description: "",
-    tags: [],
+    description:
+      "International game developer and publisher creating accessible mobile games with deep progression, multiplayer, and storytelling systems. Known for Hero Wars, Island Hoppers, and other free-to-play titles.",
+    tags: ["Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -6003,8 +6005,9 @@ export const listings: JobListing[] = [
     id: "numeral",
     title: "Numeral",
     websiteUrl: "https://www.numeral.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-native tax-compliance platform for digital businesses. Automates sales-tax registration, nexus monitoring, rate calculation, exemption management, filing, and remittance across U.S. and international jurisdictions.",
+    tags: ["AI", "FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -6038,8 +6041,9 @@ export const listings: JobListing[] = [
     id: "octopus_energy",
     title: "Octopus Energy",
     websiteUrl: "https://octopus.energy",
-    description: "",
-    tags: [],
+    description:
+      "Global clean-energy and technology group. Provides renewable electricity, smart tariffs, EV charging, heat pumps, solar and battery solutions, and Kraken software for energy retailers, utilities, and grid operators.",
+    tags: ["AI", "Climate", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -6177,8 +6181,9 @@ export const listings: JobListing[] = [
     id: "onibi",
     title: "Onibi",
     websiteUrl: "https://www.onibi.gg",
-    description: "",
-    tags: [],
+    description:
+      "Gaming company building AI-enabled products and experiences for players and game communities. Combines game design, AI, and interactive technology to create engaging player-facing products.",
+    tags: ["AI", "Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -6208,8 +6213,9 @@ export const listings: JobListing[] = [
     id: "opensuccess",
     title: "OpenSuccess",
     websiteUrl: "https://www.opensuccess.fr",
-    description: "",
-    tags: [],
+    description:
+      "French recruitment and executive-search firm within the OpenSourcing group. Helps companies source, assess, and hire commercial, technical, and leadership talent through market mapping, direct approach, and AI-enabled sourcing.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
