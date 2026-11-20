@@ -20,7 +20,7 @@ export type JobListing = {
 - Region tags:
   - "EU": company primarily hires in Europe.
   - "Remote-worldwide": company is fully remote and can hire anywhere.
-- Domain tags (1–2): EdTech, PropTech, MarTech, FinTech, HealthTech, Consulting, Gaming, E-commerce, AI / Data, etc.
+- Domain tags (1–2): FinTech, HealthTech, Consulting, Gaming, E-commerce, AI / Data, etc.
 - Product/business model tags (0–1): SaaS, Marketplace, Platform, Agency, Enterprise.
 - Tech/function tags (1–3): A/B Testing, Personalization, Learning & Development, Real Estate, Financial Advisory, Software Development, Cloud, IoT, AR/VR, Data & Analytics, etc.
 - About 3–7 tags per listing, mixing domain + tech + region. */
@@ -226,7 +226,7 @@ export const listings: JobListing[] = [
     websiteUrl: "https://agilebio.com",
     description:
       "Laboratory software and IT-solutions provider. Develops LabCollector LIMS/ELN and related hardware, integrations, hosting, and consulting to help labs manage samples, workflows, instruments, quality, and traceability.",
-    tags: ["Biotech", "SaaS", "France"],
+    tags: ["SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5149,7 +5149,7 @@ export const listings: JobListing[] = [
     websiteUrl: "https://mallow.fr",
     description:
       "Edtech startup creating screen-free audio learning experiences for children. Combines storytelling, voice interaction, and AI to build educational games that develop concentration, memory, and confidence.",
-    tags: ["EdTech", "AI", "France"],
+    tags: ["AI", "France"],
     extraLinks: [
       {
         label: "LinkedIn",
@@ -5515,7 +5515,7 @@ export const listings: JobListing[] = [
     websiteUrl: "https://www.moriartygroup.ie",
     description:
       "Irish family-owned retail and hospitality group operating SuperValu supermarkets, hotels, and food-service businesses in Dublin. Provides grocery retail, fresh food, accommodation, hospitality, and customer-service services.",
-    tags: ["Ireland"],
+    tags: ["Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -5633,7 +5633,7 @@ export const listings: JobListing[] = [
     websiteUrl: "https://myedspace.co.uk",
     description:
       "Online education platform offering live, interactive group lessons for UK students. Combines expert teachers, structured curriculum, and a learning platform with recordings, workbooks, and practice for KS3, GCSE, and A-level.",
-    tags: ["EdTech", "Europe"],
+    tags: ["Europe"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -6431,7 +6431,7 @@ export const listings: JobListing[] = [
     websiteUrl: "https://www.owkin.com",
     description:
       "AI-powered drug discovery and diagnostics company. Combines multimodal patient data, biological models, and agentic AI to help biopharma companies identify targets, design experiments, and develop better treatments and diagnostics.",
-    tags: ["AI", "Biotech", "France"],
+    tags: ["AI", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -7665,7 +7665,7 @@ export const listings: JobListing[] = [
     websiteUrl: "https://www.sofatutor.com",
     description:
       "German online learning platform for K-12 students. Provides explainer videos, interactive exercises, worksheets, and teacher support across school subjects, with tools for self-paced and classroom learning.",
-    tags: ["EdTech", "Europe"],
+    tags: ["Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -8627,7 +8627,7 @@ export const listings: JobListing[] = [
     websiteUrl: "https://walter-learning.com",
     description:
       "French online training company that designs, produces, and delivers professional courses. Its e-learning combines expert-led video lessons, quizzes, downloadable materials, virtual classes, and learner support.",
-    tags: ["EdTech", "France"],
+    tags: ["France"],
     extraLinks: [
       {
         label: "Careers page (We Recruit)",
