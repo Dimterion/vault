@@ -6232,8 +6232,8 @@ export const listings: JobListing[] = [
     title: "Orbis",
     websiteUrl: "https://www.orbis.com",
     description:
-      "",
-    tags: [],
+      "Global active investment manager applying a fundamental, long-term, contrarian investment philosophy. Manages equity strategies and funds for institutional and individual investors, combining investment research with data, technology, and client operations.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Workday)",
@@ -6268,8 +6268,8 @@ export const listings: JobListing[] = [
     title: "Original Games",
     websiteUrl: "https://originalgames.io",
     description:
-      "",
-    tags: [],
+      "Mobile-game studio creating relaxing, rewarding casual games. Develops and operates free-to-play titles such as Merge Inn, combining game design, live operations, analytics, and performance marketing.",
+    tags: ["Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -6340,8 +6340,8 @@ export const listings: JobListing[] = [
     title: "Ory",
     websiteUrl: "https://www.ory.com",
     description:
-      "",
-    tags: [],
+      "Open-source identity and access-management company. Provides authentication, authorization, identity verification, and customer-identity infrastructure that helps organizations secure users, devices, and AI agents.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Personio)",
@@ -6358,8 +6358,8 @@ export const listings: JobListing[] = [
     title: "OSF Digital",
     websiteUrl: "https://osf.digital",
     description:
-      "",
-    tags: [],
+      "AI-forward, Salesforce-centric digital-transformation consultancy. Helps enterprises modernize commerce, marketing, service, and data operations through Salesforce implementation, Agentforce, multi-agent AI, cloud, and managed services.",
+    tags: ["AI", "Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
