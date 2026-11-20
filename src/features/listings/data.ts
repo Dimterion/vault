@@ -6228,6 +6228,24 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "orbis",
+    title: "Orbis",
+    websiteUrl: "https://www.orbis.com",
+    description:
+      "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workday)",
+        url: "https://vhr-orbis.wd3.myworkdayjobs.com/Orbis_Careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/orbis-investment-advisory",
+      },
+    ],
+  },
+  {
     id: "orchestrade",
     title: "Orchestrade",
     websiteUrl: "https://www.orchestrade.com",
@@ -6242,6 +6260,24 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/orchestrade",
+      },
+    ],
+  },
+  {
+    id: "original_games",
+    title: "Original Games",
+    websiteUrl: "https://originalgames.io",
+    description:
+      "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://originalgames.io/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/originalgames",
       },
     ],
   },
@@ -6296,6 +6332,42 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/orus-insurance",
+      },
+    ],
+  },
+  {
+    id: "ory",
+    title: "Ory",
+    websiteUrl: "https://www.ory.com",
+    description:
+      "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Personio)",
+        url: "https://ory.jobs.personio.de",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/ory-corp",
+      },
+    ],
+  },
+  {
+    id: "osf_digital",
+    title: "OSF Digital",
+    websiteUrl: "https://osf.digital",
+    description:
+      "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://osf.digital/career/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/osf-digital",
       },
     ],
   },
