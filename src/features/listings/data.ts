@@ -7106,6 +7106,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "quotacom",
+    title: "Quotacom",
+    websiteUrl: "https://quotacom.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://quotacom.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/quotacom",
+      },
+    ],
+  },
+  {
     id: "reality_defender",
     title: "Reality Defender",
     websiteUrl: "https://www.realitydefender.com",
@@ -7196,6 +7213,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "revenuecat",
+    title: "RevenueCat",
+    websiteUrl: "https://www.revenuecat.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/revenuecat",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/revenuecat",
+      },
+    ],
+  },
+  {
+    id: "right_hand_cybersecurity",
+    title: "Right-Hand Cybersecurity",
+    websiteUrl: "https://right-hand.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://right-hand.ai/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/righthandai",
+      },
+    ],
+  },
+  {
     id: "riot",
     title: "Riot",
     websiteUrl: "https://tryriot.com",
@@ -7210,6 +7261,57 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/tryriot",
+      },
+    ],
+  },
+  {
+    id: "rise_up",
+    title: "Rise Up",
+    websiteUrl: "https://www.riseup.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://www.careers.riseup.ai/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/rise-up-ai-france",
+      },
+    ],
+  },
+  {
+    id: "riskdata",
+    title: "Riskdata",
+    websiteUrl: "https://www.riskdata.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.riskdata.com/career-opportunities",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/riskdata",
+      },
+    ],
+  },
+  {
+    id: "river",
+    title: "River",
+    websiteUrl: "https://river.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/river",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/riverfinancial",
       },
     ],
   },
@@ -7246,6 +7348,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/rtb-house/",
+      },
+    ],
+  },
+  {
+    id: "runware",
+    title: "Runware",
+    websiteUrl: "https://runware.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workable)",
+        url: "https://apply.workable.com/runware",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/runware",
       },
     ],
   },
