@@ -7109,8 +7109,9 @@ export const listings: JobListing[] = [
     id: "quotacom",
     title: "Quotacom",
     websiteUrl: "https://quotacom.com",
-    description: "",
-    tags: [],
+    description:
+      "Executive-search firm specializing in digital transformation. Helps enterprises, scale-ups, and technology vendors hire leaders and specialists across AI, data and analytics, cloud, cybersecurity, IoT, and emerging technologies.",
+    tags: ["AI", "Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -7216,8 +7217,9 @@ export const listings: JobListing[] = [
     id: "revenuecat",
     title: "RevenueCat",
     websiteUrl: "https://www.revenuecat.com",
-    description: "",
-    tags: [],
+    description:
+      "Subscription and in-app-purchase infrastructure for mobile and web apps. Provides SDKs, APIs, analytics, experiments, and revenue-management tools that help developers launch, operate, and grow subscription businesses across iOS, Android, and web.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -7233,8 +7235,9 @@ export const listings: JobListing[] = [
     id: "right_hand_cybersecurity",
     title: "Right-Hand Cybersecurity",
     websiteUrl: "https://right-hand.ai",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered human-risk-management and security-awareness platform. Uses agentic AI, phishing and deepfake simulations, behavioral insights, and personalized training to help enterprises reduce social-engineering and workforce cyber risk.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -7268,8 +7271,9 @@ export const listings: JobListing[] = [
     id: "rise_up",
     title: "Rise Up",
     websiteUrl: "https://www.riseup.ai",
-    description: "",
-    tags: [],
+    description:
+      "French learning-management and workforce-development platform. Helps organizations create, deliver, and manage blended learning through personalized learning paths, skills assessments, content authoring, virtual classrooms, and analytics.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -7285,8 +7289,9 @@ export const listings: JobListing[] = [
     id: "riskdata",
     title: "Riskdata",
     websiteUrl: "https://www.riskdata.com",
-    description: "",
-    tags: [],
+    description:
+      "Paris-based financial-risk technology company for asset managers. Provides real-time pre- and post-trade portfolio risk analytics, scenario analysis, and risk decomposition across asset classes for hedge funds and institutional investors.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -7302,8 +7307,9 @@ export const listings: JobListing[] = [
     id: "river",
     title: "River",
     websiteUrl: "https://river.com",
-    description: "",
-    tags: [],
+    description:
+      "U.S. Bitcoin financial-services company. Offers Bitcoin brokerage, full-reserve cold-storage custody, recurring purchases, interest-bearing Bitcoin products, and proof-of-reserves for individuals and businesses.",
+    tags: ["FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
@@ -7355,8 +7361,9 @@ export const listings: JobListing[] = [
     id: "runware",
     title: "Runware",
     websiteUrl: "https://runware.ai",
-    description: "",
-    tags: [],
+    description:
+      "AI inference infrastructure company building a unified API for image, video, audio, 3D, and LLM models. Provides serverless GPU compute, dedicated capacity, and developer tooling designed to make AI features fast and cost-efficient to deploy.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Workable)",
