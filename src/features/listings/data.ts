@@ -7555,8 +7555,9 @@ export const listings: JobListing[] = [
     id: "scalemath",
     title: "ScaleMath",
     websiteUrl: "https://scalemath.com",
-    description: "",
-    tags: [],
+    description:
+      "Growth and product-operations consultancy for startups and category-leading software companies. Provides senior teams and advisory across growth marketing, SEO, content strategy, product marketing, lifecycle marketing, paid acquisition, and product documentation.",
+    tags: ["Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -7626,9 +7627,14 @@ export const listings: JobListing[] = [
     id: "scopic",
     title: "Scopic",
     websiteUrl: "https://scopic.eu",
-    description: "",
-    tags: [],
+    description:
+      "Fully remote custom-software and digital-marketing company. Builds AI applications, web and mobile software, data solutions, and marketing programs for clients worldwide, with a distributed team across the Americas, Europe, and APAC.",
+    tags: ["AI", "Consulting", "ITServices", "Worldwide"],
     extraLinks: [
+      {
+        label: "Careers page (Zoho)",
+        url: "https://scopicsoftware.zohorecruit.com/jobs/careers",
+      },
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/scopic",
@@ -7963,8 +7969,9 @@ export const listings: JobListing[] = [
     id: "solutec",
     title: "Solutec",
     websiteUrl: "https://www.solutec.fr",
-    description: "",
-    tags: [],
+    description:
+      "French IT-engineering and consulting company. Provides software development, infrastructure and operations, project management, digital transformation, and business-support services, with a strong focus on recruiting and developing technical talent.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -7980,9 +7987,14 @@ export const listings: JobListing[] = [
     id: "soors",
     title: "Soors",
     websiteUrl: "https://soors.io",
-    description: "",
-    tags: [],
+    description:
+      "French technology and AI consulting firm helping organizations design, deliver, and automate high-impact solutions. Works across software engineering, data, AI agents, product delivery, modernization, and recruitment automation.",
+    tags: ["AI", "Consulting", "ITServices", "France"],
     extraLinks: [
+      {
+        label: "Careers page (Collective)",
+        url: "https://www.collective.work/company/soors/jobs",
+      },
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/soors",
@@ -8011,8 +8023,9 @@ export const listings: JobListing[] = [
     id: "sparagus",
     title: "Sparagus",
     websiteUrl: "https://www.sparagus.be",
-    description: "",
-    tags: [],
+    description:
+      "Belgian talent, consulting, and managed-services company. Connects enterprises with specialists across IT, engineering, business operations, energy, aerospace, manufacturing, and financial services through recruitment, project consulting, and managed delivery.",
+    tags: ["Consulting", "ITServices", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -8097,11 +8110,12 @@ export const listings: JobListing[] = [
     ],
   },
   {
-    id: "sporty Group",
+    id: "sporty_group",
     title: "Sporty Group",
     websiteUrl: "https://sportygroup.com",
-    description: "",
-    tags: [],
+    description:
+      "Global consumer-internet and media company operating sports media, gaming, social, and fintech products. Builds SportyTV, Sporty.com, and SportyBet, serving large audiences across Africa, Europe, and other international markets.",
+    tags: ["FinTech", "Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
