@@ -7552,6 +7552,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "scalemath",
+    title: "ScaleMath",
+    websiteUrl: "https://scalemath.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://scalemath.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/scalemath",
+      },
+    ],
+  },
+  {
     id: "scalesys",
     title: "Scalesys",
     websiteUrl: "https://scalesys.fr",
@@ -7602,6 +7619,19 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/schneider-electric",
+      },
+    ],
+  },
+  {
+    id: "scopic",
+    title: "Scopic",
+    websiteUrl: "https://scopic.eu",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/scopic",
       },
     ],
   },
@@ -7930,6 +7960,36 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "solutec",
+    title: "Solutec",
+    websiteUrl: "https://www.solutec.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://career.solutec.fr",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/solutec",
+      },
+    ],
+  },
+  {
+    id: "soors",
+    title: "Soors",
+    websiteUrl: "https://soors.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/soors",
+      },
+    ],
+  },
+  {
     id: "sopra_steria",
     title: "Sopra Steria",
     websiteUrl: "https://www.soprasteria.com",
@@ -7944,6 +8004,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/soprasteria",
+      },
+    ],
+  },
+  {
+    id: "sparagus",
+    title: "Sparagus",
+    websiteUrl: "https://www.sparagus.be",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.sparagus.be/careers/work-at-sparagus",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sparagus",
       },
     ],
   },
@@ -8016,6 +8093,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/spinergie",
+      },
+    ],
+  },
+  {
+    id: "sporty Group",
+    title: "Sporty Group",
+    websiteUrl: "https://sportygroup.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.sporty.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sportygroup",
       },
     ],
   },
