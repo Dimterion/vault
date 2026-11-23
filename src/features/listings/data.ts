@@ -8149,8 +8149,9 @@ export const listings: JobListing[] = [
     id: "stackdrop",
     title: "Stackdrop",
     websiteUrl: "https://stackdrop.co",
-    description: "",
-    tags: [],
+    description:
+      "Software consultancy building production-critical internal platforms, workflow automation, data foundations, and AI-enabled systems for enterprises and startups. Uses Retool and Anthropic to turn fragmented operations into governed, maintainable software.",
+    tags: ["AI", "Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -8166,8 +8167,9 @@ export const listings: JobListing[] = [
     id: "stakha",
     title: "Stakha",
     websiteUrl: "https://stakha.io",
-    description: "",
-    tags: [],
+    description:
+      "Paris-based boutique recruitment and headhunting firm for technology, product, growth, and operations talent. Helps startups and scale-ups hire permanent employees and contractors through sourcing, screening, and embedded hiring sprints.",
+    tags: ["Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -8183,8 +8185,9 @@ export const listings: JobListing[] = [
     id: "starbreeze",
     title: "Starbreeze",
     websiteUrl: "https://www.starbreeze.com",
-    description: "",
-    tags: [],
+    description:
+      "Swedish independent game developer, publisher, and distributor behind the PAYDAY franchise. Creates long-lived multiplayer PC and console games through internal studios and external development partnerships.",
+    tags: ["Media", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -8290,8 +8293,9 @@ export const listings: JobListing[] = [
     id: "suez",
     title: "SUEZ",
     websiteUrl: "https://www.suez.com",
-    description: "",
-    tags: [],
+    description:
+      "Global water and waste-management company providing drinking-water, wastewater, circular-economy, resource-recovery, and environmental-services solutions. Operates across more than 40 countries and combines infrastructure, operations, and digital services.",
+    tags: ["Climate", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -8307,8 +8311,9 @@ export const listings: JobListing[] = [
     id: "sunday",
     title: "Sunday",
     websiteUrl: "https://sundayapp.com",
-    description: "",
-    tags: [],
+    description:
+      "Restaurant-payments company offering QR-code-based ordering, bill splitting, tipping, and payment experiences for hospitality venues. Helps guests pay quickly at the table while giving restaurants tools for service and customer engagement.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -8360,8 +8365,9 @@ export const listings: JobListing[] = [
     id: "survision",
     title: "Survision",
     websiteUrl: "https://www.survisiongroup.com",
-    description: "",
-    tags: [],
+    description:
+      "French developer of LPR/ANPR cameras and vehicle-identification systems. Provides triggerless, serverless license-plate recognition for parking, access control, security, tolling, intelligent transportation, and smart-city applications.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -8413,8 +8419,9 @@ export const listings: JobListing[] = [
     id: "swapcard",
     title: "Swapcard",
     websiteUrl: "https://www.swapcard.com",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered event-management platform for trade shows, conferences, associations, and communities. Helps organizers manage registration, matchmaking, networking, exhibitor ROI, content, and event operations across in-person, hybrid, and virtual formats.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
@@ -8430,8 +8437,9 @@ export const listings: JobListing[] = [
     id: "swissborg",
     title: "SwissBorg",
     websiteUrl: "https://swissborg.com",
-    description: "",
-    tags: [],
+    description:
+      "Swiss wealth-management platform for crypto assets. Provides a mobile app for buying, holding, and managing digital assets, with community-driven investment products, analytics, and access to crypto markets.",
+    tags: ["FinTech", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
@@ -8447,8 +8455,9 @@ export const listings: JobListing[] = [
     id: "swivel",
     title: "Swivel",
     websiteUrl: "https://swivel.ai",
-    description: "",
-    tags: [],
+    description:
+      "AI-powered operations platform for service businesses. Automates customer communication, scheduling, dispatch, and workflow coordination so teams can manage service delivery more efficiently.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
