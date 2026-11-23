@@ -8146,6 +8146,57 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "stackdrop",
+    title: "Stackdrop",
+    websiteUrl: "https://stackdrop.co",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.stackdrop.co",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/stackdrop",
+      },
+    ],
+  },
+  {
+    id: "stakha",
+    title: "Stakha",
+    websiteUrl: "https://stakha.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://stakha.io/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/stakha",
+      },
+    ],
+  },
+  {
+    id: "starbreeze",
+    title: "Starbreeze",
+    websiteUrl: "https://www.starbreeze.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://jobs.starbreeze.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/starbreeze",
+      },
+    ],
+  },
+  {
     id: "station_f",
     title: "Station F",
     websiteUrl: "https://stationf.co",
@@ -8236,6 +8287,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "suez",
+    title: "SUEZ",
+    websiteUrl: "https://www.suez.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.suez.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/suez",
+      },
+    ],
+  },
+  {
+    id: "sunday",
+    title: "Sunday",
+    websiteUrl: "https://sundayapp.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.sundayapp.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/sundaytech",
+      },
+    ],
+  },
+  {
     id: "sunstice",
     title: "Sunstice",
     websiteUrl: "https://www.sunstice.com",
@@ -8272,6 +8357,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "survision",
+    title: "Survision",
+    websiteUrl: "https://www.survisiongroup.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.survisiongroup.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/survision",
+      },
+    ],
+  },
+  {
     id: "suse",
     title: "SUSE",
     websiteUrl: "https://www.suse.com",
@@ -8304,6 +8406,57 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/swan-embedded-banking",
+      },
+    ],
+  },
+  {
+    id: "swapcard",
+    title: "Swapcard",
+    websiteUrl: "https://www.swapcard.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.lever.co/swapcard",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/swapcard",
+      },
+    ],
+  },
+  {
+    id: "swissborg",
+    title: "SwissBorg",
+    websiteUrl: "https://swissborg.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.lever.co/swissborg",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/swissborg",
+      },
+    ],
+  },
+  {
+    id: "swivel",
+    title: "Swivel",
+    websiteUrl: "https://swivel.ai",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://swivel.ai/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/swivel-ops",
       },
     ],
   },
