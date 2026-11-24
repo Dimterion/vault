@@ -8867,8 +8867,9 @@ export const listings: JobListing[] = [
     id: "toshiba_europe",
     title: "Toshiba Europe",
     websiteUrl: "https://www.toshiba.eu",
-    description: "",
-    tags: [],
+    description:
+      "European arm of Toshiba delivering digital, quantum, and sustainable-transformation technologies. Provides energy systems, SCiB batteries, semiconductors, storage, IoT, smart metering, quantum-safe communications, and quantum-inspired optimization solutions.",
+    tags: ["AI", "Climate", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
@@ -8902,8 +8903,9 @@ export const listings: JobListing[] = [
     id: "transatel",
     title: "Transatel",
     websiteUrl: "https://www.transatel.com",
-    description: "",
-    tags: [],
+    description:
+      "Global cellular-connectivity and IoT company within NTT. Provides MVNO enablement, multi-country SIM and eSIM connectivity, Ubigi travel data, and managed connectivity for vehicles, industrial equipment, and consumer devices.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -8919,8 +8921,9 @@ export const listings: JobListing[] = [
     id: "transcend",
     title: "Transcend",
     websiteUrl: "https://transcend.io",
-    description: "",
-    tags: [],
+    description:
+      "Data-governance and AI-control platform for enterprises. Helps organizations manage consent, data rights, privacy, and AI-agent permissions in real time, enabling responsible use of customer data across products and AI systems.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -8936,8 +8939,9 @@ export const listings: JobListing[] = [
     id: "tree_top_staffing",
     title: "Tree Top Staffing",
     websiteUrl: "https://treetopstaffing.com",
-    description: "",
-    tags: [],
+    description:
+      "U.S. staffing and recruitment firm placing professionals across administrative, customer-service, project-management, HR, manufacturing, and operations roles. Supports employers with temporary, contract, and direct-hire workforce solutions.",
+    tags: ["Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
