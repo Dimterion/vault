@@ -8864,6 +8864,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "toshiba_europe",
+    title: "Toshiba Europe",
+    websiteUrl: "https://www.toshiba.eu",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.toshiba.eu",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/toshibaemea",
+      },
+    ],
+  },
+  {
     id: "totalenergies",
     title: "TotalEnergies",
     websiteUrl: "https://totalenergies.com",
@@ -8878,6 +8895,57 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/totalenergies",
+      },
+    ],
+  },
+  {
+    id: "transatel",
+    title: "Transatel",
+    websiteUrl: "https://www.transatel.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.transatel.com/join-us",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/transatel",
+      },
+    ],
+  },
+  {
+    id: "transcend",
+    title: "Transcend",
+    websiteUrl: "https://transcend.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://transcend.io/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/transcend-io",
+      },
+    ],
+  },
+  {
+    id: "tree_top_staffing",
+    title: "Tree Top Staffing",
+    websiteUrl: "https://treetopstaffing.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://treetopstaffing.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/tree-top-staffing-llc",
       },
     ],
   },
