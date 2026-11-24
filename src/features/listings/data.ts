@@ -8556,6 +8556,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "tapnation",
+    title: "TapNation",
+    websiteUrl: "https://www.tap-nation.io",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Teamtailor)",
+        url: "https://careers.tap-nation.io/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/tapnation",
+      },
+    ],
+  },
+  {
     id: "teads",
     title: "Teads",
     websiteUrl: "https://www.teads.com",
@@ -8592,6 +8609,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "techshack",
+    title: "TechShack",
+    websiteUrl: "https://www.tech-shack.co",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.tech-shack.co/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/https-www.tech-shack.co-about",
+      },
+    ],
+  },
+  {
     id: "tekkare",
     title: "Tekkare",
     websiteUrl: "https://tekkare.com",
@@ -8602,6 +8636,19 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/tekkare",
+      },
+    ],
+  },
+  {
+    id: "telmar",
+    title: "Telmar",
+    websiteUrl: "https://telmarhelixa.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/telmargroupinc",
       },
     ],
   },
@@ -8620,6 +8667,40 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/temporal-technologies",
+      },
+    ],
+  },
+  {
+    id: "tenable",
+    title: "Tenable",
+    websiteUrl: "https://www.tenable.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.tenable.com/careers/search",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/tenableinc",
+      },
+    ],
+  },
+  {
+    id: "terminalfour",
+    title: "Terminalfour",
+    websiteUrl: "https://www.terminalfour.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (HireHive)",
+        url: "https://terminalfour.hirehive.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/terminalfour",
       },
     ],
   },
@@ -8688,6 +8769,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/tigerdata",
+      },
+    ],
+  },
+  {
+    id: "tiffany_&_co",
+    title: "Tiffany & Co",
+    websiteUrl: "https://www.tiffany.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.tiffanycareers.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/tiffany-and-co",
       },
     ],
   },
