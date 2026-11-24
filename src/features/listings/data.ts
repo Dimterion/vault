@@ -8559,8 +8559,9 @@ export const listings: JobListing[] = [
     id: "tapnation",
     title: "TapNation",
     websiteUrl: "https://www.tap-nation.io",
-    description: "",
-    tags: [],
+    description:
+      "Paris-based mobile-game publisher that helps independent developers turn prototypes into global hits. Provides creative development, AI-driven user acquisition, monetization, live operations, and distribution across major mobile markets.",
+    tags: ["AI", "Media", "France"],
     extraLinks: [
       {
         label: "Careers page (Teamtailor)",
@@ -8612,8 +8613,9 @@ export const listings: JobListing[] = [
     id: "techshack",
     title: "TechShack",
     websiteUrl: "https://www.tech-shack.co",
-    description: "",
-    tags: [],
+    description:
+      "Technology recruitment firm connecting companies with software, data, cloud, cybersecurity, product, and digital-transformation talent. Supports permanent, contract, and project-based hiring across technology markets.",
+    tags: ["Consulting", "ITServices", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -8643,9 +8645,14 @@ export const listings: JobListing[] = [
     id: "telmar",
     title: "Telmar",
     websiteUrl: "https://telmarhelixa.com",
-    description: "",
-    tags: [],
+    description:
+      "Audience-intelligence and media-planning technology company, formerly Telmar and Helixa. Helps brands, agencies, and media owners understand audiences and optimize media investments through consumer insights, segmentation, campaign planning, and data analytics.",
+    tags: ["AI", "FinTech", "SaaS", "Worldwide"],
     extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://telmarhelixa.com/people-culture",
+      },
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/telmargroupinc",
@@ -8674,8 +8681,9 @@ export const listings: JobListing[] = [
     id: "tenable",
     title: "Tenable",
     websiteUrl: "https://www.tenable.com",
-    description: "",
-    tags: [],
+    description:
+      "Cybersecurity company providing exposure-management software. Helps organizations identify, prioritize, and remediate vulnerabilities and cyber risk across cloud, identity, operational technology, and traditional IT environments.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -8691,8 +8699,9 @@ export const listings: JobListing[] = [
     id: "terminalfour",
     title: "Terminalfour",
     websiteUrl: "https://www.terminalfour.com",
-    description: "",
-    tags: [],
+    description:
+      "Digital-engagement and web-content-management platform for higher education. Helps universities and colleges manage websites, portals, course search, personalization, AI search, email marketing, and online assessment.",
+    tags: ["AI", "SaaS", "Europe"],
     extraLinks: [
       {
         label: "Careers page (HireHive)",
@@ -8776,8 +8785,9 @@ export const listings: JobListing[] = [
     id: "tiffany_&_co",
     title: "Tiffany & Co",
     websiteUrl: "https://www.tiffany.com",
-    description: "",
-    tags: [],
+    description:
+      "Global luxury jewelry and accessories brand founded in 1837. Designs, manufactures, and sells fine jewelry, watches, and home objects through retail stores, e-commerce, and client services worldwide.",
+    tags: ["SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
