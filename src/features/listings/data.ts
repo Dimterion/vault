@@ -9413,8 +9413,9 @@ export const listings: JobListing[] = [
     id: "we+",
     title: "WE+",
     websiteUrl: "https://www.we-plus.fr",
-    description: "",
-    tags: [],
+    description:
+      "French IT and digital-transformation consultancy within the Alan Allman Associates ecosystem. Provides project management, business analysis, software development, QA, infrastructure, cloud, data, and AI services, with onshore and nearshore delivery capabilities.",
+    tags: ["AI", "Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -9466,8 +9467,9 @@ export const listings: JobListing[] = [
     id: "wedia",
     title: "Wedia",
     websiteUrl: "https://www.wedia-group.com",
-    description: "",
-    tags: [],
+    description:
+      "Digital-asset-management and marketing-technology platform for global brands. Helps teams centralize, govern, enrich, distribute, and measure visual content across channels, with AI-powered tagging, search, content scoring, and brand-governance tools.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -9483,8 +9485,9 @@ export const listings: JobListing[] = [
     id: "weglot",
     title: "Weglot",
     websiteUrl: "https://www.weglot.com",
-    description: "",
-    tags: [],
+    description:
+      "No-code website-translation and localization platform. Helps businesses make websites multilingual through automated translation, human review, SEO optimization, language routing, and centralized multilingual content management.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Welcome to the Jungle)",
@@ -9536,8 +9539,9 @@ export const listings: JobListing[] = [
     id: "whize",
     title: "WHIZE",
     websiteUrl: "https://whize.fr",
-    description: "",
-    tags: [],
+    description:
+      "French technology consultancy and Neurones subsidiary specializing in cloud-native development, Microsoft 365, data intelligence, and custom software. Helps enterprises modernize applications and build serverless solutions on Azure, AWS, and Google Cloud.",
+    tags: ["AI", "Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page",
@@ -9625,8 +9629,9 @@ export const listings: JobListing[] = [
     id: "wolters_kluwer",
     title: "Wolters Kluwer",
     websiteUrl: "https://www.wolterskluwer.com",
-    description: "",
-    tags: [],
+    description:
+      "Global provider of expert software, information, and professional-services solutions. Serves healthcare, tax and accounting, legal and regulatory, financial compliance, and corporate performance markets with AI-powered workflow and knowledge platforms.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Workday)",
@@ -9660,8 +9665,9 @@ export const listings: JobListing[] = [
     id: "workethix",
     title: "WorkEthix",
     websiteUrl: "https://workethixrec.com",
-    description: "",
-    tags: [],
+    description:
+      "Technology recruitment consultancy focused on the Greek market. Helps startups and enterprises hire software, product, data, cybersecurity, and commercial talent through end-to-end recruitment and hiring advisory.",
+    tags: ["Consulting", "ITServices", "Europe"],
     extraLinks: [
       {
         label: "Careers page",
