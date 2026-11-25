@@ -9044,6 +9044,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "upcominds",
+    title: "UpcoMinds",
+    websiteUrl: "https://upcominds.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.jobs4it.gr",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/upcominds",
+      },
+    ],
+  },
+  {
     id: "upfluence",
     title: "Upfluence",
     websiteUrl: "https://www.upfluence.com",
@@ -9166,6 +9183,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "veepee",
+    title: "Veepee",
+    websiteUrl: "http://www.veepee.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.lever.co/veepee",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/veepee",
+      },
+    ],
+  },
+  {
     id: "veesual",
     title: "Veesual",
     websiteUrl: "https://www.veesual.ai",
@@ -9284,6 +9318,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "vo2_group",
+    title: "VO2 Group",
+    websiteUrl: "https://www.vo2-group.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Lever)",
+        url: "https://jobs.lever.co/vo2-group",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/vo2-group",
+      },
+    ],
+  },
+  {
     id: "voodoo",
     title: "Voodoo",
     websiteUrl: "https://voodoo.io",
@@ -9298,6 +9349,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/voodoo.io",
+      },
+    ],
+  },
+  {
+    id: "vusion",
+    title: "Vusion ",
+    websiteUrl: "https://www.vusion.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (SmartRecruiters)",
+        url: "https://careers.smartrecruiters.com/VusionGroupSA",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/vusiongroup",
       },
     ],
   },
