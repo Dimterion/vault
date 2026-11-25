@@ -9047,11 +9047,12 @@ export const listings: JobListing[] = [
     id: "upcominds",
     title: "UpcoMinds",
     websiteUrl: "https://upcominds.com",
-    description: "",
-    tags: [],
+    description:
+      "European IT-services and AI consulting company with offices in Brussels, Athens, and Limassol. Provides staff augmentation, end-to-end software delivery, cloud and mobile development, AI/ML solutions, and R&D for finance, insurance, telecom, and public-sector clients.",
+    tags: ["AI", "Consulting", "ITServices", "Europe"],
     extraLinks: [
       {
-        label: "Careers page",
+        label: "Careers page (Jobs4IT)",
         url: "https://www.jobs4it.gr",
       },
       {
@@ -9186,8 +9187,9 @@ export const listings: JobListing[] = [
     id: "veepee",
     title: "Veepee",
     websiteUrl: "http://www.veepee.com",
-    description: "",
-    tags: [],
+    description:
+      "French members-only flash-sales retailer offering limited-time deals across fashion, home, beauty, travel, technology, and lifestyle categories. Operates Veepee and Privalia across European markets, combining merchandising, logistics, marketing, and technology.",
+    tags: ["FinTech", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
@@ -9321,8 +9323,9 @@ export const listings: JobListing[] = [
     id: "vo2_group",
     title: "VO2 Group",
     websiteUrl: "https://www.vo2-group.com",
-    description: "",
-    tags: [],
+    description:
+      "French independent technology and digital consultancy. Helps enterprises deliver Salesforce, data, AI, cloud, CRM, and digital-transformation projects through consulting, implementation, managed services, and specialized talent.",
+    tags: ["AI", "Consulting", "ITServices", "France"],
     extraLinks: [
       {
         label: "Careers page (Lever)",
@@ -9354,10 +9357,11 @@ export const listings: JobListing[] = [
   },
   {
     id: "vusion",
-    title: "Vusion ",
+    title: "Vusion",
     websiteUrl: "https://www.vusion.com",
-    description: "",
-    tags: [],
+    description:
+      "Global provider of AI-powered digitalization solutions for physical retail. Provides electronic shelf labels, computer vision, smart-store infrastructure, and data platforms that help retailers automate pricing, inventory, and in-store operations.",
+    tags: ["AI", "SaaS", "France"],
     extraLinks: [
       {
         label: "Careers page (SmartRecruiters)",
