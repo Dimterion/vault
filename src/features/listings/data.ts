@@ -9410,6 +9410,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "we+",
+    title: "WE+",
+    websiteUrl: "https://www.we-plus.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.we-plus.fr/carriere",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/we-plus",
+      },
+    ],
+  },
+  {
     id: "webb_traders",
     title: "WEBB Traders",
     websiteUrl: "https://www.webbtraders.com",
@@ -9446,6 +9463,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "wedia",
+    title: "Wedia",
+    websiteUrl: "https://www.wedia-group.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.wedia-group.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/wedia",
+      },
+    ],
+  },
+  {
+    id: "weglot",
+    title: "Weglot",
+    websiteUrl: "https://www.weglot.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Welcome to the Jungle)",
+        url: "https://www.welcometothejungle.com/companies-v1/weglot/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/weglot",
+      },
+    ],
+  },
+  {
     id: "welcome_to_the_jungle",
     title: "Welcome To The Jungle",
     websiteUrl: "https://www.welcometothejungle.com",
@@ -9478,6 +9529,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/wezentech",
+      },
+    ],
+  },
+  {
+    id: "whize",
+    title: "WHIZE",
+    websiteUrl: "https://whize.fr",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://whize.fr/offres-demploi",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/whize-france",
       },
     ],
   },
@@ -9554,6 +9622,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "wolters_kluwer",
+    title: "Wolters Kluwer",
+    websiteUrl: "https://www.wolterskluwer.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Workday)",
+        url: "https://wk.wd3.myworkdayjobs.com/External",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/wolters-kluwer",
+      },
+    ],
+  },
+  {
     id: "worldline",
     title: "Worldline",
     websiteUrl: "https://worldline.com",
@@ -9568,6 +9653,23 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/worldlineglobal",
+      },
+    ],
+  },
+  {
+    id: "workethix",
+    title: "WorkEthix",
+    websiteUrl: "https://workethixrec.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://workethixrec.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/workethix",
       },
     ],
   },
