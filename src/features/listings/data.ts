@@ -9730,6 +9730,40 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "yodo1",
+    title: "Yodo1",
+    websiteUrl: "https://www.yodo1.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://www.yodo1.com/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/yodo1",
+      },
+    ],
+  },
+  {
+    id: "yuno",
+    title: "Yuno",
+    websiteUrl: "https://y.uno",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://y.uno/careers",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/yunopay",
+      },
+    ],
+  },
+  {
     id: "youtrust",
     title: "Youtrust",
     websiteUrl: "https://youtrust.com",
@@ -9766,6 +9800,23 @@ export const listings: JobListing[] = [
     ],
   },
   {
+    id: "zapier",
+    title: "Zapier",
+    websiteUrl: "https://zapier.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://zapier.com/jobs",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/zapier",
+      },
+    ],
+  },
+  {
     id: "zeffy",
     title: "Zeffy",
     websiteUrl: "https://www.zeffy.com",
@@ -9798,6 +9849,40 @@ export const listings: JobListing[] = [
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/company/zefir-fr",
+      },
+    ],
+  },
+  {
+    id: "zenimax",
+    title: "ZeniMax",
+    websiteUrl: "https://www.zenimax.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page",
+        url: "https://careers.zenimax.com",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/zenimax",
+      },
+    ],
+  },
+  {
+    id: "zoe",
+    title: "ZOE",
+    websiteUrl: "https://zoe.com",
+    description: "",
+    tags: [],
+    extraLinks: [
+      {
+        label: "Careers page (Ashby)",
+        url: "https://jobs.ashbyhq.com/zoe",
+      },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/joinzoe",
       },
     ],
   },
