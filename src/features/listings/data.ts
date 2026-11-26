@@ -9733,8 +9733,9 @@ export const listings: JobListing[] = [
     id: "yodo1",
     title: "Yodo1",
     websiteUrl: "https://www.yodo1.com",
-    description: "",
-    tags: [],
+    description:
+      "Global mobile-game growth company helping developers publish, monetize, and scale games. Provides managed ad monetization, user acquisition, live operations, China publishing, and IP collaborations between game studios and entertainment brands.",
+    tags: ["AI", "Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -9750,8 +9751,9 @@ export const listings: JobListing[] = [
     id: "yuno",
     title: "Yuno",
     websiteUrl: "https://y.uno",
-    description: "",
-    tags: [],
+    description:
+      "Global payment-orchestration platform for enterprises. Lets merchants integrate payment methods, processors, fraud-prevention tools, and financial services through one API, with real-time routing, reconciliation, and analytics.",
+    tags: ["AI", "FinTech", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -9803,8 +9805,9 @@ export const listings: JobListing[] = [
     id: "zapier",
     title: "Zapier",
     websiteUrl: "https://zapier.com",
-    description: "",
-    tags: [],
+    description:
+      "Remote-first automation platform that connects more than 9,000 apps. Helps businesses and individuals build no-code workflows, automate repetitive tasks, and integrate AI across tools such as Gmail, Slack, Salesforce, and HubSpot.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -9856,8 +9859,9 @@ export const listings: JobListing[] = [
     id: "zenimax",
     title: "ZeniMax",
     websiteUrl: "https://www.zenimax.com",
-    description: "",
-    tags: [],
+    description:
+      "Video-game developer and publisher within Microsoft Gaming, known for Bethesda, id Software, Arkane, MachineGames, and ZeniMax Online Studios. Creates and publishes major PC and console franchises including The Elder Scrolls, Fallout, DOOM, and Quake.",
+    tags: ["Media", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page",
@@ -9873,8 +9877,9 @@ export const listings: JobListing[] = [
     id: "zoe",
     title: "ZOE",
     websiteUrl: "https://zoe.com",
-    description: "",
-    tags: [],
+    description:
+      "Personalized-nutrition and health-science company. Uses microbiome testing, continuous glucose monitoring, AI-based recommendations, and clinical research to help people understand their individual responses to food and improve metabolic health.",
+    tags: ["AI", "SaaS", "Worldwide"],
     extraLinks: [
       {
         label: "Careers page (Ashby)",
